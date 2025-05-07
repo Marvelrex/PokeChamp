@@ -107,7 +107,29 @@ class LLMPlayer(Player):
             output, _ = self.llm.get_LLM_action(system_prompt, user_prompt, model, temperature, True, seed, stop, max_tokens=max_tokens, actions=actions)
         else:
             output, _ = llm.get_LLM_action(system_prompt, user_prompt, model, temperature, True, seed, stop, max_tokens=max_tokens, actions=actions)
+
+        # ✅ Logging to terminal
+        print("\n========== LLM PROMPT ==========")
+        print("[System Prompt]:\n", system_prompt)
+        print("[User Prompt]:\n", user_prompt)
+        print("========== LLM RESPONSE ==========")
+        print(output)
+
+        # ✅ Logging to file (optional)
+        if self.log_dir:
+            os.makedirs(self.log_dir, exist_ok=True)
+            with open(os.path.join(self.log_dir, "llm_messages.log"), "a") as f:
+                f.write(json.dumps({
+                    "battle_tag": getattr(self, 'current_battle_tag', 'unknown'),
+                    "turn": getattr(self, 'current_turn', '?'),
+                    "system_prompt": system_prompt,
+                    "user_prompt": user_prompt,
+                    "model": model,
+                    "response": output
+                }) + "\n")
+
         return output
+
     
     def check_all_pokemon(self, pokemon_str: str) -> Pokemon:
         valid_pokemon = None
@@ -123,6 +145,8 @@ class LLMPlayer(Player):
         return pokemon
 
     def choose_move(self, battle: AbstractBattle):
+        self.current_turn = battle.turn
+        self.current_battle_tag = battle.battle_tag
         sim = LocalSim(battle, 
                     self.move_effect,
                     self.pokemon_move_dict,
