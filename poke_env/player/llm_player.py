@@ -64,7 +64,6 @@ class LLMPlayer(Player):
         self.gen = GenData.from_format(battle_format)
         self.genNum = self.gen.gen
         self.prompt_translate = prompt_translate
-
         self.strategy_prompt = ""
         self.team_str = team
         self.use_strat_prompt = _use_strat_prompt
@@ -102,32 +101,27 @@ class LLMPlayer(Player):
         self.llm_value = self.llm
         self.K = K      # for minimax, SC, ToT
 
-    def get_LLM_action(self, system_prompt, user_prompt, model, temperature=0.7, json_format=False, seed=None, stop=[], max_tokens=200, actions=None, llm=None) -> str:
+    def get_LLM_action(self, system_prompt, user_prompt, model, temperature=0.7, json_format=False, seed=None, stop=[], max_tokens=200, actions=None, llm=None, battle=None) -> str:
         if llm is None:
             output, _ = self.llm.get_LLM_action(system_prompt, user_prompt, model, temperature, True, seed, stop, max_tokens=max_tokens, actions=actions)
         else:
             output, _ = llm.get_LLM_action(system_prompt, user_prompt, model, temperature, True, seed, stop, max_tokens=max_tokens, actions=actions)
-
-        # ✅ Logging to terminal
-        print("\n========== LLM PROMPT ==========")
-        print("[System Prompt]:\n", system_prompt)
-        print("[User Prompt]:\n", user_prompt)
-        print("========== LLM RESPONSE ==========")
-        print(output)
-
-        # ✅ Logging to file (optional)
-        if self.log_dir:
-            os.makedirs(self.log_dir, exist_ok=True)
-            with open(os.path.join(self.log_dir, "llm_messages.log"), "a") as f:
-                f.write(json.dumps({
-                    "battle_tag": getattr(self, 'current_battle_tag', 'unknown'),
-                    "turn": getattr(self, 'current_turn', '?'),
-                    "system_prompt": system_prompt,
-                    "user_prompt": user_prompt,
-                    "model": model,
-                    "response": output
-                }) + "\n")
-
+        rationale_text = None
+        parsed_json = None
+        if output.lstrip().startswith("{"):
+            try:
+                parsed_json = json.loads(output)
+            except Exception:
+                # not strict JSON or no thought field
+                pass
+        if parsed_json is not None:
+            self.log_rationale(
+                battle=battle,
+                system_prompt=system_prompt,
+                user_prompt=user_prompt,
+                llm_action_json=parsed_json,
+                player_name= self.ps_client.account_configuration.username
+            )
         return output
 
     
@@ -207,7 +201,6 @@ class LLMPlayer(Player):
         # Chain-of-thought
         if self.prompt_algo == "io":
             return self.io(retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle, sim, actions=actions)
-
         # Self-consistency with k = 3
         elif self.prompt_algo == "sc":
             return self.sc(retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle, sim)
@@ -223,7 +216,8 @@ class LLMPlayer(Player):
                                                model=self.backend,
                                                temperature=self.temperature,
                                                max_tokens=200,
-                                               json_format=True)
+                                               json_format=True,
+                                               battle = battle)
                     break
                 except:
                     raise ValueError('No valid move', battle.active_pokemon.fainted, len(battle.available_switches))
@@ -239,7 +233,8 @@ class LLMPlayer(Player):
                                                model=self.backend,
                                                temperature=self.temperature,
                                                max_tokens=100,
-                                               json_format=True)
+                                               json_format=True,
+                                               battle = battle)
 
                     next_action = self.parse_new(llm_output2, battle, sim)
                     with open(f"{self.log_dir}/output.jsonl", "a") as f:
@@ -271,9 +266,9 @@ class LLMPlayer(Player):
         
     def io(self, retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle: Battle, sim, dont_verify=False, actions=None):
         next_action = None
-        cot_prompt = 'In fewer than 3 sentences, let\'s think step by step:'
-        state_prompt_io = state_prompt + state_action_prompt + constraint_prompt_io + cot_prompt
-
+        # cot_prompt = 'In fewer than 3 sentences, let\'s think step by step:'
+        state_prompt_io = state_prompt + state_action_prompt + constraint_prompt_cot
+        print(state_prompt_io)
         for i in range(retries):
             try:
                 llm_output = self.get_LLM_action(system_prompt=system_prompt,
@@ -283,7 +278,7 @@ class LLMPlayer(Player):
                                             max_tokens=300,
                                             # stop=["reason"],
                                             json_format=True,
-                                            actions=actions)
+                                            actions=actions, battle=battle)
 
                 # load when llm does heavylifting for parsing
                 llm_action_json = json.loads(llm_output)
@@ -349,6 +344,66 @@ class LLMPlayer(Player):
             # raise ValueError('No valid move', battle.active_pokemon.fainted, len(battle.available_switches))
             next_action = self.choose_max_damage_move(battle)
         return next_action
+
+    def log_rationale(
+            self,
+            battle: Battle,
+            system_prompt: str,
+            user_prompt: str,
+            llm_action_json: dict,
+            player_name: str | None = None,  # ← optional override
+    ) -> None:
+        """
+        Append one JSONL line to
+        battle_log/rationale/<battle_id>_<player_name>_rationales.jsonl
+
+        Parameters
+        ----------
+        battle        : Battle   – for battle_tag & turn
+        system_prompt : str      – system prompt sent to the LLM
+        user_prompt   : str      – user prompt sent to the LLM
+        llm_action_json : dict   – parsed LLM response (may include "thought")
+        player_name   : str | None
+            Optional.  If None, defaults to the showdown-account username,
+            ensuring each agent writes to its own file.
+        """
+        try:
+            # 1) figure out names
+            if player_name is None:
+                player_name = getattr(
+                    self.ps_client.account_configuration, "username", "player"
+                )
+            battle_id = getattr(battle, "battle_tag", "unknown").replace(":", "_")
+
+            # 2) split out rationale vs action
+            rationale_text = llm_action_json.get("thought")
+            response_json = llm_action_json.copy()
+            response_json.pop("thought", None)
+
+            # 3) build the log entry
+            log_entry = {
+                "battle_id": battle.battle_tag,
+                "round": battle.turn,
+                "system_prompt": system_prompt,
+                "user_prompt": user_prompt,
+                "rationale": rationale_text,
+                "response": response_json,
+            }
+
+            # 4) ensure directory and file path
+            rationale_dir = os.path.join("battle_log", "rationale")
+            os.makedirs(rationale_dir, exist_ok=True)
+            file_name = f"{battle_id}_{player_name}_rationales.jsonl"
+            out_path = os.path.join(rationale_dir, file_name)
+
+            # 5) write one JSONL line
+            with open(out_path, "a", encoding="utf8") as f:
+                f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
+
+        except Exception:
+            # never break gameplay if logging fails
+            pass
+
 
     def sc(self, retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle, sim):
         actions = [self.io(retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle, sim) for i in range(self.K)]
@@ -502,7 +557,12 @@ class LLMPlayer(Player):
                                     'Subtract points for excessive switching.' +\
                                     'Subtract points based on the effectiveness of the opponent\'s current moves, especially if they have a faster speed.' +\
                                     'Remove points for each pokemon remaining on the opponent\'s team, weighted by their strength.\n'
-                    cot_prompt = 'Briefly justify your total score, up to 100 words. Then, conclude with the score in the JSON format: {"score": <total_points>}. '
+                    cot_prompt = (
+                        "Think step-by-step (≤ 5 short sentences). "
+                        "Reference any key ability, move, or type interaction that affects the score. "
+                        'Then output **one** JSON object exactly in this format:\n'
+                        '{"thought":"<your brief justification>", "score": <total_points>}\n'
+                    )
                     state_prompt_io = state_prompt + value_prompt + cot_prompt
                     llm_output = self.get_LLM_action(system_prompt=system_prompt,
                                                     user_prompt=state_prompt_io,
@@ -510,7 +570,8 @@ class LLMPlayer(Player):
                                                     temperature=self.temperature,
                                                     max_tokens=500,
                                                     json_format=True,
-                                                    llm=self.llm_value
+                                                    llm=self.llm_value,
+                                                     battle=battle,
                                                     )
                     # load when llm does heavylifting for parsing
                     llm_action_json = json.loads(llm_output)
@@ -564,8 +625,11 @@ class LLMPlayer(Player):
                                 - Are there multiple equally viable options for your next move?
 
                                 Evaluate these factors and decide which method would be more beneficial in the current situation. Output your choice in the following JSON format:
-
-                                {"choice":"damage calculator"} or {"choice":"minimax"}'''
+                                First **think step by step** about these factors, citing any relevant move, ability, or type-match-up facts.  
+                                **Then** output a single JSON object in *exactly* this format:
+                                
+                                {"thought":"<your short justification (≤ 4 sentences)>",
+                                 "choice":"damage calculator" or "choice":"minimax"} '''
 
                             state_prompt_io = state_prompt + tool_prompt
                             llm_output = self.get_LLM_action(system_prompt=system_prompt,
@@ -574,6 +638,7 @@ class LLMPlayer(Player):
                                                             temperature=0.6,
                                                             max_tokens=100,
                                                             json_format=True,
+                                                            battle=battle
                                                             )
                             # load when llm does heavylifting for parsing
                             llm_action_json = json.loads(llm_output)
