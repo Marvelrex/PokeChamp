@@ -19,7 +19,7 @@ class GPTPlayer():
             if json_format:
                 response = client.chat.completions.create(
                     response_format={"type": "json_object"},
-                    model='gpt-4o',
+                    model= model,
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt}

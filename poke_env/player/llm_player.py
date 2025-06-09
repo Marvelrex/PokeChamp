@@ -67,7 +67,7 @@ class LLMPlayer(Player):
         self.strategy_prompt = ""
         self.team_str = team
         self.use_strat_prompt = _use_strat_prompt
-        
+
         with open("./poke_env/data/static/moves/moves_effect.json", "r") as f:
             self.move_effect = json.load(f)
         # only used in old prompting method, replaced by statistcal sets data
@@ -552,15 +552,17 @@ class LLMPlayer(Player):
                     # value estimation for leaf nodes
                     value_prompt = 'Evaluate the score from 1-100 based on how likely the player is to win. Higher is better. Start at 50 points.' +\
                                     'Add points based on the effectiveness of current available moves.' +\
-                                    'Award points for each pokemon remaining on the player\'s team, weighted by their strength' +\
+                                    'Award points for each pokemon remaining on the player\'s team, weighted by their strength.' +\
                                     'Add points for boosted status and opponent entry hazards and subtract points for status effects and player entry hazards. ' +\
                                     'Subtract points for excessive switching.' +\
                                     'Subtract points based on the effectiveness of the opponent\'s current moves, especially if they have a faster speed.' +\
                                     'Remove points for each pokemon remaining on the opponent\'s team, weighted by their strength.\n'
                     cot_prompt = (
-                        "Think step-by-step (≤ 5 short sentences). "
-                        "Reference any key ability, move, or type interaction that affects the score. "
-                        'Then output **one** JSON object exactly in this format:\n'
+                        "Think step-by-step (≤ 7 short sentences in total). "
+                        "list every pivotal ability, move, "
+                        "or type interaction that influences the score, each with a brief "
+                        "description (e.g. *\"Quark-Drive boosts Speed → outspeeds Primarina\"*). "
+                        'After the explanation, output **one** JSON object exactly in this form:\n'
                         '{"thought":"<your brief justification>", "score": <total_points>}\n'
                     )
                     state_prompt_io = state_prompt + value_prompt + cot_prompt
@@ -571,7 +573,7 @@ class LLMPlayer(Player):
                                                     max_tokens=500,
                                                     json_format=True,
                                                     llm=self.llm_value,
-                                                     battle=battle,
+                                                    battle=battle,
                                                     )
                     # load when llm does heavylifting for parsing
                     llm_action_json = json.loads(llm_output)
@@ -625,9 +627,9 @@ class LLMPlayer(Player):
                                 - Are there multiple equally viable options for your next move?
 
                                 Evaluate these factors and decide which method would be more beneficial in the current situation. Output your choice in the following JSON format:
-                                First **think step by step** about these factors, citing any relevant move, ability, or type-match-up facts.  
-                                **Then** output a single JSON object in *exactly* this format:
-                                
+                                First **think step by step** about these factors,  list every pivotal ability, move, or type interaction that influences the score, each with a brief description (e.g. *\"Quark-Drive boosts Speed → outspeeds Primarina\"*). 
+                                After the explanation, output **one** JSON object exactly in this form:\n'
+                            
                                 {"thought":"<your short justification (≤ 4 sentences)>",
                                  "choice":"damage calculator" or "choice":"minimax"} '''
 
@@ -655,6 +657,8 @@ class LLMPlayer(Player):
             # if panic_move is not None:
             #     return panic_move
             # get llm switch
+
+            # LLM Suggested Up to 2 switch Pokemons
             if len(node.simulation.battle.available_switches) != 0:# or opp_turns < dmg_calc_turns):
                 state_action_prompt_switch = state_action_prompt + action_prompt_switch + '\nYou can only choose to switch this turn.\n'
                 constraint_prompt_io = 'Choose the best action and your output MUST be a JSON like: {"switch":"<switch_pokemon_name>"}.\n'
@@ -665,6 +669,7 @@ class LLMPlayer(Player):
                     elif action_llm_switch.message != player_actions[-1].message:
                         player_actions.append(action_llm_switch)
 
+            # LLM Suggested Up to 1 Move
             if not node.simulation.battle.active_pokemon.fainted and len(battle.available_moves) > 0:# and not opp_turns < dmg_calc_turns:
                 # get llm move
                 state_action_prompt_move = state_action_prompt + action_prompt_move + '\nYou can only choose to move this turn.\n'
