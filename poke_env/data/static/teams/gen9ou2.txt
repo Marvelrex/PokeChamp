@@ -54,13 +54,12 @@ IVs: 0 Atk
 - Recover  
 - Thunder Wave  
 
-Roaring Moon @ Booster Energy  
-Ability: Protosynthesis  
-Tera Type: Flying  
-EVs: 252 Atk / 4 Def / 252 Spe  
-Adamant Nature  
-- Knock Off  
-- Earthquake  
-- Acrobatics  
-- Dragon Dance  
-
+Hydreigon @ Choice Scarf
+Ability: Levitate
+Tera Type: Steel
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Dark Pulse
+- Flamethrower
+- U-turn

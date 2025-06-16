@@ -1621,4 +1621,5 @@ class SimNode():
         self.parent_node = None
         self.parent_action = None
         self.hp_diff = 0
+        self.rationale: str = ""
         self.children: List[SimNode] = []

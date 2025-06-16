@@ -44,6 +44,17 @@ class BattleOrder:
         else:
             return ""
 
+    @classmethod
+    def move_to_order(cls, move: Move, target: int | None = None) -> "BattleOrder":
+        """
+        Convert a poke-env Move into a BattleOrder ready to send to the server.
+        """
+        if target is None:
+            msg = f"/choose move {move.id}"
+        else:  # target 0 → slot 1, target 1 → slot 2, …
+            msg = f"/choose move {move.id} {target + 1}"
+        return BattleOrder(msg)
+
 
 class DefaultBattleOrder(BattleOrder):
     def __init__(self, *args: Any, **kwargs: Any):

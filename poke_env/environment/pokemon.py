@@ -111,10 +111,16 @@ class Pokemon:
         self._status: Optional[Status] = None
         self._status_counter: int = 0
 
-        with open('poke_env/data/static/gen9/ou/sets_1825.json', 'r') as f:
+        if gen == 8:
+            gen_dir = 'poke_env/data/static/gen8/ou/gen8ou-1760.txt'
+        elif gen == 9:
+            gen_dir = 'poke_env/data/static/gen9/ou/sets_1825.json'
+        else:
+            gen_dir = None
+        with open(gen_dir, 'r') as f:
             sets = json.load(f)
         self._sets = sets
-        
+
         if request_pokemon:
             self.update_from_request(request_pokemon)
         elif details:

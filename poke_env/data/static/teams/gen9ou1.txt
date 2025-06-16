@@ -1,15 +1,13 @@
-
-
-Darkrai @ Expert Belt  
-Ability: Bad Dreams  
+Iron Valiant @ Expert Belt  
+Ability: Quark Drive  
 Tera Type: Poison  
 EVs: 252 SpA / 4 SpD / 252 Spe  
 Timid Nature  
 IVs: 0 Atk  
-- Ice Beam  
-- Sludge Bomb  
-- Dark Pulse  
-- Focus Blast  
+- Moonblast  
+- Aura Sphere  
+- Thunderbolt  
+- Psyshock  
 
 Kingambit @ Air Balloon  
 Ability: Supreme Overlord  
@@ -21,25 +19,25 @@ Adamant Nature
 - Kowtow Cleave  
 - Iron Head  
 
-Roaring Moon @ Booster Energy  
-Ability: Protosynthesis  
+Dragapult @ Booster Energy  
+Ability: Clear Body  
 Tera Type: Flying  
 EVs: 252 Atk / 4 Def / 252 Spe  
 Jolly Nature  
 - Dragon Dance  
 - Acrobatics  
-- Knock Off  
-- Taunt  
+- Dragon Darts  
+- Sucker Punch
 
-Zamazenta @ Leftovers  
-Ability: Dauntless Shield  
-Tera Type: Ghost  
-EVs: 16 HP / 216 Def / 40 SpD / 236 Spe  
+Corviknight @ Leftovers  
+Ability: Pressure  
+Tera Type: Fairy  
+EVs: 252 HP / 168 Def / 88 SpD  
 Impish Nature  
 - Iron Defense  
 - Body Press  
-- Heavy Slam  
-- Roar  
+- Roost  
+- U-turn  
 
 Glimmora @ Red Card  
 Ability: Toxic Debris  

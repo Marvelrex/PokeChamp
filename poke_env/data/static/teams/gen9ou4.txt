@@ -52,13 +52,13 @@ Jolly Nature
 - Iron Defense  
 - Roar  
 
-Roaring Moon @ Booster Energy  
-Ability: Protosynthesis  
-Tera Type: Flying  
-EVs: 252 Atk / 4 Def / 252 Spe  
-Jolly Nature  
-- Knock Off  
-- Acrobatics  
-- Earthquake  
-- Dragon Dance  
+Dragapult @ Choice Band
+Ability: Infiltrator
+Tera Type: Ghost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Darts
+- Fire Blast
+- U-turn
+- Thunder Wave
 

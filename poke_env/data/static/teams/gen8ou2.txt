@@ -1,11 +1,11 @@
-Regieleki @ Heavy-Duty Boots  
-Ability: Transistor  
-EVs: 252 SpA / 4 SpD / 252 Spe  
-Timid Nature  
-- Volt Switch  
-- Rapid Spin  
-- Ancient Power  
-- Thunderbolt  
+Rillaboom @ Miracle Seed
+Ability: Grassy Surge
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Drum Beating
+- Grassy Glide
+- Darkest Lariat
+- Drain Punch
 
 Mew @ Heavy-Duty Boots  
 Ability: Synchronize  
@@ -35,14 +35,14 @@ Adamant Nature
 - Iron Head  
 - Assurance  
 
-Buzzwole @ Rocky Helmet  
-Ability: Beast Boost  
-EVs: 252 HP / 72 Atk / 184 Def  
-Adamant Nature  
-- Close Combat  
-- Ice Punch  
-- Roost  
-- Leech Life  
+Dragapult @ Leftovers
+Ability: Clear Body
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Dragon Darts
+- Dragon Dance
+- Phantom Force
+- Sucker Punch
 
 Garchomp @ Leftovers  
 Ability: Rough Skin  

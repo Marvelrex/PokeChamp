@@ -141,7 +141,7 @@ class LLMPlayer(Player):
     def choose_move(self, battle: AbstractBattle):
         self.current_turn = battle.turn
         self.current_battle_tag = battle.battle_tag
-        sim = LocalSim(battle, 
+        sim = LocalSim(battle,
                     self.move_effect,
                     self.pokemon_move_dict,
                     self.ability_effect,
@@ -257,10 +257,86 @@ class LLMPlayer(Player):
 
         elif self.prompt_algo == "minimax":
             try:
-                return self.tree_search(retries, battle)
+                # Use tree_search with return_opp=True to get player action, opponent action, score, and rationale
+                best_action, predicted_opp_action, score, rationale = self.tree_search(retries, battle, return_opp=True)
+                # Extract current state (omit historical turns for brevity)
+                state_str = state_prompt.split("Current battle state:\n", 1)[
+                    1] if "Current battle state:" in state_prompt else state_prompt
+                # Format player's chosen action
+                player_msg = best_action.message.replace("/choose ", "")  # e.g. "move thunderbolt" or "switch Pikachu"
+                if player_msg.startswith("move "):
+                    # e.g. "move thunderbolt" -> "Move: Thunderbolt"
+                    move_name = player_msg.split(" ", 1)[1]
+                    player_action_desc = f"Move: {move_name.capitalize()}"
+                elif player_msg.startswith("switch "):
+                    # e.g. "switch Pikachu" -> "Switch: Pikachu"
+                    mon_name = player_msg.split(" ", 1)[1]
+                    player_action_desc = f"Switch: {mon_name}"
+                else:
+                    player_action_desc = player_msg.capitalize()
+                # Format opponent's predicted action similarly
+                if predicted_opp_action:
+                    opp_msg = predicted_opp_action.message.replace("/choose ", "")
+                    if opp_msg.startswith("move "):
+                        opp_move = opp_msg.split(" ", 1)[1]
+                        opp_action_desc = f"Move: {opp_move.capitalize()}"
+                    elif opp_msg.startswith("switch "):
+                        opp_mon = opp_msg.split(" ", 1)[1]
+                        opp_action_desc = f"Switch: {opp_mon}"
+                    else:
+                        opp_action_desc = opp_msg.capitalize()
+                else:
+                    opp_action_desc = "None"
+                # Prepare the JSON entry for this turn
+                turn_entry = {
+                    "Current Game State": state_str,
+                    "Player Next Action": player_action_desc,
+                    "Opponent Next Action": opp_action_desc,
+                    "Rationale": rationale,
+                    "Score": score
+                }
+                # Determine file name (one per battle per player) and append the turn entry
+                player_name = getattr(self.ps_client.account_configuration, "username", "player")
+                # Use battle ID or tag for the JSON structure key
+                battle_id_str = ''.join(filter(str.isdigit, battle.battle_tag)) or battle.battle_tag
+                battle_key = f"Battle Id: {int(battle_id_str):03d}" if battle_id_str.isdigit() else f"Battle Id: {battle_id_str}"
+                if battle.finished:
+                    if battle.won is None:  # tie
+                        outcome_tag = "tie"
+                    else:
+                        outcome_tag = "winner" if battle.won else "loser"
+                else:
+                    outcome_tag = "inprogress"
+                # Open or create the JSON log file
+                if self.log_dir is None:
+                    log_path = f"score_evaluation_{battle_key}_{player_name}_{outcome_tag}.json"
+                else:
+                    os.makedirs(self.log_dir, exist_ok=True)
+                    log_path = os.path.join(
+                        self.log_dir,
+                        f"score_evaluation_{battle_key}_{player_name}_{outcome_tag}.json"
+                    )
+                if battle.finished and outcome_tag != "inprogress":
+                    tmp_path = log_path.replace(outcome_tag, "inprogress")
+                    if os.path.exists(tmp_path):
+                        os.replace(tmp_path, log_path)
+                try:
+                    with open(log_path, "r") as f:
+                        data = json.load(f)
+                except FileNotFoundError:
+                    data = {}
+                # Append or create the battle entry
+
+                if battle_key not in data:
+                    data[battle_key] = {}
+                data[battle_key][f"Turn {battle.turn}"] = turn_entry
+                # Save back to the JSON file
+                with open(log_path, "w") as f:
+                    json.dump(data, f, indent=4)
+                return best_action  # execute the chosen action
             except Exception as e:
-                print('minimax step failed. Using dmg calc')
-                print(f'Exception: {e}', 'passed')
+                print("minimax step failed. Using dmg calc")
+                print(f"Exception: {e}", 'passed')
                 return self.choose_max_damage_move(battle)
 
         
@@ -514,7 +590,7 @@ class LLMPlayer(Player):
             return move
         else:
             return None
-    
+
     def tree_search(self, retries, battle, sim=None, return_opp = False) -> BattleOrder:
         # generate local simulation
         root = SimNode(battle, 
@@ -578,6 +654,7 @@ class LLMPlayer(Player):
                     # load when llm does heavylifting for parsing
                     llm_action_json = json.loads(llm_output)
                     node.hp_diff = int(llm_action_json['score'])
+                    node.rationale = llm_action_json.get("thought")
                 except Exception as e:
                     node.hp_diff = node.simulation.get_hp_diff()                    
                     print(e)
@@ -589,10 +666,20 @@ class LLMPlayer(Player):
             #     return panic_move
             # estimate opp
             try:
-                action_opp, opp_turns = self.estimate_matchup(node.simulation, node.simulation.battle, node.simulation.battle.opponent_active_pokemon, node.simulation.battle.active_pokemon, is_opp=True)
-            except:
+                opp_move, opp_turns = self.estimate_matchup(
+                    node.simulation,
+                    node.simulation.battle,
+                    node.simulation.battle.opponent_active_pokemon,
+                    node.simulation.battle.active_pokemon,
+                    is_opp=True,
+                )
+            except Exception:
+                opp_move, opp_turns = None, np.inf
+            if isinstance(opp_move, Move):
+                action_opp = BattleOrder.move_to_order(opp_move, target=0)
+            else:
                 action_opp = None
-                opp_turns = np.inf
+            node.action_opp = action_opp
             ##############################
             # generate players's action  #
             ##############################
@@ -642,13 +729,19 @@ class LLMPlayer(Player):
                                                             json_format=True,
                                                             battle=battle
                                                             )
-                            # load when llm does heavylifting for parsing
+                            # load when llm does heavy lifting for parsing
                             llm_action_json = json.loads(llm_output)
+                            rationale = llm_action_json.get("thought", "").strip()
+                            if not rationale:
+                                rationale = (
+                                    f"Heuristic TTK shortcut: my_turns={dmg_calc_turns}, "
+                                    f"opp_turns={opp_turns}"
+                                )
                             if 'choice' in llm_action_json.keys():
                                 if llm_action_json['choice']  != 'minimax':
+                                    heuristic_score = -1
                                     if return_opp:
-                                        # use tool to save time and llm when move makes bigger difference
-                                        return dmg_calc_out, action_opp
+                                        return dmg_calc_out, action_opp, heuristic_score, rationale
                                     return dmg_calc_out
                         except:
                             print('defaulting to minimax')
@@ -734,33 +827,37 @@ class LLMPlayer(Player):
                         q.append(node_new)
 
         # choose best action according to max or min rule
-        def get_tree_action(root: SimNode):
-            if len(root.children) == 0:
-                return root.action, root.hp_diff, root.action_opp
-            score_dict = {}
-            action_dict = {}
-            opp_dict = {}
-            for child in root.children:
-                action = str(child.action.order)
-                _, score, _ = get_tree_action(child)
-                if action in score_dict.keys():
-                    # imitation
-                    # score_dict[action] = score + score_dict[action]
-                    # minimax
-                    score_dict[action] = min(score, score_dict[action])
+        def get_tree_action(node: SimNode):
+            if len(node.children) == 0:  # leaf node
+                return node.action, node.hp_diff, node.action_opp, node.rationale
+            score_dict, action_dict, opp_dict, rationale_dict = {}, {}, {}, {}
+            for child in node.children:
+                action_str = str(child.action.order)  # player's action as string key
+                # Recursively get action, score, opp action, rationale for child node
+                action_obj, score_val, opp_act, rationale_text = get_tree_action(child)
+                if action_str in score_dict:
+                    # Minimax: opponent will minimize the score for this action
+                    if score_val < score_dict[action_str]:
+                        score_dict[action_str] = score_val
+                        opp_dict[action_str] = opp_act
+                        rationale_dict[action_str] = rationale_text
                 else:
-                    score_dict[action] = score
-                    action_dict[action] = child.action
-                    opp_dict[action] = child.action_opp
-            scores = list(score_dict.values())
-            best_action_str = list(action_dict.keys())[np.argmax(scores)]
-            return action_dict[best_action_str], score_dict[best_action_str], opp_dict[best_action_str]
-        
-        action, _, action_opp = get_tree_action(root)
-        end_time = time.time()
+                    score_dict[action_str] = score_val
+                    action_dict[action_str] = action_obj
+                    opp_dict[action_str] = opp_act
+                    rationale_dict[action_str] = rationale_text
+            # Choose the player action with the highest worst-case score
+            best_action_str = max(score_dict, key=score_dict.get)
+            best_player_action = action_dict[best_action_str]
+            best_score = score_dict[best_action_str]
+            best_opp_action = opp_dict[best_action_str]
+            best_rationale = rationale_dict[best_action_str]
+            return best_player_action, best_score, best_opp_action, best_rationale
+
+        best_action, best_score, best_opp_action, best_rationale = get_tree_action(root)
         if return_opp:
-            return action, action_opp
-        return action
+            return best_action, best_opp_action, best_score, best_rationale
+        return best_action
  
     def battle_summary(self):
 

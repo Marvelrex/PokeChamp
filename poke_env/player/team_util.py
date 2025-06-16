@@ -8,12 +8,12 @@ from poke_env.ps_client.server_configuration import ShowdownServerConfiguration
 from poke_env.player.prompts import prompt_translate, state_translate2
 from numpy.random import randint
 
-def load_random_team(id=None):
-    if id == None:
+def load_random_team(team_id: int | None = None, battle_format: str = "gen9ou") -> str:
+    if team_id is None:
         team_id = randint(1, 14)
-    else:
-        team_id = id
-    with open(f'poke_env/data/static/teams/gen9ou{team_id}.txt', 'r') as f:
+
+    filename = f'poke_env/data/static/teams/{battle_format}{team_id}.txt'
+    with open(filename, 'r') as f:
         team = f.read()
     return team
 

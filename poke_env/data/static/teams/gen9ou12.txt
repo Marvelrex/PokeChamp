@@ -46,16 +46,15 @@ Jolly Nature
 - Aqua Cutter
 - Flip Turn
 
-Roaring Moon @ Booster Energy
-Ability: Protosynthesis
-Shiny: Yes
-Tera Type: Ground
-EVs: 252 Atk / 4 SpD / 252 Spe
-Jolly Nature
-- Dragon Dance
-- Earthquake
-- Knock Off
-- Acrobatics
+Iron Jugulis @ Booster Energy
+Ability: Quark Drive
+Tera Type: Flying
+EVs: 252 SpA / 4 Def / 252 Spe
+Timid Nature
+- Hurricane
+- Dark Pulse
+- Flamethrower
+- Taunt
 
 Dragonite (M) @ Heavy-Duty Boots
 Ability: Multiscale

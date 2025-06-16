@@ -668,14 +668,26 @@ class AbstractBattle(ABC):
             pokemon = split_message[2]
             self.get_pokemon(pokemon).must_recharge = True
         elif split_message[1] == "-prepare":
-            try:
-                attacker, move, defender = split_message[2:5]
-                defender = self.get_pokemon(defender)
+            def _clean(tok: str | None) -> str | None:
+                """
+                Return ``None`` for tokens like "[premajor]" / "[upkeep]".
+                Otherwise return the original token.
+                """
+                return None if tok and tok.startswith("[") else tok
+
+            raw_tokens = split_message[2:]
+            tokens = [_clean(t) for t in raw_tokens if _clean(t) is not None]
+
+            if len(tokens) >= 3:
+                attacker, move, defender_id = tokens[:3]
+                defender = self.get_pokemon(defender_id)
                 if to_id_str(move) == "skydrop":
                     defender.start_effect("Sky Drop")
-            except ValueError:
-                attacker, move = split_message[2:4]
+            else:  # len(tokens) == 2
+                attacker, move = tokens[:2]
                 defender = None
+
+            # Finally register the prepare effect
             self.get_pokemon(attacker).prepare(move, defender)
         elif split_message[1] == "-primal":
             pokemon = split_message[2]

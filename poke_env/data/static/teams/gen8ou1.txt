@@ -26,14 +26,15 @@ IVs: 0 Atk
 - Grass Knot  
 - Nasty Plot  
 
-Melmetal @ Choice Band  
-Ability: Iron Fist  
-EVs: 252 HP / 252 Atk / 4 Def  
-Adamant Nature  
-- Double Iron Bash  
-- Darkest Lariat  
-- Body Press  
-- Ice Punch  
+Blissey (F) @ Rocky Helmet
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Aromatherapy
 
 Mew @ Leftovers  
 Ability: Synchronize  
@@ -44,12 +45,11 @@ Jolly Nature
 - Fake Out  
 - Heal Bell  
 
-Volcarona @ Leftovers  
-Ability: Flame Body  
-EVs: 4 HP / 252 SpA / 252 Spe  
-Timid Nature  
-IVs: 0 Atk  
-- Bug Buzz  
-- Fiery Dance  
-- Quiver Dance  
-- Giga Drain  
+Garchomp @ Leftovers
+Ability: Rough Skin
+EVs: 252 HP / 112 Def / 88 SpD / 56 Spe
+Impish Nature
+- Stealth Rock
+- Earthquake
+- Toxic
+- Protect
