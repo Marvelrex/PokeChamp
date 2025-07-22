@@ -60,8 +60,8 @@ class Player(ABC):
         server_configuration: Optional[ServerConfiguration] = None,
         start_timer_on_battle_start: bool = False,
         start_listening: bool = True,
-        ping_interval: Optional[float] = 20.0,
-        ping_timeout: Optional[float] = 20.0,
+        ping_interval: Optional[float] = 60.0,
+        ping_timeout: Optional[float] = 60.0,
         team: Optional[Union[str, Teambuilder]] = None,
     ):
         """
