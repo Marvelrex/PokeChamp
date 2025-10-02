@@ -10,6 +10,7 @@ from poke_env.player.depth_translate import data_battle
 from poke_env.player.llm_player import LLMPlayer
 from poke_env.player.player import Player
 from poke_env.player.prompts import prompt_translate, state_translate
+from poke_env.player.translate import add_battle
 # from poke_env.player.translate import add_battle
 from poke_env.ps_client.account_configuration import AccountConfiguration
 

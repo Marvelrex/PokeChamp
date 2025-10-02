@@ -13,16 +13,21 @@ from poke_env.environment.double_battle import DoubleBattle
 from poke_env.environment.move_category import MoveCategory
 from poke_env.environment.pokemon import Pokemon
 from poke_env.environment.side_condition import SideCondition
+from poke_env.player.ollama_player import OllamaPlayer
 from poke_env.player.player import Player, BattleOrder
 from typing import Callable, Dict, List, Optional, Tuple, Union
 from poke_env.environment.move import Move
 import time
 import json
+import joblib
 from poke_env.data.gen_data import GenData
 from poke_env.player.gpt_player import GPTPlayer
 from poke_env.player.llama_player import LLAMAPlayer
 from poke_env.player.local_simulation import LocalSim, SimNode
 from difflib import get_close_matches
+from lightgbm import LGBMRegressor
+
+from poke_env.player.prediction_engine import PredictionEngine
 from poke_env.player.prompts import get_number_turns_faint, get_status_num_turns_fnt, state_translate, get_gimmick_motivation
 
 DEBUG=False
@@ -41,6 +46,7 @@ class LLMPlayer(Player):
                  server_configuration=None,
                  K=2,
                  _use_strat_prompt=False,
+                 _use_prediction_engine="False",
                  prompt_translate: Callable=state_translate,
                  device=0,
                  llm_backend=None
@@ -67,6 +73,10 @@ class LLMPlayer(Player):
         self.strategy_prompt = ""
         self.team_str = team
         self.use_strat_prompt = _use_strat_prompt
+        self.use_prediction_engine = _use_prediction_engine
+        self.prediction_engine = None
+        self.slm = None
+
 
         with open("./poke_env/data/static/moves/moves_effect.json", "r") as f:
             self.move_effect = json.load(f)
@@ -90,16 +100,32 @@ class LLMPlayer(Player):
         self.last_plan = ""
 
         if llm_backend is None:
-            if 'gpt' in backend:
+            backend_l = backend.lower()
+            if "gpt" in backend_l:
                 self.llm = GPTPlayer(self.api_key)
-            elif 'llama' == backend:
-                self.llm = LLAMAPlayer(device=device)
+            elif ("gemma" in backend_l) or ("llama" in backend_l):
+                self.llm = OllamaPlayer(model=backend)
             else:
-                raise NotImplementedError('LLM type not implemented:', backend)
+                raise ValueError(f"LLM type not implemented: {backend}")
         else:
             self.llm = llm_backend
         self.llm_value = self.llm
         self.K = K      # for minimax, SC, ToT
+
+        if _use_prediction_engine != "False":
+            try:
+                if _use_prediction_engine == "high":
+                    self.prediction_engine = PredictionEngine("poke_env/data/static/prediction_engine_model/High_Optune_LGBM.pkl",
+                                                              "poke_env/data/static/prediction_engine_model/LGBM_scaler.pkl",
+                                                              "poke_env/data/static/prediction_engine_model/LGBM_pca.joblib")
+                elif _use_prediction_engine == "low":
+                    self.prediction_engine = PredictionEngine(
+                    "poke_env/data/static/prediction_engine_model/Low_Optune_Ridge.pkl",
+                        "poke_env/data/static/prediction_engine_model/Ridge_scaler.pkl",
+                "poke_env/data/static/prediction_engine_model/RIDGE_pca.joblib")
+            except Exception as e:
+                # up to you: either raise or log and keep going
+                raise RuntimeError("Failed to load prediction engine") from e
 
     def get_LLM_action(self, system_prompt, user_prompt, model, temperature=0.7, json_format=False, seed=None, stop=[], max_tokens=200, actions=None, llm=None, battle=None) -> str:
         if llm is None:
@@ -113,6 +139,7 @@ class LLMPlayer(Player):
                 parsed_json = json.loads(output)
             except Exception:
                 # not strict JSON or no thought field
+                print("JSON PARSED ERROR:",output)
                 pass
         if parsed_json is not None:
             self.log_rationale(
@@ -138,9 +165,203 @@ class LLMPlayer(Player):
         pokemon = Pokemon(species=pokemon_str, gen=self.genNum)
         return pokemon
 
+    # def getCandidateActionScores(
+    #         self,
+    #         best_action,
+    #         predicted_opp_action,
+    #         score,
+    #         rationale,
+    #         summary_list,
+    #         battle,
+    #         state_prompt,
+    # ):
+    #     # ---------- Friendly strings for chosen actions ----------
+    #     player_msg = best_action.message.replace("/choose ", "")
+    #     if player_msg.startswith("move "):
+    #         move_name = player_msg.split(" ", 1)[1]
+    #         player_action_desc = f"Move: {move_name.capitalize()}"
+    #     elif player_msg.startswith("switch "):
+    #         mon_name = player_msg.split(" ", 1)[1]
+    #         player_action_desc = f"Switch: {mon_name}"
+    #     else:
+    #         player_action_desc = player_msg.capitalize()
+    #
+    #     if predicted_opp_action:
+    #         opp_msg = predicted_opp_action.message.replace("/choose ", "")
+    #         if opp_msg.startswith("move "):
+    #             opp_move = opp_msg.split(" ", 1)[1]
+    #             opp_action_desc = f"Move: {opp_move.capitalize()}"
+    #         elif opp_msg.startswith("switch "):
+    #             opp_mon = opp_msg.split(" ", 1)[1]
+    #             opp_action_desc = f"Switch: {opp_mon}"
+    #         else:
+    #             opp_action_desc = opp_msg.capitalize()
+    #     else:
+    #         opp_action_desc = "None"
+    #
+    #     # ---------- Prepare candidate summary list if missing ----------
+    #     if not summary_list:
+    #         summary_list = [{
+    #             "player_action": best_action,
+    #             "score": int(score) if isinstance(score, (int, float)) else score,
+    #             "rationale": rationale,
+    #             "opponent_action": predicted_opp_action,
+    #         }]
+    #
+    #     # ---------- Helpers for JSON-safe candidates ----------
+    #     def _to_msg(a):
+    #         try:
+    #             m = a.message if hasattr(a, "message") else str(a)
+    #             return m.replace("/choose ", "")
+    #         except Exception:
+    #             return str(a)
+    #
+    #     def _to_int_if_num(x):
+    #         try:
+    #             if isinstance(x, bool):
+    #                 return x
+    #             if isinstance(x, (int, float)):
+    #                 return int(x)
+    #             return int(float(x))
+    #         except Exception:
+    #             return x
+    #
+    #     json_safe_summary_list = []
+    #     for c in summary_list:
+    #         if isinstance(c, dict):
+    #             d = dict(c)
+    #             if "player_action" in d:
+    #                 d["player_action"] = _to_msg(d["player_action"])
+    #             if "opponent_action" in d:
+    #                 d["opponent_action"] = _to_msg(d["opponent_action"])
+    #             d["score"] = _to_int_if_num(d.get("score"))
+    #             # rationale may be string or dict; keep as-is but JSON-serializable
+    #             r = d.get("rationale")
+    #             d["rationale"] = "" if r is None else (
+    #                 r if isinstance(r, (dict, list, str, int, float, bool)) else str(r))
+    #             # pass through label_scores if present
+    #             if "label_scores" in d and not isinstance(d["label_scores"], (dict, type(None))):
+    #                 # ensure dict or drop
+    #                 try:
+    #                     from json import loads as _loads
+    #                     d["label_scores"] = _loads(d["label_scores"]) if isinstance(d["label_scores"], str) else None
+    #                 except Exception:
+    #                     d["label_scores"] = None
+    #             json_safe_summary_list.append(d)
+    #         else:
+    #             json_safe_summary_list.append({
+    #                 "player_action": _to_msg(c),
+    #                 "score": None,
+    #                 "rationale": "",
+    #                 "opponent_action": "None",
+    #                 "label_scores": None,
+    #             })
+    #     summary_list = json_safe_summary_list
+    #
+    #     # ---------- Derive state string ----------
+    #     try:
+    #         _sp = state_prompt
+    #     except NameError:
+    #         _sp = ""
+    #     state_str = (
+    #         _sp.split("Current battle state:\n", 1)[1]
+    #         if isinstance(_sp, str) and "Current battle state:" in _sp
+    #         else (_sp if isinstance(_sp, str) else "")
+    #     )
+    #
+    #     # ---------- Best entry, include label_scores if we can match ----------
+    #     score_val = int(score) if isinstance(score, (int, float)) else score
+    #
+    #     # Try to find the candidate matching the chosen player action to carry label_scores
+    #     def _friendly(msg_no_prefix: str) -> str:
+    #         if msg_no_prefix.startswith("move "):
+    #             return f"Move: {msg_no_prefix.split(' ', 1)[1].capitalize()}"
+    #         if msg_no_prefix.startswith("switch "):
+    #             return f"Switch: {msg_no_prefix.split(' ', 1)[1]}"
+    #         return msg_no_prefix.capitalize()
+    #
+    #     best_label_scores = None
+    #     # Create comparable forms for matching
+    #     chosen_norm = player_action_desc.lower().strip()
+    #     for cand in summary_list:
+    #         cand_norm = _friendly(cand.get("player_action", "")).lower().strip()
+    #         if cand_norm == chosen_norm and "label_scores" in cand:
+    #             best_label_scores = cand.get("label_scores")
+    #             break
+    #
+    #     # ---------- Build turn entry ----------
+    #     turn_entry = {
+    #         "Current Game State": state_str,
+    #         "Candidates": summary_list,
+    #         "Best": {
+    #             "player_action": player_action_desc,
+    #             "score": score_val,
+    #             "label_scores": best_label_scores,  # may be None if unavailable
+    #         }
+    #     }
+    #
+    #     # ---------- File path & write ----------
+    #     player_name = getattr(self.ps_client.account_configuration, "username", "player")
+    #
+    #     battle_id_str = "".join(filter(str.isdigit, battle.battle_tag)) or battle.battle_tag
+    #     battle_key = (
+    #         f"Battle Id: {int(battle_id_str):03d}"
+    #         if battle_id_str.isdigit()
+    #         else f"Battle Id: {battle_id_str}"
+    #     )
+    #
+    #     if battle.finished:
+    #         if battle.won is None:
+    #             outcome_tag = "tie"
+    #         else:
+    #             outcome_tag = "winner" if battle.won else "loser"
+    #     else:
+    #         outcome_tag = "inprogress"
+    #
+    #     safe_key = battle_key.replace(":", "_").replace("/", "_").replace(" ", "_")
+    #     file_name = f"score_evaluation_{safe_key}_{player_name}_{outcome_tag}.json"
+    #
+    #     if self.log_dir is None:
+    #         os.makedirs("candidates", exist_ok=True)  # ensure dir
+    #         log_path = os.path.join("candidates", file_name)
+    #     else:
+    #         os.makedirs(os.path.join(self.log_dir, "candidates"), exist_ok=True)
+    #         log_path = os.path.join(self.log_dir, "candidates", file_name)
+    #
+    #         # rename inprogress → final tag within the same candidates dir
+    #         if battle.finished and outcome_tag != "inprogress":
+    #             tmp_name = f"score_evaluation_{safe_key}_{player_name}_inprogress.json"
+    #             tmp_path = (
+    #                 os.path.join("candidates", tmp_name)
+    #                 if self.log_dir is None
+    #                 else os.path.join(self.log_dir, "candidates", tmp_name)
+    #             )
+    #             if os.path.exists(tmp_path):
+    #                 os.replace(tmp_path, log_path)
+    #
+    #     # Read, update, write atomically
+    #     try:
+    #         with open(log_path, "r", encoding="utf-8") as f:
+    #             data = json.load(f)
+    #     except FileNotFoundError:
+    #         data = {}
+    #     except json.JSONDecodeError:
+    #         data = {}
+    #
+    #     if battle_key not in data:
+    #         data[battle_key] = {}
+    #
+    #     data[battle_key][f"Turn {battle.turn}"] = turn_entry
+    #
+    #     tmp_out = f"{log_path}.tmp"
+    #     with open(tmp_out, "w", encoding="utf-8") as f:
+    #         json.dump(data, f, indent=4, ensure_ascii=False)
+    #     os.replace(tmp_out, log_path)
+
     def choose_move(self, battle: AbstractBattle):
         self.current_turn = battle.turn
         self.current_battle_tag = battle.battle_tag
+        use_prediction_engine = self.use_prediction_engine
         sim = LocalSim(battle,
                     self.move_effect,
                     self.pokemon_move_dict,
@@ -254,27 +475,28 @@ class LLMPlayer(Player):
             if next_action is None:
                 next_action = self.choose_max_damage_move(battle)
             return next_action
-
         elif self.prompt_algo == "minimax":
             try:
                 # Use tree_search with return_opp=True to get player action, opponent action, score, and rationale
-                best_action, predicted_opp_action, score, rationale = self.tree_search(retries, battle, return_opp=True)
-                # Extract current state (omit historical turns for brevity)
-                state_str = state_prompt.split("Current battle state:\n", 1)[
-                    1] if "Current battle state:" in state_prompt else state_prompt
-                # Format player's chosen action
-                player_msg = best_action.message.replace("/choose ", "")  # e.g. "move thunderbolt" or "switch Pikachu"
+                best_action, predicted_opp_action, score, rationale, summary_list, best_label_scores = self.tree_search(
+                    retries,
+                    battle,
+                    return_opp=True,
+                    use_pred_engine=use_prediction_engine,
+                )
+
+                # Format the chosen player action for readability
+                player_msg = best_action.message.replace("/choose ", "")
                 if player_msg.startswith("move "):
-                    # e.g. "move thunderbolt" -> "Move: Thunderbolt"
                     move_name = player_msg.split(" ", 1)[1]
                     player_action_desc = f"Move: {move_name.capitalize()}"
                 elif player_msg.startswith("switch "):
-                    # e.g. "switch Pikachu" -> "Switch: Pikachu"
                     mon_name = player_msg.split(" ", 1)[1]
                     player_action_desc = f"Switch: {mon_name}"
                 else:
                     player_action_desc = player_msg.capitalize()
-                # Format opponent's predicted action similarly
+
+                # Format the predicted opponent action
                 if predicted_opp_action:
                     opp_msg = predicted_opp_action.message.replace("/choose ", "")
                     if opp_msg.startswith("move "):
@@ -287,64 +509,130 @@ class LLMPlayer(Player):
                         opp_action_desc = opp_msg.capitalize()
                 else:
                     opp_action_desc = "None"
-                # Prepare the JSON entry for this turn
+
+                # Ensure summary_list is not empty (in case of early return or fallback)
+                if not summary_list:
+                    summary_list = [{
+                        "player_action": str(best_action.order) if hasattr(best_action, "order") else str(best_action),
+                        "score": int(score) if isinstance(score, (int, float)) else score,
+                        "rationale": rationale or "",
+                        "opponent_action": str(predicted_opp_action.order) if predicted_opp_action else None,
+                        "label_scores": best_label_scores or {}
+                    }]
+
+                # Make summary_list JSON-serializable (convert any objects to primitive types)
+                def _to_msg(action):
+                    try:
+                        msg = action.message if hasattr(action, "message") else str(action)
+                        return msg.replace("/choose ", "")
+                    except Exception:
+                        return str(action)
+
+                def _to_int_if_num(x):
+                    try:
+                        return int(x)
+                    except Exception:
+                        return x
+
+                json_safe_summary_list = []
+                for cand in summary_list:
+                    if isinstance(cand, dict):
+                        entry = dict(cand)
+                        if "player_action" in entry:
+                            entry["player_action"] = _to_msg(entry["player_action"])
+                        if "opponent_action" in entry:
+                            entry["opponent_action"] = _to_msg(entry["opponent_action"])
+                        entry["score"] = _to_int_if_num(entry.get("score"))
+                        entry["rationale"] = "" if entry.get("rationale") is None else str(entry.get("rationale"))
+                        # Ensure label_scores values are int
+                        if "label_scores" in entry and isinstance(entry["label_scores"], dict):
+                            entry["label_scores"] = {k: _to_int_if_num(v) for k, v in entry["label_scores"].items()}
+                        json_safe_summary_list.append(entry)
+                    else:
+                        # Handle any non-dict candidates (should not happen in current logic)
+                        json_safe_summary_list.append({
+                            "player_action": _to_msg(cand),
+                            "score": None,
+                            "rationale": "",
+                            "opponent_action": "None",
+                            "label_scores": {}
+                        })
+                summary_list = json_safe_summary_list
+
+                # Build the turn entry for logging
+                score_val = _to_int_if_num(score)
+                # Extract current game state string if available
+                try:
+                    state_str = state_prompt.split("Current battle state:\n", 1)[1]
+                except Exception:
+                    state_str = state_prompt if isinstance(state_prompt, str) else ""
+
                 turn_entry = {
                     "Current Game State": state_str,
-                    "Player Next Action": player_action_desc,
-                    "Opponent Next Action": opp_action_desc,
-                    "Rationale": rationale,
-                    "Score": score
+                    "Candidates": summary_list,
+                    "Best": {
+                        "player_action": player_action_desc,
+                        "score": score_val,
+                        "label_scores": {k: _to_int_if_num(v) for k, v in (best_label_scores or {}).items()}
+                    }
                 }
-                # Determine file name (one per battle per player) and append the turn entry
+
+                # Determine log file path (battle_id and outcome status)
                 player_name = getattr(self.ps_client.account_configuration, "username", "player")
-                # Use battle ID or tag for the JSON structure key
-                battle_id_str = ''.join(filter(str.isdigit, battle.battle_tag)) or battle.battle_tag
+                battle_id_str = "".join(filter(str.isdigit, battle.battle_tag)) or battle.battle_tag
                 battle_key = f"Battle Id: {int(battle_id_str):03d}" if battle_id_str.isdigit() else f"Battle Id: {battle_id_str}"
+                outcome_tag = "inprogress"
                 if battle.finished:
-                    if battle.won is None:  # tie
+                    if battle.won is None:
                         outcome_tag = "tie"
                     else:
                         outcome_tag = "winner" if battle.won else "loser"
-                else:
-                    outcome_tag = "inprogress"
-                # Open or create the JSON log file
-                if self.log_dir is None:
-                    log_path = f"score_evaluation_{battle_key}_{player_name}_{outcome_tag}.json"
-                else:
-                    os.makedirs(self.log_dir, exist_ok=True)
-                    log_path = os.path.join(
-                        self.log_dir,
-                        f"score_evaluation_{battle_key}_{player_name}_{outcome_tag}.json"
-                    )
+                # Prepare file name and path
+                safe_key = battle_key.replace(":", "_").replace("/", "_").replace(" ", "_")
+                file_name = f"score_evaluation_{safe_key}_{player_name}_{outcome_tag}.json"
+                log_dir = self.log_dir or ""
+                if log_dir:
+                    os.makedirs(os.path.join(log_dir, "candidates"), exist_ok=True)
+                log_path = os.path.join(log_dir, "candidates", file_name)
+
+                # If battle finished, rename any in-progress file to final outcome
                 if battle.finished and outcome_tag != "inprogress":
-                    tmp_path = log_path.replace(outcome_tag, "inprogress")
+                    tmp_inprogress = f"score_evaluation_{safe_key}_{player_name}_inprogress.json"
+                    tmp_path = os.path.join(log_dir, "candidates", tmp_inprogress) if log_dir else tmp_inprogress
                     if os.path.exists(tmp_path):
                         os.replace(tmp_path, log_path)
-                try:
-                    with open(log_path, "r") as f:
-                        data = json.load(f)
-                except FileNotFoundError:
-                    data = {}
-                # Append or create the battle entry
 
+                # Load existing data if file exists
+                try:
+                    with open(log_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                except (FileNotFoundError, json.JSONDecodeError):
+                    data = {}
                 if battle_key not in data:
                     data[battle_key] = {}
                 data[battle_key][f"Turn {battle.turn}"] = turn_entry
-                # Save back to the JSON file
-                with open(log_path, "w") as f:
-                    json.dump(data, f, indent=4)
-                return best_action  # execute the chosen action
+
+                # Write updated log atomically
+                tmp_out = f"{log_path}.tmp"
+                with open(tmp_out, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=4, ensure_ascii=False)
+                os.replace(tmp_out, log_path)
+
+                # Return the chosen action to execute
+                return best_action
+
             except Exception as e:
                 print("minimax step failed. Using dmg calc")
-                print(f"Exception: {e}", 'passed')
+
+                print(f"Exception: {e}")
                 return self.choose_max_damage_move(battle)
 
-        
+
     def io(self, retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle: Battle, sim, dont_verify=False, actions=None):
         next_action = None
         # cot_prompt = 'In fewer than 3 sentences, let\'s think step by step:'
         state_prompt_io = state_prompt + state_action_prompt + constraint_prompt_cot
-        print(state_prompt_io)
+
         for i in range(retries):
             try:
                 llm_output = self.get_LLM_action(system_prompt=system_prompt,
@@ -429,20 +717,7 @@ class LLMPlayer(Player):
             llm_action_json: dict,
             player_name: str | None = None,  # ← optional override
     ) -> None:
-        """
-        Append one JSONL line to
-        battle_log/rationale/<battle_id>_<player_name>_rationales.jsonl
 
-        Parameters
-        ----------
-        battle        : Battle   – for battle_tag & turn
-        system_prompt : str      – system prompt sent to the LLM
-        user_prompt   : str      – user prompt sent to the LLM
-        llm_action_json : dict   – parsed LLM response (may include "thought")
-        player_name   : str | None
-            Optional.  If None, defaults to the showdown-account username,
-            ensuring each agent writes to its own file.
-        """
         try:
             # 1) figure out names
             if player_name is None:
@@ -479,7 +754,6 @@ class LLMPlayer(Player):
         except Exception:
             # never break gameplay if logging fails
             pass
-
 
     def sc(self, retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle, sim):
         actions = [self.io(retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, battle, sim) for i in range(self.K)]
@@ -591,25 +865,25 @@ class LLMPlayer(Player):
         else:
             return None
 
-    def tree_search(self, retries, battle, sim=None, return_opp = False) -> BattleOrder:
+    def tree_search(self, retries, battle, sim=None, return_opp=False, use_pred_engine="False") -> BattleOrder:
         # generate local simulation
-        root = SimNode(battle, 
-                        self.move_effect,
-                        self.pokemon_move_dict,
-                        self.ability_effect,
-                        self.pokemon_ability_dict,
-                        self.item_effect,
-                        self.pokemon_item_dict,
-                        self.gen,
-                        self._dynamax_disable,
-                        depth=1,
-                        format=self.format,
-                        prompt_translate=self.prompt_translate,
-                        sim=sim
-                        ) 
+        root = SimNode(battle,
+                       self.move_effect,
+                       self.pokemon_move_dict,
+                       self.ability_effect,
+                       self.pokemon_ability_dict,
+                       self.item_effect,
+                       self.pokemon_item_dict,
+                       self.gen,
+                       self._dynamax_disable,
+                       depth=1,
+                       format=self.format,
+                       prompt_translate=self.prompt_translate,
+                       sim=sim
+                       )
         q = [
-                root
-            ]
+            root
+        ]
         leaf_nodes = []
         # create node and add to q B times
         start_time = time.time()
@@ -618,47 +892,124 @@ class LLMPlayer(Player):
             # choose node for expansion
             # generate B actions
             player_actions = []
-            system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, action_prompt_switch, action_prompt_move = node.simulation.get_player_prompt(return_actions=True)
+            system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt, action_prompt_switch, action_prompt_move = node.simulation.get_player_prompt(
+                return_actions=True)
             # panic_move = self.check_timeout(start_time, battle)
             # if panic_move is not None:
             #     return panic_move
             # end if terminal
             if node.simulation.is_terminal() or node.depth == self.K:
                 try:
-                    # value estimation for leaf nodes
-                    value_prompt = 'Evaluate the score from 1-100 based on how likely the player is to win. Higher is better. Start at 50 points.' +\
-                                    'Add points based on the effectiveness of current available moves.' +\
-                                    'Award points for each pokemon remaining on the player\'s team, weighted by their strength.' +\
-                                    'Add points for boosted status and opponent entry hazards and subtract points for status effects and player entry hazards. ' +\
-                                    'Subtract points for excessive switching.' +\
-                                    'Subtract points based on the effectiveness of the opponent\'s current moves, especially if they have a faster speed.' +\
-                                    'Remove points for each pokemon remaining on the opponent\'s team, weighted by their strength.\n'
+                        # value estimation for leaf nodes
+                    # value_prompt = 'Evaluate the score from 1-100 based on how likely the player is to win. Higher is better. Start at 50 points.' + \
+                    #                'Add points based on the effectiveness of current available moves.' + \
+                    #                'Award points for each pokemon remaining on the player\'s team, weighted by their strength.' + \
+                    #                'Add points for boosted status and opponent entry hazards and subtract points for status effects and player entry hazards. ' + \
+                    #                'Subtract points for excessive switching.' + \
+                    #                'Subtract points based on the effectiveness of the opponent\'s current moves, especially if they have a faster speed.' + \
+                    #                'Remove points for each pokemon remaining on the opponent\'s team, weighted by their strength.\n'
+                    # cot_prompt = (
+                    #     "Think step-by-step (≤ 7 short sentences in total). "
+                    #     "list every pivotal ability, move, "
+                    #     "or type interaction that influences the score, each with a brief "
+                    #     "description (e.g. *\"Quark-Drive boosts Speed → outspeeds Primarina\"*). "
+                    #     'After the explanation, output **one** JSON object exactly in this form:\n'
+                    #     '{"thought":"<your brief justification>", "score": <total_points>}\n'
+                    # )
+                    value_prompt = (
+                            "Evaluate the score from 1–100 (integer) based on how likely the player is to win. Start at 50 points. "
+                            "Add points for effective current moves; award points for stronger/well-positioned remaining Pokémon; "
+                            "add for our boosts and opponent hazards; subtract for our negative status and our hazards; "
+                            "subtract for excessive switching; subtract for opponent move effectiveness, especially if they outspeed; "
+                            "subtract for the opponent’s remaining team strength. "
+                            "Use the fixed labels: EffectiveMoves, TypeMatchup, SpeedControl, TeamAdvantage, BoostsAndStatus, "
+                            "HazardsAndField, SwitchingCost, OpponentPressure, Uncertainty, WinPlan. "
+                            "Constraints: each label_scores value must be an integer in [-20,20]; the sum of label_scores must be in [-49,50]; "
+                            "compute score = 50 + sum(label_scores) and then CLAMP to [1,100]. "
+                            "Never output a score > 100 (reduce positive label_scores if needed so the final clamped score ≤ 100).\n"
+                    )
                     cot_prompt = (
-                        "Think step-by-step (≤ 7 short sentences in total). "
-                        "list every pivotal ability, move, "
-                        "or type interaction that influences the score, each with a brief "
-                        "description (e.g. *\"Quark-Drive boosts Speed → outspeeds Primarina\"*). "
-                        'After the explanation, output **one** JSON object exactly in this form:\n'
-                        '{"thought":"<your brief justification>", "score": <total_points>}\n'
+                        "Think step-by-step. "
+                        "List every pivotal ability, move, or type interaction that influences the score, each with a brief description "
+                        "(e.g. *\"Quark-Drive boosts Speed → outspeeds Primarina\"*). "
+                        "Use the fixed labels exactly; if a label is irrelevant, set its text to 'n/a' and its score to 0. "
+                        "After the explanation, output **one** JSON object exactly in this form:\n"
+                        "{"
+                        "\"thought\": {"
+                        "\"EffectiveMoves\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"TypeMatchup\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"SpeedControl\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"TeamAdvantage\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"BoostsAndStatus\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"HazardsAndField\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"SwitchingCost\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"OpponentPressure\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"Uncertainty\": \"<≤1 sentence or 'n/a'>\", "
+                        "\"WinPlan\": \"<≤1 sentence or 'n/a'>\""
+                        "}, "
+                        "\"label_scores\": {"
+                        "\"EffectiveMoves\": <int>, "
+                        "\"TypeMatchup\": <int>, "
+                        "\"SpeedControl\": <int>, "
+                        "\"TeamAdvantage\": <int>, "
+                        "\"BoostsAndStatus\": <int>, "
+                        "\"HazardsAndField\": <int>, "
+                        "\"SwitchingCost\": <int>, "
+                        "\"OpponentPressure\": <int>, "
+                        "\"Uncertainty\": <int>, "
+                        "\"WinPlan\": <int>"
+                        "}, "
+                        "\"score\": <int>"
+                        "}\n"
                     )
                     state_prompt_io = state_prompt + value_prompt + cot_prompt
-                    llm_output = self.get_LLM_action(system_prompt=system_prompt,
-                                                    user_prompt=state_prompt_io,
-                                                    model=self.backend,
-                                                    temperature=self.temperature,
-                                                    max_tokens=500,
-                                                    json_format=True,
-                                                    llm=self.llm_value,
-                                                    battle=battle,
-                                                    )
-                    # load when llm does heavylifting for parsing
-                    llm_action_json = json.loads(llm_output)
-                    node.hp_diff = int(llm_action_json['score'])
-                    node.rationale = llm_action_json.get("thought")
+
+                    if use_pred_engine != "False":
+                        player_action = "default"
+                        # Check if the player's action is a move
+                        if isinstance(node.action.order, Move):
+                            player_action = f"move: {node.action.order.id}"
+                        # Check if the player's action is a switch
+                        elif isinstance(node.action.order, Pokemon):
+                            player_action = f"switch: {node.action.order.species}"
+
+                        opponent_action = "default"
+                        # Check if the opponent's action is a move
+                        if isinstance(node.action_opp.order, Move):
+                            opponent_action = f"move: {node.action_opp.order.id}"
+                        # Check if the opponent's action is a switch
+                        elif isinstance(node.action_opp.order, Pokemon):
+                            opponent_action = f"switch: {node.action_opp.order.species}"
+                        try:
+                            game_state = state_prompt.split("Current battle state:\n", 1)[1]
+                        except Exception:
+                            print("Got exception during the game_state generation")
+                            game_state = state_prompt if isinstance(state_prompt, str) else ""
+                        score = self.prediction_engine.predict(game_state,player_action,opponent_action)
+                        node.hp_diff = int(score)
+                        node.rationale = "Generated From Prediction Engine"
+                        node.label_scores = {}
+
+                    else:
+                        llm_output = self.get_LLM_action(system_prompt=system_prompt,
+                                                         user_prompt=state_prompt_io,
+                                                         model=self.backend,
+                                                         temperature=self.temperature,
+                                                         max_tokens=500,
+                                                         json_format=True,
+                                                         llm=self.llm_value,
+                                                         battle=battle,
+                                                         )
+                        # load when llm does heavy lifting for parsing
+                        llm_action_json = json.loads(llm_output)
+                        node.hp_diff = int(llm_action_json['score'])
+                        node.rationale = llm_action_json.get("thought")
+                        node.label_scores = llm_action_json.get("label_scores")
+
                 except Exception as e:
-                    node.hp_diff = node.simulation.get_hp_diff()                    
+                    node.hp_diff = node.simulation.get_hp_diff()
                     print(e)
-                
+
                 leaf_nodes.append(node)
                 continue
             # panic_move = self.check_timeout(start_time, battle)
@@ -681,7 +1032,7 @@ class LLMPlayer(Player):
                 action_opp = None
             node.action_opp = action_opp
             ##############################
-            # generate players's action  #
+            # generate players' action  #
             ##############################
             if not node.simulation.battle.active_pokemon.fainted and len(battle.available_moves) > 0:
                 # get dmg calc move
@@ -716,21 +1067,25 @@ class LLMPlayer(Player):
                                 Evaluate these factors and decide which method would be more beneficial in the current situation. Output your choice in the following JSON format:
                                 First **think step by step** about these factors,  list every pivotal ability, move, or type interaction that influences the score, each with a brief description (e.g. *\"Quark-Drive boosts Speed → outspeeds Primarina\"*). 
                                 After the explanation, output **one** JSON object exactly in this form:\n'
-                            
+
                                 {"thought":"<your short justification (≤ 4 sentences)>",
                                  "choice":"damage calculator" or "choice":"minimax"} '''
 
                             state_prompt_io = state_prompt + tool_prompt
                             llm_output = self.get_LLM_action(system_prompt=system_prompt,
-                                                            user_prompt=state_prompt_io,
-                                                            model=self.backend,
-                                                            temperature=0.6,
-                                                            max_tokens=100,
-                                                            json_format=True,
-                                                            battle=battle
-                                                            )
+                                                             user_prompt=state_prompt_io,
+                                                             model=self.backend,
+                                                             temperature=0.6,
+                                                             max_tokens=100,
+                                                             json_format=True,
+                                                             battle=battle
+                                                             )
                             # load when llm does heavy lifting for parsing
-                            llm_action_json = json.loads(llm_output)
+                            try:
+                                llm_action_json = json.loads(llm_output)
+                            except:
+                                print("LLM OUTPUTS JSON PARSED ERROR:", llm_output)
+                                llm_action_json = {}
                             rationale = llm_action_json.get("thought", "").strip()
                             if not rationale:
                                 rationale = (
@@ -738,13 +1093,26 @@ class LLMPlayer(Player):
                                     f"opp_turns={opp_turns}"
                                 )
                             if 'choice' in llm_action_json.keys():
-                                if llm_action_json['choice']  != 'minimax':
+                                if llm_action_json['choice'] != 'minimax':
                                     heuristic_score = -1
+                                    # --- FIX: always return 5 values (add summary_list) ---
                                     if return_opp:
-                                        return dmg_calc_out, action_opp, heuristic_score, rationale
+                                        summary_list = [{
+                                            "player_action": str(getattr(dmg_calc_out, "order", dmg_calc_out)),
+                                            "score": heuristic_score,
+                                            "rationale": rationale,
+                                            "opponent_action": str(
+                                                getattr(action_opp, "order", action_opp)) if action_opp else None,
+                                            "label_scores": {}
+                                        }]
+                                        return dmg_calc_out, action_opp, heuristic_score, rationale, summary_list, {}
                                     return dmg_calc_out
+
+
+                                    # ------------------------------------------------------
                         except:
                             print('defaulting to minimax')
+
                     player_actions.append(dmg_calc_out)
             # panic_move = self.check_timeout(start_time, battle)
             # if panic_move is not None:
@@ -752,22 +1120,28 @@ class LLMPlayer(Player):
             # get llm switch
 
             # LLM Suggested Up to 2 switch Pokemons
-            if len(node.simulation.battle.available_switches) != 0:# or opp_turns < dmg_calc_turns):
+            if len(node.simulation.battle.available_switches) != 0:  # or opp_turns < dmg_calc_turns):
                 state_action_prompt_switch = state_action_prompt + action_prompt_switch + '\nYou can only choose to switch this turn.\n'
                 constraint_prompt_io = 'Choose the best action and your output MUST be a JSON like: {"switch":"<switch_pokemon_name>"}.\n'
                 for i in range(2):
-                    action_llm_switch = self.io(retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt_switch, node.simulation.battle, node.simulation)
+                    action_llm_switch = self.io(retries, system_prompt, state_prompt, constraint_prompt_cot,
+                                                constraint_prompt_io, state_action_prompt_switch,
+                                                node.simulation.battle, node.simulation)
                     if len(player_actions) == 0:
                         player_actions.append(action_llm_switch)
                     elif action_llm_switch.message != player_actions[-1].message:
                         player_actions.append(action_llm_switch)
+                        player_actions.append(action_llm_switch)
 
             # LLM Suggested Up to 1 Move
-            if not node.simulation.battle.active_pokemon.fainted and len(battle.available_moves) > 0:# and not opp_turns < dmg_calc_turns:
+            if not node.simulation.battle.active_pokemon.fainted and len(
+                    battle.available_moves) > 0:  # and not opp_turns < dmg_calc_turns:
                 # get llm move
                 state_action_prompt_move = state_action_prompt + action_prompt_move + '\nYou can only choose to move this turn.\n'
                 constraint_prompt_io = 'Choose the best action and your output MUST be a JSON like: {"move":"<move_name>"}.\n'
-                action_llm_move = self.io(retries, system_prompt, state_prompt, constraint_prompt_cot, constraint_prompt_io, state_action_prompt_move, node.simulation.battle, node.simulation)
+                action_llm_move = self.io(retries, system_prompt, state_prompt, constraint_prompt_cot,
+                                          constraint_prompt_io, state_action_prompt_move, node.simulation.battle,
+                                          node.simulation)
                 if len(player_actions) == 0:
                     player_actions.append(action_llm_move)
                 elif action_llm_move.message != player_actions[0].message:
@@ -801,9 +1175,12 @@ class LLMPlayer(Player):
             # if panic_move is not None:
             #     return panic_move
             # create opponent prompt from battle sim
-            system_prompt_o, state_prompt_o, constraint_prompt_cot_o, constraint_prompt_io_o, state_action_prompt_o = node.simulation.get_opponent_prompt(system_prompt)
-            action_o = self.io(2, system_prompt_o, state_prompt_o, constraint_prompt_cot_o, constraint_prompt_io_o, state_action_prompt_o, node.simulation.battle, node.simulation, dont_verify=True)
-            is_repeat_action_o = np.array([action_o.message == opponent_action.message for opponent_action in opponent_actions]).any()
+            system_prompt_o, state_prompt_o, constraint_prompt_cot_o, constraint_prompt_io_o, state_action_prompt_o = node.simulation.get_opponent_prompt(
+                system_prompt)
+            action_o = self.io(2, system_prompt_o, state_prompt_o, constraint_prompt_cot_o, constraint_prompt_io_o,
+                               state_action_prompt_o, node.simulation.battle, node.simulation, dont_verify=True)
+            is_repeat_action_o = np.array(
+                [action_o.message == opponent_action.message for opponent_action in opponent_actions]).any()
             if not is_repeat_action_o:
                 opponent_actions.append(action_o)
             # panic_move = self.check_timeout(start_time, battle)
@@ -829,36 +1206,61 @@ class LLMPlayer(Player):
         # choose best action according to max or min rule
         def get_tree_action(node: SimNode):
             if len(node.children) == 0:  # leaf node
-                return node.action, node.hp_diff, node.action_opp, node.rationale
-            score_dict, action_dict, opp_dict, rationale_dict = {}, {}, {}, {}
+                summary = {
+                    "player_action": str(node.action.order) if node.action else None,
+                    "score": node.hp_diff,
+                    "rationale": node.rationale,
+                    "opponent_action": str(node.action_opp.order) if node.action_opp else None,
+                    "label_scores": node.label_scores if hasattr(node, 'label_scores') else {}
+                }
+                return node.action, node.hp_diff, node.action_opp, node.rationale, [summary], summary["label_scores"]
+            score_dict, action_dict, opp_dict, rationale_dict, label_scores_dict = {}, {}, {}, {}, {}
             for child in node.children:
                 action_str = str(child.action.order)  # player's action as string key
                 # Recursively get action, score, opp action, rationale for child node
-                action_obj, score_val, opp_act, rationale_text = get_tree_action(child)
+                # --- FIX: unpack 5 values and ignore child's summary list ---
+                action_obj, score_val, opp_act, rationale_text, _child_summary, child_label_scores = get_tree_action(child)
+                # -----------------------------------------------------------
                 if action_str in score_dict:
                     # Minimax: opponent will minimize the score for this action
                     if score_val < score_dict[action_str]:
                         score_dict[action_str] = score_val
                         opp_dict[action_str] = opp_act
                         rationale_dict[action_str] = rationale_text
+                        label_scores_dict[action_str] = child_label_scores
                 else:
                     score_dict[action_str] = score_val
                     action_dict[action_str] = action_obj
                     opp_dict[action_str] = opp_act
                     rationale_dict[action_str] = rationale_text
+                    label_scores_dict[action_str] = child_label_scores
+            summary_list = []
+            for action_str, score_val in score_dict.items():
+                summary_list.append({
+                    "player_action": action_str,
+                    "score": score_val,
+                    "rationale": rationale_dict[action_str],
+                    "opponent_action": str(opp_dict[action_str].order) if opp_dict[action_str] else None,
+                    "label_scores": label_scores_dict.get(action_str, {})
+                })
+            # Sort candidates by score
+            summary_list.sort(key=lambda entry: entry["score"], reverse=True)
             # Choose the player action with the highest worst-case score
             best_action_str = max(score_dict, key=score_dict.get)
             best_player_action = action_dict[best_action_str]
             best_score = score_dict[best_action_str]
             best_opp_action = opp_dict[best_action_str]
             best_rationale = rationale_dict[best_action_str]
-            return best_player_action, best_score, best_opp_action, best_rationale
+            best_label_scores = label_scores_dict.get(best_action_str, {})
 
-        best_action, best_score, best_opp_action, best_rationale = get_tree_action(root)
+            return best_player_action, best_score, best_opp_action, best_rationale, summary_list, best_label_scores
+
+        best_action, best_score, best_opp_action, best_rationale, summary_list, best_label_scores = get_tree_action(
+            root)
         if return_opp:
-            return best_action, best_opp_action, best_score, best_rationale
+            return best_action, best_opp_action, best_score, best_rationale, summary_list, best_label_scores
         return best_action
- 
+
     def battle_summary(self):
 
         beat_list = []
