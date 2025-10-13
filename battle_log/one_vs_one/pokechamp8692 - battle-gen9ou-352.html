@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen9ou-352</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen9ou-352<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">pokechamp8692</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">pokellmon8692</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen9ou-352|init|battle
+|title|pokellmon8692 vs. pokechamp8692
+|j|☆pokellmon8692
+|j|☆pokechamp8692
+|gametype|singles
+|player|p1|pokellmon8692|101|
+|player|p2|pokechamp8692|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Gholdengo|
+|poke|p2|Ting-Lu|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Garganacl, F|
+|poke|p2|Ogerpon, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Garganacl|Garganacl, F|404/404
+|turn|1
+|move|p1a: Enamorus|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|170/404
+|move|p2a: Garganacl|Salt Cure|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|59/100
+|-start|p1a: Enamorus|Salt Cure
+|-heal|p2a: Garganacl|195/404|[from] item: Leftovers
+|-damage|p1a: Enamorus|47/100|[from] Salt Cure
+|upkeep
+|turn|2
+|move|p1a: Enamorus|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|-damage|p1a: Enamorus|34/100|[from] Salt Cure
+|upkeep
+|switch|p2a: Deoxys|Deoxys-Speed|241/241
+|-ability|p2a: Deoxys|Pressure
+|turn|3
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-item|p1a: Kingambit|Air Balloon
+|move|p2a: Deoxys|Ice Beam|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|86/100
+|-enditem|p1a: Kingambit|Air Balloon
+|upkeep
+|turn|4
+|move|p1a: Kingambit|Sucker Punch|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|upkeep
+|switch|p2a: Ogerpon|Ogerpon, F|301/301
+|turn|5
+|switch|p2a: Gholdengo|Gholdengo|378/378
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|upkeep
+|turn|6
+|move|p1a: Dragapult|Sucker Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|266/378
+|move|p2a: Gholdengo|Hex|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|upkeep
+|turn|7
+|move|p1a: Dragapult|Sucker Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|148/378
+|move|p2a: Gholdengo|Hex|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|upkeep
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|turn|8
+|move|p1a: Glimmora|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|upkeep
+|switch|p2a: Ogerpon|Ogerpon, F|301/301
+|turn|9
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Glimmora
+|-damage|p1a: Glimmora|43/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: pokechamp8692|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: Ogerpon
+|drag|p2a: Gliscor|Gliscor, M|352/352
+|move|p1a: Glimmora|Mortal Spin|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|344/352
+|-status|p2a: Gliscor|psn
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|61/100
+|upkeep
+|turn|11
+|move|p1a: Iron Valiant|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|216/352 psn
+|move|p2a: Gliscor|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|16/100
+|-heal|p2a: Gliscor|260/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|move|p1a: Iron Valiant|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|112/352 psn
+|move|p2a: Gliscor|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-heal|p2a: Gliscor|156/352 psn|[from] ability: Poison Heal
+|upkeep
+|switch|p1a: Glimmora|Glimmora, M|43/100
+|turn|13
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|-heal|p2a: Gliscor|200/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|switch|p2a: Ogerpon|Ogerpon, F|301/301
+|switch|p1a: Enamorus|Enamorus, F|34/100
+|upkeep
+|turn|15
+|move|p1a: Enamorus|Mystical Fire|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|107/301
+|-unboost|p2a: Ogerpon|spa|1
+|-ability|p2a: Ogerpon|Defiant|boost
+|-boost|p2a: Ogerpon|atk|2
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|upkeep
+|switch|p1a: Kingambit|Kingambit, F|86/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|16
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|35/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|upkeep
+|switch|p2a: Gliscor|Gliscor, M|200/352 psn
+|turn|17
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|-heal|p2a: Gliscor|244/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|switch|p1a: Glimmora|Glimmora, M|43/100
+|move|p2a: Gliscor|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: pokechamp8692|move: Toxic Spikes
+|faint|p1a: Glimmora
+|-heal|p2a: Gliscor|288/352 psn|[from] ability: Poison Heal
+|upkeep
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|19
+|switch|p2a: Ting-Lu|Ting-Lu|514/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|upkeep
+|turn|20
+|move|p1a: Corviknight|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|432/514
+|switch|p1a: Kingambit|Kingambit, F|35/100|[from] U-turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Ting-Lu|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|upkeep
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|21
+|move|p1a: Corviknight|Body Press|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|294/514
+|move|p2a: Ting-Lu|Ruination|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|-heal|p1a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|switch|p2a: Gliscor|Gliscor, M|288/352 psn
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|253/352 psn
+|-heal|p1a: Corviknight|63/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|297/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|switch|p2a: Ting-Lu|Ting-Lu|294/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|upkeep
+|turn|24
+|move|p1a: Corviknight|Body Press|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|154/514
+|move|p2a: Ting-Lu|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|upkeep
+|turn|25
+|move|p1a: Corviknight|Body Press|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|28/514
+|move|p2a: Ting-Lu|Ruination|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|-heal|p1a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|switch|p2a: Gliscor|Gliscor, M|297/352 psn
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|277/352 psn
+|-heal|p1a: Corviknight|63/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|321/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|switch|p2a: Ting-Lu|Ting-Lu|28/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|-heal|p1a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|switch|p2a: Gliscor|Gliscor, M|321/352 psn
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|256/352 psn
+|-heal|p1a: Corviknight|75/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|300/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|switch|p2a: Ting-Lu|Ting-Lu|28/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|upkeep
+|turn|30
+|switch|p2a: Gliscor|Gliscor, M|300/352 psn
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|236/352 psn
+|-heal|p2a: Gliscor|280/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|switch|p2a: Ting-Lu|Ting-Lu|28/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|upkeep
+|turn|32
+|switch|p2a: Gliscor|Gliscor, M|280/352 psn
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|259/352 psn
+|-heal|p2a: Gliscor|303/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|-heal|p2a: Gliscor|347/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|switch|p2a: Ting-Lu|Ting-Lu|28/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|upkeep
+|turn|35
+|switch|p2a: Gliscor|Gliscor, M|347/352 psn
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|210/352 psn
+|-heal|p2a: Gliscor|254/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|switch|p2a: Ting-Lu|Ting-Lu|28/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|upkeep
+|turn|37
+|switch|p2a: Gliscor|Gliscor, M|254/352 psn
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|128/352 psn
+|-heal|p2a: Gliscor|172/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|38
+|switch|p2a: Ting-Lu|Ting-Lu|28/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Corviknight|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|upkeep
+|switch|p2a: Gliscor|Gliscor, M|172/352 psn
+|turn|39
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|216/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|260/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|304/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|42
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|-heal|p2a: Gliscor|348/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|43
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|44
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|upkeep
+|turn|45
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|upkeep
+|turn|48
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|move|p2a: Gliscor|Toxic|p1a: Corviknight|[miss]
+|-miss|p2a: Gliscor|p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|331/352 psn
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|50
+|move|p2a: Gliscor|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|333/352 psn
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|51
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|333/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|52
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|206/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|250/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|53
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|-heal|p2a: Gliscor|294/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|54
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|338/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|55
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|56
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|211/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|255/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|57
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|299/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|58
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|343/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|59
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|60
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|226/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|270/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|61
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|252/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|296/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|62
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|161/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|205/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|63
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|-heal|p2a: Gliscor|249/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|64
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|229/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|273/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|65
+|move|p2a: Gliscor|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|255/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|299/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|66
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|343/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|67
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|68
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|upkeep
+|turn|69
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|214/352 psn
+|-heal|p2a: Gliscor|258/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|70
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|-heal|p2a: Gliscor|302/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|71
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|346/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|72
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|325/352 psn
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|73
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|upkeep
+|turn|74
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|upkeep
+|turn|75
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|208/352 psn
+|-heal|p2a: Gliscor|252/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|76
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|-heal|p2a: Gliscor|296/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|77
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|-heal|p2a: Gliscor|340/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|78
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|320/352 psn
+|-heal|p2a: Gliscor|352/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|79
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Corviknight|Body Press|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|upkeep
+|turn|80
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|upkeep
+|turn|81
+|move|p2a: Gliscor|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|0
+|upkeep
+|turn|82
+|-activate|p2a: Gliscor|move: Struggle
+|move|p2a: Gliscor|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Gliscor|264/352 psn|[from] recoil
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|244/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|288/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|83
+|-activate|p2a: Gliscor|move: Struggle
+|move|p2a: Gliscor|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Gliscor|200/352 psn|[from] recoil
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|179/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|223/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|84
+|-activate|p2a: Gliscor|move: Struggle
+|move|p2a: Gliscor|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Gliscor|135/352 psn|[from] recoil
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|114/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|158/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|85
+|-activate|p2a: Gliscor|move: Struggle
+|move|p2a: Gliscor|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Gliscor|70/352 psn|[from] recoil
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|51/352 psn
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|95/352 psn|[from] ability: Poison Heal
+|upkeep
+|turn|86
+|-activate|p2a: Gliscor|move: Struggle
+|move|p2a: Gliscor|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Gliscor|7/352 psn|[from] recoil
+|move|p1a: Corviknight|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

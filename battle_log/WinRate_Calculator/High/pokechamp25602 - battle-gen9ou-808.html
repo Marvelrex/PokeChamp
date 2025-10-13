@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen9ou-808</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen9ou-808<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">pokechamp25602</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">pokellmon5602</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen9ou-808|init|battle
+|title|pokellmon5602 vs. pokechamp25602
+|j|☆pokellmon5602
+|j|☆pokechamp25602
+|gametype|singles
+|player|p1|pokellmon5602|101|
+|player|p2|pokechamp25602|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Rillaboom, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|start
+|switch|p1a: Rillaboom|Rillaboom, M, shiny|100/100
+|switch|p2a: Kingambit|Kingambit, M|403/403
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-item|p2a: Kingambit|Air Balloon
+|turn|1
+|move|p1a: Rillaboom|Wood Hammer|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|214/403
+|-enditem|p2a: Kingambit|Air Balloon
+|-damage|p1a: Rillaboom|82/100|[from] Recoil
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|-heal|p1a: Rillaboom|88/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|239/403|[from] Grassy Terrain
+|upkeep
+|turn|2
+|move|p1a: Rillaboom|Wood Hammer|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|63/403
+|-damage|p1a: Rillaboom|71/100|[from] Recoil
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-heal|p2a: Kingambit|88/403|[from] Grassy Terrain
+|upkeep
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|3
+|-terastallize|p2a: Kingambit|Dark
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|13/403
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|45/100
+|-heal|p1a: Kingambit|51/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|38/403|[from] Grassy Terrain
+|upkeep
+|turn|4
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|-heal|p1a: Kingambit|57/100|[from] Grassy Terrain
+|upkeep
+|switch|p2a: Raging Bolt|Raging Bolt|391/391
+|turn|5
+|move|p2a: Raging Bolt|Volt Switch|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F, shiny|385/385|[from] Volt Switch
+|-fieldend|move: Grassy Terrain
+|upkeep
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|6
+|move|p1a: Iron Valiant|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|359/385
+|-unboost|p2a: Heatran|spa|1
+|move|p2a: Heatran|Magma Storm|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|53/100
+|-activate|p1a: Iron Valiant|move: Magma Storm|[of] p2a: Heatran
+|-heal|p2a: Heatran|383/385|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|40/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|move|p1a: Iron Valiant|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|353/385
+|move|p2a: Heatran|Magma Storm|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-heal|p2a: Heatran|377/385|[from] item: Leftovers
+|upkeep
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|8
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|303/385
+|move|p2a: Heatran|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|70/100
+|-heal|p2a: Heatran|327/385|[from] item: Leftovers
+|upkeep
+|turn|9
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|251/385
+|move|p2a: Heatran|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|35/100
+|-unboost|p1a: Raging Bolt|spd|1
+|-heal|p2a: Heatran|275/385|[from] item: Leftovers
+|upkeep
+|turn|10
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|199/385
+|move|p2a: Heatran|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-heal|p2a: Heatran|223/385|[from] item: Leftovers
+|upkeep
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|11
+|move|p1a: Iron Moth|Sludge Wave|p2a: Heatran
+|-immune|p2a: Heatran
+|move|p2a: Heatran|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|25/100
+|-heal|p2a: Heatran|247/385|[from] item: Leftovers
+|upkeep
+|turn|12
+|move|p1a: Iron Moth|Sludge Wave|p2a: Heatran
+|-immune|p2a: Heatran
+|move|p2a: Heatran|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-heal|p2a: Heatran|271/385|[from] item: Leftovers
+|upkeep
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|13
+|move|p1a: Ogerpon|Power Whip|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|209/385
+|move|p2a: Heatran|Earth Power|p1a: Ogerpon
+|-damage|p1a: Ogerpon|78/100
+|-heal|p2a: Heatran|233/385|[from] item: Leftovers
+|upkeep
+|turn|14
+|move|p1a: Ogerpon|Power Whip|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|179/385
+|move|p2a: Heatran|Magma Storm|p1a: Ogerpon
+|-damage|p1a: Ogerpon|46/100
+|-activate|p1a: Ogerpon|move: Magma Storm|[of] p2a: Heatran
+|-heal|p2a: Heatran|203/385|[from] item: Leftovers
+|-damage|p1a: Ogerpon|34/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|move|p1a: Ogerpon|Power Whip|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|142/385
+|move|p2a: Heatran|Magma Storm|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

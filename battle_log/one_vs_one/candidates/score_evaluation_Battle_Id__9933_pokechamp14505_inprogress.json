@@ -1,0 +1,97 @@
+{
+    "Battle Id: 9933": {
+        "Turn 1": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:None Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 9 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if opponent's enamorus uses 'terastallize':\nfocusblast: 289000 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 1 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if it uses 'terastallize' and opponent's enamorus uses 'terastallize':\nfocusblast: 5 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if it uses 'terastallize' and opponent's enamorus does NOT use 'terastallize':\nfocusblast: 9 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 5 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nruination: 145 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if opponent's enamorus uses 'terastallize':\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 145 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's enamorus uses 'terastallize':\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 97 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's enamorus does NOT use 'terastallize':\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nruination: 289 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. enamorus:\ndeoxysspeed outspeeds enamorus\ndeoxysspeed's moves:\nknockoff: 9 turns to KO opponent's pokemon\nicebeam: 2 turns to KO opponent's pokemon\npsychoboost: 2 turns to KO opponent's pokemon\nsuperpower: 10 turns to KO opponent's pokemon\ndeoxysspeed's moves if opponent's enamorus uses 'terastallize':\nknockoff: 3 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 3 turns to KO opponent's pokemon\nsuperpower: 5 turns to KO opponent's pokemon\ndeoxysspeed's moves if it uses 'terastallize' and opponent's enamorus uses 'terastallize':\nknockoff: 3 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 2 turns to KO opponent's pokemon\nsuperpower: 5 turns to KO opponent's pokemon\ndeoxysspeed's moves if it uses 'terastallize' and opponent's enamorus does NOT use 'terastallize':\nknockoff: 9 turns to KO opponent's pokemon\nicebeam: 2 turns to KO opponent's pokemon\npsychoboost: 1 turns to KO opponent's pokemon\nsuperpower: 10 turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 242 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 4 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngarganacl's moves if opponent's enamorus uses 'terastallize':\nsaltcure: 4 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngarganacl's moves if it uses 'terastallize' and opponent's enamorus uses 'terastallize':\nsaltcure: 6 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngarganacl's moves if it uses 'terastallize' and opponent's enamorus does NOT use 'terastallize':\nsaltcure: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nCurrent pokemon:\nogerpon vs. enamorus:\nogerpon outspeeds enamorus\nogerpon's moves:\nknockoff: 6 turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\nuturn: 10 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nogerpon's moves if opponent's enamorus uses 'terastallize':\nknockoff: 3 turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nogerpon's moves if it uses 'terastallize' and opponent's enamorus uses 'terastallize':\nknockoff: 3 turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nogerpon's moves if it uses 'terastallize' and opponent's enamorus does NOT use 'terastallize':\nknockoff: 6 turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\nuturn: 10 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 302 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 16 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\ngliscor's moves if opponent's enamorus uses 'terastallize':\nuturn: 8 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\ngliscor's moves if it uses 'terastallize' and opponent's enamorus uses 'terastallize':\nuturn: 4 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\ngliscor's moves if it uses 'terastallize' and opponent's enamorus does NOT use 'terastallize':\nuturn: 16 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's U-Turn and Gliscor's Earthquake are effective against Enamorus.\", 'TypeMatchup': \"Gliscor's Ground typing is resistant to Enamorus's Moonblast.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus.', 'TeamAdvantage': \"Our remaining Pokémon have better offensive potential than Enamorus's.\", 'BoostsAndStatus': \"Gliscor's Poison Heal ability can restore its health during battle.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Enamorus's Moonblast can potentially deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': 'Target Enamorus with strong Ground-type moves and prioritize healing when needed.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's U-Turn and Gliscor's Earthquake are strong moves against Enamorus.\", 'TypeMatchup': \"Gliscor's Ground typing provides a type advantage against Enamorus's Fairy type.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus, ensuring that it can use its moves before it.', 'TeamAdvantage': 'The remaining team has strong offensive options and good type coverage.', 'BoostsAndStatus': \"Gliscor's Poison Heal can restore its health during battle.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Enamorus's Moonblast can deal significant damage to the team.\", 'Uncertainty': 'n/a', 'WinPlan': 'Ogerpon can use U-Turn to damage Enamorus and create opportunities for the team to finish it off.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "deoxysspeed (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's U-Turn and Gliscor's Earthquake are effective against Enamorus.\", 'TypeMatchup': \"Gliscor's Ground typing is resistant to Enamorus's Moonblast.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus.', 'TeamAdvantage': \"Our remaining Pokémon have better offensive potential than Enamorus's.\", 'BoostsAndStatus': \"Gliscor's Poison Heal can restore its health during the battle.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Enamorus's Moonblast can deal significant damage.\", 'Uncertainty': 'Enamorus has access to several strong moves.', 'WinPlan': 'Ogerpon can use U-Turn to damage Enamorus and create opportunities for our other Pokémon to attack.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "uturn (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's U-Turn and Gliscor's Earthquake are effective against Enamorus.\", 'TypeMatchup': \"Gliscor's Ground typing is resistant to Enamorus's Moonblast.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus.', 'TeamAdvantage': \"Our remaining Pokémon have better offensive potential than Enamorus's.\", 'BoostsAndStatus': \"Gliscor's Poison Heal and Ogerpon's Defiant can boost their stats.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High switching cost due to multiple Pokémon with strong moves.', 'OpponentPressure': \"Enamorus's Moonblast can potentially KO our Pokémon.\", 'Uncertainty': 'Enamorus has healing moves and can use Terastallize, changing its type.', 'WinPlan': \"Focus on using strong moves and exploiting Enamorus's weaknesses.\"}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel terastallize",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        }
+    }
+}

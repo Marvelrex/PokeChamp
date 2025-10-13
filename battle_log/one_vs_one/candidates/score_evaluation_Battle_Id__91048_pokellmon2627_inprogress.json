@@ -1,0 +1,898 @@
+{
+    "Battle Id: 91048": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting, Rock-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\n\nYour current pokemon:ogerpon,Type:Grass,HP:100%Attack:339,Defense:205,Special attack:140,Special defense:228,Speed:350(slower than ironvaliant).Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Your ogerpon has 4 moves:\nMove:knockoff,Type:Dark,Power:102,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (highly ineffective (0.25x damage) to ironvaliant)\nMove:ivycudgel,Type:Grass,Power:157,Acc:100%,Effect:High critical hit ratio. Type changes based on form. \nMove:uturn,Type:Bug,Power:110,Acc:100%,Effect:User switches out immediately after attacking. (highly ineffective (0.25x damage) to ironvaliant)\nMove:encore,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Forces opponent to keep using its last move for 3 turns. \nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than ironvaliant). Moves:[focusblast,Fighting,0.5x damage],[hex,Ghost,1x damage], Fairy-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nPokemon:deoxysspeed,Type:Psychic,HP:100%,Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than ironvaliant). Moves:[knockoff,Dark,0.25x damage],[icebeam,Ice,1x damage],[psychoboost,Psychic,2x damage],[superpower,Fighting,0.5x damage], Fighting-type attack is ineffective (0.5x damage) to deoxysspeed.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than ironvaliant). Moves:[earthquake,Ground,1x damage], Fighting, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than ironvaliant). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than ironvaliant). Moves:[saltcure,Rock,0.5x damage], Fighting-type attack is super-effective (2x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Ice Beam is super-effective against Iron Valiant.\", 'TypeMatchup': \"Deoxysspeed's Psychic-type moves are super-effective against Iron Valiant.\", 'SpeedControl': 'Deoxysspeed outspeeds Iron Valiant.', 'TeamAdvantage': 'Deoxysspeed is better positioned than remaining team members against Iron Valiant.', 'BoostsAndStatus': 'Deoxysspeed has a significant Attack boost from Quark-Drive.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High cost of switching out Deoxysspeed.', 'OpponentPressure': \"Iron Valiant's Moonblast can potentially deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Deoxysspeed's speed and powerful moves to defeat Iron Valiant.\"}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "deoxysspeed (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Ice Beam is super-effective against Iron Valiant.\", 'TypeMatchup': \"Deoxysspeed's Psychic-type moves are super-effective against Iron Valiant's Fairy/Fighting type.\", 'SpeedControl': 'Deoxysspeed outspeeds Iron Valiant.', 'TeamAdvantage': 'Deoxysspeed is the only remaining Pokémon with a super-effective move against Iron Valiant.', 'BoostsAndStatus': 'Deoxysspeed has a significant Attack boost from Quark Drive.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Iron Valiant has a strong Special Attack stat.', 'Uncertainty': 'n/a', 'WinPlan': 'Deoxyssspeed can potentially win with a well-timed Ice Beam.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:33%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting, Rock-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nironvaliant used moves:[moonblast,Fairy,Power:141],\nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than ironvaliant). Moves:[focusblast,Fighting,0.5x damage],[hex,Ghost,1x damage], Fairy-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nPokemon:deoxysspeed,Type:Psychic,HP:100%,Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than ironvaliant). Moves:[knockoff,Dark,0.25x damage],[icebeam,Ice,1x damage],[psychoboost,Psychic,2x damage],[superpower,Fighting,0.5x damage], Fighting-type attack is ineffective (0.5x damage) to deoxysspeed.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than ironvaliant). Moves:[earthquake,Ground,1x damage], Fighting, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than ironvaliant). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than ironvaliant). Moves:[saltcure,Rock,0.5x damage], Fighting-type attack is super-effective (2x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "deoxysspeed (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Focus Blast is super-effective against Iron Valiant.\", 'TypeMatchup': \"Gholdengo's Fairy-type moves are ineffective against Iron Valiant.\", 'SpeedControl': 'Gholdengo is slower than Iron Valiant, but has a potential speed boost.', 'TeamAdvantage': \"Gholdengo is well-positioned to exploit Iron Valiant's weaknesses.\", 'BoostsAndStatus': 'Gholdengo has a significant Attack boost potential.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Iron Valiant's Moonblast is very effective against Gholdengo.\", 'Uncertainty': \"Gholdengo's effectiveness depends on activating Quark-Drive.\", 'WinPlan': \"Utilize Gholdengo's potential speed boost and powerful attacks to defeat Iron Valiant.\"}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: deoxysspeed",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:33%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting, Rock-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nironvaliant used moves:[moonblast,Fairy,Power:166],\nYour current pokemon:deoxysspeed,Type:Psychic,HP:100%Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than ironvaliant).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is ineffective (0.5x damage) to deoxysspeed.\nYour deoxysspeed has 4 moves:\nMove:knockoff,Type:Dark,Power:83,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (highly ineffective (0.25x damage) to ironvaliant)\nMove:icebeam,Type:Ice,Power:166,Acc:100%,Effect:May freeze opponent. \nMove:psychoboost,Type:Psychic,Power:258,Acc:90%,Effect:Sharply lowers user's Special Attack. (super-effective (2x damage) to ironvaliant)\nMove:superpower,Type:Fighting,Power:153,Acc:100%,Effect:Lowers user's Attack and Defense. (ineffective (0.5x damage) to ironvaliant)\nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than ironvaliant). Moves:[focusblast,Fighting,0.5x damage],[hex,Ghost,1x damage], Fairy-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than ironvaliant). Moves:[earthquake,Ground,1x damage], Fighting, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than ironvaliant). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than ironvaliant). Moves:[saltcure,Rock,0.5x damage], Fighting-type attack is super-effective (2x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "icebeam (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Valiant is likely to prioritize boosting its stats given the opportunity. The damage calculator offers a quick way to assess the potential damage output of our moves against the opponent's current stats, making it suitable for this reactive situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Icebeam",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Ice, Ghost, Dark-type attack is super-effective (2x damage) to dragapult. Bug-type attack is ineffective (0.5x damage) to dragapult. Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:deoxysspeed,Type:Psychic,HP:100%Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than dragapult).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ghost, Bug-type attack is super-effective (2x damage) to deoxysspeed.\nYour deoxysspeed has 4 moves:\nMove:knockoff,Type:Dark,Power:96,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (super-effective (2x damage) to dragapult)\nMove:icebeam,Type:Ice,Power:139,Acc:100%,Effect:May freeze opponent. (super-effective (2x damage) to dragapult)\nMove:psychoboost,Type:Psychic,Power:216,Acc:90%,Effect:Sharply lowers user's Special Attack. \nMove:superpower,Type:Fighting,Power:178,Acc:100%,Effect:Lowers user's Attack and Defense. (zero effect (0x damage) to dragapult)\nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than dragapult). Moves:[focusblast,Fighting,0x damage],[hex,Ghost,2x damage], Ghost, Fire-type attack is super-effective (2x damage) to gholdengo. Dragon-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than dragapult). Moves:[earthquake,Ground,1x damage], Bug-type attack is super-effective (2x damage) to tinglu. Ghost-type attack is ineffective (0.5x damage) to tinglu. Electric-type attack is zero effect (0x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than dragapult). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Bug-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than dragapult). Moves:[saltcure,Rock,1x damage], Fire-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "psychoboost (Move object)",
+                    "score": -1,
+                    "rationale": "The presence of Quark-Drive boosting Dragapult's speed suggests an imminent switch. The damage calculator is more suitable for immediate damage assessment, while the minimax tree would be more valuable for understanding long-term scenarios and potential opponent responses.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Psychoboost terastallize",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Ice, Ghost, Dark-type attack is super-effective (2x damage) to dragapult. Bug-type attack is ineffective (0.5x damage) to dragapult. Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult used moves:[suckerpunch,Dark,Power:63],dragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:deoxysspeed,Type:Fighting,HP:83%Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than dragapult).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Bug, Dark-type attack is ineffective (0.5x damage) to deoxysspeed.\nYour deoxysspeed has 4 moves:\nMove:knockoff,Type:Dark,Power:96,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (super-effective (2x damage) to dragapult)\nMove:icebeam,Type:Ice,Power:139,Acc:100%,Effect:May freeze opponent. (super-effective (2x damage) to dragapult)\nMove:psychoboost,Type:Psychic,Power:216,Acc:90%,Effect:Sharply lowers user's Special Attack. \nMove:superpower,Type:Fighting,Power:178,Acc:100%,Effect:Lowers user's Attack and Defense. (zero effect (0x damage) to dragapult)\nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than dragapult). Moves:[focusblast,Fighting,0x damage],[hex,Ghost,2x damage], Ghost, Fire, Dark-type attack is super-effective (2x damage) to gholdengo. Dragon-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than dragapult). Moves:[earthquake,Ground,1x damage], Bug-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu. Electric-type attack is zero effect (0x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than dragapult). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Bug-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than dragapult). Moves:[saltcure,Rock,1x damage], Fire-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "icebeam (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Ice Beam is super-effective against Iron Valiant, while Psychoboost is also super-effective.\", 'TypeMatchup': \"Gholdengo is immune to Iron Valiant's Fighting-type moves and resistant to its Fairy-type moves.\", 'SpeedControl': \"Gholdengo is slower than Iron Valiant, but Quark Drive boosts Iron Valiant's Speed.\", 'TeamAdvantage': 'Gholdengo is strong against Dragapult, which is the only remaining opponent.', 'BoostsAndStatus': 'Gholdengo has no positive boosts, but Iron Valiant has already used Moonblast.', 'HazardsAndField': 'Gholdengo has Heavy-Duty Boots, so it is immune to Spikes and Stealth Rock.', 'SwitchingCost': 'Switching out would give Iron Valiant the speed advantage and potentially allow it to use another Moonblast.', 'OpponentPressure': \"Iron Valiant's remaining moves are Moonblast and Dragondarts.\", 'Uncertainty': \"The outcome of the battle depends on Gholdengo's ability to survive and deal enough damage before Iron Valiant eliminates it.\", 'WinPlan': 'Gholdengo needs to prioritize maximizing damage output and avoiding being knocked out by Iron Valiant.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -5,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Ice Beam is super-effective against Iron Valiant.\", 'TypeMatchup': \"Gholdengo's Dragon-type moves are ineffective against Iron Valiant.\", 'SpeedControl': 'Gholdengo is slower than Iron Valiant, but has the Pressure ability which boosts its most proficient stat.', 'TeamAdvantage': 'Gholdengo is the only remaining Pokémon with super-effective moves against Iron Valiant.', 'BoostsAndStatus': 'Gholdengo has not used any boosting moves yet.', 'HazardsAndField': 'Spikes are currently on the field, which can damage Gholdengo.', 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': 'Iron Valiant has used Quark Drive, boosting its most proficient stat.', 'Uncertainty': 'The outcome of future battles is uncertain due to the remaining Pokémon on both teams.', 'WinPlan': 'Gholdengo can potentially win with a well-timed Ice Beam or Psychoboost.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 20,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Icebeam",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": -5,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 10,
+                    "Uncertainty": 10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:27%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Ice, Ghost, Dark-type attack is super-effective (2x damage) to dragapult. Bug-type attack is ineffective (0.5x damage) to dragapult. Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult used moves:[suckerpunch,Dark,Power:63],dragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:deoxysspeed,Type:Fighting,HP:66%Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than dragapult).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Bug, Dark-type attack is ineffective (0.5x damage) to deoxysspeed.\nYour deoxysspeed has 4 moves:\nMove:knockoff,Type:Dark,Power:96,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (super-effective (2x damage) to dragapult)\nMove:icebeam,Type:Ice,Power:139,Acc:100%,Effect:May freeze opponent. (super-effective (2x damage) to dragapult)\nMove:psychoboost,Type:Psychic,Power:216,Acc:90%,Effect:Sharply lowers user's Special Attack. \nMove:superpower,Type:Fighting,Power:178,Acc:100%,Effect:Lowers user's Attack and Defense. (zero effect (0x damage) to dragapult)\nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than dragapult). Moves:[focusblast,Fighting,0x damage],[hex,Ghost,2x damage], Ghost, Fire, Dark-type attack is super-effective (2x damage) to gholdengo. Dragon-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than dragapult). Moves:[earthquake,Ground,1x damage], Bug-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu. Electric-type attack is zero effect (0x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than dragapult). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Bug-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than dragapult). Moves:[saltcure,Rock,1x damage], Fire-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "knockoff (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragapult is likely to prioritize speed boosts and powerful attacks. The damage calculator offers a quick way to assess the effectiveness of potential moves against the current type matchup, while the minimax tree would be more suitable for modeling the opponent's behavior in future turns.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Knockoff",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:corviknight,Type:Flying and Steel,HP:100%Attack:210,Defense:339,Special attack:127,Special defense:207,Speed:170,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Psychic-type attack is ineffective (0.5x damage) to corviknight. Bug-type attack is highly ineffective (0.25x damage) to corviknight. Ground-type attack is zero effect (0x damage) to corviknight.\ncorviknight's all the possible attacks:[bravebird,flying,Power:120],[bodypress,fighting,Power:80],\nYour current pokemon:deoxysspeed,Type:Fighting,HP:48%Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than corviknight).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Flying-type attack is super-effective (2x damage) to deoxysspeed.\nYour deoxysspeed has 4 moves:\nMove:knockoff,Type:Dark,Power:53,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:icebeam,Type:Ice,Power:126,Acc:100%,Effect:May freeze opponent. \nMove:psychoboost,Type:Psychic,Power:195,Acc:90%,Effect:Sharply lowers user's Special Attack. (ineffective (0.5x damage) to corviknight)\nMove:superpower,Type:Fighting,Power:98,Acc:100%,Effect:Lowers user's Attack and Defense. \nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(faster than corviknight). Moves:[focusblast,Fighting,1x damage],[hex,Ghost,1x damage], Steel, Flying-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than corviknight). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(faster than corviknight). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than corviknight). Moves:[saltcure,Rock,1x damage], Steel, Fighting-type attack is super-effective (2x damage) to garganacl. Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "icebeam (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Ice Beam is super effective against Iron Valiant.\", 'TypeMatchup': 'Iron Valiant is vulnerable to Psychic-type attacks, which are super effective against it.', 'SpeedControl': 'Gliscor is slower than Iron Valiant, but its Speed is boosted by Quark Drive.', 'TeamAdvantage': \"The player's remaining team has stronger Pokémon than Iron Valiant's remaining team.\", 'BoostsAndStatus': 'Gliscor has a boost on Special Attack, and Iron Valiant is poisoned.', 'HazardsAndField': 'The field has Spikes, which can damage opponents.', 'SwitchingCost': 'The player has already switched Pokémon twice, which is slightly costly.', 'OpponentPressure': 'Iron Valiant has a high Attack stat and can use Bodypress, which can damage Gliscor.', 'Uncertainty': \"The player's remaining Pokémon are not as strong as Iron Valiant's remaining Pokémon.\", 'WinPlan': 'The player can win by using Psychoboost to boost their Special Attack and then using Ice Beam to defeat Iron Valiant.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Ice Beam is super effective against Iron Valiant.\", 'TypeMatchup': 'Psychic-type attacks are super effective against Iron Valiant.', 'SpeedControl': \"Gliscor is slower than Iron Valiant, but Quark Drive boosts Iron Valiant's speed.\", 'TeamAdvantage': 'Gliscor is well-positioned, but the remaining team has limited effectiveness against Iron Valiant.', 'BoostsAndStatus': 'Iron Valiant has already used Quark Drive, but Gliscor has not used any boosts.', 'HazardsAndField': 'No significant hazards or field effects are present.', 'SwitchingCost': 'Multiple switches have been made, potentially reducing team effectiveness.', 'OpponentPressure': \"Iron Valiant's Bodypress can potentially deal significant damage.\", 'Uncertainty': 'The outcome of the battle is still uncertain.', 'WinPlan': 'Target Iron Valiant with Psychoboost or Ice Beam when it is slower than Gliscor.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Icebeam",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:glimmora,Type:Rock and Poison,HP:100%Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298, Ground-type attack is extremely-effective (4x damage) to glimmora. Psychic-type attack is super-effective (2x damage) to glimmora. Bug-type attack is ineffective (0.5x damage) to glimmora.\n\nYour current pokemon:deoxysspeed,Type:Fighting,HP:37%Attack:276,Defense:216,Special attack:289,Special defense:194,Speed:451(faster than glimmora).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Rock-type attack is ineffective (0.5x damage) to deoxysspeed.\nYour deoxysspeed has 4 moves:\nMove:knockoff,Type:Dark,Power:83,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:icebeam,Type:Ice,Power:131,Acc:100%,Effect:May freeze opponent. \nMove:psychoboost,Type:Psychic,Power:203,Acc:90%,Effect:Sharply lowers user's Special Attack. (super-effective (2x damage) to glimmora)\nMove:superpower,Type:Fighting,Power:153,Acc:100%,Effect:Lowers user's Attack and Defense. \nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(slower than glimmora). Moves:[focusblast,Fighting,1x damage],[hex,Ghost,1x damage], Rock-type attack is ineffective (0.5x damage) to gholdengo. Poison-type attack is zero effect (0x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than glimmora). Moves:[earthquake,Ground,4x damage], Rock, Poison-type attack is ineffective (0.5x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than glimmora). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,4x damage], Poison-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than glimmora). Moves:[saltcure,Rock,1x damage], Poison-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "psychoboost (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Glimmora is vulnerable to Ground-type attacks, which are super effective. The damage calculator provides a quick way to assess the potential damage output of our Ground-type moves. Given the certainty of the opponent's move (Sucker Punch), the damage calculator offers a reliable estimate of the damage we can inflict.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Psychoboost",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:corviknight,Type:Fairy,HP:77%Attack:210,Defense:339,Special attack:127,Special defense:207,Speed:170,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Fighting, Bug-type attack is ineffective (0.5x damage) to corviknight.\ncorviknight used moves:[uturn,Bug,Power:53],corviknight's all the possible attacks:[bravebird,flying,Power:120],[bodypress,fighting,Power:80],\nYou have 4 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(faster than corviknight). Moves:[focusblast,Fighting,0.5x damage],[hex,Ghost,1x damage], Fairy, Flying-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than corviknight). Moves:[earthquake,Ground,1x damage], Fighting, Bug, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(faster than corviknight). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Fighting, Bug-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than corviknight). Moves:[saltcure,Rock,1x damage], Fighting-type attack is super-effective (2x damage) to garganacl. Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is super effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are extremely effective against Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but has the option of switching out.', 'TeamAdvantage': 'Player has strong remaining Pokémon with high Attack stats.', 'BoostsAndStatus': 'Deoxys previously used Psycho Boost, which boosts Special Attack.', 'HazardsAndField': 'Toxic Orb on Gliscor will poison it during battle.', 'SwitchingCost': \"Multiple switches have been made, increasing the risk of opponent's speed advantage.\", 'OpponentPressure': \"Glimmora's Pressure ability can reduce opponent's Attack stat.\", 'Uncertainty': \"The opponent's remaining team strength and potential moves are unknown.\", 'WinPlan': \"Utilize Gliscor's Earthquake to eliminate Glimmora, then focus on exploiting opponent's weakened team.\"}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is super effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are extremely effective against Glimmora.', 'SpeedControl': 'Gliscor outspeeds Glimmora.', 'TeamAdvantage': 'Gliscor is well-positioned, while Glimmora is fainted.', 'BoostsAndStatus': 'Gliscor has a potential boost from previous moves.', 'HazardsAndField': 'Toxic Orb on Gliscor will poison it.', 'SwitchingCost': 'Excessive switching could give Glimmora speed control.', 'OpponentPressure': \"Glimmora's Pressure ability can damage Gliscor.\", 'Uncertainty': \"Gliscor's remaining moves are less effective against Glimmora.\", 'WinPlan': \"Utilize Gliscor's speed and powerful Ground-type attacks to defeat Glimmora and potentially win the battle.\"}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gholdengo",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -20,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:corviknight,Type:Fairy,HP:56%Attack:210,Defense:339,Special attack:127,Special defense:207,Speed:170,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Fighting, Bug-type attack is ineffective (0.5x damage) to corviknight.\ncorviknight used moves:[uturn,Bug,Power:131],[bodypress,Fighting,Power:150],corviknight's all the possible attacks:[bravebird,flying,Power:120],[bodypress,fighting,Power:80],\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(faster than corviknight).Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy, Flying-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nYour gholdengo has 4 moves:\nMove:focusblast,Type:Fighting,Power:175,Acc:70%,Effect:May lower opponent's Special Defense. (ineffective (0.5x damage) to corviknight)\nMove:thunderwave,Type:Electric,Status-move,Power:0,Acc:90%,Effect:Paralyzes opponent. \nMove:hex,Type:Ghost,Power:95,Acc:100%,Effect:Inflicts more damage if the target has a status condition. \nMove:recover,Type:Normal,Status-move,Power:0,Acc:100%,Effect:User recovers half its max HP. \nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than corviknight). Moves:[earthquake,Ground,1x damage], Fighting, Bug, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(faster than corviknight). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Fighting, Bug-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than corviknight). Moves:[saltcure,Rock,1x damage], Fighting-type attack is super-effective (2x damage) to garganacl. Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "hex (Move object)",
+                    "score": -1,
+                    "rationale": "The current battle state suggests a straightforward damage calculation is sufficient. The opponent's predictable moves and limited viable options make minimax less advantageous.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Hex",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:corviknight,Type:Fairy,HP:37%Attack:210,Defense:339,Special attack:127,Special defense:207,Speed:170,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Fighting, Bug-type attack is ineffective (0.5x damage) to corviknight.\ncorviknight used moves:[uturn,Bug,Power:131],[bodypress,Fighting,Power:150],corviknight's all the possible attacks:[bravebird,flying,Power:120],[bodypress,fighting,Power:80],\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(faster than corviknight).Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy, Flying-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nYour gholdengo has 4 moves:\nMove:focusblast,Type:Fighting,Power:175,Acc:70%,Effect:May lower opponent's Special Defense. (ineffective (0.5x damage) to corviknight)\nMove:thunderwave,Type:Electric,Status-move,Power:0,Acc:90%,Effect:Paralyzes opponent. \nMove:hex,Type:Ghost,Power:95,Acc:100%,Effect:Inflicts more damage if the target has a status condition. \nMove:recover,Type:Normal,Status-move,Power:0,Acc:100%,Effect:User recovers half its max HP. \nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than corviknight). Moves:[earthquake,Ground,1x damage], Fighting, Bug, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(faster than corviknight). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Fighting, Bug-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than corviknight). Moves:[saltcure,Rock,1x damage], Fighting-type attack is super-effective (2x damage) to garganacl. Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "hex (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Corviknight is likely to prioritize switching out when its speed is threatened, making future moves less predictable. The damage calculator offers a quick and reliable way to maximize damage in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Hex",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:corviknight,Type:Fairy,HP:16%Attack:210,Defense:339,Special attack:127,Special defense:207,Speed:170,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Fighting, Bug-type attack is ineffective (0.5x damage) to corviknight.\ncorviknight used moves:[uturn,Bug,Power:131],[bodypress,Fighting,Power:150],corviknight's all the possible attacks:[bravebird,flying,Power:120],[bodypress,fighting,Power:80],\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(faster than corviknight).Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy, Flying-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\nYour gholdengo has 4 moves:\nMove:focusblast,Type:Fighting,Power:175,Acc:70%,Effect:May lower opponent's Special Defense. (ineffective (0.5x damage) to corviknight)\nMove:thunderwave,Type:Electric,Status-move,Power:0,Acc:90%,Effect:Paralyzes opponent. \nMove:hex,Type:Ghost,Power:95,Acc:100%,Effect:Inflicts more damage if the target has a status condition. \nMove:recover,Type:Normal,Status-move,Power:0,Acc:100%,Effect:User recovers half its max HP. \nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than corviknight). Moves:[earthquake,Ground,1x damage], Fighting, Bug, Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(faster than corviknight). Moves:[uturn,Bug,0.5x damage],[earthquake,Ground,1x damage], Fighting, Bug-type attack is ineffective (0.5x damage) to gliscor.\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than corviknight). Moves:[saltcure,Rock,1x damage], Fighting-type attack is super-effective (2x damage) to garganacl. Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "hex (Move object)",
+                    "score": -1,
+                    "rationale": "The immediate priority is to maximize damage, as the opponent's Corviknight is likely to prioritize switching out when it's about to be knocked out. Therefore, a damage calculator is more suitable for finding the best damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Hex",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:207,Speed:136, Fighting-type attack is extremely-effective (4x damage) to kingambit. Ground-type attack is super-effective (2x damage) to kingambit. Ghost, Rock-type attack is ineffective (0.5x damage) to kingambit.\n\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:112,Defense:316,Special attack:302,Special defense:218,Speed:206(faster than kingambit).Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\nYour gholdengo has 4 moves:\nMove:focusblast,Type:Fighting,Power:175,Acc:70%,Effect:May lower opponent's Special Defense. (extremely-effective (4x damage) to kingambit)\nMove:thunderwave,Type:Electric,Status-move,Power:0,Acc:90%,Effect:Paralyzes opponent. \nMove:hex,Type:Ghost,Power:95,Acc:100%,Effect:Inflicts more damage if the target has a status condition. (ineffective (0.5x damage) to kingambit)\nMove:recover,Type:Normal,Status-move,Power:0,Acc:100%,Effect:User recovers half its max HP. \nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than kingambit). Moves:[earthquake,Ground,2x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(faster than kingambit). Moves:[uturn,Bug,1x damage],[earthquake,Ground,2x damage],\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than kingambit). Moves:[saltcure,Rock,0.5x damage], Steel-type attack is super-effective (2x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "focusblast (Move object)",
+                    "score": -1,
+                    "rationale": "The current battle state suggests a straightforward damage calculation is sufficient. The opponent's predictable move and clear type advantage make this scenario ideal for maximizing damage output.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Focusblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:100%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Rock-type attack is super-effective (2x damage) to enamorus. Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\n\nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus). Moves:[earthquake,Ground,0x damage], Fairy-type attack is super-effective (2x damage) to tinglu.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than enamorus). Moves:[saltcure,Rock,2x damage], Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Fighting-type moves are super-effective against Ironvaliant.\", 'TypeMatchup': 'Ironvaliant is weak to Ground-type moves, which are effective against it.', 'SpeedControl': 'Tinglu is slower than Ironvaliant, which could result in multiple attacks from Ironvaliant.', 'TeamAdvantage': 'Tinglu is the only remaining Pokémon with moves effective against Ironvaliant.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Ironvaliant's Moonblast can potentially deal significant damage to Tinglu.\", 'Uncertainty': 'n/a', 'WinPlan': 'Tinglu needs to utilize its Ground-type moves to defeat Ironvaliant before it can be defeated by its Moonblast.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:100%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Rock-type attack is super-effective (2x damage) to enamorus. Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:123],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy-type attack is super-effective (2x damage) to tinglu.\nYour tinglu has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:earthquake,Type:Ground,Power:145,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to enamorus)\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 2 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than enamorus). Moves:[saltcure,Rock,2x damage], Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Pokémon.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': 'Garganacl is a potential switch-in due to its type resistance and attack power.', 'BoostsAndStatus': 'Gliscor can potentially boost its attack with Earthquake.', 'HazardsAndField': 'Spikes are active, damaging opponents who switch in.', 'SwitchingCost': 'Frequent switching will disadvantage Gliscor due to its slower speed.', 'OpponentPressure': \"Glimmora's Moonblast can deal significant damage.\", 'Uncertainty': \"Glimmora's remaining HP is low, but it can potentially recover with its Ability.\", 'WinPlan': 'Utilize Earthquake to eliminate Glimmora and then switch in Garganacl to exploit its type advantage.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 15,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': 'Garganacl is not on the field, but could be useful against future Poison-type opponents.', 'BoostsAndStatus': 'Gliscor has not used any boosting moves.', 'HazardsAndField': 'Spikes are on the field, which can damage opponents switching in.', 'SwitchingCost': \"Multiple switches have been made, increasing the risk of opponent's speed control.\", 'OpponentPressure': 'Glimmora is unlikely to use a super effective move against Gliscor.', 'Uncertainty': \"The opponent's remaining moves and team composition are unknown.\", 'WinPlan': 'Utilize Spikes to potentially outspeed Glimmora and win with Earthquake.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Spikes",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": 15,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:100%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Rock-type attack is super-effective (2x damage) to enamorus. Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:123],Opponent team's side condition: spikes\nYour current pokemon:tinglu,Type:Dark and Ground,HP:58%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy-type attack is super-effective (2x damage) to tinglu.\nYour tinglu has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:earthquake,Type:Ground,Power:145,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to enamorus)\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 2 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than enamorus). Moves:[saltcure,Rock,2x damage], Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Glimmora's Earthpower is super effective against Tinglu.\", 'TypeMatchup': 'Ground-type attacks are excellent against Glimmora.', 'SpeedControl': 'Glimmora outspeeds Tinglu.', 'TeamAdvantage': \"Tinglu's Spikes are still active, potentially damaging Glimmora.\", 'BoostsAndStatus': 'Tinglu has Quark-Drive, boosting its Speed.', 'HazardsAndField': 'Spikes are on the field, dealing damage over time.', 'SwitchingCost': 'Multiple ineffective switches were made previously.', 'OpponentPressure': \"Glimmora's Earthpower poses a significant threat.\", 'Uncertainty': \"The opponent's remaining team strength is unknown.\", 'WinPlan': \"Utilize Tinglu's Spikes and prioritize damaging Glimmora with Ground-type attacks.\"}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Glimmora's Earthpower is super-effective against Tinglu.\", 'TypeMatchup': 'Ground-type attacks are extremely-effective against Glimmora.', 'SpeedControl': 'Glimmora outspeeds Tinglu.', 'TeamAdvantage': 'Tinglu has Spikes set, which damages Glimmora.', 'BoostsAndStatus': 'Tinglu has Vessel of Ruin, which boosts its Spikes damage.', 'HazardsAndField': 'Spikes is on the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Glimmora's Earthpower can potentially deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': 'Tinglu can potentially win with Spikes damage and strong moves.'}",
+                    "opponent_action": "earthpower (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 40,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 20,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "whirlwind (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Glimmora's Earthpower is super-effective against Garganacl.\", 'TypeMatchup': 'Ground-type attacks are extremely-effective against Glimmora.', 'SpeedControl': 'Glimmora outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl is well-positioned with Earthquake.', 'BoostsAndStatus': \"Garganacl's Ability is Quark-Drive, boosting Speed.\", 'HazardsAndField': 'Spikes on the field damage Glimmora.', 'SwitchingCost': 'Multiple switches have been made.', 'OpponentPressure': \"Glimmora's Earthpower can potentially faint Garganacl.\", 'Uncertainty': \"Glimmora's remaining HP is low.\", 'WinPlan': 'Garganacl can potentially win with Earthquake.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 40,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -10,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Spikes",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:100%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Rock-type attack is super-effective (2x damage) to enamorus. Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:123],Opponent team's side condition: spikes\nYour current pokemon:tinglu,Type:Dark and Ground,HP:18%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy-type attack is super-effective (2x damage) to tinglu.\nYour tinglu has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:earthquake,Type:Ground,Power:145,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to enamorus)\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 2 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\nPokemon:garganacl,Type:Rock,HP:100%,Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than enamorus). Moves:[saltcure,Rock,2x damage], Flying-type attack is ineffective (0.5x damage) to garganacl.\n",
+            "Candidates": [
+                {
+                    "player_action": "garganacl (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': 'Garganacl is a potential switch-in with good Ground-type coverage.', 'BoostsAndStatus': \"Gliscor's Spikes can damage incoming Pokémon.\", 'HazardsAndField': \"Spikes are currently active around the opponent's team.\", 'SwitchingCost': 'Multiple switches have been made, increasing the cost of future switches.', 'OpponentPressure': 'Glimmora is likely to use Moonblast again, putting pressure on Gliscor.', 'Uncertainty': \"Glimmora's remaining moves are not fully known.\", 'WinPlan': 'Utilize Spikes to damage Glimmora, then switch to Garganacl to utilize Earthquake for a potential knockout.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': \"Gliscor is slower than Glimmora, but Spikes can potentially delay Glimmora's future moves.\", 'TeamAdvantage': 'Garganacl is a potential switch-in with good defensive stats.', 'BoostsAndStatus': \"Gliscor's Spikes can damage Glimmora every time it switches in.\", 'HazardsAndField': 'Spikes are already set on the field.', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Glimmora's Moonblast is super effective against Gliscor.\", 'Uncertainty': 'The outcome of the battle is still uncertain.', 'WinPlan': 'Utilize Spikes to weaken Glimmora and eventually knock it out with Earthquake.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': \"Gliscor is slower than Glimmora, but Spikes can potentially delay Glimmora's future turns.\", 'TeamAdvantage': 'Garganacl is still on the field, offering additional power and defense.', 'BoostsAndStatus': 'Gliscor has Poison Heal, which can restore HP during battle.', 'HazardsAndField': 'Spikes are active, dealing damage to opponents who switch in.', 'SwitchingCost': 'Frequent switching can be costly, especially against faster opponents.', 'OpponentPressure': 'Glimmora is likely to use Moonblast again, dealing significant damage.', 'Uncertainty': \"The opponent's remaining moves and team composition are unknown.\", 'WinPlan': 'Utilize Earthquake to knock out Glimmora while maintaining team advantage with Garganacl.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: garganacl",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 18": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:100%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Rock-type attack is super-effective (2x damage) to enamorus. Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:149],Opponent team's side condition: spikes\nYour current pokemon:garganacl,Type:Rock,HP:60%Attack:236,Defense:374,Special attack:113,Special defense:236,Speed:106(slower than enamorus).Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Flying-type attack is ineffective (0.5x damage) to garganacl.\nYour garganacl has 4 moves:\nMove:saltcure,Type:Rock,Power:54,Acc:100%,Effect:Deals damage each turn; Steel and Water types are more affected. (super-effective (2x damage) to enamorus)\nMove:protect,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Protects the user, but may fail if used consecutively. \nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:recover,Type:Normal,Status-move,Power:0,Acc:100%,Effect:User recovers half its max HP. \nYou have 2 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\nPokemon:tinglu,Type:Dark and Ground,HP:18%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus). Moves:[earthquake,Ground,0x damage], Fairy-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's predictable Moonblast will likely KO Garganacl. The damage calculator is ideal for finding the optimal damaging move against Enamorus, considering its type and current HP.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Saltcure",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 19": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:44%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:149],Opponent team's side condition: spikes\nYou have 2 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\nPokemon:tinglu,Type:Dark and Ground,HP:18%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus). Moves:[earthquake,Ground,0x damage], Fairy-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: False, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is effective against Dragapult.\", 'TypeMatchup': 'Bug-type moves are ineffective against Dragapult.', 'SpeedControl': \"Gliscor is slower than Dragapult, but has used Spikes, which penalizes Dragapult's speed.\", 'TeamAdvantage': 'Gliscor is the only remaining Pokémon, while Dragapult has already fainted one Pokémon.', 'BoostsAndStatus': 'Gliscor has Poison Heal, which restores its HP when poisoned.', 'HazardsAndField': \"Spikes are set around the opponent's team, dealing damage over time.\", 'SwitchingCost': 'Excessive switching could allow Dragapult to outspeed Gliscor again.', 'OpponentPressure': 'Dragapult has a powerful Moonblast move and can potentially outspeed Gliscor.', 'Uncertainty': \"The outcome of the battle is still uncertain, as Gliscor's chances of winning depend on its ability to avoid or mitigate Dragapult's attacks.\", 'WinPlan': 'Gliscor needs to avoid being outsped by Dragapult and utilize Poison Heal to sustain itself while dealing damage with Earthquake.'}",
+                    "opponent_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 20,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is effective against Dragapult.\", 'TypeMatchup': 'Bug-type attacks are ineffective against Dragapult.', 'SpeedControl': 'Gliscor is slower than Dragapult.', 'TeamAdvantage': 'Gliscor is the only remaining Pokémon with usable moves.', 'BoostsAndStatus': 'Gliscor has Poison Heal, but Dragapult has Clear Body.', 'HazardsAndField': \"Spikes are set around the opponent's team.\", 'SwitchingCost': 'Excessive switching will disadvantage Gliscor due to Speed Control.', 'OpponentPressure': \"Dragapult's Moonblast is super effective against Gliscor.\", 'Uncertainty': \"Gliscor's remaining moves are not very effective against Dragapult.\", 'WinPlan': \"Utilize Gliscor's Earthquake to defeat Dragapult.\"}",
+                    "opponent_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -30,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 20,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 20": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:31%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:123],Opponent team's side condition: spikes\nYour current pokemon:tinglu,Type:Dark and Ground,HP:18%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy-type attack is super-effective (2x damage) to tinglu.\nYour tinglu has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:earthquake,Type:Ground,Power:145,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to enamorus)\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': \"Gliscor's remaining HP is low, but can potentially recover with Poison Heal.\", 'BoostsAndStatus': 'Gliscor has Spikes set, which damages opponents switching in.', 'HazardsAndField': 'Opponent has Spikes set, which damages Gliscor when switching in.', 'SwitchingCost': 'Frequent switching can be costly, especially against faster opponents.', 'OpponentPressure': \"Glimmora's Moonblast is super effective against Gliscor.\", 'Uncertainty': \"Gliscor's Poison Heal could potentially restore its HP, but is unreliable.\", 'WinPlan': 'Utilize Spikes to damage Glimmora when switching in, then exploit its weakness to Ground-type attacks.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora, while Spikes can damage incoming Pokémon.\", 'TypeMatchup': 'Ground-type attacks are super effective against Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes damage.', 'TeamAdvantage': \"Gliscor's Poison Heal ability can restore its HP, while Glimmora is poisoned by Toxic Orb.\", 'BoostsAndStatus': \"Gliscor can potentially halve Glimmora's HP with Ruination.\", 'HazardsAndField': 'Spikes are active, dealing damage to incoming Pokémon.', 'SwitchingCost': 'Switching out Pokémon will trigger Spikes damage, potentially weakening the team.', 'OpponentPressure': \"Glimmora's Moonblast is super effective against Gliscor.\", 'Uncertainty': \"Gliscor's ability and potential Spikes damage add an element of unpredictability.\", 'WinPlan': 'Utilize Spikes damage to weaken Glimmora, then exploit its vulnerability with Earthquake.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gliscor",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 21": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:19%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:128],Opponent team's side condition: spikes\nYour current pokemon:gliscor,Type:Ground and Flying,HP:11%Status:toxic,Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus).Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Your gliscor has 0 moves:\nYou have 1 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:18%,Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus). Moves:[earthquake,Ground,0x damage], Fairy-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: FNT]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are extremely effective against Glimmora.', 'SpeedControl': 'Glimmora outspeeds Tinglu.', 'TeamAdvantage': \"Tinglu's remaining HP is 0%, but Glimmora is also fainted.\", 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Spikes are on the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Glimmora's Moonblast is very effective against Tinglu.\", 'Uncertainty': 'n/a', 'WinPlan': 'Use Earthquake to finish the battle.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 70,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 22": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:enamorus,Type:Fairy and Flying,HP:1%Attack:239,Defense:176,Special attack:369,Special defense:197,Speed:342, Bug-type attack is highly ineffective (0.25x damage) to enamorus. Ground-type attack is zero effect (0x damage) to enamorus.\nenamorus used moves:[moonblast,Fairy,Power:123],Opponent team's side condition: spikes\nYour current pokemon:tinglu,Type:Dark and Ground,HP:18%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126(slower than enamorus).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fairy-type attack is super-effective (2x damage) to tinglu.\nYour tinglu has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:earthquake,Type:Ground,Power:145,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to enamorus)\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:11%,Status:toxic, Attack:226,Defense:289,Special attack:113,Special defense:273,Speed:223(slower than enamorus). Moves:[uturn,Bug,0.25x damage],[earthquake,Ground,0x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "ruination (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': 'Gliscor is the only remaining Pokémon, while Glimmora is the only opponent Pokémon remaining.', 'BoostsAndStatus': 'Gliscor is poisoned, but has Poison Heal.', 'HazardsAndField': 'Spikes are on the field, damaging opponents who switch in.', 'SwitchingCost': 'Multiple switches have been made, increasing the cost of future switches.', 'OpponentPressure': 'Glimmora has used up its Moonblast and is unlikely to have another effective move.', 'Uncertainty': \"Gliscor's Earthquake is the only remaining effective move, but Glimmora is likely to be immune to future attacks.\", 'WinPlan': 'Utilize Spikes to disable Glimmora and win through Earthquake damage.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: TOX]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': \"Gliscor's remaining HP is low, but opponent's team is weakened.\", 'BoostsAndStatus': 'Gliscor is poisoned, but has Poison Heal.', 'HazardsAndField': 'Spikes will damage Glimmora when it switches in.', 'SwitchingCost': 'Multiple switches have been made, increasing the likelihood of future switches.', 'OpponentPressure': \"Glimmora's Earthpower is very powerful and outspeeds Gliscor.\", 'Uncertainty': \"Glimmora's remaining HP is 0%, but could potentially use Earthpower again.\", 'WinPlan': 'Utilize Spikes to force Glimmora to switch out, then maximize damage with Earthquake.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is extremely effective against Glimmora.\", 'TypeMatchup': 'Ground-type attacks are super effective against Poison-type Glimmora.', 'SpeedControl': 'Gliscor is slower than Glimmora, but can potentially outspeed with Spikes.', 'TeamAdvantage': 'Gliscor is the only remaining Pokémon, while Glimmora is fainted.', 'BoostsAndStatus': 'Gliscor has Poison Heal, which can restore its HP when poisoned.', 'HazardsAndField': 'Spikes are on the field, damaging opponents who switch in.', 'SwitchingCost': 'Multiple switches have been made, increasing the cost of future switches.', 'OpponentPressure': \"Glimmora's remaining moves are ineffective against Gliscor.\", 'Uncertainty': \"Gliscor's Earthquake is the only effective move, but its accuracy is unknown.\", 'WinPlan': 'Use Spikes to potentially outspeed Glimmora and win with Earthquake.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ruination",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -20,
+                    "WinPlan": 20
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1177 @@
+{
+    "Battle Id: 91047": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:100%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Dragon, Flying, Psychic-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYour current pokemon:skarmory,Type:Steel and Flying,HP:100%Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nYour skarmory has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:bravebird,Type:Flying,Power:60,Acc:100%,Effect:User receives recoil damage. (ineffective (0.5x damage) to skarmory)\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:372,Defense:266,Special attack:176,Special defense:267,Speed:375(faster than skarmory). Moves:[closecombat,Fighting,1x damage],[crunch,Dark,1x damage],[stoneedge,Rock,1x damage], Flying-type attack is super-effective (2x damage) to zamazenta.\nPokemon:kyurem,Type:Dragon and Ice,HP:100%,Attack:266,Defense:217,Special attack:359,Special defense:216,Speed:317(faster than skarmory). Moves:[scaleshot,Dragon,0.5x damage],[icebeam,Ice,1x damage],[freezedry,Ice,1x damage],[earthpower,Ground,0x damage], Steel, Fighting-type attack is super-effective (2x damage) to kyurem.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\nPokemon:weavile,Type:Dark and Ice,HP:100%,Attack:339,Defense:166,Special attack:113,Special defense:207,Speed:383(faster than skarmory). Moves:[tripleaxel,Ice,1x damage],[iceshard,Ice,1x damage],[knockoff,Dark,1x damage], Fighting-type attack is extremely-effective (4x damage) to weavile. Steel-type attack is super-effective (2x damage) to weavile.\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory). Moves:[futuresight,Psychic,0.5x damage],[sludgebomb,Poison,0x damage], Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "weavile (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Weavile's Brave Bird is ineffective against Skarmory, but Close Combat is super-effective.\", 'TypeMatchup': 'Weavile is vulnerable to Steel-type attacks, but Skarmory is weak against Fighting-type attacks.', 'SpeedControl': 'Weavile outspeeds Skarmory.', 'TeamAdvantage': \"Weavile's remaining team has better offensive power than Skarmory's remaining team.\", 'BoostsAndStatus': 'Weavile has not used any boosting moves.', 'HazardsAndField': 'Spikes are on the field, damaging Weavile.', 'SwitchingCost': \"Weavile's switching ability is not useful against Skarmory.\", 'OpponentPressure': \"Weavile is under pressure from Skarmory's potential to boost its stats.\", 'Uncertainty': \"The outcome of the battle is uncertain, as Skarmory's potential to boost and Weavile's remaining team strength are both significant factors.\", 'WinPlan': 'Knock out Skarmory before it can boost its stats.'}",
+                    "opponent_action": "spikes (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 20,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: weavile",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 10,
+                    "Uncertainty": 20,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kyurem,Type:Dragon and Ice,HP:100%Attack:266,Defense:216,Special attack:359,Special defense:217,Speed:317,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Dragon, Fighting, Rock-type attack is super-effective (2x damage) to kyurem.\nkyurem's all the possible attacks:[icebeam,ice,Power:90],[dracometeor,dragon,Power:130],[earthpower,ground,Power:90],[freezedry,ice,Power:70],\nYour current pokemon:weavile,Type:Dark and Ice,HP:100%Attack:339,Defense:166,Special attack:113,Special defense:207,Speed:383(faster than kyurem).Ability:Pickpocket(The Pokémon steals the held item from attackers that make direct contact with it.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ice-type attack is ineffective (0.5x damage) to weavile.\nYour weavile has 4 moves:\nMove:tripleaxel,Type:Ice,Power:31,Acc:90%,Effect:Attacks thrice with more power each time. \nMove:iceshard,Type:Ice,Power:63,Acc:100%,Effect:User attacks first. \nMove:knockoff,Type:Dark,Power:102,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:lowkick,Type:Fighting,Power:0,Acc:100%,Effect:The heavier the opponent, the stronger the attack. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:372,Defense:266,Special attack:176,Special defense:267,Speed:375(faster than kyurem). Moves:[closecombat,Fighting,2x damage],[crunch,Dark,1x damage],[stoneedge,Rock,2x damage],\nPokemon:kyurem,Type:Dragon and Ice,HP:100%,Attack:266,Defense:217,Special attack:359,Special defense:216,Speed:317(faster than kyurem). Moves:[scaleshot,Dragon,2x damage],[icebeam,Ice,1x damage],[freezedry,Ice,1x damage],[earthpower,Ground,1x damage], Dragon-type attack is super-effective (2x damage) to kyurem.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than kyurem). Moves:[earthquake,Ground,1x damage], Ice-type attack is super-effective (2x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than kyurem). Moves:[bravebird,Flying,1x damage], Dragon-type attack is ineffective (0.5x damage) to skarmory. Ground-type attack is zero effect (0x damage) to skarmory.\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than kyurem). Moves:[futuresight,Psychic,1x damage],[sludgebomb,Poison,1x damage], Ground-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "tripleaxel (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Kyurem has a strong Dragon-type attack, but Weavile is immune to Dragon-type moves. Additionally, Kyurem's Pressure ability can drain PP from our moves. The damage calculator provides a quick and reliable way to assess the effectiveness of our moves against Kyurem.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Tripleaxel",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kyurem,Type:Dragon and Ice,HP:44%Attack:266,Defense:145(-1 stage boosted),Special attack:359,Special defense:217,Speed:476(1 stage boosted),Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Dragon, Fighting, Rock-type attack is super-effective (2x damage) to kyurem.\nkyurem used moves:[scaleshot,Dragon,Power:20],kyurem's all the possible attacks:[icebeam,ice,Power:90],[dracometeor,dragon,Power:130],[earthpower,ground,Power:90],[freezedry,ice,Power:70],\nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:372,Defense:266,Special attack:176,Special defense:267,Speed:375(slower than kyurem). Moves:[closecombat,Fighting,2x damage],[crunch,Dark,1x damage],[stoneedge,Rock,2x damage],\nPokemon:kyurem,Type:Dragon and Ice,HP:100%,Attack:266,Defense:217,Special attack:359,Special defense:216,Speed:317(slower than kyurem). Moves:[scaleshot,Dragon,2x damage],[icebeam,Ice,1x damage],[freezedry,Ice,1x damage],[earthpower,Ground,1x damage], Dragon-type attack is super-effective (2x damage) to kyurem.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than kyurem). Moves:[earthquake,Ground,1x damage], Ice-type attack is super-effective (2x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than kyurem). Moves:[bravebird,Flying,1x damage], Dragon-type attack is ineffective (0.5x damage) to skarmory. Ground-type attack is zero effect (0x damage) to skarmory.\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than kyurem). Moves:[futuresight,Psychic,1x damage],[sludgebomb,Poison,1x damage], Ground-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "kyurem (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Zamazenta's Close Combat is super-effective against Skarmory.\", 'TypeMatchup': \"Zamazenta is weak to Skarmory's Steel type, but Skarmory's Ground type is ineffective against Zamazenta.\", 'SpeedControl': 'Zamazenta outspeeds Skarmory.', 'TeamAdvantage': \"Zamazenta's remaining team has strong Fighting-type attacks, while Skarmory's team has only one effective move against Zamazenta.\", 'BoostsAndStatus': \"Weavile previously boosted Kyurem's Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Frequent switching will disadvantage Zamazenta in the long run.', 'OpponentPressure': \"Skarmory's Pressure ability can potentially reduce Zamazenta's Defense.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Close Combat and other Fighting-type moves to exploit Skarmory's weaknesses and prioritize switching out when threatened by Skarmory's Pressure.\"}",
+                    "opponent_action": "skarmory (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Zamazenta's Close Combat is super-effective against Skarmory.\", 'TypeMatchup': \"Zamazenta is weak to Skarmory's Steel and Flying-type attacks, but Skarmory is ineffective against Zamazenta's Fighting-type attacks.\", 'SpeedControl': 'Zamazenta outspeeds Skarmory.', 'TeamAdvantage': \"Zamazenta has a strong Attack stat, while Skarmory's Defense is high.\", 'BoostsAndStatus': \"Weavile previously boosted Kyurem's Speed.\", 'HazardsAndField': 'Spikes are on the field, which can damage Zamazenta.', 'SwitchingCost': 'Frequent switching can disadvantage Zamazenta in the long run.', 'OpponentPressure': \"Skarmory's Pressure ability can reduce Zamazenta's Defense.\", 'Uncertainty': 'The outcome of the battle is still uncertain, as the teams are evenly matched.', 'WinPlan': 'Target Skarmory with Close Combat and prioritize switching out when necessary to avoid Spikes and Pressure.'}",
+                    "opponent_action": "skarmory (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 5,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": 5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: kyurem",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": 0,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kyurem,Type:Dragon and Ice,HP:44%Attack:266,Defense:108(-2 stage boosted),Special attack:359,Special defense:217,Speed:634(2 stage boosted),Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Dragon, Fighting, Rock-type attack is super-effective (2x damage) to kyurem.\nkyurem used moves:[scaleshot,Dragon,Power:25],kyurem's all the possible attacks:[icebeam,ice,Power:90],[dracometeor,dragon,Power:130],[earthpower,ground,Power:90],[freezedry,ice,Power:70],\nYour current pokemon:kyurem,Type:Dragon and Ice,HP:100%Attack:266,Defense:217,Special attack:359,Special defense:216,Speed:317(slower than kyurem).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dragon-type attack is super-effective (2x damage) to kyurem.\nYour kyurem has 4 moves:\nMove:scaleshot,Type:Dragon,Power:31,Acc:90%,Effect:Hits 2-5 times in one turn. Boosts user's Speed but lowers its Defense. (super-effective (2x damage) to kyurem)\nMove:icebeam,Type:Ice,Power:149,Acc:100%,Effect:May freeze opponent. \nMove:freezedry,Type:Ice,Power:116,Acc:100%,Effect:May freeze opponent. Super-effective against Water types. \nMove:earthpower,Type:Ground,Power:149,Acc:100%,Effect:May lower opponent's Special Defense. \nYou have 4 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:372,Defense:266,Special attack:176,Special defense:267,Speed:375(slower than kyurem). Moves:[closecombat,Fighting,2x damage],[crunch,Dark,1x damage],[stoneedge,Rock,2x damage],\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than kyurem). Moves:[earthquake,Ground,1x damage], Ice-type attack is super-effective (2x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than kyurem). Moves:[bravebird,Flying,1x damage], Dragon-type attack is ineffective (0.5x damage) to skarmory. Ground-type attack is zero effect (0x damage) to skarmory.\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than kyurem). Moves:[futuresight,Psychic,1x damage],[sludgebomb,Poison,1x damage], Ground-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "scaleshot (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Kyurem is likely to prioritize boosting its Speed or Defense in the next turn, making future predictions unreliable. Additionally, my Kyurem has a clear type advantage and high-power move (Dragon Claw) available. Therefore, the damage calculator offers a more efficient way to maximize damage in this turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Scaleshot",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:weavile,Type:Dark and Ice,HP:100%Attack:339,Defense:166,Special attack:113,Special defense:207,Speed:383,Ability:Pickpocket(The Pokémon steals the held item from attackers that make direct contact with it.) Fighting-type attack is extremely-effective (4x damage) to weavile. Rock-type attack is super-effective (2x damage) to weavile. Ice, Dark-type attack is ineffective (0.5x damage) to weavile. Psychic-type attack is zero effect (0x damage) to weavile.\nweavile's all the possible attacks:[knockoff,dark,Power:65],[tripleaxel,ice,Power:20],[iceshard,ice,Power:40],\nYour current pokemon:kyurem,Type:Dragon and Ice,HP:43%Attack:266,Defense:145(-1 stage boosted),Special attack:359,Special defense:216,Speed:476(1 stage boosted),(faster than weavile).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Your kyurem has 4 moves:\nMove:scaleshot,Type:Dragon,Power:60,Acc:90%,Effect:Hits 2-5 times in one turn. Boosts user's Speed but lowers its Defense. \nMove:icebeam,Type:Ice,Power:156,Acc:100%,Effect:May freeze opponent. (ineffective (0.5x damage) to weavile)\nMove:freezedry,Type:Ice,Power:121,Acc:100%,Effect:May freeze opponent. Super-effective against Water types. (ineffective (0.5x damage) to weavile)\nMove:earthpower,Type:Ground,Power:156,Acc:100%,Effect:May lower opponent's Special Defense. \nYou have 4 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:372,Defense:266,Special attack:176,Special defense:267,Speed:375(slower than weavile). Moves:[closecombat,Fighting,4x damage],[crunch,Dark,0.5x damage],[stoneedge,Rock,2x damage], Dark-type attack is ineffective (0.5x damage) to zamazenta.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than weavile). Moves:[earthquake,Ground,1x damage], Ice-type attack is super-effective (2x damage) to tinglu. Dark-type attack is ineffective (0.5x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than weavile). Moves:[bravebird,Flying,1x damage],\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than weavile). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,1x damage], Dark-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "scaleshot (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Skarmory's Dragon-type moves are super-effective against Kyurem.\", 'TypeMatchup': 'Skarmory is resistant to Ground-type attacks, while Kyurem is vulnerable to Steel-type attacks.', 'SpeedControl': 'Skarmory is slower than Kyurem, but can potentially boost its Speed.', 'TeamAdvantage': \"Weavile is still alive and can be used to exploit Kyurem's weaknesses.\", 'BoostsAndStatus': 'Kyurem has been boosted in Speed and Defense, while Skarmory has not used any boosting moves.', 'HazardsAndField': 'Stickyweb could potentially trap Kyurem.', 'SwitchingCost': 'Frequent switching will allow Kyurem to potentially outspeed Skarmory again.', 'OpponentPressure': \"Kyurem's Pressure ability forces opponents to use more PP for moves.\", 'Uncertainty': 'The outcome of the battle is still uncertain.', 'WinPlan': \"Utilize Skarmory's Dragon-type moves to defeat Kyurem and potentially win the battle.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Skarmory's Dragon-type moves are super-effective against Kyurem.\", 'TypeMatchup': 'Skarmory is resistant to Ground-type attacks and immune to Dragon-type attacks.', 'SpeedControl': 'Skarmory is slower than Kyurem, but can potentially outspeed it with Swords Dance.', 'TeamAdvantage': 'Strong remaining Pokémon like Zamzenta and Tinglu offer type coverage and offensive power.', 'BoostsAndStatus': \"Swords Dance boosts Skarmory's Speed and Attack.\", 'HazardsAndField': \"Kyurem's Pressure ability can drain PP from Skarmory's moves.\", 'SwitchingCost': 'Frequent switching can disadvantage Skarmory in the speed battle.', 'OpponentPressure': \"Kyurem's remaining moves can potentially inflict significant damage.\", 'Uncertainty': \"The outcome of the battle depends on the effectiveness of Skarmory's moves and the timing of switches.\", 'WinPlan': \"Utilize Swords Dance to boost Skarmory's stats, prioritize Dragon-type moves to exploit Kyurem's weaknesses, and manage the PP drain from Pressure.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "skarmory (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Skarmory's Dragon-type moves are super-effective against Kyurem.\", 'TypeMatchup': 'Skarmory is immune to Ground-type attacks and resistant to Dragon-type attacks.', 'SpeedControl': 'Skarmory is slower than Kyurem, but has the Sturdy ability.', 'TeamAdvantage': 'Strong remaining Pokémon like Zamzenta and Tinglu.', 'BoostsAndStatus': \"Kyurem is under pressure from Skarmory's moves.\", 'HazardsAndField': \"Skarmory is immune to Ground-type attacks from Kyurem's moves.\", 'SwitchingCost': 'Frequent switching will disadvantage Skarmory in the speed battle.', 'OpponentPressure': \"Kyurem's Pressure ability can drain PP from Skarmory's moves.\", 'Uncertainty': 'Uncertain if Skarmory can outspeed Kyurem and secure wins.', 'WinPlan': \"Utilize Dragon-type moves to knock out Kyurem and then focus on surviving until the opponent's team is depleted.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Scaleshot",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:weavile,Type:Dark and Ice,HP:18%Attack:339,Defense:166,Special attack:113,Special defense:207,Speed:383,Ability:Pickpocket(The Pokémon steals the held item from attackers that make direct contact with it.) Fighting-type attack is extremely-effective (4x damage) to weavile. Rock-type attack is super-effective (2x damage) to weavile. Dark-type attack is ineffective (0.5x damage) to weavile. Psychic-type attack is zero effect (0x damage) to weavile.\nweavile used moves:[tripleaxel,Ice,Power:25],weavile's all the possible attacks:[knockoff,dark,Power:65],[tripleaxel,ice,Power:20],[iceshard,ice,Power:40],\nYou have 4 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:372,Defense:266,Special attack:176,Special defense:267,Speed:375(slower than weavile). Moves:[closecombat,Fighting,4x damage],[crunch,Dark,0.5x damage],[stoneedge,Rock,2x damage], Dark-type attack is ineffective (0.5x damage) to zamazenta.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than weavile). Moves:[earthquake,Ground,1x damage], Ice-type attack is super-effective (2x damage) to tinglu. Dark-type attack is ineffective (0.5x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than weavile). Moves:[bravebird,Flying,1x damage],\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than weavile). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,1x damage], Dark-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Kyurem's Triple Axel is super effective against Weavile.\", 'TypeMatchup': 'Weavile is weak to Fighting-type moves, while Kyurem is strong against Dragon-type moves.', 'SpeedControl': \"Weavile previously boosted Kyurem's Speed, but Kyurem still outspeeds Weavile.\", 'TeamAdvantage': \"Your remaining team has stronger Attack and Speed than Kyurem's remaining team.\", 'BoostsAndStatus': \"Weavile previously boosted Kyurem's Speed and Defense.\", 'HazardsAndField': \"Weavile's Spikes are on the field, but neither team has set any other hazards.\", 'SwitchingCost': 'Switching out now would give Kyurem the advantage in the next turn.', 'OpponentPressure': \"Weavile's Pressure ability increases the PP cost of Kyurem's moves.\", 'Uncertainty': \"Weavile's remaining moves are less powerful than Kyurem's.\", 'WinPlan': \"Try to exploit Weavile's weaknesses with Fighting-type moves and prioritize outspeeding Kyurem.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -5,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: zamazenta",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": -5,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": -10,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:weavile,Type:Dark and Ice,HP:18%Attack:339,Defense:166,Special attack:113,Special defense:207,Speed:383,Ability:Pickpocket(The Pokémon steals the held item from attackers that make direct contact with it.) Fighting-type attack is extremely-effective (4x damage) to weavile. Rock-type attack is super-effective (2x damage) to weavile. Dark-type attack is ineffective (0.5x damage) to weavile. Psychic-type attack is zero effect (0x damage) to weavile.\nweavile used moves:[tripleaxel,Ice,Power:18],[iceshard,Ice,Power:36],weavile's all the possible attacks:[knockoff,dark,Power:65],[tripleaxel,ice,Power:20],[iceshard,ice,Power:40],\nYour current pokemon:zamazenta,Type:Fighting,HP:100%Attack:372,Defense:399(1 stage boosted),Special attack:176,Special defense:267,Speed:375(slower than weavile).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is ineffective (0.5x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:closecombat,Type:Fighting,Power:179,Acc:100%,Effect:Lowers user's Defense and Special Defense. (extremely-effective (4x damage) to weavile)\nMove:crunch,Type:Dark,Power:120,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to weavile)\nMove:heavyslam,Type:Steel,Power:0,Acc:100%,Effect:The heavier the user, the stronger the attack. \nMove:stoneedge,Type:Rock,Power:149,Acc:80%,Effect:High critical hit ratio. (super-effective (2x damage) to weavile)\nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than weavile). Moves:[earthquake,Ground,1x damage], Ice-type attack is super-effective (2x damage) to tinglu. Dark-type attack is ineffective (0.5x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than weavile). Moves:[bravebird,Flying,1x damage],\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than weavile). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,1x damage], Dark-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "closecombat (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Weavile is predictable and unlikely to switch out, making the damage calculator suitable for finding the best damaging move. Additionally, the current battle state favors our Pokémon's type matchup against Weavile.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Closecombat",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:100%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Flying, Psychic-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYou have 3 pokemons:\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory). Moves:[bravebird,Flying,0.5x damage], Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory). Moves:[futuresight,Psychic,0.5x damage],[sludgebomb,Poison,0x damage], Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super-effective against Weavile.\", 'TypeMatchup': \"Weavile's Ice-type attacks are super-effective against Tinglu.\", 'SpeedControl': 'Tinglu is slower than Weavile, but has the Heavy-Duty Boots item.', 'TeamAdvantage': 'Zamazenta is on the field and has a defensive boost.', 'BoostsAndStatus': 'Tinglu has no status boosts or hazards.', 'HazardsAndField': 'Spikes are on the field, damaging Tinglu.', 'SwitchingCost': 'Tinglu has already switched once this turn.', 'OpponentPressure': 'Weavile has used Spikes, but Tinglu has the Heavy-Duty Boots item.', 'Uncertainty': \"Weavile's remaining moves are unknown.\", 'WinPlan': 'Use Earthquake to defeat Weavile before it can use another super-effective move.'}",
+                    "opponent_action": "spikes (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 70,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:45%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Flying, Psychic-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory used moves:[bravebird,Flying,Power:82],skarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is super-effective (2x damage) to tinglu.\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:65,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to skarmory)\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 2 pokemons:\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory). Moves:[bravebird,Flying,0.5x damage], Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory). Moves:[futuresight,Psychic,0.5x damage],[sludgebomb,Poison,0x damage], Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: None]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Spikes can damage Kyurem when switching in.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar, but ineffective against Skarmory.', 'SpeedControl': 'Slowkinggalar is slower than Kyurem, but can potentially outspeed it with Spikes damage.', 'TeamAdvantage': 'Skarmory can switch into Ground-type attacks, while Slowkinggalar can switch into Dragon-type attacks.', 'BoostsAndStatus': 'Kyurem has been boosted in Speed, but Slowkinggalar has not been affected by any boosts or status conditions.', 'HazardsAndField': 'Spikes are on the field, damaging anyone who switches in.', 'SwitchingCost': \"Frequent switching can be costly, especially with Slowkinggalar's low Speed.\", 'OpponentPressure': \"Kyurem's Pressure ability can force opponents to use more PP for their moves.\", 'Uncertainty': 'The outcome of the battle is uncertain, as it depends on future moves and switches.', 'WinPlan': 'Slowkinggalar can win by using Spikes to damage Kyurem repeatedly until it faints.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 5,
+                        "Uncertainty": 20,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Spikes can damage Kyurem when it switches in.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar, but ineffective against Skarmory.', 'SpeedControl': 'Slowkinggalar is slower than Kyurem, but can potentially outspeed it with Spikes damage.', 'TeamAdvantage': 'Skarmory can switch into Ground-type attacks, while Slowkinggalar can switch into Dragon-type attacks.', 'BoostsAndStatus': 'Kyurem has been boosted in Speed, but Slowkinggalar has not been affected by any boosts or status conditions.', 'HazardsAndField': 'Spikes are on the field, damaging any Pokémon that switches in.', 'SwitchingCost': 'Frequent switching can disadvantage Slowkinggalar due to the damage from Spikes.', 'OpponentPressure': 'Kyurem can put pressure on Slowkinggalar by forcing it to spend PP on Spikes.', 'Uncertainty': 'The outcome of the battle depends on future moves and switches.', 'WinPlan': \"Slowkinggalar can win by exploiting Kyurem's potential switches with Spikes and by using powerful moves like Earthquake against Skarmory.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 5,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 5,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: slowkinggalar",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 5,
+                    "Uncertainty": 20,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\n\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:100%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:108,Acc:100%,Effect:Damage occurs 2 turns later. (zero effect (0x damage) to tinglu)\nMove:sludgebomb,Type:Poison,Power:81,Acc:100%,Effect:May poison opponent. (ineffective (0.5x damage) to tinglu)\nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 2 pokemons:\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(faster than tinglu). Moves:[bravebird,Flying,1x damage], Ground-type attack is zero effect (0x damage) to skarmory.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu). Moves:[earthquake,Ground,1x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "skarmory (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Skarmory's Toxic is ineffective against Kyurem, but Brave Bird is super effective.\", 'TypeMatchup': 'Dragon-type attacks are ineffective against Skarmory, and Ground-type attacks are useless.', 'SpeedControl': 'Skarmory is slower than Kyurem, but has the Sturdy ability to survive one-hit KOs.', 'TeamAdvantage': 'Tinglu is on the field, which gives a type advantage against Kyurem.', 'BoostsAndStatus': 'Kyurem is likely using Dragon Dance, boosting its Attack.', 'HazardsAndField': 'Spikes are on the field, damaging Skarmory each turn.', 'SwitchingCost': \"Frequent switching will drain Skarmory's PP and give Kyurem speed control.\", 'OpponentPressure': 'Kyurem can use pressure moves, forcing opponents to use more PP.', 'Uncertainty': \"The outcome of future battles is uncertain, as Kyurem's moves and Skarmory's remaining PP are unknown.\", 'WinPlan': 'Use Brave Bird to knock out Kyurem before it can boost again, then switch to Tinglu to exploit its type advantage.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "toxic (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Skarmory's Toxic is super effective against Kyurem, while Kyurem's Ice Shard is ineffective against Skarmory.\", 'TypeMatchup': 'Skarmory is resistant to Dragon-type attacks from Kyurem.', 'SpeedControl': 'Skarmory outspeeds Kyurem.', 'TeamAdvantage': 'Tinglu is a better matchup for Kyurem than Skarmory.', 'BoostsAndStatus': 'Skarmory has a defensive boost from Sturdy, while Kyurem has a speed boost from Dragon Dance.', 'HazardsAndField': 'Spikes are on the field, dealing passive damage to Kyurem.', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': 'Kyurem can pressure opponents with its Pressure ability.', 'Uncertainty': 'The outcome of future turns is uncertain.', 'WinPlan': \"Utilize Skarmory's Toxic and team synergy to defeat Kyurem.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: skarmory",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:131],\nYour current pokemon:skarmory,Type:Steel and Flying,HP:100%Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(faster than tinglu).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Ground-type attack is zero effect (0x damage) to skarmory.\nYour skarmory has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:bravebird,Type:Flying,Power:82,Acc:100%,Effect:User receives recoil damage. \nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 2 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:100%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,0.5x damage], Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu). Moves:[earthquake,Ground,1x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Brave Bird is super effective against Kyurem', 'TypeMatchup': 'Ground-type attacks are super effective against Slowking Galar', 'SpeedControl': 'Slowking Galar is slower than Kyurem', 'TeamAdvantage': 'Tinglu is a better matchup than Kyurem', 'BoostsAndStatus': 'N/a', 'HazardsAndField': 'Spikes are on the field', 'SwitchingCost': 'N/a', 'OpponentPressure': 'Kyurem has Pressure, which can increase the PP cost of our moves', 'Uncertainty': 'N/a', 'WinPlan': 'Use Brave Bird to knock out Kyurem and then switch to Tinglu to handle the remaining team.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "bravebird (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Brave Bird is super effective against Kyurem.', 'TypeMatchup': 'Ground-type attacks are super effective against Slowking Galar.', 'SpeedControl': 'Slowking Galar is slower than Kyurem.', 'TeamAdvantage': 'Tinglu is a better matchup than Kyurem.', 'BoostsAndStatus': 'Slowking Galar has no negative status.', 'HazardsAndField': 'Spikes are on the field.', 'SwitchingCost': 'Frequent switching will be costly.', 'OpponentPressure': 'Kyurem has Pressure, which can increase move PP costs.', 'Uncertainty': \"The opponent's moves and decisions are unknown.\", 'WinPlan': 'Use Brave Bird to knock out Kyurem and then switch to Tinglu to take advantage of its Ground-type attacks.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: slowkinggalar",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:45%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Psychic, Flying-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory used moves:[bravebird,Flying,Power:156],skarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:100%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:175,Acc:100%,Effect:Damage occurs 2 turns later. (ineffective (0.5x damage) to skarmory)\nMove:sludgebomb,Type:Poison,Power:131,Acc:100%,Effect:May poison opponent. (zero effect (0x damage) to skarmory)\nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 2 pokemons:\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory). Moves:[bravebird,Flying,0.5x damage], Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Skarmory has Sturdy, making it immune to one-hit KOs. The damage calculator is likely to provide a more accurate estimate of potential damage, considering the multiple moves available and their type matchups. Additionally, the opponent's future moves are less predictable in this complex battle state.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:45%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Psychic, Flying-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory used moves:[bravebird,Flying,Power:156],skarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:100%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:175,Acc:100%,Effect:Damage occurs 2 turns later. (ineffective (0.5x damage) to skarmory)\nMove:sludgebomb,Type:Poison,Power:131,Acc:100%,Effect:May poison opponent. (zero effect (0x damage) to skarmory)\nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 2 pokemons:\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory). Moves:[bravebird,Flying,0.5x damage], Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Skarmory is likely to prioritize boosting its attack, making maximizing immediate damage crucial. The damage calculator offers a quick way to assess potential moves against its current stats and type resistance.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:190],\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:100%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:108,Acc:100%,Effect:Damage occurs 2 turns later. (zero effect (0x damage) to tinglu)\nMove:sludgebomb,Type:Poison,Power:81,Acc:100%,Effect:May poison opponent. (ineffective (0.5x damage) to tinglu)\nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 2 pokemons:\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(faster than tinglu). Moves:[bravebird,Flying,1x damage], Ground-type attack is zero effect (0x damage) to skarmory.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu). Moves:[earthquake,Ground,1x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': 'Future Sight is effective against Kyurem.', 'TypeMatchup': 'Dragon-type attacks are ineffective against Skarmory.', 'SpeedControl': 'Skarmory is slower than Kyurem.', 'TeamAdvantage': 'Tinglu is vulnerable to Ice-type attacks.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Kyurem has Pressure, which can increase the PP cost of our moves.', 'Uncertainty': \"Future Sight's accuracy is 100%.\", 'WinPlan': 'Use Future Sight to damage Kyurem and potentially knock it out.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 5,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "skarmory (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': 'Future Sight is effective against Kyurem.', 'TypeMatchup': 'Dragon-type moves are ineffective against Skarmory.', 'SpeedControl': 'Skarmory is slower than Kyurem.', 'TeamAdvantage': 'Tinglu is vulnerable to Ice-type moves.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Kyurem has Pressure, which can increase move PP costs.', 'Uncertainty': \"Future Sight's damage is uncertain.\", 'WinPlan': 'Use Future Sight to damage Kyurem and potentially win the battle.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -15,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": 5,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:190],\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:19%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:108,Acc:100%,Effect:Damage occurs 2 turns later. (zero effect (0x damage) to tinglu)\nMove:sludgebomb,Type:Poison,Power:81,Acc:100%,Effect:May poison opponent. (ineffective (0.5x damage) to tinglu)\nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 2 pokemons:\nPokemon:skarmory,Type:Steel and Flying,HP:100%,Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(faster than tinglu). Moves:[bravebird,Flying,1x damage], Ground-type attack is zero effect (0x damage) to skarmory.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu). Moves:[earthquake,Ground,1x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "skarmory (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Future Sight is ineffective against Kyurem, but Sludge Bomb could poison it.', 'TypeMatchup': 'Dragon-type attacks are ineffective against Skarmory, but Ice-type attacks are super-effective against Tinglu.', 'SpeedControl': \"Skarmory is slower than Kyurem, but Future Sight's delayed damage could potentially outspeed Kyurem.\", 'TeamAdvantage': 'Tinglu is the only remaining Pokémon with significant damage output.', 'BoostsAndStatus': 'Skarmory has no significant boosts or status effects.', 'HazardsAndField': 'Stealth Rock is in play, dealing damage when switching in.', 'SwitchingCost': 'Frequent switching could be costly due to Stealth Rock.', 'OpponentPressure': \"Kyurem has Pressure, which increases the PP cost of opponent's moves.\", 'Uncertainty': \"The effectiveness of Future Sight is uncertain, and Kyurem's speed could potentially outspeed Skarmory again.\", 'WinPlan': 'Try to poison Kyurem with Sludge Bomb and potentially win through damage over time.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -5,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 5,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': 'Future Sight is effective against Kyurem.', 'TypeMatchup': 'Dragon-type moves are ineffective against Skarmory.', 'SpeedControl': 'Skarmory is slower than Kyurem.', 'TeamAdvantage': 'Tinglu is super-effective against Kyurem.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': 'n/a', 'Uncertainty': 'n/a', 'WinPlan': 'Future Sight can potentially knock out Kyurem in two turns.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 0,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: skarmory",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": -5,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 5,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:131],\nYour current pokemon:skarmory,Type:Steel and Flying,HP:88%Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(faster than tinglu).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Ground-type attack is zero effect (0x damage) to skarmory.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour skarmory has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:bravebird,Type:Flying,Power:82,Acc:100%,Effect:User receives recoil damage. \nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 2 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,0.5x damage], Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu). Moves:[earthquake,Ground,1x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "bravebird (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Future Sight is ineffective against Kyurem.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar, but Kyurem is weak to Psychic-type attacks.', 'SpeedControl': 'Slowkinggalar is slower than Kyurem, but has the option to switch out.', 'TeamAdvantage': 'Tinglu is a strong remaining Pokémon with good stats.', 'BoostsAndStatus': 'Slowkinggalar has no significant boosts or status effects.', 'HazardsAndField': 'Stealth Rock is on the field, damaging Pokémon when they switch in.', 'SwitchingCost': 'Frequent switching can be costly due to Stealth Rock.', 'OpponentPressure': \"Kyurem's Pressure ability forces opponents to use more PP for moves.\", 'Uncertainty': \"The outcome of future battles is uncertain due to the opponent's moves and team composition.\", 'WinPlan': \"Consider using Tinglu to take advantage of Kyurem's weaknesses and potentially knock it out.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 5,
+                        "Uncertainty": 10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Future Sight is ineffective against Kyurem.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar, but Kyurem is susceptible to Psychic-type moves.', 'SpeedControl': 'Slowkinggalar is slower than Kyurem, but can potentially outspeed it with Future Sight.', 'TeamAdvantage': 'Tinglu could be a potential switch-in due to its resistance to Ground-type attacks.', 'BoostsAndStatus': 'Slowkinggalar has Future Sight, but Kyurem has no known boosts or status conditions.', 'HazardsAndField': 'Stealth Rock is on the field, damaging Pokémon when they switch in.', 'SwitchingCost': 'Frequent switching can be costly due to Stealth Rock.', 'OpponentPressure': \"Kyurem's Pressure ability forces opponents to use more PP for moves.\", 'Uncertainty': 'The effectiveness of future sight is uncertain against Kyurem.', 'WinPlan': 'Consider switching to Tinglu to avoid Ground-type attacks and using Psychic-type moves against Kyurem.'}",
+                    "opponent_action": "spikes (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 5,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bravebird",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": -10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 5,
+                    "Uncertainty": 10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:36%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Flying, Psychic-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory used moves:[bravebird,Flying,Power:108],skarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYour current pokemon:skarmory,Type:Steel and Flying,HP:68%Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour skarmory has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:bravebird,Type:Flying,Power:60,Acc:100%,Effect:User receives recoil damage. (ineffective (0.5x damage) to skarmory)\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 2 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory). Moves:[futuresight,Psychic,0.5x damage],[sludgebomb,Poison,0x damage], Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "bravebird (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is effective against Kyurem.\", 'TypeMatchup': \"Tinglu is weak to Ice-type moves, but Kyurem's moves are ineffective against Tinglu.\", 'SpeedControl': 'Tinglu is slower than Kyurem, but has better Speed Control.', 'TeamAdvantage': 'Tinglu has better overall stats than Slowkinggalar.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field, but neither team has any relevant abilities or moves.', 'SwitchingCost': 'High - multiple switches have been made.', 'OpponentPressure': \"Kyurem's Pressure ability can increase the PP cost of our moves.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Tinglu's Earthquake to defeat Kyurem, then focus on surviving until the opponent's team is depleted.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super-effective against Kyurem.\", 'TypeMatchup': \"Tinglu is weak to Kyurem's Dragon-type moves, but resistant to its Ice-type moves.\", 'SpeedControl': 'Tinglu is slower than Kyurem, but has the advantage of being able to set up Earthquake.', 'TeamAdvantage': 'Tinglu has better overall stats than Slowkinggalar.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field, but neither team has any active hazards.', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Kyurem has Pressure, which can increase the PP cost of our moves.', 'Uncertainty': 'n/a', 'WinPlan': 'Set up Earthquake with Tinglu and use it to defeat Kyurem.'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super effective against Kyurem.\", 'TypeMatchup': \"Tinglu is weak to Ice-type moves, but Kyurem's moves are ineffective against Tinglu.\", 'SpeedControl': \"Tinglu is slower than Kyurem, but Kyurem's Pressure ability reduces the effectiveness of Kyurem's moves.\", 'TeamAdvantage': 'Tinglu has better remaining HP and a more effective move against Kyurem.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is around the field, but neither team has any active hazards.', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Kyurem's Pressure ability reduces the effectiveness of Kyurem's moves.\", 'Uncertainty': 'n/a', 'WinPlan': \"Use Tinglu's Earthquake to defeat Kyurem.\"}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "stealthrock (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super-effective against Kyurem.\", 'TypeMatchup': \"Tinglu is weak to Kyurem's Dragon-type moves, but resistant to its Ice-type moves.\", 'SpeedControl': 'Tinglu is slower than Kyurem, but has the advantage of being able to use Earthquake.', 'TeamAdvantage': 'Tinglu has better remaining HP and Special Attack than Slowkinggalar.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field, but neither team has any active hazards.', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Kyurem's Pressure ability can increase the PP cost of our moves.\", 'Uncertainty': 'n/a', 'WinPlan': 'Use Earthquake to defeat Kyurem, then switch out for Slowkinggalar to remove Stealth Rock.'}",
+                    "opponent_action": "bravebird (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -5,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bravebird",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 18": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:82%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:131],\nYour current pokemon:skarmory,Type:Steel and Flying,HP:59%Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(faster than tinglu).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Ground-type attack is zero effect (0x damage) to skarmory.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour skarmory has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:bravebird,Type:Flying,Power:82,Acc:100%,Effect:User receives recoil damage. \nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 2 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,0.5x damage], Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu). Moves:[earthquake,Ground,1x damage], Dark-type attack is ineffective (0.5x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "bravebird (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Brave Bird is effective against Kyurem', 'TypeMatchup': 'Ground-type attacks are super-effective against Slowking Galar', 'SpeedControl': 'Slowking Galar is slower than Kyurem', 'TeamAdvantage': 'Tinglu is a better Pokemon than Slowking Galar', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Spikes are on the field', 'SwitchingCost': 'n/a', 'OpponentPressure': 'n/a', 'Uncertainty': 'n/a', 'WinPlan': 'Knock out Kyurem with Brave Bird'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 0,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': 'Brave Bird is effective against Kyurem', 'TypeMatchup': 'Ground-type attacks are super-effective against Slowking Galar', 'SpeedControl': 'Slowking Galar is slower than Kyurem', 'TeamAdvantage': 'Tinglu could be used to switch into Kyurem and avoid Spikes', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Spikes are on the field', 'SwitchingCost': 'Frequent switching will lead to recoil damage', 'OpponentPressure': 'Kyurem is under pressure, increasing PP cost of moves', 'Uncertainty': 'n/a', 'WinPlan': 'Use Brave Bird to knock out Kyurem'}",
+                    "opponent_action": "kyurem (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "stealthrock (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': 'Brave Bird is effective against Kyurem', 'TypeMatchup': 'Ground-type attacks are super-effective against Slowking Galar', 'SpeedControl': 'Slowking Galar is slower than Kyurem', 'TeamAdvantage': 'Tinglu could be used to switch into Kyurem and avoid Spikes', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Spikes are on the field', 'SwitchingCost': 'High', 'OpponentPressure': 'Kyurem is under Pressure', 'Uncertainty': 'n/a', 'WinPlan': 'Use Brave Bird to knock out Kyurem'}",
+                    "opponent_action": "spikes (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bravebird",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": 0,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 19": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:skarmory,Type:Steel and Flying,HP:26%Attack:176,Defense:391,Special attack:116,Special defense:176,Speed:200,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Flying, Psychic-type attack is ineffective (0.5x damage) to skarmory. Poison, Ground-type attack is zero effect (0x damage) to skarmory.\nskarmory used moves:[bravebird,Flying,Power:108],skarmory's all the possible attacks:[bodypress,fighting,Power:80],[bravebird,flying,Power:120],\nYour current pokemon:skarmory,Type:Steel and Flying,HP:39%Attack:196,Defense:416,Special attack:104,Special defense:176,Speed:178(slower than skarmory).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Steel, Flying-type attack is ineffective (0.5x damage) to skarmory.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour skarmory has 4 moves:\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:bravebird,Type:Flying,Power:60,Acc:100%,Effect:User receives recoil damage. (ineffective (0.5x damage) to skarmory)\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 2 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than skarmory). Moves:[futuresight,Psychic,0.5x damage],[sludgebomb,Poison,0x damage], Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than skarmory). Moves:[earthquake,Ground,0x damage], Fighting-type attack is super-effective (2x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "bravebird (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ting-Lu has Earthquake, which is super effective against Skarmory. The damage calculator provides a quick way to assess the potential damage output. Additionally, the current battle state suggests a clear opportunity to knock out Ting-Lu before it can unleash another damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bravebird",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 20": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:slowkinggalar,Type:Poison and Psychic,HP:100%Attack:166,Defense:200,Special attack:256,Special defense:347,Speed:86,Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.) Ground-type attack is super-effective (2x damage) to slowkinggalar. Poison-type attack is ineffective (0.5x damage) to slowkinggalar.\nslowkinggalar's all the possible attacks:[psyshock,psychic,Power:80],[sludgebomb,poison,Power:90],[fireblast,fire,Power:110],[futuresight,psychic,Power:120],[flamethrower,fire,Power:90],\nYou have 2 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than slowkinggalar). Moves:[futuresight,Psychic,1x damage],[sludgebomb,Poison,0.5x damage], Poison-type attack is ineffective (0.5x damage) to slowkinggalar.\nPokemon:tinglu,Type:Dark and Ground,HP:100%,Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than slowkinggalar). Moves:[earthquake,Ground,2x damage], Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's moves are ineffective against Kyurem.\", 'TypeMatchup': 'Ice-type attacks are super-effective against Tinglu.', 'SpeedControl': 'Tinglu is slower than Kyurem.', 'TeamAdvantage': 'Tinglu has a significant type advantage over Kyurem.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field.', 'SwitchingCost': 'Tinglu has already switched once.', 'OpponentPressure': \"Kyurem has Pressure, which increases the PP cost of opponent's moves.\", 'Uncertainty': 'n/a', 'WinPlan': 'Knock out Kyurem with a strong move before it can use powerful attacks.'}",
+                    "opponent_action": "thunderwave (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 70,
+                "label_scores": {
+                    "EffectiveMoves": -20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 10,
+                    "Uncertainty": 0,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 21": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:slowkinggalar,Type:Poison and Psychic,HP:63%Attack:166,Defense:200,Special attack:256,Special defense:347,Speed:86,Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.) Ground-type attack is super-effective (2x damage) to slowkinggalar. Poison-type attack is ineffective (0.5x damage) to slowkinggalar.\nslowkinggalar used moves:[futuresight,Psychic,Power:108],slowkinggalar's all the possible attacks:[psyshock,psychic,Power:80],[sludgebomb,poison,Power:90],[fireblast,fire,Power:110],[futuresight,psychic,Power:120],[flamethrower,fire,Power:90],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than slowkinggalar).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:128,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (super-effective (2x damage) to slowkinggalar)\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than slowkinggalar). Moves:[futuresight,Psychic,1x damage],[sludgebomb,Poison,0.5x damage], Poison-type attack is ineffective (0.5x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Slowking has predictable Future Sight, making the damage calculator ideal for finding the optimal damaging move. Additionally, Ting-Lu's Earthquake is super-effective against Slowking, maximizing potential damage.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 22": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:61%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:100],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is ineffective (0.5x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:89,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,0.5x damage], Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ting-Lu has predictable Earthquake, making the damage calculator sufficient for this turn. The potential for future unpredictable moves might require a minimax in the future.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 23": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:slowkinggalar,Type:Poison and Psychic,HP:25%Attack:166,Defense:200,Special attack:256,Special defense:347,Speed:86,Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.) Ground-type attack is super-effective (2x damage) to slowkinggalar. Poison-type attack is ineffective (0.5x damage) to slowkinggalar.\nslowkinggalar used moves:[futuresight,Psychic,Power:108],slowkinggalar's all the possible attacks:[psyshock,psychic,Power:80],[sludgebomb,poison,Power:90],[fireblast,fire,Power:110],[futuresight,psychic,Power:120],[flamethrower,fire,Power:90],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than slowkinggalar).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:128,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (super-effective (2x damage) to slowkinggalar)\nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than slowkinggalar). Moves:[futuresight,Psychic,1x damage],[sludgebomb,Poison,0.5x damage], Poison-type attack is ineffective (0.5x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Slowking is likely to prioritize Future Sight, which can potentially drain Ting-Lu's HP. The damage calculator offers a quick and reliable way to assess the effectiveness of potential moves against Slowking's current HP and defensive stats.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 24": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:40%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:100],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is ineffective (0.5x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:89,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,0.5x damage], Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's futuresight indicates potential future switching, making the minimax tree less reliable. The damage calculator is more suitable for finding the best damaging move in this turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 25": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:20%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:100],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:80%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(faster than tinglu).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is ineffective (0.5x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:89,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu). Moves:[futuresight,Psychic,0x damage],[sludgebomb,Poison,0.5x damage], Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ting-Lu has Earthquake, which is super effective against Slowking Galar. The damage calculator provides a quick estimate of the potential damage, while the minimax tree would require more complex calculations to model the opponent's future moves. Given the clear type advantage and potential for a knockout, the damage calculator is more suitable for this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 26": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:76%Attack:276,Defense:432(1 stage boosted),Special attack:176,Special defense:266,Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Psychic-type attack is super-effective (2x damage) to zamazenta.\nzamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:80%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than zamazenta).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is super-effective (2x damage) to tinglu. Dark-type attack is ineffective (0.5x damage) to tinglu. Electric, Psychic-type attack is zero effect (0x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:89,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than zamazenta). Moves:[futuresight,Psychic,2x damage],[sludgebomb,Poison,1x damage], Dark-type attack is super-effective (2x damage) to slowkinggalar. Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Earthquake is super-effective against Slowking.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar.', 'SpeedControl': 'Slowkinggalar outspeeds Slowking.', 'TeamAdvantage': \"Slowkinggalar's remaining team strength is strong.\", 'BoostsAndStatus': 'Slowkinggalar has a defensive boost from Heavy-Duty Boots.', 'HazardsAndField': 'Stealth Rock is on the field, damaging Slowkinggalar when switching in.', 'SwitchingCost': 'Frequent switching will be penalized by Stealth Rock.', 'OpponentPressure': \"Slowkinggalar's remaining team strength is strong.\", 'Uncertainty': \"The opponent's future moves are unknown.\", 'WinPlan': 'Outspeed and damage Slowking with Earthquake.'}",
+                    "opponent_action": "slowkinggalar (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 5,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Earthquake is super-effective against Slowking, while its Sludge Bomb is ineffective.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar, while Poison-type attacks are ineffective.', 'SpeedControl': 'Slowkinggalar outspeeds Slowking, ensuring it can move twice in this turn.', 'TeamAdvantage': 'Slowkinggalar is the only remaining Pokémon, while the opponent has two remaining Pokémon.', 'BoostsAndStatus': 'Slowkinggalar has no significant boosts or status effects.', 'HazardsAndField': 'Stealth Rock is in play, dealing damage to Pokémon switching in.', 'SwitchingCost': \"Switching out would allow the opponent to move twice due to Slowkinggalar's speed disadvantage.\", 'OpponentPressure': \"Slowkinggalar's remaining HP is low, putting pressure on the opponent to finish it off.\", 'Uncertainty': \"The opponent's remaining Pokémon and their potential moves are unknown.\", 'WinPlan': 'Slowkinggalar needs to maximize its damage output to defeat Slowking before the opponent can finish it off.'}",
+                    "opponent_action": "slowkinggalar (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 5,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 27": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:44%Attack:276,Defense:288,Special attack:176,Special defense:178(-1 stage boosted),Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Psychic-type attack is super-effective (2x damage) to zamazenta.\nzamazenta used moves:[closecombat,Fighting,Power:129],zamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:tinglu,Type:Dark and Ground,HP:4%Attack:256,Defense:286,Special attack:131,Special defense:284,Speed:127(slower than zamazenta).Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is super-effective (2x damage) to tinglu. Dark-type attack is ineffective (0.5x damage) to tinglu. Electric, Psychic-type attack is zero effect (0x damage) to tinglu.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour tinglu has 4 moves:\nMove:ruination,Type:Dark,Power:0,Acc:90%,Effect:Halves the opponent's HP. \nMove:earthquake,Type:Ground,Power:89,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:whirlwind,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nYou have 1 pokemons:\nPokemon:slowkinggalar,Type:Poison and Psychic,HP:52%,Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than zamazenta). Moves:[futuresight,Psychic,2x damage],[sludgebomb,Poison,1x damage], Dark-type attack is super-effective (2x damage) to slowkinggalar. Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Slowkinggalar's Earthquake is super-effective against Slowkinggalar.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Slowkinggalar.', 'SpeedControl': 'Slowkinggalar is slower than Slowkinggalar.', 'TeamAdvantage': 'Slowkinggalar is the only remaining Pokémon.', 'BoostsAndStatus': 'Slowkinggalar has a defensive boost from Heavy-Duty Boots.', 'HazardsAndField': 'Stealth Rock is in play.', 'SwitchingCost': 'Frequent switching will be penalized.', 'OpponentPressure': \"Slowkinggalar's Close Combat is super-effective against Slowkinggalar.\", 'Uncertainty': \"Slowkinggalar's Future Sight may predict an opponent's move.\", 'WinPlan': 'Utilize Earthquake to defeat Slowkinggalar and avoid switching out.'}",
+                    "opponent_action": "slowkinggalar (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "slowkinggalar (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': 'Earthquake is super-effective against Slowkinggalar.', 'TypeMatchup': 'Ground-type attacks are super-effective against Poison-type Pokémon.', 'SpeedControl': 'Slowkinggalar outspeeds Slowkinggalar.', 'TeamAdvantage': 'Slowkinggalar has a type advantage over Slowkinggalar.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'Stealth Rock is on the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Slowkinggalar has a strong attack.', 'Uncertainty': 'n/a', 'WinPlan': 'Use Earthquake to defeat Slowkinggalar.'}",
+                    "opponent_action": "closecombat (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 20,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 28": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:44%Attack:276,Defense:193(-1 stage boosted),Special attack:176,Special defense:133(-2 stage boosted),Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Psychic-type attack is super-effective (2x damage) to zamazenta.\nzamazenta used moves:[closecombat,Fighting,Power:245],zamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:52%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than zamazenta).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is super-effective (2x damage) to slowkinggalar. Fighting-type attack is highly ineffective (0.25x damage) to slowkinggalar.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:115,Acc:100%,Effect:Damage occurs 2 turns later. (super-effective (2x damage) to zamazenta)\nMove:sludgebomb,Type:Poison,Power:87,Acc:100%,Effect:May poison opponent. \nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Zamazenta is likely to prioritize Close Combat, considering its super-effectiveness against Ting-Lu. Therefore, a quick damage assessment is more appropriate to prioritize moves that can potentially KO Zamazenta before it can unleash another devastating Close Combat.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 29": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:20%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Poison-type attack is ineffective (0.5x damage) to tinglu. Psychic-type attack is zero effect (0x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:190],\nYour current pokemon:slowkinggalar,Type:Poison and Psychic,HP:52%Attack:135,Defense:197,Special attack:256,Special defense:350,Speed:58(slower than tinglu).Ability:Regenerator(The Pokémon has a little of its HP restored when withdrawn from battle.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ground, Dark-type attack is super-effective (2x damage) to slowkinggalar.\nYour team's side condition: stealth rock (cause rock-type damage to your pokémon when switch in)\nYour slowkinggalar has 4 moves:\nMove:futuresight,Type:Psychic,Power:108,Acc:100%,Effect:Damage occurs 2 turns later. (zero effect (0x damage) to tinglu)\nMove:sludgebomb,Type:Poison,Power:81,Acc:100%,Effect:May poison opponent. (ineffective (0.5x damage) to tinglu)\nMove:chillyreception,Type:Ice,Status-move,Power:0,Acc:100%,Effect:Switches out and summons a snowstorm lasting 5 turns. \nMove:toxic,Type:Poison,Status-move,Power:0,Acc:90%,Effect:Badly poisons opponent. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "sludgebomb (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Slowking's Future Sight is super effective against zamazenta.\", 'TypeMatchup': 'Slowking is psychic-type, which is super effective against zamazenta.', 'SpeedControl': 'Slowking is slower than zamazenta.', 'TeamAdvantage': 'Slowking is the only remaining Pokémon.', 'BoostsAndStatus': \"Slowking's Future Sight boosts its damage potential.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Zamazenta has high attack power and can use Earthquake.', 'Uncertainty': 'n/a', 'WinPlan': 'Slowking can win with Future Sight.'}",
+                    "opponent_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Slowking's Future Sight is super effective against zamazenta.\", 'TypeMatchup': 'Slowking is psychic-type, which is super effective against zamazenta.', 'SpeedControl': 'Slowking is slower than zamazenta.', 'TeamAdvantage': 'Slowking is not on the field.', 'BoostsAndStatus': \"Slowking's Future Sight boosts its power.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'n/a', 'Uncertainty': 'n/a', 'WinPlan': 'Slowking can potentially win with Future Sight.'}",
+                    "opponent_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 0,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Sludgebomb",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        }
+    }
+}

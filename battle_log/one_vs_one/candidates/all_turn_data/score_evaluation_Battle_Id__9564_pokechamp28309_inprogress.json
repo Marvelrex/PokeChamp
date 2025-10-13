@@ -1,0 +1,864 @@
+{
+    "Battle Id: 9564": {
+        "Turn 1": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:100%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nRequires switch:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 9 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 5 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nruination: 145 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\nogerpon vs. enamorus:\nogerpon outspeeds enamorus\nogerpon's moves:\nknockoff: 6 turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\nuturn: 10 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 302 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 16 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "ogerpon (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's Knockoff and Ivy Cudgel are effective against Enamorus.\", 'TypeMatchup': 'Grass-type moves are effective against Fairy-type Pokémon.', 'SpeedControl': 'Ogerpon outspeeds Enamorus.', 'TeamAdvantage': 'Team has several Pokémon with strong offensive moves.', 'BoostsAndStatus': \"Ogerpon's Defiant boosts its Attack stat when it has any stat lowered.\", 'HazardsAndField': \"Enamorus' Moonblast can badly poison Ogerpon.\", 'SwitchingCost': 'Multiple Pokémon have slower speeds than Enamorus.', 'OpponentPressure': 'Enamorus can use Moonblast or Earthpower to potentially KO Ogerpon.', 'Uncertainty': 'The outcome of the battle is uncertain due to the potential for status effects and switching.', 'WinPlan': 'Knock out Enamorus before it can use Moonblast or Earthpower.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ogerpon",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:100%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nRequires switch:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 9 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 5 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nruination: 145 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nCurrent pokemon:\nogerpon vs. enamorus:\nogerpon outspeeds enamorus\nogerpon's moves:\nknockoff: 6 turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\nuturn: 10 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 302 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 16 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n\nYour current pokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's Ivycudgel is effective against Enamorus, while Gholdengo's Focus Blast is likely to KO in 5 turns.\", 'TypeMatchup': \"Gholdengo's Steel/Ghost type offers good coverage against Enamorus's Fairy/Flying type.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus, ensuring it gets to act first.', 'TeamAdvantage': \"Gholdengo's remaining moves offer better coverage than Ogerpon's.\", 'BoostsAndStatus': \"Gholdengo's Good as Gold ability negates status conditions, while Ogerpon's Defiant boosts its Attack stat when stat-lowered.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Enamorus's Moonblast is very effective against Gholdengo.\", 'Uncertainty': \"The outcome of the battle is still uncertain, as the opponent's remaining team is strong.\", 'WinPlan': 'Gholdengo can potentially win with a well-timed Focus Blast.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 20,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: False, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's Ivycudgel is effective against Enamorus, while Gholdengo's Focus Blast is likely to KO in 5 turns.\", 'TypeMatchup': \"Gholdengo's Steel/Ghost typing offers no type advantage or disadvantage against Enamorus's Fairy/Flying typing.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus, ensuring it takes the next move.', 'TeamAdvantage': \"Gholdengo's remaining team is stronger than Ogerpon's.\", 'BoostsAndStatus': \"Gholdengo's Good as Gold ability negates all status conditions.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Frequent switching reduces team effectiveness.', 'OpponentPressure': \"Enamorus's Moonblast can potentially KO Gholdengo in 2 turns.\", 'Uncertainty': \"The effectiveness of Gholdengo's remaining moves against Enamorus is uncertain.\", 'WinPlan': 'Gholdengo should prioritize switching in a Pokémon with a type advantage or strong moves to counter Enamorus.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 0,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's Ivycudgel is effective against Enamorus.\", 'TypeMatchup': \"Ogerpon's Grass-type resistance negates Enamorus's Moonblast.\", 'SpeedControl': 'Ogerpon outspeeds Enamorus.', 'TeamAdvantage': 'gholdengo is a strong defensive option.', 'BoostsAndStatus': \"gholdengo's Good as Gold ability negates status effects.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Enamorus's Moonblast is powerful.\", 'Uncertainty': 'n/a', 'WinPlan': 'Ogerpon can potentially win with a well-timed Encore.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "encore (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Ogerpon's Ivycudgel is effective against Enamorus, while Gholdengo's Focus Blast might be too slow.\", 'TypeMatchup': \"Gholdengo is weak to Fairy-type moves, which are common on Enamorus's moveset.\", 'SpeedControl': 'Gholdengo outspeeds Enamorus, but Ogerpon outspeeds Enamorus.', 'TeamAdvantage': \"Gholdengo's Steel and Ghost types provide good coverage against Enamorus's Fairy and Flying types.\", 'BoostsAndStatus': 'Gholdengo has the Good as Gold ability, which makes it immune to status conditions.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Enamorus's Moonblast can deal significant damage, especially if it outspeeds Gholdengo.\", 'Uncertainty': 'The outcome of the battle is still uncertain, as the teams are evenly matched.', 'WinPlan': 'Gholdengo needs to utilize its speed advantage to outspeed Enamorus and avoid getting OHKOed by Moonblast.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": -10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": 20,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:60%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nRequires switch:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 6 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 5 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 174 turns to KO opponent's pokemon\nruination: 87 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 10 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 174 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: False, Status: None]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Saltcure is effective against Enamorus.\", 'TypeMatchup': 'Garganacl is resistant to Mysticalfire.', 'SpeedControl': 'Enamorus outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl has Leftovers for passive healing.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Enamorus can use Moonblast or Mysticalfire to potentially knock out Garganacl.', 'Uncertainty': \"Enamorus's Moonblast is very powerful, but Mysticalfire is less so.\", 'WinPlan': 'Garganacl needs to utilize its Leftovers and Saltcure effectively to outlast Enamorus.'}",
+                    "opponent_action": "mysticalfire (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 75,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Saltcure is effective against Enamorus.\", 'TypeMatchup': 'Garganacl is resistant to Mysticalfire and Earthpower.', 'SpeedControl': 'Enamorus outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl has Leftovers for passive healing.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Enamorus can use Moonblast or Mysticalfire to potentially knock out Garganacl.', 'Uncertainty': \"Enamorus's Moonblast has a chance to critically hit.\", 'WinPlan': 'Garganacl can potentially win with Saltcure or Protect + Recover.'}",
+                    "opponent_action": "mysticalfire (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gholdengo",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:60%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nCurrent pokemon:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 6 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 5 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 174 turns to KO opponent's pokemon\nruination: 87 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 10 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 174 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "hex (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Moonblast is likely to KO Gholdengo regardless of the move used. The minimax tree would be complex due to the opponent's potential to switch or use Healing Wish. The damage calculator offers a quicker and more straightforward approach to finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Hex",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:75%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:32%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nCurrent pokemon:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 5 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 1 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 2 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 93 turns to KO opponent's pokemon\nruination: 47 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 5 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 93 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:75%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "hex (Move object)",
+                    "score": 90,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Hex is effective against Enamorus.\", 'TypeMatchup': 'Garganacl is resistant to Mysticalfire.', 'SpeedControl': 'Garganacl outspeeds Enamorus.', 'TeamAdvantage': 'Strong remaining team with multiple offensive options.', 'BoostsAndStatus': \"Gholdengo's Hex boosts Sp. Atk.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High cost due to multiple switches.', 'OpponentPressure': 'Enamorus has used Mysticalfire multiple times, potentially lowering Sp. Atk.', 'Uncertainty': 'Enamorus still has Mysticalfire remaining.', 'WinPlan': 'Outspeed and damage Enamorus with remaining Pokémon.'}",
+                    "opponent_action": "mysticalfire (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Hex is effective against Enamorus.\", 'TypeMatchup': 'Garganacl is resistant to Mysticalfire.', 'SpeedControl': 'Garganacl outspeeds Enamorus.', 'TeamAdvantage': 'Strong remaining team with good type coverage.', 'BoostsAndStatus': \"Gholdengo's Pressure boosts its Sp. Atk.\", 'HazardsAndField': 'Spikes are on the field.', 'SwitchingCost': \"High cost of switching due to opponent's speed.\", 'OpponentPressure': 'Enamorus has used Moonblast multiple times, potentially boosting its Sp. Atk.', 'Uncertainty': 'Enamorus still has Mysticalfire left.', 'WinPlan': \"Outspeed and damage Enamorus with Garganacl's Focusblast.\"}",
+                    "opponent_action": "mysticalfire (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 25,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Hex is effective against Enamorus.\", 'TypeMatchup': 'Garganacl is resistant to Mysticalfire.', 'SpeedControl': 'Garganacl outspeeds Enamorus.', 'TeamAdvantage': 'Strong remaining team with multiple offensive options.', 'BoostsAndStatus': \"Gholdengo's Hex boosts Sp. Atk, while Enamorus's Moonblast boosts Sp. Atk.\", 'HazardsAndField': 'n/a', 'SwitchingCost': \"High cost of switching due to opponent's speed.\", 'OpponentPressure': 'Enamorus has high Sp. Atk and can potentially outspeed Garganacl again.', 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Garganacl's speed and offensive moves to defeat Enamorus and potentially win the battle.\"}",
+                    "opponent_action": "mysticalfire (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 25,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "focusblast (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Focusblast is ineffective against Enamorus, but Gholdengo's Hex is effective.\", 'TypeMatchup': 'Garganacl is resistant to Mysticalfire, but Enamorus is resistant to Focusblast.', 'SpeedControl': 'Garganacl outspeeds Enamorus.', 'TeamAdvantage': 'Garganacl has Purifying Salt, which protects it from status conditions and halves the damage taken from Ghost-type moves.', 'BoostsAndStatus': 'Gholdengo has a speed boost from Swords Dance.', 'HazardsAndField': 'The field has Spikes, which can damage opposing Pokémon.', 'SwitchingCost': 'Switching out Pokémon will reset the speed boost from Swords Dance.', 'OpponentPressure': 'Enamorus has pressure, which causes opposing Pokémon to expend more PP to use their moves.', 'Uncertainty': 'The outcome of the battle is uncertain, as the remaining Pokémon have significant health remaining.', 'WinPlan': \"Garganacl can potentially win with a well-timed Focusblast or by exploiting Enamorus's pressure with a status condition.\"}",
+                    "opponent_action": "mysticalfire (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 20,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Hex",
+                "score": 90,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:52%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:6%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nCurrent pokemon:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 1 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 2 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 2 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 18 turns to KO opponent's pokemon\nruination: 9 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 1 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 18 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:52%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "focusblast (Move object)",
+                    "score": -1,
+                    "rationale": "Given the opponent's predictable Moonblast and predictable Earthpower, the damage calculator offers a more efficient approach to finding the optimal damaging move, especially with Gholdengo's Fairy Tera type offering resistance to Earthpower.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Focusblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:29%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:1%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nCurrent pokemon:\ngholdengo vs. enamorus:\nenamorus outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 1 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 2 turns to KO your pokemon\nearthpower: 2 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 2 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nruination: 2 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 1 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n\nYour current pokemon:gholdengo,Type:Steel and Ghost,HP:29%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "focusblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Moonblast is likely to KO Gholdengo, but there's a chance they might switch out. The minimax tree would model this uncertainty, but the damage calculator is quicker for this situation. Additionally, the damage calculator can quickly identify the best damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Focusblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:1%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nruination: 2 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 1 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Saltcure is effective against Enamorus.\", 'TypeMatchup': \"Garganacl is resistant to Enamorus's Moonblast.\", 'SpeedControl': 'Enamorus outspeeds Garganacl.', 'TeamAdvantage': \"Garganacl has better remaining HP than the opponent's remaining team.\", 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Enamorus's Moonblast is very effective.\", 'Uncertainty': 'Low', 'WinPlan': 'Garganacl can potentially win with Saltcure.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -15,
+                        "Uncertainty": 5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: False, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Saltcure is effective against Enamorus.\", 'TypeMatchup': \"Garganacl is resistant to Enamorus's Moonblast.\", 'SpeedControl': 'Enamorus outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl has better remaining HP than Enamorus.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Enamorus can potentially use Earthquake or Earthpower.', 'Uncertainty': \"Enamorus's Mysticalfire is more powerful than Moonblast.\", 'WinPlan': 'Garganacl can potentially win with Saltcure.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: garganacl",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -15,
+                    "Uncertainty": 5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:1%Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nRequires switch:\ntinglu vs. enamorus:\nenamorus outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nruination: 2 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 3 turns to KO your pokemon\nearthpower: 7 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 8 turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. enamorus:\nenamorus outspeeds garganacl\ngarganacl's moves:\nsaltcure: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 405 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 11 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. enamorus:\nenamorus outspeeds gliscor\ngliscor's moves:\nuturn: 1 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: enamorus\nmoonblast: 4 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\nhealingwish: The user faints and the next Pokémon released is fully healed.  inf turns to KO your pokemon\nmysticalfire: 5 turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Moonblast is potent, but Garganacl's Purifying Salt negates status conditions and reduces Ghost-type damage. The damage calculator offers a quick assessment of potential damage, while the minimax tree would require deeper analysis of potential scenarios. Given the urgent need to deal damage and the availability of reliable moves, the damage calculator seems more suitable for this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Saltcure",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 289 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 12 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\ngliscor vs. ironvaliant:\nironvaliant outspeeds gliscor\ngliscor's moves:\nuturn: 19 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 4 turns to KO your pokemon\nclosecombat: 6 turns to KO your pokemon\nknockoff: 8 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is effective against Iron Valiant.\", 'TypeMatchup': \"Gliscor is resistant to Iron Valiant's Moonblast.\", 'SpeedControl': 'Gliscor outspeeds Iron Valiant.', 'TeamAdvantage': 'Gliscor can switch into other Pokémon without taking damage from Spikes.', 'BoostsAndStatus': \"Gliscor's Poison Heal can restore health during battle.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High, due to potential for Moonblast.', 'OpponentPressure': \"Iron Valiant's Quark-Drive boosts its speed.\", 'Uncertainty': 'Low, as Gliscor outspeeds Iron Valiant.', 'WinPlan': 'Gliscor can use Earthquake to defeat Iron Valiant.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is effective against Iron Valiant.\", 'TypeMatchup': \"Gliscor is resistant to Iron Valiant's Moonblast.\", 'SpeedControl': 'Gliscor outspeeds Iron Valiant.', 'TeamAdvantage': \"Gliscor's Poison Heal and Iron Valiant's Quark-Drive are strong.\", 'BoostsAndStatus': 'Gliscor has Poison Heal, but Iron Valiant has Quark-Drive.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Low', 'Uncertainty': 'Low', 'WinPlan': 'Gliscor can win with Earthquake or Toxic.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gliscor",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:63%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 289 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 12 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. ironvaliant:\nironvaliant outspeeds gliscor\ngliscor's moves:\nuturn: 19 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\nknockoff: 6 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\n\nYour current pokemon:gliscor,Type:Ground and Flying,HP:63%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is super effective against Enamorus.\", 'TypeMatchup': 'Garganacl is resistant to Moonblast, while Iron Valiant is vulnerable to Earthquake.', 'SpeedControl': 'Iron Valiant outspeeds Garganacl, but Gliscor can potentially switch in and outspeed Iron Valiant.', 'TeamAdvantage': 'Garganacl is the only remaining Pokémon with a reliable way to damage Iron Valiant.', 'BoostsAndStatus': \"Garganacl's Purifying Salt protects it from status conditions, while Iron Valiant has Quark-Drive boosting its Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches have been made in the past few turns.', 'OpponentPressure': 'n/a', 'Uncertainty': 'n/a', 'WinPlan': 'Garganacl can potentially win with Salt Cure, while Iron Valiant needs to rely on Moonblast, which is less effective against Garganacl.'}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": 0,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is super effective against Enamorus.\", 'TypeMatchup': \"Garganacl is resistant to Iron Valiant's Moonblast.\", 'SpeedControl': 'Iron Valiant outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl is the only remaining Pokémon with a chance to win.', 'BoostsAndStatus': \"Garganacl's Purifying Salt protects it from status conditions.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'n/a', 'Uncertainty': 'Low', 'WinPlan': 'Garganacl can use Salt Cure to defeat Iron Valiant.'}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": 0,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": 0,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:39%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:59%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 171 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 6 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 12 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. ironvaliant:\nironvaliant outspeeds gliscor\ngliscor's moves:\nuturn: 11 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\n\nYour current pokemon:gliscor,Type:Ground and Flying,HP:39%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is effective against Iron Valiant's Moonblast.\", 'TypeMatchup': 'Iron Valiant is weak to Rock-type moves.', 'SpeedControl': 'Iron Valiant outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl is immune to Ghost-type moves thanks to Purifying Salt.', 'BoostsAndStatus': \"Gliscor's Poison Heal will restore its HP during the battle.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches have been made.', 'OpponentPressure': \"Iron Valiant's Quark Drive boosts its Speed.\", 'Uncertainty': 'n/a', 'WinPlan': 'Garganacl can potentially win with Salt Cure and strong attacks.'}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -15,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Garanacl's Salt Cure is effective against Iron Valiant's Moonblast.\", 'TypeMatchup': \"Garanacl is resistant to Iron Valiant's Close Combat.\", 'SpeedControl': 'Iron Valiant outspeeds Garganacl.', 'TeamAdvantage': \"Garanacl's Purifying Salt protects it from Ghost-type moves, which are common on Iron Valiant's team.\", 'BoostsAndStatus': 'Garanacl has a boost from Defiant, which boosts its Attack stat when it has a stat lowered.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple Pokémon have been switched already.', 'OpponentPressure': 'Iron Valiant has access to powerful moves like Moonblast and Close Combat.', 'Uncertainty': \"Garanacl's remaining moves are not very effective against Iron Valiant.\", 'WinPlan': 'Garanacl can potentially win with Salt Cure, but it will be difficult.'}",
+                    "opponent_action": "closecombat (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": -10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -15,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:16%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nruination: 47 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 12 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: False, Status: None]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is effective against Iron Valiant's Moonblast.\", 'TypeMatchup': 'Iron Valiant is weak to Rock-type moves.', 'SpeedControl': 'Iron Valiant outspeeds Garganacl.', 'TeamAdvantage': 'Garganacl is immune to Ghost-type moves thanks to Purifying Salt.', 'BoostsAndStatus': \"Iron Valiant's Quark-Drive boosts its Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches in a row.', 'OpponentPressure': \"Iron Valiant's Moonblast is effective against Garganacl.\", 'Uncertainty': 'n/a', 'WinPlan': 'Garganacl can win with Salt Cure or Earth Power.'}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is effective against Iron Valiant's Moonblast.\", 'TypeMatchup': 'Iron Valiant is weak to Rock-types like Garganacl.', 'SpeedControl': 'Iron Valiant outspeeds Garganacl, but Garganacl can potentially KO Iron Valiant with Earthquake.', 'TeamAdvantage': \"Garganacl is strong against Iron Valiant's remaining team.\", 'BoostsAndStatus': \"Garganacl's Purifying Salt protects it from status conditions and halves damage from Ghost-types.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches in a row.', 'OpponentPressure': \"Iron Valiant's Moonblast is effective against Garganacl.\", 'Uncertainty': 'n/a', 'WinPlan': 'Garganacl can potentially win with well-timed Earthquake or Salt Cure.'}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:16%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nruination: 47 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 12 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Moonblast is quite powerful, but Tinglu's Earthquake has a chance to KO Iron Valiant. The damage calculator can quickly assess the potential damage, while the minimax tree might be overkill for this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:49%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\ntinglu vs. dragapult:\ndragapult outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 32 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: dragapult\nuturn: 4 turns to KO your pokemon\ndragondarts: 4 turns to KO your pokemon\ndracometeor: 3 turns to KO your pokemon\nhex: 7 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. dragapult:\ndragapult outspeeds garganacl\ngarganacl's moves:\nsaltcure: 5 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: dragapult\nuturn: 12 turns to KO your pokemon\ndragondarts: 4 turns to KO your pokemon\ndracometeor: 3 turns to KO your pokemon\nhex: 3 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:49%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's predictable Moonblast is likely to KO Ting-Lu, making damage calculation sufficient. Additionally, the availability of Earthquake suggests a potential switch-in opportunity.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:49%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:dragapult,Type:Dragon and Ghost,HP:46%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\ntinglu vs. dragapult:\ndragapult outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nruination: 15 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: dragapult\ndragondance: Raises user's Attack and Speed.  inf turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\ndragondarts: 3 turns to KO your pokemon\ndracometeor: 3 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. dragapult:\ndragapult outspeeds garganacl\ngarganacl's moves:\nsaltcure: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: dragapult\ndragondance: Raises user's Attack and Speed.  inf turns to KO your pokemon\nuturn: 9 turns to KO your pokemon\ndragondarts: 3 turns to KO your pokemon\ndracometeor: 3 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:49%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragapult is likely to use Dragon Dance, boosting its power, making it crucial to maximize damage before its speed boost. The damage calculator provides a quick and efficient way to assess the effectiveness of potential moves in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:10%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:dragapult,Type:Dragon and Ghost,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 2 turns to KO your pokemon\nbodypress: 2 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 14 turns to KO your pokemon\nbodypress: 3 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:10%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Earthquake is effective against Corviknight.\", 'TypeMatchup': 'Corviknight is weak to Rock-type moves.', 'SpeedControl': 'Corviknight outspeeds Garganacl.', 'TeamAdvantage': \"Garganacl's Purifying Salt protects it from status conditions.\", 'BoostsAndStatus': \"Corviknight's Dragon Dance boosts its Attack and Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - Corviknight outspeeds Garganacl.', 'OpponentPressure': \"Corviknight's Pressure forces opponents to use more PP.\", 'Uncertainty': \"Corviknight's Dragon Dance can potentially boost its Attack and Speed significantly.\", 'WinPlan': 'Garganacl can potentially win with Earthquake or Salt Cure.'}",
+                    "opponent_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -30,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Earthquake is effective against Corviknight.\", 'TypeMatchup': \"Corviknight is weak to Fairy-type moves, but Garganacl's moves are not super effective against Corviknight.\", 'SpeedControl': 'Corviknight outspeeds Garganacl, but Garganacl can potentially KO Corviknight with Earthquake.', 'TeamAdvantage': \"Garganacl's remaining team is stronger than Corviknight's remaining team.\", 'BoostsAndStatus': \"Corviknight's Dragon Dance boosts its Attack and Speed, while Garganacl has Purifying Salt which protects it from status conditions.\", 'HazardsAndField': \"Corviknight's moves can potentially inflict damage on Garganacl when switching in.\", 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': 'Corviknight can put pressure on Garganacl with its moves.', 'Uncertainty': 'The outcome of the battle is uncertain, as the remaining Pokémon have significant power.', 'WinPlan': 'Garganacl can potentially win with a well-timed Earthquake.'}",
+                    "opponent_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -5,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 20,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -15,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -30,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 18": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:dragapult,Type:Dragon and Ghost,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 3 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 14 turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:66%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is super effective against Corviknight, and Protect offers potential to mitigate future threats.\", 'TypeMatchup': \"Corviknight's Steel type provides resistance to Garganacl's Rock moves, but is vulnerable to Ground-type moves.\", 'SpeedControl': 'Corviknight outspeeds Garganacl, but Garganacl can potentially switch out and avoid the speed disadvantage.', 'TeamAdvantage': \"Garganacl's remaining team has strong matchups against Corviknight's team.\", 'BoostsAndStatus': \"Corviknight's Moonblast can potentially boost its Attack stat, while Garganacl's Purifying Salt protects it from status conditions.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches could lead to significant PP depletion.', 'OpponentPressure': \"Corviknight's Pressure can force opponents to use more PP, potentially limiting their effectiveness.\", 'Uncertainty': \"Corviknight's Moonblast is a powerful move, but its effectiveness can vary.\", 'WinPlan': \"Garganacl can potentially win with well-timed Protect and Salt Cure, while exploiting Corviknight's Steel type weaknesses with Ground-type moves.\"}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Saltcure",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": 10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 19": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:31%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:dragapult,Type:Dragon and Ghost,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:73%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nCurrent pokemon:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 8 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 2 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 7 turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:31%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "stealthrock (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is very effective against Corviknight, while Protect offers defensive utility.\", 'TypeMatchup': \"Corviknight's Steel type provides some resistance to Garganacl's Rock moves, but is vulnerable to Ground-type moves.\", 'SpeedControl': 'Corviknight outspeeds Garganacl, potentially exploiting its Protect.', 'TeamAdvantage': \"Garganacl's remaining team has strong Ground-type coverage, while Corviknight's team lacks effective Ground-type options.\", 'BoostsAndStatus': \"Quark Drive boosts Corviknight's Speed, while Garganacl has Purifying Salt, which halves damage from Ghost-type moves.\", 'HazardsAndField': \"Corviknight's Body Press can potentially inflict significant damage on Garganacl.\", 'SwitchingCost': \"Multiple switches have been made, potentially weakening the team's effectiveness.\", 'OpponentPressure': 'Corviknight can put pressure on Garganacl with Moonblast, forcing it to use Protect or risk significant damage.', 'Uncertainty': \"Corviknight's remaining team is capable of inflicting considerable damage, increasing the risk of defeat.\", 'WinPlan': \"Garganacl needs to utilize Protect strategically and capitalize on its Ground-type coverage to outmaneuver Corviknight's threats.\"}",
+                    "opponent_action": "bodypress (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Stealthrock",
+                "score": 70,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -15,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -20,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 20": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Fighting,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FIGHTING (pokemon type) object Is terastallized? True\nPokemon:garganacl,Type:Rock,HP:12%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:enamorus,Type:Fairy and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:dragapult,Type:Dragon and Ghost,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:54%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nCurrent pokemon:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 6 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 2 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 4 turns to KO your pokemon\n\nOpponent team's side condition: stealth rock\nYour current pokemon:garganacl,Type:Rock,HP:12%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "stealthrock (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Stealth Rock is ineffective against Corviknight.\", 'TypeMatchup': \"Corviknight's Body Press is super effective against Garganacl.\", 'SpeedControl': 'Corviknight outspeeds Garganacl.', 'TeamAdvantage': \"Player's remaining team is stronger than opponent's.\", 'BoostsAndStatus': 'Garganacl has Purifying Salt, which halves damage from Ghost-type moves.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Excessive switching could be costly.', 'OpponentPressure': \"Corviknight can put pressure on opponent's moves.\", 'Uncertainty': 'n/a', 'WinPlan': 'Garganacl can potentially win with Stealth Rock.'}",
+                    "opponent_action": "enamorus (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Stealthrock",
+                "score": 70,
+                "label_scores": {
+                    "EffectiveMoves": -10,
+                    "TypeMatchup": -20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 10,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        }
+    }
+}

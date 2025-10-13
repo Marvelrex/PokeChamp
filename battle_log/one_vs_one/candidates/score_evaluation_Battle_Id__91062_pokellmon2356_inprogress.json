@@ -1,0 +1,444 @@
+{
+    "Battle Id: 91062": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:garganacl,Type:Rock,HP:100%Attack:236,Defense:309,Special attack:113,Special defense:293,Speed:106, Steel, Ground, Fighting-type attack is super-effective (2x damage) to garganacl. Fire, Flying, Poison-type attack is ineffective (0.5x damage) to garganacl.\n\nYour current pokemon:enamorus,Type:Fairy and Flying,HP:100%Attack:211,Defense:176,Special attack:369,Special defense:197,Speed:342(faster than garganacl).Ability:Contrary(Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them— and attempts to lower its stats will boost them.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Rock-type attack is super-effective (2x damage) to enamorus.\nYour enamorus has 4 moves:\nMove:moonblast,Type:Fairy,Power:120,Acc:100%,Effect:May lower opponent's Special Attack. \nMove:earthpower,Type:Ground,Power:113,Acc:100%,Effect:May lower opponent's Special Defense. (super-effective (2x damage) to garganacl)\nMove:mysticalfire,Type:Fire,Power:94,Acc:100%,Effect:Lowers opponent's Special Attack. (ineffective (0.5x damage) to garganacl)\nMove:healingwish,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:The user faints and the next Pokémon released is fully healed. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than garganacl). Moves:[moonblast,Fairy,1x damage],[aurasphere,Fighting,2x damage],[thunderbolt,Electric,1x damage],[psyshock,Psychic,1x damage], Rock-type attack is ineffective (0.5x damage) to ironvaliant.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:172(faster than garganacl). Moves:[suckerpunch,Dark,1x damage],[kowtowcleave,Dark,1x damage],[ironhead,Steel,2x damage], Rock-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(faster than garganacl). Moves:[bodypress,Fighting,2x damage],[uturn,Bug,1x damage],\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than garganacl). Moves:[acrobatics,Flying,0.5x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,1x damage],\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than garganacl). Moves:[mortalspin,Poison,0.5x damage],[earthpower,Ground,2x damage],[powergem,Rock,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Garganacl has a predictable move pattern, and our Pokémon Enamorus has a significant type advantage. Therefore, the damage calculator is more suitable for finding the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower terastallize",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:garganacl,Type:Rock,HP:25%Attack:236,Defense:309,Special attack:113,Special defense:293,Speed:106, Steel, Ground, Fighting-type attack is super-effective (2x damage) to garganacl. Flying, Poison-type attack is ineffective (0.5x damage) to garganacl.\ngarganacl used moves:[saltcure,Rock,Power:45],\nYour current pokemon:enamorus,Type:Ground,HP:77%Attack:211,Defense:176,Special attack:369,Special defense:197,Speed:342(faster than garganacl).Ability:Contrary(Reverses any stat changes affecting the Pokémon so that attempts to boost its stats instead lower them— and attempts to lower its stats will boost them.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Rock-type attack is ineffective (0.5x damage) to enamorus.\nYour enamorus has 1 moves:\nMove:earthpower,Type:Ground,Power:113,Acc:100%,Effect:May lower opponent's Special Defense. (super-effective (2x damage) to garganacl)\nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than garganacl). Moves:[moonblast,Fairy,1x damage],[aurasphere,Fighting,2x damage],[thunderbolt,Electric,1x damage],[psyshock,Psychic,1x damage], Rock-type attack is ineffective (0.5x damage) to ironvaliant.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:172(faster than garganacl). Moves:[suckerpunch,Dark,1x damage],[kowtowcleave,Dark,1x damage],[ironhead,Steel,2x damage], Rock-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(faster than garganacl). Moves:[bodypress,Fighting,2x damage],[uturn,Bug,1x damage],\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than garganacl). Moves:[acrobatics,Flying,0.5x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,1x damage],\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than garganacl). Moves:[mortalspin,Poison,0.5x damage],[earthpower,Ground,2x damage],[powergem,Rock,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Garganacl is likely to switch out after using Salt Cure, making future predictions unreliable. The damage calculator offers a quick and reliable way to maximize damage before the switch.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:deoxysspeed,Type:Psychic,HP:100%Attack:203,Defense:216,Special attack:289,Special defense:217,Speed:504,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Bug, Dark-type attack is super-effective (2x damage) to deoxysspeed. Fighting, Psychic-type attack is ineffective (0.5x damage) to deoxysspeed.\n\nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than deoxysspeed). Moves:[moonblast,Fairy,1x damage],[aurasphere,Fighting,0.5x damage],[thunderbolt,Electric,1x damage],[psyshock,Psychic,0.5x damage], Psychic-type attack is super-effective (2x damage) to ironvaliant.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:172(slower than deoxysspeed). Moves:[suckerpunch,Dark,2x damage],[kowtowcleave,Dark,2x damage],[ironhead,Steel,1x damage], Psychic-type attack is zero effect (0x damage) to kingambit.\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than deoxysspeed). Moves:[bodypress,Fighting,0.5x damage],[uturn,Bug,2x damage], Psychic-type attack is ineffective (0.5x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(slower than deoxysspeed). Moves:[acrobatics,Flying,1x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,2x damage],\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(slower than deoxysspeed). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[powergem,Rock,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "ironvaliant (pokemon object) [Active: True, Status: None]",
+                    "score": 90,
+                    "rationale": "{'EffectiveMoves': \"Iron Valiant's Moonblast is super effective against Deoxys.\", 'TypeMatchup': \"Iron Valiant's Psychic-type resistance is advantageous against Deoxys's Psychic attacks.\", 'SpeedControl': 'Iron Valiant outspeeds Deoxys.', 'TeamAdvantage': 'Strong remaining team with multiple strong attackers.', 'BoostsAndStatus': 'Iron Valiant has a boost on Special Attack.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Deoxys's Pressure ability can reduce Iron Valiant's stats.\", 'Uncertainty': \"Deoxys's moves and abilities are not fully known.\", 'WinPlan': 'Utilize Moonblast to knock out Deoxys and then prioritize switching in Pokémon with strong attacks or abilities.'}",
+                    "opponent_action": "garganacl (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ironvaliant",
+                "score": 90,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:deoxysspeed,Type:Psychic,HP:17%Attack:203,Defense:216,Special attack:289,Special defense:217,Speed:504,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Bug, Dark-type attack is super-effective (2x damage) to deoxysspeed. Fighting-type attack is ineffective (0.5x damage) to deoxysspeed.\ndeoxysspeed used moves:[icebeam,Ice,Power:166],\nYou have 4 pokemons:\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:172(slower than deoxysspeed). Moves:[suckerpunch,Dark,2x damage],[kowtowcleave,Dark,2x damage],[ironhead,Steel,1x damage], Ice-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than deoxysspeed). Moves:[bodypress,Fighting,0.5x damage],[uturn,Bug,2x damage], Psychic-type attack is ineffective (0.5x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(slower than deoxysspeed). Moves:[acrobatics,Flying,1x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,2x damage], Ice-type attack is super-effective (2x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(slower than deoxysspeed). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[powergem,Rock,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "kingambit (pokemon object) [Active: True, Status: None]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Kingambit's Dark-type moves are super-effective against Garganacl.\", 'TypeMatchup': 'Kingambit is resistant to Ice-type attacks, while Garganacl is weak to Dark-type attacks.', 'SpeedControl': 'Kingambit outspeeds Garganacl.', 'TeamAdvantage': \"Kingambit has a strong Attack stat, while the opponent's remaining team has a combined Attack stat of 236.\", 'BoostsAndStatus': 'Kingambit has a potential boost in Attack and Special Attack from Supreme Overlord.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Deoxys's Pressure ability can reduce the opponent's Attack stat.\", 'Uncertainty': 'n/a', 'WinPlan': \"Kingambit can potentially outspeed and defeat Garganacl, and the opponent's remaining team is not significantly stronger.\"}",
+                    "opponent_action": "garganacl (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: kingambit",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:deoxysspeed,Type:Psychic,HP:17%Attack:203,Defense:216,Special attack:144(-2 stage boosted),Special defense:217,Speed:504,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.) Bug, Dark-type attack is super-effective (2x damage) to deoxysspeed. Fighting-type attack is ineffective (0.5x damage) to deoxysspeed.\ndeoxysspeed used moves:[icebeam,Ice,Power:63],[psychoboost,Psychic,Power:98],\nYour current pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:172(slower than deoxysspeed).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.) Ice-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:suckerpunch,Type:Dark,Power:131,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. (super-effective (2x damage) to deoxysspeed)\nMove:kowtowcleave,Type:Dark,Power:159,Acc:100%,Effect:Always hits. (super-effective (2x damage) to deoxysspeed)\nMove:ironhead,Type:Steel,Power:150,Acc:100%,Effect:May cause flinching. \nYou have 3 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than deoxysspeed). Moves:[bodypress,Fighting,0.5x damage],[uturn,Bug,2x damage], Psychic-type attack is ineffective (0.5x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(slower than deoxysspeed). Moves:[acrobatics,Flying,1x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,2x damage], Ice-type attack is super-effective (2x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(slower than deoxysspeed). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[powergem,Rock,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "suckerpunch (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Deoxys has Psycho Boost, which can potentially lower its Sp. Atk. The damage calculator is more suitable for finding the optimal damaging move in this situation, as it doesn't consider opponent's future moves or complex strategizing.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Suckerpunch",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ogerpon,Type:Grass,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.) Flying, Bug, Poison-type attack is super-effective (2x damage) to ogerpon. Ground-type attack is ineffective (0.5x damage) to ogerpon.\n\nYour current pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:172(slower than ogerpon).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.) Grass-type attack is ineffective (0.5x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:suckerpunch,Type:Dark,Power:139,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. \nMove:kowtowcleave,Type:Dark,Power:169,Acc:100%,Effect:Always hits. \nMove:ironhead,Type:Steel,Power:159,Acc:100%,Effect:May cause flinching. \nYou have 3 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than ogerpon). Moves:[bodypress,Fighting,1x damage],[uturn,Bug,2x damage], Grass-type attack is highly ineffective (0.25x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than ogerpon). Moves:[acrobatics,Flying,2x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,1x damage], Grass-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(slower than ogerpon). Moves:[mortalspin,Poison,2x damage],[earthpower,Ground,0.5x damage],[powergem,Rock,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "swordsdance (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Deoxys is likely to prioritize boosting its speed with Quark-Drive, making future predictions unreliable. The immediate damage potential is crucial. Therefore, the damage calculator offers a more efficient approach to maximizing damage in this turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Swordsdance",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ogerpon,Type:Grass,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:525(1 stage boosted),Ability:embodyaspectteal Flying, Bug, Poison-type attack is super-effective (2x damage) to ogerpon. Ground-type attack is ineffective (0.5x damage) to ogerpon.\nogerpon used moves:[ivycudgel,Grass,Power:42],\nYour current pokemon:kingambit,Type:Dark and Steel,HP:72%Attack:810(2 stage boosted),Defense:276,Special attack:140,Special defense:206,Speed:172(slower than ogerpon).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.), Grass-type attack is ineffective (0.5x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:suckerpunch,Type:Dark,Power:278,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. \nMove:kowtowcleave,Type:Dark,Power:338,Acc:100%,Effect:Always hits. \nMove:ironhead,Type:Steel,Power:318,Acc:100%,Effect:May cause flinching. \nYou have 3 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than ogerpon). Moves:[bodypress,Fighting,1x damage],[uturn,Bug,2x damage], Grass-type attack is highly ineffective (0.25x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(slower than ogerpon). Moves:[acrobatics,Flying,2x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,1x damage], Grass-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(slower than ogerpon). Moves:[mortalspin,Poison,2x damage],[earthpower,Ground,0.5x damage],[powergem,Rock,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "swordsdance (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ogerpon has a high Speed stat and has already used Psycho Boost, making their future moves unpredictable. The damage calculator is better suited for finding the best damaging move in this situation, considering only the current battle state.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Swordsdance",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ogerpon,Type:Grass,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:525(1 stage boosted),Ability:embodyaspectteal Flying, Bug, Poison-type attack is super-effective (2x damage) to ogerpon. Ground-type attack is ineffective (0.5x damage) to ogerpon.\nogerpon used moves:[ivycudgel,Grass,Power:28],\nYour current pokemon:kingambit,Type:Dark and Steel,HP:45%Attack:1215(4 stage boosted),Defense:276,Special attack:140,Special defense:206,Speed:172(slower than ogerpon).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.), Grass-type attack is ineffective (0.5x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:suckerpunch,Type:Dark,Power:417,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. \nMove:kowtowcleave,Type:Dark,Power:506,Acc:100%,Effect:Always hits. \nMove:ironhead,Type:Steel,Power:476,Acc:100%,Effect:May cause flinching. \nYou have 3 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than ogerpon). Moves:[bodypress,Fighting,1x damage],[uturn,Bug,2x damage], Grass-type attack is highly ineffective (0.25x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(slower than ogerpon). Moves:[acrobatics,Flying,2x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,1x damage], Grass-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(slower than ogerpon). Moves:[mortalspin,Poison,2x damage],[earthpower,Ground,0.5x damage],[powergem,Rock,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "suckerpunch (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ogerpon has a predictable move pattern of using Ivy Cudgel, but also has a high speed boost from Embody Aspect. The damage calculator is sufficient to assess the immediate damage potential, while the minimax tree might be overkill for this specific situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Suckerpunch",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:100%Attack:226,Defense:295,Special attack:113,Special defense:267,Speed:226, Fighting, Bug, Poison-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\n\nYour current pokemon:kingambit,Type:Dark and Steel,HP:45%Attack:1215(4 stage boosted),Defense:276,Special attack:140,Special defense:206,Speed:172(slower than gliscor).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.), Ground-type attack is super-effective (2x damage) to kingambit. Flying-type attack is ineffective (0.5x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:suckerpunch,Type:Dark,Power:288,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. \nMove:kowtowcleave,Type:Dark,Power:350,Acc:100%,Effect:Always hits. \nMove:ironhead,Type:Steel,Power:329,Acc:100%,Effect:May cause flinching. \nYou have 3 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than gliscor). Moves:[bodypress,Fighting,0.5x damage],[uturn,Bug,0.5x damage], Flying-type attack is ineffective (0.5x damage) to corviknight. Ground-type attack is zero effect (0x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than gliscor). Moves:[acrobatics,Flying,1x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,1x damage],\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than gliscor). Moves:[mortalspin,Poison,0.5x damage],[earthpower,Ground,0x damage],[powergem,Rock,1x damage], Ground-type attack is extremely-effective (4x damage) to glimmora. Flying-type attack is ineffective (0.5x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "suckerpunch (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gliscor is likely to prioritize attacking Kingambit due to its Ground-type advantage. The damage calculator provides a quick and reliable way to assess the effectiveness of our moves against Gliscor's current health and defensive stats.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Suckerpunch",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Fighting, Bug-type attack is super-effective (2x damage) to tinglu. Rock, Poison, Dark-type attack is ineffective (0.5x damage) to tinglu.\n\nYou have 3 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(faster than tinglu). Moves:[bodypress,Fighting,2x damage],[uturn,Bug,2x damage], Ground-type attack is zero effect (0x damage) to corviknight.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than tinglu). Moves:[acrobatics,Flying,1x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,0.5x damage], Dark-type attack is super-effective (2x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than tinglu). Moves:[mortalspin,Poison,0.5x damage],[earthpower,Ground,1x damage],[powergem,Rock,0.5x damage], Ground-type attack is extremely-effective (4x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "corviknight (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Corviknight's Sucker Punch is super-effective against Deoxysspeed.\", 'TypeMatchup': \"Corviknight is resistant to Deoxysspeed's Psychic-type attacks.\", 'SpeedControl': 'Corviknight is slower than Deoxysspeed, but has used Swords Dance to boost its Speed.', 'TeamAdvantage': \"Corviknight is well-positioned to switch into other Pokémon on the opponent's team.\", 'BoostsAndStatus': 'Corviknight has used Swords Dance, boosting its Attack.', 'HazardsAndField': 'Deoxysspeed has used Spikes, which damages Corviknight if it switches in.', 'SwitchingCost': 'Switching out now would allow Deoxysspeed to move twice in a row.', 'OpponentPressure': 'Deoxysspeed can put pressure on Corviknight by forcing it to use more PP for its moves.', 'Uncertainty': 'The outcome of the battle is still uncertain, as the opponent has two Pokémon remaining.', 'WinPlan': \"Corviknight can potentially win by exploiting Deoxysspeed's weaknesses and utilizing its boosts.\"}",
+                    "opponent_action": "deoxysspeed (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: corviknight",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 10,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:7%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Fighting, Bug-type attack is super-effective (2x damage) to tinglu. Rock, Poison, Dark-type attack is ineffective (0.5x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:122],\nYour current pokemon:corviknight,Type:Flying and Steel,HP:100%Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(faster than tinglu).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Ground-type attack is zero effect (0x damage) to corviknight.\nYour corviknight has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:59,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (super-effective (2x damage) to tinglu)\nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nMove:uturn,Type:Bug,Power:51,Acc:100%,Effect:User switches out immediately after attacking. (super-effective (2x damage) to tinglu)\nYou have 2 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than tinglu). Moves:[acrobatics,Flying,1x damage],[dragondarts,Dragon,1x damage],[suckerpunch,Dark,0.5x damage], Dark-type attack is super-effective (2x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than tinglu). Moves:[mortalspin,Poison,0.5x damage],[earthpower,Ground,1x damage],[powergem,Rock,0.5x damage], Ground-type attack is extremely-effective (4x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ting-Lu has low HP and is likely to faint soon. The damage calculator is more efficient for finding the most damaging move against Ting-Lu in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Ground, Dark-type attack is super-effective (2x damage) to gholdengo. Flying, Rock, Dragon-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting, Poison-type attack is zero effect (0x damage) to gholdengo.\n\nYour current pokemon:corviknight,Type:Flying and Steel,HP:100%Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than gholdengo).Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Steel-type attack is ineffective (0.5x damage) to corviknight.\nYour corviknight has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:74,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (zero effect (0x damage) to gholdengo)\nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nMove:uturn,Type:Bug,Power:65,Acc:100%,Effect:User switches out immediately after attacking. (highly ineffective (0.25x damage) to gholdengo)\nYou have 2 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:187,Special attack:212,Special defense:186,Speed:421(faster than gholdengo). Moves:[acrobatics,Flying,0.5x damage],[dragondarts,Dragon,0.5x damage],[suckerpunch,Dark,2x damage], Ghost-type attack is super-effective (2x damage) to dragapult.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than gholdengo). Moves:[mortalspin,Poison,0x damage],[earthpower,Ground,2x damage],[powergem,Rock,0.5x damage], Steel-type attack is super-effective (2x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's U-Turn is super-effective against Ogerpon.\", 'TypeMatchup': 'Dragapult is resistant to Grass-type attacks and super-effective against Ogerpon.', 'SpeedControl': 'Dragapult outspeeds Ogerpon.', 'TeamAdvantage': 'Dragapult has a significant speed advantage over Ogerpon.', 'BoostsAndStatus': 'Dragapult has not used any boosting moves.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High risk of being outsped by Ogerpon again.', 'OpponentPressure': \"Ogerpon's Shadowball can potentially deal significant damage to Dragapult.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Dragapult's speed and super-effective moves to knock out Ogerpon before it can deal significant damage.\"}",
+                    "opponent_action": "ogerpon (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "uturn (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's U-Turn is super-effective against Ogerpon, while Dragapult's Dragon-type moves are ineffective against Ogerpon.\", 'TypeMatchup': 'Dragapult is resistant to Grass-type attacks, while Ogerpon is vulnerable to Ghost-type attacks.', 'SpeedControl': 'Dragapult outspeeds Ogerpon, ensuring it can attack before Ogerpon.', 'TeamAdvantage': 'Dragapult has a significant speed advantage over Ogerpon, and Corviknight can potentially recover health with Roost.', 'BoostsAndStatus': 'Dragapult has not used any boosting moves, but Ogerpon is unlikely to boost further.', 'HazardsAndField': 'Stickyweb is not currently in play, but Spikes could potentially damage Ogerpon.', 'SwitchingCost': 'Switching out Dragapult would allow Ogerpon to move again, potentially dealing more damage.', 'OpponentPressure': \"Ogerpon's Shadowball is super-effective against Dragapult, but Dragapult's speed advantage minimizes the damage impact.\", 'Uncertainty': 'The outcome of the battle depends on future moves and potential switches.', 'WinPlan': 'Continue using U-Turn to weaken Ogerpon and potentially switch out when it is safe to do so.'}",
+                    "opponent_action": "shadowball (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: dragapult",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Ground-type attack is super-effective (2x damage) to gholdengo. Rock-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting, Poison-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[hex,Ghost,Power:128],\nYou have 2 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than gholdengo). Moves:[bodypress,Fighting,0x damage],[uturn,Bug,0.25x damage], Steel-type attack is ineffective (0.5x damage) to corviknight.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than gholdengo). Moves:[mortalspin,Poison,0x damage],[earthpower,Ground,2x damage],[powergem,Rock,0.5x damage], Steel-type attack is super-effective (2x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "glimmora (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Glimmora's Poison attacks are super-effective against Deoxysspeed.\", 'TypeMatchup': \"Corviknight is resistant to Deoxysspeed's Ice-type attacks.\", 'SpeedControl': 'Glimmora is slower than Deoxysspeed, but Corviknight is slower still.', 'TeamAdvantage': \"Corviknight's Pressure ability can drain PP from Deoxysspeed's moves.\", 'BoostsAndStatus': 'Deoxysspeed has used Psychoboost, boosting its Special Attack.', 'HazardsAndField': \"Glimmora's Toxic Debris can scatter poison spikes, damaging Deoxysspeed.\", 'SwitchingCost': 'Switching out now would allow Deoxysspeed to move twice.', 'OpponentPressure': \"Deoxysspeed's Pressure ability can drain PP from Glimmora's moves.\", 'Uncertainty': 'The outcome of future moves is uncertain.', 'WinPlan': \"Target Deoxysspeed with Poison attacks from Glimmora or Corviknight, and utilize Corviknight's Pressure to weaken Deoxysspeed's moves.\"}",
+                    "opponent_action": "deoxysspeed (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: glimmora",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 10,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Ground-type attack is super-effective (2x damage) to gholdengo. Rock-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting, Poison-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[hex,Ghost,Power:119],\nYour current pokemon:glimmora,Type:Rock and Poison,HP:100%Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than gholdengo).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.),Item:Red Card(A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.) Steel-type attack is super-effective (2x damage) to glimmora.\nYour glimmora has 4 moves:\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:mortalspin,Type:Poison,Power:17,Acc:100%,Effect:Removes entry hazards and trap move effects, and poisons opposing Pokémon. (zero effect (0x damage) to gholdengo)\nMove:earthpower,Type:Ground,Power:148,Acc:100%,Effect:May lower opponent's Special Defense. (super-effective (2x damage) to gholdengo)\nMove:powergem,Type:Rock,Power:131,Acc:100%(ineffective (0.5x damage) to gholdengo)\nYou have 1 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than gholdengo). Moves:[bodypress,Fighting,0x damage],[uturn,Bug,0.25x damage], Steel-type attack is ineffective (0.5x damage) to corviknight.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Corviknight's Mortal Spin is super effective against Ogerpon, while Stealth Rock damages opponents switching in.\", 'TypeMatchup': 'Corviknight is resistant to Grass-type attacks, while Ogerpon is vulnerable to Poison-type attacks.', 'SpeedControl': 'Corviknight is slower than Ogerpon, but can potentially outspeed it with Dragon Dance.', 'TeamAdvantage': \"Corviknight's remaining team is more powerful than Ogerpon's remaining team.\", 'BoostsAndStatus': 'Corviknight has Dragon Dance boost, while Ogerpon has no significant boosts.', 'HazardsAndField': \"Ogerpon's Toxic Spikes are a threat, but Corviknight's Pressure ability reduces opponents' PP.\", 'SwitchingCost': \"Corviknight's Stealth Rock may trigger Ogerpon's ability, but Corviknight's remaining team is stronger.\", 'OpponentPressure': \"Ogerpon's Hex can inflict damage and status effects on Corviknight.\", 'Uncertainty': 'The outcome of the battle is still uncertain, but Corviknight has a potential win plan.', 'WinPlan': 'Corviknight can outspeed Ogerpon and potentially defeat it with Mortal Spin.'}",
+                    "opponent_action": "ogerpon (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -5,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "corviknight (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Corviknight's Mortal Spin is super effective against Ogerpon, while Stealth Rock damages opponents switching in.\", 'TypeMatchup': 'Corviknight is resistant to Grass-type attacks, while Ogerpon is vulnerable to Poison-type attacks.', 'SpeedControl': \"Corviknight is slower than Ogerpon, but has the advantage of switching out without boosting Ogerpon's speed.\", 'TeamAdvantage': \"Corviknight's remaining team has better overall stats than Ogerpon's remaining team.\", 'BoostsAndStatus': 'Corviknight has Dragon Dance boost, while Ogerpon has no significant boosts.', 'HazardsAndField': \"Ogerpon's ability can potentially heal it, but Corviknight's Stealth Rock can damage incoming Pokémon.\", 'SwitchingCost': 'Frequent switching will waste PP and reduce effectiveness.', 'OpponentPressure': 'Ogerpon can potentially use moves with increased power due to its ability.', 'Uncertainty': 'The outcome of future turns is uncertain due to potential boosts and switches.', 'WinPlan': \"Corviknight can win by exploiting Ogerpon's vulnerabilities with effective moves and exploiting speed differences through switching.\"}",
+                    "opponent_action": "ogerpon (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 5,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -5,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:7%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Fighting, Bug-type attack is super-effective (2x damage) to tinglu. Rock, Poison-type attack is ineffective (0.5x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:195],\nYour current pokemon:glimmora,Type:Rock and Poison,HP:63%Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than tinglu).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.), Ground-type attack is extremely-effective (4x damage) to glimmora.\nYour glimmora has 4 moves:\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:mortalspin,Type:Poison,Power:14,Acc:100%,Effect:Removes entry hazards and trap move effects, and poisons opposing Pokémon. (ineffective (0.5x damage) to tinglu)\nMove:earthpower,Type:Ground,Power:114,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:powergem,Type:Rock,Power:101,Acc:100%(ineffective (0.5x damage) to tinglu)\nYou have 1 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(faster than tinglu). Moves:[bodypress,Fighting,2x damage],[uturn,Bug,2x damage], Ground-type attack is zero effect (0x damage) to corviknight.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Tinglu has low HP and is likely to be knocked out by Glimmora's next move. The damage calculator is sufficient to assess the damage output of available moves against Tinglu.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:44%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Ground-type attack is super-effective (2x damage) to gholdengo. Rock-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting, Poison-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[hex,Ghost,Power:119],\nYour current pokemon:glimmora,Type:Rock and Poison,HP:63%Attack:131,Defense:216,Special attack:359,Special defense:199,Speed:298(faster than gholdengo).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.), Steel-type attack is super-effective (2x damage) to glimmora.\nYour glimmora has 4 moves:\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:mortalspin,Type:Poison,Power:17,Acc:100%,Effect:Removes entry hazards and trap move effects, and poisons opposing Pokémon. (zero effect (0x damage) to gholdengo)\nMove:earthpower,Type:Ground,Power:148,Acc:100%,Effect:May lower opponent's Special Defense. (super-effective (2x damage) to gholdengo)\nMove:powergem,Type:Rock,Power:131,Acc:100%(ineffective (0.5x damage) to gholdengo)\nYou have 1 pokemons:\nPokemon:corviknight,Type:Flying and Steel,HP:100%,Attack:210,Defense:316,Special attack:127,Special defense:228,Speed:170(slower than gholdengo). Moves:[bodypress,Fighting,0x damage],[uturn,Bug,0.25x damage], Steel-type attack is ineffective (0.5x damage) to corviknight.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gholdengo has predictable behavior and only uses Hex, making the damage calculator suitable for finding the best damaging move. Additionally, Gholdengo's Steel-type resistance makes type prediction important.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": -1,
+                "label_scores": {}
+            }
+        }
+    }
+}

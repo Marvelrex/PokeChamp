@@ -19,7 +19,7 @@ def get_base_player_name(name):
     return re.sub(r'\d+$', '', name)
 
 
-def analyze_battle_logs(folder_path):
+def analyze_battle_logs(folder_path, accuracy):
     """
     Analyzes all HTML battle log files in a given folder to determine
     winners and calculate player statistics.
@@ -117,13 +117,12 @@ def analyze_battle_logs(folder_path):
                     player_stats[base_player_2]['games'] += 1
 
         if winner:
-            print(f"File: {filename} -> Winner: {winner}")
             if winner in player_stats:
                 player_stats[winner]['wins'] += 1
         else:
             print(f"File: {filename} -> No clear winner (game might have been stopped or ended in a tie).")
 
-    print("\n--- Player Win Rate Summary ---")
+    print(f"\n--- {accuracy} Player Win Rate Summary ---")
 
     if not player_stats:
         print("No player data to summarize.")
@@ -148,5 +147,5 @@ def analyze_battle_logs(folder_path):
 if __name__ == "__main__":
     # The script will analyze files in the same directory it is run from.
     current_folder = os.getcwd()
-    analyze_battle_logs("/home/jialinlabvm/Documents/pokechamp/battle_log/WinRate_Calculator/High")
-    analyze_battle_logs('/home/jialinlabvm/Documents/pokechamp/battle_log/WinRate_Calculator/Low')
+    analyze_battle_logs("/home/jialinlabvm/Documents/pokechamp/battle_log/WinRate_Calculator/High",'high')
+    analyze_battle_logs('/home/jialinlabvm/Documents/pokechamp/battle_log/WinRate_Calculator/Low','low')

@@ -1,31 +1,33 @@
-import ast
-from copy import copy, deepcopy
-import datetime
+# import ast  # Legacy: unused in current implementation
+from copy import copy  # Updated: deepcopy no longer required
+# from copy import copy, deepcopy  # Original import retained for reference
+# import datetime  # Legacy: unused
 import json
 import os
-import random
-import sys
+# import random  # Legacy: unused
+# import sys  # Legacy: unused
 
 import numpy as np
 from poke_env.environment.abstract_battle import AbstractBattle
 from poke_env.environment.battle import Battle
-from poke_env.environment.double_battle import DoubleBattle
+# from poke_env.environment.double_battle import DoubleBattle  # Legacy: unused
 from poke_env.environment.move_category import MoveCategory
 from poke_env.environment.pokemon import Pokemon
-from poke_env.environment.side_condition import SideCondition
+# from poke_env.environment.side_condition import SideCondition  # Legacy: unused
 from poke_env.player.ollama_player import OllamaPlayer
 from poke_env.player.player import Player, BattleOrder
-from typing import Callable, Dict, List, Optional, Tuple, Union
+# from typing import Callable, Dict, List, Optional, Tuple, Union  # Legacy import breadth
+from typing import Callable, Dict, Tuple
 from poke_env.environment.move import Move
 import time
-import json
-import joblib
+# import json  # Duplicate legacy import
+# import joblib  # Legacy: unused post-pickle loading handled in PredictionEngine
 from poke_env.data.gen_data import GenData
 from poke_env.player.gpt_player import GPTPlayer
-from poke_env.player.llama_player import LLAMAPlayer
+# from poke_env.player.llama_player import LLAMAPlayer  # Legacy backend helper
 from poke_env.player.local_simulation import LocalSim, SimNode
 from difflib import get_close_matches
-from lightgbm import LGBMRegressor
+# from lightgbm import LGBMRegressor  # Legacy: not directly instanced here
 
 from poke_env.player.prediction_engine import PredictionEngine
 from poke_env.player.prompts import get_number_turns_faint, get_status_num_turns_fnt, state_translate, get_gimmick_motivation
@@ -123,11 +125,21 @@ class LLMPlayer(Player):
                     "poke_env/data/static/prediction_engine_model/Low_Optune_Ridge.pkl",
                         "poke_env/data/static/prediction_engine_model/Ridge_scaler.pkl",
                 "poke_env/data/static/prediction_engine_model/RIDGE_pca.joblib")
+            except ModuleNotFoundError as missing_dependency:
+                # raise RuntimeError("Failed to load prediction engine") from e
+                print(f"Prediction engine disabled: missing optional dependency ({missing_dependency}).")
+                self.prediction_engine = None
+                self.use_prediction_engine = "False"
             except Exception as e:
                 # up to you: either raise or log and keep going
                 raise RuntimeError("Failed to load prediction engine") from e
 
-    def get_LLM_action(self, system_prompt, user_prompt, model, temperature=0.7, json_format=False, seed=None, stop=[], max_tokens=200, actions=None, llm=None, battle=None) -> str:
+    def get_LLM_action(self, system_prompt, user_prompt, model, temperature=0.7, json_format=False, seed=None, stop=None, max_tokens=200, actions=None, llm=None, battle=None) -> str:
+        # stop previously defaulted to [], which could retain state between calls.
+        if stop is None:
+            stop = []
+        else:
+            stop = list(stop)
         if llm is None:
             output, _ = self.llm.get_LLM_action(system_prompt, user_prompt, model, temperature, True, seed, stop, max_tokens=max_tokens, actions=actions)
         else:
@@ -162,7 +174,8 @@ class LLMPlayer(Player):
                 valid_pokemon = closest[0]
         if valid_pokemon is None:
             return None
-        pokemon = Pokemon(species=pokemon_str, gen=self.genNum)
+        # pokemon = Pokemon(species=pokemon_str, gen=self.genNum)  # Original: used raw user string
+        pokemon = Pokemon(species=valid_pokemon, gen=self.genNum)
         return pokemon
 
     # def getCandidateActionScores(
@@ -394,7 +407,10 @@ class LLMPlayer(Player):
 
         gimmick_output_format = ''
         if 'pokellmon' not in self.ps_client.account_configuration.username: # make sure we dont mess with pokellmon original strat
-            gimmick_output_format = f'{f' or {{"dynamax":"<move_name>"}}' if battle.can_dynamax else ''}{f' or {{"terastallize":"<move_name>"}}' if battle.can_tera else ''}'
+            # gimmick_output_format = f'{f' or {{"dynamax":"<move_name>"}}' if battle.can_dynamax else ''}{f' or {{"terastallize":"<move_name>"}}' if battle.can_tera else ''}'  # Original malformed nesting
+            dynamax_fragment = ' or {"dynamax":"<move_name>"}' if battle.can_dynamax else ''
+            tera_fragment = ' or {"terastallize":"<move_name>"}' if battle.can_tera else ''
+            gimmick_output_format = f"{dynamax_fragment}{tera_fragment}"
 
         if battle.active_pokemon.fainted or len(battle.available_moves) == 0:
 
@@ -458,15 +474,26 @@ class LLMPlayer(Player):
                                                battle = battle)
 
                     next_action = self.parse_new(llm_output2, battle, sim)
-                    with open(f"{self.log_dir}/output.jsonl", "a") as f:
-                        f.write(json.dumps({"turn": battle.turn,
-                                            "system_prompt": system_prompt,
-                                            "user_prompt1": state_prompt_tot_1,
-                                            "user_prompt2": state_prompt_tot_2,
-                                            "llm_output1": llm_output1,
-                                            "llm_output2": llm_output2,
-                                            "battle_tag": battle.battle_tag
-                                            }) + "\n")
+                    # with open(f"{self.log_dir}/output.jsonl", "a") as f:  # Original: assumed log_dir always set
+                    #     f.write(json.dumps({"turn": battle.turn,
+                    #                         "system_prompt": system_prompt,
+                    #                         "user_prompt1": state_prompt_tot_1,
+                    #                         "user_prompt2": state_prompt_tot_2,
+                    #                         "llm_output1": llm_output1,
+                    #                         "llm_output2": llm_output2,
+                    #                         "battle_tag": battle.battle_tag
+                    #                         }) + "\n")
+                    if self.log_dir is not None:
+                        os.makedirs(self.log_dir, exist_ok=True)
+                        with open(os.path.join(self.log_dir, "output.jsonl"), "a", encoding="utf8") as f:
+                            f.write(json.dumps({"turn": battle.turn,
+                                                "system_prompt": system_prompt,
+                                                "user_prompt1": state_prompt_tot_1,
+                                                "user_prompt2": state_prompt_tot_2,
+                                                "llm_output1": llm_output1,
+                                                "llm_output2": llm_output2,
+                                                "battle_tag": battle.battle_tag
+                                                }) + "\n")
                     if next_action is not None:     break
                 except:
                     raise ValueError('No valid move', battle.active_pokemon.fainted, len(battle.available_switches))
@@ -478,12 +505,20 @@ class LLMPlayer(Player):
         elif self.prompt_algo == "minimax":
             try:
                 # Use tree_search with return_opp=True to get player action, opponent action, score, and rationale
-                best_action, predicted_opp_action, score, rationale, summary_list, best_label_scores = self.tree_search(
+                # best_action, predicted_opp_action, score, rationale, summary_list, best_label_scores = self.tree_search(
+                #     retries,
+                #     battle,
+                #     return_opp=True,
+                #     use_pred_engine=use_prediction_engine,
+                # )
+                tree_result = self.tree_search(
                     retries,
                     battle,
                     return_opp=True,
                     use_pred_engine=use_prediction_engine,
                 )
+
+                best_action, predicted_opp_action, score, rationale, summary_list, best_label_scores = tree_result
 
                 # Format the chosen player action for readability
                 player_msg = best_action.message.replace("/choose ", "")
@@ -622,9 +657,10 @@ class LLMPlayer(Player):
                 return best_action
 
             except Exception as e:
+                import traceback
                 print("minimax step failed. Using dmg calc")
-
-                print(f"Exception: {e}")
+                print("Exception:", e)
+                print("Traceback:", traceback.format_exc())
                 return self.choose_max_damage_move(battle)
 
 
@@ -699,12 +735,11 @@ class LLMPlayer(Player):
                 print(f'Exception: {e}', 'passed')
                 continue
         if next_action is None:
-            print('No action found')
             try:
                 print('No action found', llm_action_json, actions, dont_verify)
             except:
                 pass
-            print()
+
             # raise ValueError('No valid move', battle.active_pokemon.fainted, len(battle.available_switches))
             next_action = self.choose_max_damage_move(battle)
         return next_action
@@ -1034,7 +1069,8 @@ class LLMPlayer(Player):
             ##############################
             # generate players' action  #
             ##############################
-            if not node.simulation.battle.active_pokemon.fainted and len(battle.available_moves) > 0:
+            # if not node.simulation.battle.active_pokemon.fainted and len(battle.available_moves) > 0:  # Original: referenced root battle state
+            if not node.simulation.battle.active_pokemon.fainted and len(node.simulation.battle.available_moves) > 0:
                 # get dmg calc move
                 dmg_calc_out, dmg_calc_turns = self.dmg_calc_move(node.simulation.battle)
                 if dmg_calc_out is not None:
@@ -1135,7 +1171,7 @@ class LLMPlayer(Player):
 
             # LLM Suggested Up to 1 Move
             if not node.simulation.battle.active_pokemon.fainted and len(
-                    battle.available_moves) > 0:  # and not opp_turns < dmg_calc_turns:
+                    node.simulation.battle.available_moves) > 0:  # and not opp_turns < dmg_calc_turns:
                 # get llm move
                 state_action_prompt_move = state_action_prompt + action_prompt_move + '\nYou can only choose to move this turn.\n'
                 constraint_prompt_io = 'Choose the best action and your output MUST be a JSON like: {"move":"<move_name>"}.\n'
@@ -1257,6 +1293,7 @@ class LLMPlayer(Player):
 
         best_action, best_score, best_opp_action, best_rationale, summary_list, best_label_scores = get_tree_action(
             root)
+
         if return_opp:
             return best_action, best_opp_action, best_score, best_rationale, summary_list, best_label_scores
         return best_action

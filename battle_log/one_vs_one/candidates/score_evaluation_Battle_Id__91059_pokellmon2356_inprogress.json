@@ -1,0 +1,483 @@
+{
+    "Battle Id: 91059": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:207,Speed:136, Fire-type attack is super-effective (2x damage) to kingambit. Steel, Dragon, Grass, Ghost, Dark, Normal-type attack is ineffective (0.5x damage) to kingambit. Poison, Psychic-type attack is zero effect (0x damage) to kingambit.\n\nYour current pokemon:ironmoth,Type:Fire and Poison,HP:100%Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than kingambit).Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.), Steel-type attack is ineffective (0.5x damage) to ironmoth.\nYour ironmoth has 4 moves:\nMove:fierydance,Type:Fire,Power:135,Acc:100%,Effect:May raise user's Special Attack. (super-effective (2x damage) to kingambit)\nMove:psychic,Type:Psychic,Power:152,Acc:100%,Effect:May lower opponent's Special Defense. (zero effect (0x damage) to kingambit)\nMove:sludgewave,Type:Poison,Power:160,Acc:100%,Effect:May poison opponent. (zero effect (0x damage) to kingambit)\nMove:substitute,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Uses HP to creates a decoy that takes hits. \nYou have 5 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than kingambit). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,1x damage],[knockoff,Dark,0.5x damage],\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than kingambit). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Steel-type attack is super-effective (2x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than kingambit). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,0.5x damage],[dragonpulse,Dragon,0.5x damage], Steel-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than kingambit). Moves:[shadowball,Ghost,0.5x damage],[moonblast,Fairy,1x damage], Steel-type attack is super-effective (2x damage) to ironvaliant. Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(faster than kingambit). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,0.5x damage], Steel, Dark-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: FNT]",
+                    "score": 90,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is super-effective against Kingambit\", 'TypeMatchup': 'Kingambit is vulnerable to Grass-type attacks', 'SpeedControl': 'Rillaboom outspeeds Kingambit', 'TeamAdvantage': 'Rillaboom is the only remaining Pokémon with significant offensive power', 'BoostsAndStatus': \"Rillaboom's Quark Drive ability boosts its Speed\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Kingambit has a strong attack and can potentially outspeed Rillaboom', 'Uncertainty': \"Kingambit's remaining team strength is not known\", 'WinPlan': \"Utilize Rillaboom's speed and powerful Grass-type attacks to defeat Kingambit\"}",
+                    "opponent_action": "suckerpunch (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "fierydance (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is super-effective against Kingambit.\", 'TypeMatchup': 'Kingambit is vulnerable to Grass-type attacks.', 'SpeedControl': 'Rillaboom outspeeds Kingambit.', 'TeamAdvantage': 'Rillaboom is the only remaining Pokémon with a significant attack stat.', 'BoostsAndStatus': \"Rillaboom's Quark Drive ability boosts its Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Kingambit still has powerful moves remaining.', 'Uncertainty': \"Kingambit's remaining team strength is not known.\", 'WinPlan': \"Utilize Rillaboom's speed and powerful Grass-type attacks to defeat Kingambit.\"}",
+                    "opponent_action": "suckerpunch (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: rillaboom",
+                "score": 90,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": 10,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kingambit,Type:Dark,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:207,Speed:136, Fairy-type attack is super-effective (2x damage) to kingambit. Ghost, Dark-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nkingambit used moves:[kowtowcleave,Dark,Power:90],\nYour current pokemon:rillaboom,Type:Grass,HP:41%Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than kingambit).Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Your rillaboom has 0 moves:\nYou have 5 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than kingambit). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,0x damage],[sludgewave,Poison,1x damage],\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than kingambit). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than kingambit). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage],\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than kingambit). Moves:[shadowball,Ghost,0.5x damage],[moonblast,Fairy,2x damage], Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(faster than kingambit). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,1x damage], Dark-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "ironvaliant (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Moth's Sludge Wave is effective against Kingambit\", 'TypeMatchup': 'Iron Moth is super-effective against Kingambit', 'SpeedControl': 'Iron Moth outspeeds Kingambit', 'TeamAdvantage': 'Iron Moth is faster than Kingambit and has better Special Attack', 'BoostsAndStatus': 'Iron Moth has Quark Drive boost', 'HazardsAndField': 'Kingambit has no hazards', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Kingambit has Swords Dance boost', 'Uncertainty': \"Kingambit's remaining team strength is strong\", 'WinPlan': 'Knock out Kingambit with Sludge Wave before it can use Swords Dance again'}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ironmoth (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Moth's Sludge Wave is effective against Kingambit.\", 'TypeMatchup': 'Iron Moth is super-effective against Kingambit due to its Fairy-type.', 'SpeedControl': 'Iron Moth outspeeds Kingambit due to Quark Drive.', 'TeamAdvantage': \"Iron Moth's remaining team has stronger offensive power than Kingambit's remaining team.\", 'BoostsAndStatus': 'Iron Moth has a potential boost to its Special Attack.', 'HazardsAndField': \"Kingambit's Spikes are a potential threat.\", 'SwitchingCost': 'Switching out Pokemon will reset the Special Attack boost.', 'OpponentPressure': \"Kingambit's Swords Dance boosts its Attack, making it a more potent threat.\", 'Uncertainty': 'The outcome of the battle depends on subsequent turns.', 'WinPlan': \"Utilize Iron Moth's speed and effective moves to defeat Kingambit before it can fully utilize its boosts.\"}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ironvaliant",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kingambit,Type:Dark,HP:36%Attack:405,Defense:276,Special attack:140,Special defense:207,Speed:136, Fairy, Bug-type attack is super-effective (2x damage) to kingambit. Ghost, Dark-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nkingambit used moves:[kowtowcleave,Dark,Power:145],\nYour current pokemon:ironvaliant,Type:Fairy and Fighting,HP:85%Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than kingambit).Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.), Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nYour ironvaliant has 4 moves:\nMove:substitute,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Uses HP to creates a decoy that takes hits. \nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:shadowball,Type:Ghost,Power:131,Acc:100%,Effect:May lower opponent's Special Defense. (ineffective (0.5x damage) to kingambit)\nMove:moonblast,Type:Fairy,Power:156,Acc:100%,Effect:May lower opponent's Special Attack. (super-effective (2x damage) to kingambit)\nYou have 5 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than kingambit). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,0x damage],[sludgewave,Poison,1x damage],\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than kingambit). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than kingambit). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage],\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than kingambit). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,2x damage],[knockoff,Dark,0.5x damage],\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(faster than kingambit). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,1x damage], Dark-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Kingambit is likely to prioritize using Kowtow Cleave given its high power and Dark-typing, which is super-effective against Iron Valiant. The damage calculator provides a quick and reliable way to assess the potential damage output of my available moves against Kingambit's current HP and defenses.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:rillaboom,Type:Grass,HP:100%Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269,Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.) Fire, Bug, Poison-type attack is super-effective (2x damage) to rillaboom. Grass, Electric-type attack is ineffective (0.5x damage) to rillaboom.\nrillaboom's all the possible attacks:[knockoff,dark,Power:65],[woodhammer,grass,Power:120],[uturn,bug,Power:70],[grassyglide,grass,Power:70],[highhorsepower,ground,Power:95],[acrobatics,flying,Power:55],\nYou have 5 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than rillaboom). Moves:[fierydance,Fire,2x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,2x damage], Ground-type attack is extremely-effective (4x damage) to ironmoth. Bug, Grass-type attack is highly ineffective (0.25x damage) to ironmoth.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than rillaboom). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Bug-type attack is super-effective (2x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than rillaboom). Moves:[thunderclap,Electric,0.5x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Ground-type attack is super-effective (2x damage) to ragingbolt. Flying, Grass-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than rillaboom). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,2x damage],[knockoff,Dark,1x damage], Flying, Bug-type attack is super-effective (2x damage) to rillaboom. Ground, Grass-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than rillaboom). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,1x damage], Ground-type attack is super-effective (2x damage) to kingambit. Flying, Grass, Dark-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "ironmoth (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Moth's Sludge Wave is super effective against Kingambit.\", 'TypeMatchup': 'Kingambit is weak to Bug-type attacks and unaffected by Dark-type attacks.', 'SpeedControl': 'Iron Moth outspeeds Kingambit.', 'TeamAdvantage': 'Iron Valiant is a strong matchup for Kingambit.', 'BoostsAndStatus': 'Iron Valiant has Quark Drive activated.', 'HazardsAndField': 'Grassy Terrain benefits Rillaboom and Iron Valiant.', 'SwitchingCost': 'Iron Moth has already switched out once.', 'OpponentPressure': 'Kingambit has used two moves.', 'Uncertainty': 'Kingambit still has three remaining Pokémon.', 'WinPlan': \"Continue using effective moves and exploiting Kingambit's weaknesses.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ironmoth",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:rillaboom,Type:Grass,HP:15%Attack:383,Defense:217,Special attack:94(-1 stage boosted),Special defense:176,Speed:269,Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.) Fire, Bug, Poison-type attack is super-effective (2x damage) to rillaboom. Grass, Electric-type attack is ineffective (0.5x damage) to rillaboom.\nrillaboom used moves:[woodhammer,Grass,Power:354],rillaboom's all the possible attacks:[knockoff,dark,Power:65],[woodhammer,grass,Power:120],[uturn,bug,Power:70],[grassyglide,grass,Power:70],[highhorsepower,ground,Power:95],[acrobatics,flying,Power:55],\nYour current pokemon:ironmoth,Type:Fire and Poison,HP:100%Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than rillaboom).Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.), Ground-type attack is extremely-effective (4x damage) to ironmoth. Bug, Grass-type attack is highly ineffective (0.25x damage) to ironmoth.\nYour ironmoth has 4 moves:\nMove:fierydance,Type:Fire,Power:159,Acc:100%,Effect:May raise user's Special Attack. (super-effective (2x damage) to rillaboom)\nMove:psychic,Type:Psychic,Power:178,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:sludgewave,Type:Poison,Power:188,Acc:100%,Effect:May poison opponent. (super-effective (2x damage) to rillaboom)\nMove:substitute,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Uses HP to creates a decoy that takes hits. \nYou have 4 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than rillaboom). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Bug-type attack is super-effective (2x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than rillaboom). Moves:[thunderclap,Electric,0.5x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Ground-type attack is super-effective (2x damage) to ragingbolt. Flying, Grass-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than rillaboom). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,2x damage],[knockoff,Dark,1x damage], Flying, Bug-type attack is super-effective (2x damage) to rillaboom. Ground, Grass-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than rillaboom). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,1x damage], Ground-type attack is super-effective (2x damage) to kingambit. Flying, Grass, Dark-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "fierydance (Move object)",
+                    "score": -1,
+                    "rationale": "The damage calculator is suitable in this situation due to the clear type advantage and high-power moves available. Additionally, the opponent's predictable next move allows for accurate damage estimation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Fierydance",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:163,Defense:218,Special attack:410,Special defense:215,Speed:249,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Dragon-type attack is super-effective (2x damage) to ragingbolt. Fire, Steel, Grass-type attack is ineffective (0.5x damage) to ragingbolt. Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\n\nYour current pokemon:ironmoth,Type:Fire and Poison,HP:100%Attack:130,Defense:187,Special attack:524(1 stage boosted),Special defense:256,Speed:350(faster than ragingbolt).Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Your ironmoth has 4 moves:\nMove:fierydance,Type:Fire,Power:195,Acc:100%,Effect:May raise user's Special Attack. (ineffective (0.5x damage) to ragingbolt)\nMove:psychic,Type:Psychic,Power:219,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:sludgewave,Type:Poison,Power:231,Acc:100%,Effect:May poison opponent. \nMove:substitute,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Uses HP to creates a decoy that takes hits. \nYou have 4 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than ragingbolt). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than ragingbolt). Moves:[thunderclap,Electric,0.25x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,2x damage], Dragon-type attack is super-effective (2x damage) to ragingbolt. Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than ragingbolt). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,1x damage],[knockoff,Dark,1x damage], Electric-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ragingbolt). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,0.5x damage], Dragon-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "sludgewave (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's predictable Dragon-type attack poses a significant threat, while my current Pokemon have limited options with super-effective moves. Given the clear type advantage and potential for a knockout, the damage calculator offers a more efficient approach to finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Sludgewave",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ragingbolt,Type:Electric and Dragon,HP:33%Attack:163,Defense:218,Special attack:410,Special defense:215,Speed:249,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Dragon-type attack is super-effective (2x damage) to ragingbolt. Steel, Grass-type attack is ineffective (0.5x damage) to ragingbolt. Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\nragingbolt used moves:[dragonpulse,Dragon,Power:136],\nYou have 4 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than ragingbolt). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than ragingbolt). Moves:[thunderclap,Electric,0.25x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,2x damage], Dragon-type attack is super-effective (2x damage) to ragingbolt. Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than ragingbolt). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,1x damage],[knockoff,Dark,1x damage], Electric-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ragingbolt). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,0.5x damage], Dragon-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "ogerponcornerstone (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerponcornerstone's Ivy Cudgel deals 0.5x damage, while Power Whip deals 0.5x damage. Rillaboom's Wood Hammer deals 0.5x damage.\", 'TypeMatchup': 'Bug-type attacks are super-effective against Rillaboom, while Electric-type attacks are ineffective against Ogerponcornerstone.', 'SpeedControl': 'Ogerponcornerstone outspeeds Rillaboom.', 'TeamAdvantage': 'Ogerponcornerstone has a significant speed advantage over Rillaboom.', 'BoostsAndStatus': \"Quark Drive boosts Ogerponcornerstone's Speed.\", 'HazardsAndField': 'Grassy Terrain is no longer in effect.', 'SwitchingCost': 'Switching out would allow Rillaboom to move twice in a row.', 'OpponentPressure': 'Rillaboom has a powerful Wood Hammer move.', 'Uncertainty': 'The outcome of future battles is uncertain.', 'WinPlan': \"Utilize Ogerponcornerstone's speed advantage and powerful moves to defeat Rillaboom.\"}",
+                    "opponent_action": "thunderclap (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 5,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ogerponcornerstone",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 5,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ragingbolt,Type:Electric and Dragon,HP:33%Attack:163,Defense:218,Special attack:410,Special defense:215,Speed:249,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Dragon-type attack is super-effective (2x damage) to ragingbolt. Steel, Grass-type attack is ineffective (0.5x damage) to ragingbolt. Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\nragingbolt used moves:[dragonpulse,Dragon,Power:152],[thunderclap,Electric,Power:125],\nYour current pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than ragingbolt).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemask Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nYour ogerponcornerstone has 4 moves:\nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:ivycudgel,Type:Grass,Power:156,Acc:100%,Effect:High critical hit ratio. Type changes based on form. (ineffective (0.5x damage) to ragingbolt)\nMove:powerwhip,Type:Grass,Power:187,Acc:85%(ineffective (0.5x damage) to ragingbolt)\nMove:taunt,Type:Dark,Status-move,Power:0,Acc:100%,Effect:Opponent can only use moves that attack. \nYou have 3 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than ragingbolt). Moves:[thunderclap,Electric,0.25x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,2x damage], Dragon-type attack is super-effective (2x damage) to ragingbolt. Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than ragingbolt). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,1x damage],[knockoff,Dark,1x damage], Electric-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ragingbolt). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,0.5x damage], Dragon-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": -1,
+                    "rationale": "Given the predictable opponent behavior in this stage of the battle, the damage calculator offers a more efficient approach to finding the optimal damaging move. It effectively exploits the type advantage of Dragon-type attacks against Raging Bolt.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Steel, Bug-type attack is super-effective (2x damage) to ogerponcornerstone. Normal, Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\n\nYour current pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than ogerponcornerstone).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskYour ogerponcornerstone has 4 moves:\nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:ivycudgel,Type:Grass,Power:166,Acc:100%,Effect:High critical hit ratio. Type changes based on form. \nMove:powerwhip,Type:Grass,Power:199,Acc:85%\nMove:taunt,Type:Dark,Status-move,Power:0,Acc:100%,Effect:Opponent can only use moves that attack. \nYou have 3 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ogerponcornerstone). Moves:[thunderclap,Electric,0.5x damage],[terablast,Normal,0.5x damage],[dragonpulse,Dragon,1x damage], Grass-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than ogerponcornerstone). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,2x damage],[knockoff,Dark,1x damage], Grass-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ogerponcornerstone). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,2x damage], Rock, Grass-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": -1,
+                    "rationale": "The current battle state suggests a straightforward decision. With Ogerpon outspeeding Raging Bolt, maximizing damage seems optimal. The damage calculator offers a quick and reliable way to evaluate potential moves against the opponent's current and possible future moves.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ogerponcornerstone,Type:Grass and Rock,HP:29%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Steel, Bug-type attack is super-effective (2x damage) to ogerponcornerstone. Normal, Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nogerponcornerstone used moves:[ivycudgel,Grass,Power:100],\nYou have 3 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ogerponcornerstone). Moves:[thunderclap,Electric,0.5x damage],[terablast,Normal,0.5x damage],[dragonpulse,Dragon,1x damage], Grass-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than ogerponcornerstone). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,2x damage],[knockoff,Dark,1x damage], Grass-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ogerponcornerstone). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,2x damage], Rock, Grass-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "kingambit (pokemon object) [Active: True, Status: None]",
+                    "score": 35,
+                    "rationale": "{'EffectiveMoves': \"Kingambit's moves are ineffective against Rillaboom\", 'TypeMatchup': 'Kingambit is weak to Ground-type attacks, which are super-effective against it', 'SpeedControl': 'Kingambit is slower than Rillaboom', 'TeamAdvantage': 'Rillaboom is the only remaining opponent', 'BoostsAndStatus': 'Kingambit has no positive boosts or status conditions', 'HazardsAndField': 'No field effects or hazards are present', 'SwitchingCost': 'Frequent switching will disadvantage Kingambit due to speed differential', 'OpponentPressure': \"Rillaboom's powerful attacks can inflict significant damage\", 'Uncertainty': \"Uncertain if Kingambit can survive Rillaboom's attacks\", 'WinPlan': 'Difficult to win with current team composition'}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 15,
+                        "Uncertainty": 15,
+                        "WinPlan": -20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: kingambit",
+                "score": 35,
+                "label_scores": {
+                    "EffectiveMoves": -20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 15,
+                    "Uncertainty": 15,
+                    "WinPlan": -20
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ogerponcornerstone,Type:Grass and Rock,HP:29%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Steel, Bug-type attack is super-effective (2x damage) to ogerponcornerstone. Normal, Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nogerponcornerstone used moves:[ivycudgel,Grass,Power:92],\nYour current pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ogerponcornerstone).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.) Rock, Grass-type attack is ineffective (0.5x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:kowtowcleave,Type:Dark,Power:154,Acc:100%,Effect:Always hits. \nMove:suckerpunch,Type:Dark,Power:127,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. \nMove:ironhead,Type:Steel,Power:145,Acc:100%,Effect:May cause flinching. (super-effective (2x damage) to ogerponcornerstone)\nYou have 2 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ogerponcornerstone). Moves:[thunderclap,Electric,0.5x damage],[terablast,Normal,0.5x damage],[dragonpulse,Dragon,1x damage], Grass-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than ogerponcornerstone). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,2x damage],[knockoff,Dark,1x damage], Grass-type attack is ineffective (0.5x damage) to rillaboom.\n",
+            "Candidates": [
+                {
+                    "player_action": "kowtowcleave (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ogerpon is likely to continue using Ivy Cudgel, which deals significant damage. The damage calculator provides a quick and reliable way to assess which move would likely knock out Ogerpon in the next turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Kowtowcleave",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironmoth,Type:Fire and Poison,HP:20%Attack:158,Defense:187,Special attack:349,Special defense:256,Speed:350,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Steel-type attack is ineffective (0.5x damage) to ironmoth. Bug, Grass-type attack is highly ineffective (0.25x damage) to ironmoth.\n\nYour current pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than ironmoth).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.) Fire-type attack is super-effective (2x damage) to kingambit. Poison-type attack is zero effect (0x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:kowtowcleave,Type:Dark,Power:168,Acc:100%,Effect:Always hits. \nMove:suckerpunch,Type:Dark,Power:138,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. \nMove:ironhead,Type:Steel,Power:158,Acc:100%,Effect:May cause flinching. (ineffective (0.5x damage) to ironmoth)\nYou have 2 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ironmoth). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Fire-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than ironmoth). Moves:[woodhammer,Grass,0.25x damage],[grassyglide,Grass,0.25x damage],[uturn,Bug,0.25x damage],[knockoff,Dark,1x damage], Fire, Poison-type attack is super-effective (2x damage) to rillaboom.\n",
+            "Candidates": [
+                {
+                    "player_action": "kowtowcleave (Move object)",
+                    "score": -1,
+                    "rationale": "Given the clear type advantage and Kingambit's likely KO potential, the damage calculator offers a faster and more efficient solution to maximize damage in this turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Kowtowcleave",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant. Dragon-type attack is zero effect (0x damage) to ironvaliant.\n\nYou have 2 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ironvaliant). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,0x damage], Fairy-type attack is super-effective (2x damage) to ragingbolt.\nPokemon:rillaboom,Type:Grass,HP:41%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than ironvaliant). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,0.25x damage],[knockoff,Dark,0.25x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's U-Turn is super effective against Ogerponcornerstone.\", 'TypeMatchup': 'Bug-type attacks are super effective against Ogerponcornerstone.', 'SpeedControl': 'Ogerponcornerstone outspeeds Rillaboom.', 'TeamAdvantage': 'Rillaboom is a better matchup than Raging Bolt.', 'BoostsAndStatus': 'Rillaboom has Grassy Surge, which boosts the power of Grass-type moves.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Ogerponcornerstone has Moonblast, which can deal significant damage.', 'Uncertainty': 'n/a', 'WinPlan': 'Use U-Turn to damage Ogerponcornerstone and potentially knock it out.'}",
+                    "opponent_action": "ogerponcornerstone (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: rillaboom",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant. Dragon-type attack is zero effect (0x damage) to ironvaliant.\nironvaliant used moves:[moonblast,Fairy,Power:183],\nYour current pokemon:rillaboom,Type:Grass,HP:41%Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than ironvaliant).Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Your rillaboom has 4 moves:\nMove:woodhammer,Type:Grass,Power:213,Acc:100%,Effect:User receives recoil damage. \nMove:grassyglide,Type:Grass,Power:98,Acc:100%,Effect:High priority during Grassy Terrain. \nMove:uturn,Type:Bug,Power:124,Acc:100%,Effect:User switches out immediately after attacking. (highly ineffective (0.25x damage) to ironvaliant)\nMove:knockoff,Type:Dark,Power:115,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (highly ineffective (0.25x damage) to ironvaliant)\nYou have 1 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ironvaliant). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,0x damage], Fairy-type attack is super-effective (2x damage) to ragingbolt.\n",
+            "Candidates": [
+                {
+                    "player_action": "woodhammer (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's predictable Moonblast is likely to finish Rillaboom. The damage calculator will quickly identify the best move to maximize damage before fainting.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Woodhammer",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Dragon-type attack is zero effect (0x damage) to ironvaliant.\nironvaliant used moves:[moonblast,Fairy,Power:150],\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than ironvaliant).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Fairy-type attack is super-effective (2x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:183,Acc:100%,Effect:Strikes before a target's move. \nMove:terablast,Type:Normal,Power:209,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:222,Acc:100%(zero effect (0x damage) to ironvaliant)\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "thunderclap (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Raging Bolt's Thunderclap is ineffective against Rillaboom, but Terablast is a potential super-effective move.\", 'TypeMatchup': \"Raging Bolt is immune to Rillaboom's Grass-type attacks, but vulnerable to Ground-type attacks.\", 'SpeedControl': \"Quark-Drive boosts Rillaboom's Speed, potentially outspeeding Raging Bolt.\", 'TeamAdvantage': 'Raging Bolt is stronger than previous Pokémon, but Rillaboom still has a significant Attack stat.', 'BoostsAndStatus': \"Raging Bolt's Protosynthesis boosts its most proficient stat, potentially increasing its Attack or Special Attack.\", 'HazardsAndField': 'Grassy Terrain is in effect, boosting Grass-type attacks and weakening Electric-type attacks.', 'SwitchingCost': 'Switching out would forfeit the turn and allow Rillaboom to move again.', 'OpponentPressure': 'Rillaboom is unlikely to use another powerful move, but its Grass-type attacks are still effective against Raging Bolt.', 'Uncertainty': \"The opponent's remaining moves and strategies are unknown.\", 'WinPlan': \"Raging Bolt needs to find an opportunity to use Terablast or exploit Rillaboom's potential weaknesses to win the battle.\"}",
+                    "opponent_action": "rillaboom (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Thunderclap",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:12%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Dragon-type attack is zero effect (0x damage) to ironvaliant.\nironvaliant used moves:[moonblast,Fairy,Power:150],\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:24%Attack:153,Defense:218,Special attack:275(-1 stage boosted),Special defense:215,Speed:249(slower than ironvaliant).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Fairy-type attack is super-effective (2x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:122,Acc:100%,Effect:Strikes before a target's move. \nMove:terablast,Type:Normal,Power:140,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:149,Acc:100%(zero effect (0x damage) to ironvaliant)\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "thunderclap (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Valiant has predictable Moonblast, which can be super-effective against Raging Bolt. The damage calculator is more efficient for finding the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Thunderclap",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:ogerponcornerstone,Type:Grass and Rock,HP:29%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.) Normal, Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nogerponcornerstone used moves:[ivycudgel,Grass,Power:222],\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:30%Attack:153,Defense:218,Special attack:275(-1 stage boosted),Special defense:215,Speed:249(slower than ogerponcornerstone).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Grass-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:84,Acc:100%,Effect:Strikes before a target's move. (ineffective (0.5x damage) to ogerponcornerstone)\nMove:terablast,Type:Normal,Power:96,Acc:100%,Effect:Changes type when the user has Terastallized. (ineffective (0.5x damage) to ogerponcornerstone)\nMove:dragonpulse,Type:Dragon,Power:102,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "dragonpulse (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ogerpon has predictable moves and the damage calculator is sufficient for finding the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragonpulse",
+                "score": -1,
+                "label_scores": {}
+            }
+        }
+    }
+}

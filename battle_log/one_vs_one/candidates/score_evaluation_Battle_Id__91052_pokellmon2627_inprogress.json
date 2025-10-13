@@ -1,0 +1,288 @@
+{
+    "Battle Id: 91052": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:100%Attack:226,Defense:295,Special attack:113,Special defense:267,Speed:226, Ice-type attack is extremely-effective (4x damage) to gliscor. Water-type attack is super-effective (2x damage) to gliscor. Fighting, Poison-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\n\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:100%Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(faster than gliscor).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Ground-type attack is zero effect (0x damage) to dragonite.\nYour dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:124,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (zero effect (0x damage) to gliscor)\nMove:icespinner,Type:Ice,Power:100,Acc:100%,Effect:Removes effects of Terrain. (extremely-effective (4x damage) to gliscor)\nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than gliscor). Moves:[moonblast,Fairy,1x damage],[shadowball,Ghost,1x damage],[vacuumwave,Fighting,0.5x damage], Flying-type attack is super-effective (2x damage) to ironvaliant.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(slower than gliscor). Moves:[mortalspin,Poison,0.5x damage],[earthpower,Ground,0x damage],[sludgewave,Poison,0.5x damage], Ground-type attack is extremely-effective (4x damage) to glimmora. Flying-type attack is ineffective (0.5x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than gliscor). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,0.5x damage],[aquacutter,Water,2x damage],[flipturn,Water,2x damage],\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than gliscor). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,1x damage], Ground-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than gliscor). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,1x damage],[psyshock,Psychic,1x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Flying-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "icespinner (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gliscor is weak to Ice-type attacks, and Dragonite's Icespinner is highly effective. Additionally, Dragonite's Multiscale ability reduces damage taken while at full HP. The damage calculator provides a quick and reliable way to determine the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Icespinner",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:100%Attack:276,Defense:432(1 stage boosted),Special attack:176,Special defense:266,Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Fairy, Flying, Psychic-type attack is super-effective (2x damage) to zamazenta. Dark-type attack is ineffective (0.5x damage) to zamazenta.\nzamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:100%Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(slower than zamazenta).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is ineffective (0.5x damage) to dragonite.\nYour dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:127,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:icespinner,Type:Ice,Power:102,Acc:100%,Effect:Removes effects of Terrain. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than zamazenta). Moves:[moonblast,Fairy,2x damage],[shadowball,Ghost,1x damage],[vacuumwave,Fighting,1x damage], Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(slower than zamazenta). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(slower than zamazenta). Moves:[ceaselessedge,Dark,0.5x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Fighting, Electric-type attack is super-effective (2x damage) to samurotthisui. Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(slower than zamazenta). Moves:[hurricane,Flying,2x damage],[darkpulse,Dark,0.5x damage],[flamethrower,Fire,1x damage], Electric-type attack is super-effective (2x damage) to ironjugulis. Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(slower than zamazenta). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,2x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragondance (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Zamazenta has a high Defense boost, making it unlikely to be knocked out by a single move. The damage calculator is better suited for finding the most damaging move against boosted defenses. Additionally, the opponent's next move is likely to be a powerful attack, so maximizing damage output on this turn is crucial.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragondance",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:cinderace,Type:Fire,HP:100%Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370,Ability:Libero(Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle.) Ground, Water-type attack is super-effective (2x damage) to cinderace. Ice, Fire, Fairy-type attack is ineffective (0.5x damage) to cinderace.\ncinderace's all the possible attacks:[suckerpunch,dark,Power:70],[highjumpkick,fighting,Power:130],[pyroball,fire,Power:120],[gunkshot,poison,Power:120],[zenheadbutt,psychic,Power:80],[uturn,bug,Power:70],\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:100%Attack:550(1 stage boosted),Defense:226,Special attack:212,Special defense:237,Speed:426(1 stage boosted),(faster than cinderace).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting, Bug, Fire-type attack is ineffective (0.5x damage) to dragonite.\nYour dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:296,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (super-effective (2x damage) to cinderace)\nMove:icespinner,Type:Ice,Power:237,Acc:100%,Effect:Removes effects of Terrain. (ineffective (0.5x damage) to cinderace)\nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than cinderace). Moves:[moonblast,Fairy,0.5x damage],[shadowball,Ghost,1x damage],[vacuumwave,Fighting,1x damage], Poison, Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(slower than cinderace). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,2x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora. Bug, Fire-type attack is ineffective (0.5x damage) to glimmora. Poison-type attack is highly ineffective (0.25x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(slower than cinderace). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,2x damage],[flipturn,Water,2x damage], Fighting, Bug-type attack is super-effective (2x damage) to samurotthisui. Fire, Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(slower than cinderace). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage], Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(slower than cinderace). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,0.5x damage],[psyshock,Psychic,1x damage], Fire, Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo. Bug-type attack is highly ineffective (0.25x damage) to gholdengo. Fighting, Poison-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Cinderace has predictable moves and Dragonite can potentially knock it out in one turn. Therefore, the damage calculator provides a reliable estimate of optimal damage.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake terastallize",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:100%Attack:276,Defense:288,Special attack:176,Special defense:266,Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Fairy, Flying, Psychic-type attack is super-effective (2x damage) to zamazenta. Dark-type attack is ineffective (0.5x damage) to zamazenta.\nzamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:dragonite,Type:Ground,HP:100%Attack:550(1 stage boosted),Defense:226,Special attack:212,Special defense:237,Speed:426(1 stage boosted),(faster than zamazenta).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Electric-type attack is zero effect (0x damage) to dragonite.\nYour dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:191,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:icespinner,Type:Ice,Power:153,Acc:100%,Effect:Removes effects of Terrain. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than zamazenta). Moves:[moonblast,Fairy,2x damage],[shadowball,Ghost,1x damage],[vacuumwave,Fighting,1x damage], Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(slower than zamazenta). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(slower than zamazenta). Moves:[ceaselessedge,Dark,0.5x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Fighting, Electric-type attack is super-effective (2x damage) to samurotthisui. Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(slower than zamazenta). Moves:[hurricane,Flying,2x damage],[darkpulse,Dark,0.5x damage],[flamethrower,Fire,1x damage], Electric-type attack is super-effective (2x damage) to ironjugulis. Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(slower than zamazenta). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,2x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's remaining Pokémon have predictable types and predictable moves, making the damage calculator sufficient for finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:46%Attack:276,Defense:288,Special attack:176,Special defense:266,Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Fairy, Flying, Psychic-type attack is super-effective (2x damage) to zamazenta. Dark-type attack is ineffective (0.5x damage) to zamazenta.\nzamazenta used moves:[bodypress,Fighting,Power:40],zamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:dragonite,Type:Ground,HP:80%Attack:550(1 stage boosted),Defense:226,Special attack:212,Special defense:237,Speed:426(1 stage boosted),(faster than zamazenta).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Electric-type attack is zero effect (0x damage) to dragonite.\nYour dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:191,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:icespinner,Type:Ice,Power:153,Acc:100%,Effect:Removes effects of Terrain. \nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than zamazenta). Moves:[moonblast,Fairy,2x damage],[shadowball,Ghost,1x damage],[vacuumwave,Fighting,1x damage], Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(slower than zamazenta). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(slower than zamazenta). Moves:[ceaselessedge,Dark,0.5x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Fighting, Electric-type attack is super-effective (2x damage) to samurotthisui. Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(slower than zamazenta). Moves:[hurricane,Flying,2x damage],[darkpulse,Dark,0.5x damage],[flamethrower,Fire,1x damage], Electric-type attack is super-effective (2x damage) to ironjugulis. Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(slower than zamazenta). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,2x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Zamazenta is predicted to prioritize Body Press, which could leave it with low HP. The damage calculator would be more efficient in finding the optimal damaging move given the clear type advantage and high-power options available.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Ghost, Fire, Ground, Dark-type attack is super-effective (2x damage) to gholdengo. Ice, Fairy, Flying, Psychic-type attack is ineffective (0.5x damage) to gholdengo. Fighting, Poison-type attack is zero effect (0x damage) to gholdengo.\n\nYour current pokemon:dragonite,Type:Ground,HP:80%Attack:550(1 stage boosted),Defense:226,Special attack:212,Special defense:237,Speed:426(1 stage boosted),(faster than gholdengo).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Your dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:244,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. (super-effective (2x damage) to gholdengo)\nMove:icespinner,Type:Ice,Power:195,Acc:100%,Effect:Removes effects of Terrain. (ineffective (0.5x damage) to gholdengo)\nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than gholdengo). Moves:[moonblast,Fairy,0.5x damage],[shadowball,Ghost,2x damage],[vacuumwave,Fighting,0x damage], Steel-type attack is super-effective (2x damage) to ironvaliant.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(slower than gholdengo). Moves:[mortalspin,Poison,0x damage],[earthpower,Ground,2x damage],[sludgewave,Poison,0x damage], Steel-type attack is super-effective (2x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than gholdengo). Moves:[ceaselessedge,Dark,2x damage],[sacredsword,Fighting,0x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Steel, Ghost-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than gholdengo). Moves:[hurricane,Flying,0.5x damage],[darkpulse,Dark,2x damage],[flamethrower,Fire,2x damage], Ghost-type attack is ineffective (0.5x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than gholdengo). Moves:[shadowball,Ghost,2x damage],[dazzlinggleam,Fairy,0.5x damage],[psyshock,Psychic,0.5x damage], Ghost-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gholdengo is likely to prioritize maximizing its damage output with its powerful special attack. The damage calculator is efficient for finding the best damaging move against Gholdengo's Steel/Ghost type, considering the type matchups and available moves.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:alomomola,Type:Water,HP:100%Attack:186,Defense:284,Special attack:116,Special defense:127,Speed:149, Ice, Fire, Water-type attack is ineffective (0.5x damage) to alomomola.\n\nYour current pokemon:dragonite,Type:Ground,HP:32%Attack:550(1 stage boosted),Defense:226,Special attack:212,Special defense:237,Speed:426(1 stage boosted),(faster than alomomola).Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Water-type attack is super-effective (2x damage) to dragonite.\nYour dragonite has 4 moves:\nMove:dragondance,Type:Dragon,Status-move,Power:0,Acc:100%,Effect:Raises user's Attack and Speed. \nMove:earthquake,Type:Ground,Power:194,Acc:100%,Effect:Power is doubled if opponent is underground from using Dig. \nMove:icespinner,Type:Ice,Power:155,Acc:100%,Effect:Removes effects of Terrain. (ineffective (0.5x damage) to alomomola)\nMove:roost,Type:Flying,Status-move,Power:0,Acc:100%,Effect:User recovers half of its max HP and loses the Flying type temporarily. \nYou have 5 pokemons:\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than alomomola). Moves:[moonblast,Fairy,1x damage],[shadowball,Ghost,1x damage],[vacuumwave,Fighting,1x damage],\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(faster than alomomola). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[sludgewave,Poison,1x damage], Water-type attack is super-effective (2x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than alomomola). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,0.5x damage],[flipturn,Water,0.5x damage], Water-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than alomomola). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage],\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than alomomola). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,1x damage],[psyshock,Psychic,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Alomomola is predictable with only Water-type moves available. Dragonite has a significant type advantage with Earthquake. The damage calculator offers a quick and reliable way to maximize damage in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:alomomola,Type:Water,HP:56%Attack:186,Defense:284,Special attack:116,Special defense:127,Speed:149, Ice, Fire, Water-type attack is ineffective (0.5x damage) to alomomola.\nalomomola used moves:[acrobatics,Flying,Power:43],\nYour current pokemon:ironvaliant,Type:Fairy and Fighting,HP:47%Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than alomomola).Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.), Flying-type attack is super-effective (2x damage) to ironvaliant.\nYour ironvaliant has 4 moves:\nMove:moonblast,Type:Fairy,Power:254,Acc:100%,Effect:May lower opponent's Special Attack. \nMove:shadowball,Type:Ghost,Power:214,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:vacuumwave,Type:Fighting,Power:107,Acc:100%,Effect:User attacks first. \nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 5 pokemons:\nPokemon:dragonite,Type:Ground,HP:32%,Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(faster than alomomola). Moves:[earthquake,Ground,1x damage],[icespinner,Ice,0.5x damage], Water-type attack is super-effective (2x damage) to dragonite.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(faster than alomomola). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[sludgewave,Poison,1x damage], Water-type attack is super-effective (2x damage) to glimmora. Flying-type attack is ineffective (0.5x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than alomomola). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,0.5x damage],[flipturn,Water,0.5x damage], Water-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than alomomola). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage],\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than alomomola). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,1x damage],[psyshock,Psychic,1x damage], Flying-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Alomomola is likely to prioritize speed boosting moves like Acrobatics in the next turn. The damage calculator is better suited for finding optimal damaging moves against predictable opponents in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:hoopaunbound,Type:Psychic and Dark,HP:100%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176,Ability:Magician(The Pokémon steals the held item from any target it hits with a move.) Fairy-type attack is super-effective (2x damage) to hoopaunbound. Psychic-type attack is zero effect (0x damage) to hoopaunbound.\n\nYou have 5 pokemons:\nPokemon:dragonite,Type:Ground,HP:32%,Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(faster than hoopaunbound). Moves:[earthquake,Ground,1x damage],[icespinner,Ice,1x damage],\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(faster than hoopaunbound). Moves:[mortalspin,Poison,1x damage],[earthpower,Ground,1x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to glimmora.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than hoopaunbound). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than hoopaunbound). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,1x damage], Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than hoopaunbound). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,0x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "glimmora (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's Earthquake is super-effective against Zamazenta.\", 'TypeMatchup': 'Dragonite is strong against Zamazenta due to Fairy-type vulnerability.', 'SpeedControl': 'Dragonite is slower than Zamazenta, but has outspeed potential with Quark-Drive.', 'TeamAdvantage': \"Glimmora is strong against Zamazenta, and Dragonite can exploit Zamazenta's weaknesses.\", 'BoostsAndStatus': \"Quark-Drive boosts Dragonite's Speed, while Zamazenta has no significant boosts or status effects.\", 'HazardsAndField': 'n/a', 'SwitchingCost': \"Frequent switching can be costly against Zamazenta's Drainpunch.\", 'OpponentPressure': \"Zamazenta's remaining attacks are strong.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Dragonite's speed advantage and strong moves to defeat Zamazenta.\"}",
+                    "opponent_action": "zamazenta (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "dragonite (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's Earthquake is super-effective against Zamazenta.\", 'TypeMatchup': \"Dragonite's Ground-type moves are effective against Zamazenta's Fighting-type.\", 'SpeedControl': 'Dragonite is slower than Zamazenta, but has the advantage due to Quark-Drive.', 'TeamAdvantage': 'Dragonite is still alive, while Zamazenta is fainted.', 'BoostsAndStatus': 'Dragonite has a boost from Quark-Drive.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Zamazenta's Drainpunch can potentially damage Dragonite significantly.\", 'Uncertainty': 'n/a', 'WinPlan': 'Dragonite can potentially win with its super-effective Earthquake move.'}",
+                    "opponent_action": "zamazenta (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: glimmora",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:hoopaunbound,Type:Psychic and Dark,HP:51%Attack:356,Defense:217,Special attack:280(-1 stage boosted),Special defense:296,Speed:176,Ability:Magician(The Pokémon steals the held item from any target it hits with a move.) Fairy-type attack is super-effective (2x damage) to hoopaunbound. Psychic-type attack is zero effect (0x damage) to hoopaunbound.\nhoopaunbound used moves:[psychicnoise,Psychic,Power:83],\nYour current pokemon:glimmora,Type:Rock and Poison,HP:100%Attack:131,Defense:247,Special attack:296,Special defense:254,Speed:208(faster than hoopaunbound).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.),Item:Red Card(A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.) Psychic-type attack is super-effective (2x damage) to glimmora.\nYour glimmora has 4 moves:\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:mortalspin,Type:Poison,Power:18,Acc:100%,Effect:Removes entry hazards and trap move effects, and poisons opposing Pokémon. \nMove:earthpower,Type:Ground,Power:90,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:sludgewave,Type:Poison,Power:95,Acc:100%,Effect:May poison opponent. \nYou have 4 pokemons:\nPokemon:dragonite,Type:Ground,HP:32%,Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(faster than hoopaunbound). Moves:[earthquake,Ground,1x damage],[icespinner,Ice,1x damage],\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than hoopaunbound). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than hoopaunbound). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,1x damage], Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than hoopaunbound). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,0x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Hoopa is likely to prioritize maximizing its damage output, making future predictions less reliable. The damage calculator offers a quicker and more efficient approach to finding the best damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:hoopaunbound,Type:Psychic and Dark,HP:37%Attack:356,Defense:217,Special attack:280(-1 stage boosted),Special defense:296,Speed:176,Ability:Magician(The Pokémon steals the held item from any target it hits with a move.) Fairy-type attack is super-effective (2x damage) to hoopaunbound. Psychic-type attack is zero effect (0x damage) to hoopaunbound.\nhoopaunbound used moves:[psychicnoise,Psychic,Power:83],\nYou have 4 pokemons:\nPokemon:dragonite,Type:Ground,HP:32%,Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(faster than hoopaunbound). Moves:[earthquake,Ground,1x damage],[icespinner,Ice,1x damage],\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than hoopaunbound). Moves:[ceaselessedge,Dark,1x damage],[sacredsword,Fighting,1x damage],[aquacutter,Water,1x damage],[flipturn,Water,1x damage], Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than hoopaunbound). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,1x damage], Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than hoopaunbound). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,0x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Shadow Ball is super-effective against Cinderace.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Fire-type Pokémon.', 'SpeedControl': 'Gholdengo outspeeds Cinderace.', 'TeamAdvantage': 'Player has strong Ground-type Pokémon remaining.', 'BoostsAndStatus': 'Gholdengo has a significant special attack boost.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Cinderace's Drainpunch can deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': 'Gholdengo can potentially win with its super-effective moves.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: False, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Shadow Ball is super effective against Cinderace.\", 'TypeMatchup': 'Ground-type attacks are super effective against Fire-type Pokémon.', 'SpeedControl': 'Cinderace outspeeds Dragonite and Glimmora.', 'TeamAdvantage': 'Dragonite is a better matchup for Cinderace than Samurotthisui.', 'BoostsAndStatus': \"Iron Valiant's Quark Drive boosts its Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High cost of switching out Pokémon.', 'OpponentPressure': \"Cinderace's Drainpunch can deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Dragonite's Earthquake to defeat Cinderace.\"}",
+                    "opponent_action": "drainpunch (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: samurotthisui",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:hoopaunbound,Type:Psychic and Dark,HP:15%Attack:356,Defense:217,Special attack:280(-1 stage boosted),Special defense:296,Speed:176,Ability:Magician(The Pokémon steals the held item from any target it hits with a move.) Fairy-type attack is super-effective (2x damage) to hoopaunbound. Psychic-type attack is zero effect (0x damage) to hoopaunbound.\nhoopaunbound used moves:[psychicnoise,Psychic,Power:127],[knockoff,Dark,Power:73],Opponent team's side condition: toxic spikes\nYour current pokemon:samurotthisui,Type:Water and Dark,HP:100%Attack:315,Defense:197,Special attack:212,Special defense:166,Speed:295(faster than hoopaunbound).Ability:Sharpness(Powers up slicing moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Dark-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nYour samurotthisui has 4 moves:\nMove:ceaselessedge,Type:Dark,Power:94,Acc:90%,Effect:Sets up Spikes. \nMove:sacredsword,Type:Fighting,Power:131,Acc:100%,Effect:Ignores opponent's stat changes. \nMove:aquacutter,Type:Water,Power:102,Acc:100%,Effect:High critical hit ratio. \nMove:flipturn,Type:Water,Power:87,Acc:100%,Effect:After making its attack, the user rushes back to switch places with a party Pokémon in waiting. \nYou have 3 pokemons:\nPokemon:dragonite,Type:Ground,HP:32%,Attack:367,Defense:226,Special attack:212,Special defense:237,Speed:284(faster than hoopaunbound). Moves:[earthquake,Ground,1x damage],[icespinner,Ice,1x damage],\nPokemon:ironjugulis,Type:Dark and Flying,HP:100%,Attack:176,Defense:209,Special attack:343,Special defense:196,Speed:346(faster than hoopaunbound). Moves:[hurricane,Flying,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,1x damage], Dark-type attack is ineffective (0.5x damage) to ironjugulis. Psychic-type attack is zero effect (0x damage) to ironjugulis.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:226,Special attack:365,Special defense:219,Speed:293(faster than hoopaunbound). Moves:[shadowball,Ghost,1x damage],[dazzlinggleam,Fairy,2x damage],[psyshock,Psychic,0x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Psychic-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "ceaselessedge (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Hoopa is likely to continue using Psychic Noise, which is super effective against Samurott. Therefore, maximizing damage output is crucial. The damage calculator is more suitable for finding the best damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ceaselessedge",
+                "score": -1,
+                "label_scores": {}
+            }
+        }
+    }
+}

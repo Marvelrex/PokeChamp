@@ -1,0 +1,523 @@
+{
+    "Battle Id: 91064": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:dragonite,Type:Dragon and Flying,HP:100%Attack:403,Defense:226,Special attack:212,Special defense:237,Speed:259,Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.) Fire, Fighting, Water-type attack is ineffective (0.5x damage) to dragonite. Ground-type attack is zero effect (0x damage) to dragonite.\ndragonite's all the possible attacks:[outrage,dragon,Power:120],[dualwingbeat,flying,Power:40],[earthquake,ground,Power:100],[extremespeed,normal,Power:80],\nYour current pokemon:hoopaunbound,Type:Psychic and Dark,HP:100%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176(slower than dragonite).Ability:Magician(The Pokémon steals the held item from any target it hits with a move.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Your hoopaunbound has 4 moves:\nMove:knockoff,Type:Dark,Power:102,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:psychicnoise,Type:Psychic,Power:132,Acc:100%,Effect:Deals damage and prevents target from healing. \nMove:thunderbolt,Type:Electric,Power:159,Acc:100%,Effect:May paralyze opponent. \nMove:gunkshot,Type:Poison,Power:189,Acc:80%,Effect:May poison opponent. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than dragonite). Moves:[bodypress,Fighting,0.5x damage],[crunch,Dark,1x damage], Flying-type attack is super-effective (2x damage) to zamazenta.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than dragonite). Moves:[facade,Normal,1x damage],[earthquake,Ground,0x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than dragonite). Moves:[flipturn,Water,0.5x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than dragonite). Moves:[pyroball,Fire,0.5x damage],[suckerpunch,Dark,1x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than dragonite). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,0.5x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Flying, Dragon-type attack is ineffective (0.5x damage) to gholdengo. Normal-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "psychicnoise (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragonite boasts high Attack and Speed, demanding an immediate knockout. The damage calculator offers a quick and reliable way to assess potential damage outputs from available moves, while the minimax tree might be unnecessary in this urgent situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Psychicnoise",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:dragonite,Type:Normal,HP:80%Attack:403,Defense:226,Special attack:212,Special defense:237,Speed:259,Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.) Fighting-type attack is super-effective (2x damage) to dragonite. Ghost-type attack is zero effect (0x damage) to dragonite.\ndragonite used moves:[extremespeed,Normal,Power:91],dragonite's all the possible attacks:[outrage,dragon,Power:120],[dualwingbeat,flying,Power:40],[earthquake,ground,Power:100],[extremespeed,normal,Power:80],\nYour current pokemon:hoopaunbound,Type:Psychic and Dark,HP:55%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176(slower than dragonite).Ability:Magician(The Pokémon steals the held item from any target it hits with a move.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Your hoopaunbound has 4 moves:\nMove:knockoff,Type:Dark,Power:102,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:psychicnoise,Type:Psychic,Power:132,Acc:100%,Effect:Deals damage and prevents target from healing. \nMove:thunderbolt,Type:Electric,Power:159,Acc:100%,Effect:May paralyze opponent. \nMove:gunkshot,Type:Poison,Power:189,Acc:80%,Effect:May poison opponent. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than dragonite). Moves:[bodypress,Fighting,2x damage],[crunch,Dark,1x damage], Flying-type attack is super-effective (2x damage) to zamazenta.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than dragonite). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than dragonite). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than dragonite). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,1x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than dragonite). Moves:[shadowball,Ghost,0x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Flying, Dragon-type attack is ineffective (0.5x damage) to gholdengo. Normal-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "knockoff (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragonite is likely to prioritize healing itself given its low health. The damage calculator offers a quick way to assess potential damage output, which is crucial for determining if it can potentially knock out Dragonite this turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Knockoff",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:greattusk,Type:Ground and Fighting,HP:81%Attack:361,Defense:298,Special attack:127,Special defense:143,Speed:300,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Water, Flying, Psychic-type attack is super-effective (2x damage) to greattusk. Poison, Dark-type attack is ineffective (0.5x damage) to greattusk. Electric-type attack is zero effect (0x damage) to greattusk.\n\nYour current pokemon:hoopaunbound,Type:Psychic and Dark,HP:55%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176(slower than greattusk).Ability:Magician(The Pokémon steals the held item from any target it hits with a move.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Your hoopaunbound has 4 moves:\nMove:knockoff,Type:Dark,Power:78,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (ineffective (0.5x damage) to greattusk)\nMove:psychicnoise,Type:Psychic,Power:219,Acc:100%,Effect:Deals damage and prevents target from healing. (super-effective (2x damage) to greattusk)\nMove:thunderbolt,Type:Electric,Power:263,Acc:100%,Effect:May paralyze opponent. (zero effect (0x damage) to greattusk)\nMove:gunkshot,Type:Poison,Power:143,Acc:80%,Effect:May poison opponent. (ineffective (0.5x damage) to greattusk)\nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than greattusk). Moves:[bodypress,Fighting,1x damage],[crunch,Dark,0.5x damage],\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than greattusk). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than greattusk). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,2x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than greattusk). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than greattusk). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,1x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "psychicnoise (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Cinderace's Gunkshot is effective against Dragonite.\", 'TypeMatchup': \"Cinderace's Fire-type moves are super-effective against Dragonite.\", 'SpeedControl': 'Cinderace outspeeds Dragonite.', 'TeamAdvantage': 'Zamzenta is faster and stronger than Dragonite.', 'BoostsAndStatus': 'Zamzenta has no negative status.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Dragonite's remaining team is strong.\", 'Uncertainty': 'n/a', 'WinPlan': 'Use Gunkshot to defeat Dragonite and then prioritize Zamzenta to handle the remaining team.'}",
+                    "opponent_action": "dragonite (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Cinderace's Gunkshot is super-effective against Dragonite.\", 'TypeMatchup': \"Cinderace's Fire-type is effective against Dragonite's Normal-type.\", 'SpeedControl': 'Cinderace outspeeds Dragonite.', 'TeamAdvantage': 'Zamzenta is faster than Dragonite and has a super-effective move against it.', 'BoostsAndStatus': 'Zamzenta has no positive boosts or status conditions.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Cinderace has already switched out once, incurring a minor penalty.', 'OpponentPressure': \"Dragonite has used Rapidspin, reducing Cinderace's chances of landing a critical hit.\", 'Uncertainty': \"Cinderace's remaining moves are less powerful than Dragonite's.\", 'WinPlan': 'Cinderace can potentially defeat Dragonite with well-timed Gunkshots.'}",
+                    "opponent_action": "dragonite (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "gunkshot (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Cinderace's Gunkshot is super-effective against Dragonite.\", 'TypeMatchup': \"Cinderace's Fire-type moves are super-effective against Dragonite.\", 'SpeedControl': 'Cinderace outspeeds Dragonite.', 'TeamAdvantage': 'Zamzenta is faster than Dragonite and has a 2x damage type matchup.', 'BoostsAndStatus': 'Zamzenta has no negative status.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Dragonite has used up Rapidspin.', 'Uncertainty': 'n/a', 'WinPlan': 'Send out Zamzenta and use Fire-type moves to defeat Dragonite.'}",
+                    "opponent_action": "dragonite (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Psychicnoise",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:dragonite,Type:Normal,HP:38%Attack:403,Defense:226,Special attack:212,Special defense:237,Speed:259,Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.) Fighting-type attack is super-effective (2x damage) to dragonite. Ghost-type attack is zero effect (0x damage) to dragonite.\ndragonite used moves:[extremespeed,Normal,Power:91],dragonite's all the possible attacks:[outrage,dragon,Power:120],[dualwingbeat,flying,Power:40],[earthquake,ground,Power:100],[extremespeed,normal,Power:80],\nYour current pokemon:hoopaunbound,Type:Psychic and Dark,HP:55%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176(slower than dragonite).Ability:Magician(The Pokémon steals the held item from any target it hits with a move.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Your hoopaunbound has 4 moves:\nMove:knockoff,Type:Dark,Power:102,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:psychicnoise,Type:Psychic,Power:132,Acc:100%,Effect:Deals damage and prevents target from healing. \nMove:thunderbolt,Type:Electric,Power:159,Acc:100%,Effect:May paralyze opponent. \nMove:gunkshot,Type:Poison,Power:189,Acc:80%,Effect:May poison opponent. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than dragonite). Moves:[bodypress,Fighting,2x damage],[crunch,Dark,1x damage], Flying-type attack is super-effective (2x damage) to zamazenta.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than dragonite). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than dragonite). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than dragonite). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,1x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than dragonite). Moves:[shadowball,Ghost,0x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Flying, Dragon-type attack is ineffective (0.5x damage) to gholdengo. Normal-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "knockoff (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragonite is likely to prioritize healing itself with Heal Block given its low HP. The damage calculator can quickly assess the effectiveness of potential moves against Dragonite's current HP and defenses.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Knockoff",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:darkrai,Type:Dark,HP:72%Attack:194,Defense:216,Special attack:369,Special defense:217,Speed:383,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.) Fighting-type attack is super-effective (2x damage) to darkrai. Ghost, Dark-type attack is ineffective (0.5x damage) to darkrai. Psychic-type attack is zero effect (0x damage) to darkrai.\n\nYour current pokemon:hoopaunbound,Type:Psychic and Dark,HP:55%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176(slower than darkrai).Ability:Magician(The Pokémon steals the held item from any target it hits with a move.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Your hoopaunbound has 4 moves:\nMove:knockoff,Type:Dark,Power:107,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. (ineffective (0.5x damage) to darkrai)\nMove:psychicnoise,Type:Psychic,Power:144,Acc:100%,Effect:Deals damage and prevents target from healing. (zero effect (0x damage) to darkrai)\nMove:thunderbolt,Type:Electric,Power:173,Acc:100%,Effect:May paralyze opponent. \nMove:gunkshot,Type:Poison,Power:198,Acc:80%,Effect:May poison opponent. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than darkrai). Moves:[bodypress,Fighting,2x damage],[crunch,Dark,0.5x damage], Dark-type attack is ineffective (0.5x damage) to zamazenta.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than darkrai). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage],\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than darkrai). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(slower than darkrai). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage],\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than darkrai). Moves:[shadowball,Ghost,0.5x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Dark-type attack is super-effective (2x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "thunderbolt (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Darkrai is likely to prioritize healing or using Dark-type moves, making the damage calculator more suitable for finding the most damaging move in the current situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Thunderbolt",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:dragonite,Type:Normal,HP:9%Attack:403,Defense:226,Special attack:212,Special defense:237,Speed:259,Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.) Fighting-type attack is super-effective (2x damage) to dragonite. Ghost-type attack is zero effect (0x damage) to dragonite.\ndragonite used moves:[extremespeed,Normal,Power:91],dragonite's all the possible attacks:[outrage,dragon,Power:120],[dualwingbeat,flying,Power:40],[earthquake,ground,Power:100],[extremespeed,normal,Power:80],\nYour current pokemon:hoopaunbound,Type:Psychic and Dark,HP:55%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176(slower than dragonite).Ability:Magician(The Pokémon steals the held item from any target it hits with a move.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Your hoopaunbound has 4 moves:\nMove:knockoff,Type:Dark,Power:102,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nMove:psychicnoise,Type:Psychic,Power:132,Acc:100%,Effect:Deals damage and prevents target from healing. \nMove:thunderbolt,Type:Electric,Power:159,Acc:100%,Effect:May paralyze opponent. \nMove:gunkshot,Type:Poison,Power:189,Acc:80%,Effect:May poison opponent. \nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than dragonite). Moves:[bodypress,Fighting,2x damage],[crunch,Dark,1x damage], Flying-type attack is super-effective (2x damage) to zamazenta.\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than dragonite). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than dragonite). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than dragonite). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,1x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than dragonite). Moves:[shadowball,Ghost,0x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Flying, Dragon-type attack is ineffective (0.5x damage) to gholdengo. Normal-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "knockoff (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragonite is likely to prioritize healing itself given its low HP. The damage calculator is sufficient to assess the effectiveness of our moves against Dragonite's current HP and type matchup.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Knockoff",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:greattusk,Type:Ground and Fighting,HP:81%Attack:361,Defense:298,Special attack:127,Special defense:143,Speed:300,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Water, Flying-type attack is super-effective (2x damage) to greattusk. Dark-type attack is ineffective (0.5x damage) to greattusk.\n\nYou have 5 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:276,Defense:325,Special attack:176,Special defense:266,Speed:389(faster than greattusk). Moves:[bodypress,Fighting,1x damage],[crunch,Dark,0.5x damage],\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than greattusk). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than greattusk). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,2x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than greattusk). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than greattusk). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,1x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Zamazenta's Body Press is super-effective against Dragonite.\", 'TypeMatchup': 'Flying-type attacks are super-effective against Zamazenta.', 'SpeedControl': 'Zamazenta outspeeds Dragonite.', 'TeamAdvantage': \"Zamazenta's remaining team has better offensive power than Dragonite's remaining team.\", 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Dragonite's Extreme Speed can potentially deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Zamazenta's speed and Body Press to knock out Dragonite and gain an advantage over the opponent's team.\"}",
+                    "opponent_action": "dragonite (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: zamazenta",
+                "score": 70,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:greattusk,Type:Ground and Fighting,HP:81%Attack:361,Defense:200(-1 stage boosted),Special attack:127,Special defense:96(-1 stage boosted),Speed:300,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Water, Flying-type attack is super-effective (2x damage) to greattusk. Dark-type attack is ineffective (0.5x damage) to greattusk.\ngreattusk used moves:[headlongrush,Ground,Power:157],\nYour current pokemon:zamazenta,Type:Fighting,HP:100%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than greattusk).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:49,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. \nMove:crunch,Type:Dark,Power:49,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to greattusk)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than greattusk). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than greattusk). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,2x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than greattusk). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than greattusk). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,1x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Great Tusk is likely to prioritize Headlong Rush given its previous usage. The damage calculator provides a quick and reliable way to assess the effectiveness of potential moves against the current type matchup and remaining HP.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Water, Fighting-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu.\n\nYour current pokemon:zamazenta,Type:Fighting,HP:100%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than tinglu).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Dark-type attack is ineffective (0.5x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:51,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (super-effective (2x damage) to tinglu)\nMove:crunch,Type:Dark,Power:51,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to tinglu)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(faster than tinglu). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than tinglu). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than tinglu). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than tinglu). Moves:[shadowball,Ghost,0.5x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground, Dark-type attack is super-effective (2x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The current battle state suggests a clear type advantage with Water-type moves dealing super-effective damage to Ting-Lu. Given the opponent's predictable next move, the damage calculator offers a faster and more efficient approach to finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire, Ground, Ghost, Dark-type attack is super-effective (2x damage) to gholdengo. Flying, Steel-type attack is ineffective (0.5x damage) to gholdengo. Normal, Fighting-type attack is zero effect (0x damage) to gholdengo.\n\nYour current pokemon:zamazenta,Type:Fighting,HP:100%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than gholdengo).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:65,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (zero effect (0x damage) to gholdengo)\nMove:crunch,Type:Dark,Power:65,Acc:100%,Effect:May lower opponent's Defense. (super-effective (2x damage) to gholdengo)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than gholdengo). Moves:[facade,Normal,0x damage],[earthquake,Ground,2x damage],\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than gholdengo). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,0.5x damage], Steel-type attack is ineffective (0.5x damage) to alomomola.\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than gholdengo). Moves:[pyroball,Fire,2x damage],[suckerpunch,Dark,2x damage], Steel-type attack is ineffective (0.5x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than gholdengo). Moves:[shadowball,Ghost,2x damage],[makeitrain,Steel,0.5x damage],[focusblast,Fighting,0x damage], Ghost-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "crunch (Move object)",
+                    "score": -1,
+                    "rationale": "Given the predictable opponent and limited options, the damage calculator offers a quicker and more efficient approach to finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Crunch",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:70%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire, Ground, Ghost, Dark-type attack is super-effective (2x damage) to gholdengo. Flying, Steel-type attack is ineffective (0.5x damage) to gholdengo. Normal, Fighting-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[shadowball,Ghost,Power:110],\nYour current pokemon:zamazenta,Type:Fighting,HP:60%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than gholdengo).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:65,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (zero effect (0x damage) to gholdengo)\nMove:crunch,Type:Dark,Power:65,Acc:100%,Effect:May lower opponent's Defense. (super-effective (2x damage) to gholdengo)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than gholdengo). Moves:[facade,Normal,0x damage],[earthquake,Ground,2x damage],\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than gholdengo). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,0.5x damage], Steel-type attack is ineffective (0.5x damage) to alomomola.\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than gholdengo). Moves:[pyroball,Fire,2x damage],[suckerpunch,Dark,2x damage], Steel-type attack is ineffective (0.5x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than gholdengo). Moves:[shadowball,Ghost,2x damage],[makeitrain,Steel,0.5x damage],[focusblast,Fighting,0x damage], Ghost-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "crunch (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Cinderace's Iron Defense is super effective against Darkrai's Shadow Ball.\", 'TypeMatchup': \"Cinderace's Fire-type moves are super effective against Darkrai.\", 'SpeedControl': 'Cinderace is slower than Darkrai, but Iron Defense boosts its Defense.', 'TeamAdvantage': \"Gliscor is a potential switch-in due to its Ground/Flying type, which is resistant to Darkrai's Shadow Ball.\", 'BoostsAndStatus': \"Cinderace's Iron Defense boosts its Defense, mitigating Shadow Ball damage.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Darkrai's Shadow Ball is a powerful move, but Cinderace's Iron Defense can mitigate it.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Cinderace's Iron Defense to survive Darkrai's Shadow Ball and potentially win with strong Fire-type moves.\"}",
+                    "opponent_action": "darkrai (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Cinderace's Iron Defense is super-effective against Darkrai's Shadow Ball.\", 'TypeMatchup': \"Cinderace's Fighting-type moves are super-effective against Darkrai.\", 'SpeedControl': 'Cinderace is slower than Darkrai, but has a potential to outspeed with Iron Defense boosts.', 'TeamAdvantage': \"Gliscor is a good matchup for Darkrai, while Gholdengo is weak to Cinderace's Fighting-type moves.\", 'BoostsAndStatus': \"Cinderace's Iron Defense boosts its Defense, potentially mitigating Shadow Ball damage.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': 'Darkrai has used Shadow Ball twice, potentially weakening its Special Attack.', 'Uncertainty': \"Darkrai's Bad Dreams ability could put Cinderace to sleep.\", 'WinPlan': 'Utilize Iron Defense to mitigate Shadow Ball damage and outspeed Darkrai with speed boosts.'}",
+                    "opponent_action": "darkrai (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "irondefense (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Cinderace's Iron Defense is super effective against Darkrai's Shadow Ball.\", 'TypeMatchup': 'Dark-type moves are super effective against Cinderace, but Fighting-type moves are super effective against Darkrai.', 'SpeedControl': 'Cinderace is slower than Darkrai, but has the potential to outspeed with Speed Boost.', 'TeamAdvantage': 'Gliscor is a strong matchup for Darkrai due to its Ground-type resistance and Fighting-type moves.', 'BoostsAndStatus': \"Cinderace's Iron Defense boosts its Defense, while Darkrai's Bad Dreams can damage sleeping opponents.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Darkrai's Shadow Ball can deal significant damage, but has low accuracy.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Speed Boost to outspeed Darkrai and maximize the effectiveness of Cinderace's Fighting-type moves.\"}",
+                    "opponent_action": "darkrai (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 5,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Crunch",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:39%Attack:140,Defense:151(-1 stage boosted),Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire, Ground, Ghost, Dark-type attack is super-effective (2x damage) to gholdengo. Flying, Steel-type attack is ineffective (0.5x damage) to gholdengo. Normal, Fighting-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[shadowball,Ghost,Power:110],\nYour current pokemon:zamazenta,Type:Fighting,HP:35%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than gholdengo).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:65,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (zero effect (0x damage) to gholdengo)\nMove:crunch,Type:Dark,Power:65,Acc:100%,Effect:May lower opponent's Defense. (super-effective (2x damage) to gholdengo)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than gholdengo). Moves:[facade,Normal,0x damage],[earthquake,Ground,2x damage],\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than gholdengo). Moves:[flipturn,Water,1x damage],[acrobatics,Flying,0.5x damage], Steel-type attack is ineffective (0.5x damage) to alomomola.\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than gholdengo). Moves:[pyroball,Fire,2x damage],[suckerpunch,Dark,2x damage], Steel-type attack is ineffective (0.5x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than gholdengo). Moves:[shadowball,Ghost,2x damage],[makeitrain,Steel,0.5x damage],[focusblast,Fighting,0x damage], Ghost-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "crunch (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gholdengo has low Defense and is likely to be knocked out by a strong move. The damage calculator is more suitable for finding the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Crunch",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:100%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Water, Fighting-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu.\n\nYour current pokemon:zamazenta,Type:Fighting,HP:41%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than tinglu).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Dark-type attack is ineffective (0.5x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:51,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (super-effective (2x damage) to tinglu)\nMove:crunch,Type:Dark,Power:51,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to tinglu)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(faster than tinglu). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than tinglu). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than tinglu). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than tinglu). Moves:[shadowball,Ghost,0.5x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground, Dark-type attack is super-effective (2x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Body Press is super-effective against Darkrai.\", 'TypeMatchup': 'Dark-type moves are super-effective against Gholdengo.', 'SpeedControl': 'Gholdengo is slower than Darkrai.', 'TeamAdvantage': 'Cinderace provides offensive coverage with its Fire-type moves.', 'BoostsAndStatus': 'Gholdengo can potentially boost its Defense with Iron Defense.', 'HazardsAndField': 'Spikes can damage Gholdengo.', 'SwitchingCost': 'Frequent switching can disadvantage Gholdengo due to the speed difference.', 'OpponentPressure': \"Darkrai's Spikes can damage Gholdengo repeatedly.\", 'Uncertainty': \"Darkrai's Spikes can potentially inflict significant damage.\", 'WinPlan': \"Gholdengo needs to utilize its boosts and type advantage to defeat Darkrai before it can exploit Gholdengo's weaknesses.\"}",
+                    "opponent_action": "darkrai (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "cinderace (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Body Press is super-effective against Darkrai.\", 'TypeMatchup': 'Dark-type attacks are super-effective against Gholdengo.', 'SpeedControl': 'Gholdengo is slower than Darkrai.', 'TeamAdvantage': \"Cinderace's speed and strong attacks provide a potential win condition.\", 'BoostsAndStatus': \"Gholdengo's Iron Defense boost will increase its Defense.\", 'HazardsAndField': \"Darkrai's Spikes can damage Gholdengo.\", 'SwitchingCost': \"Frequent switching will disadvantage Gholdengo due to Darkrai's speed.\", 'OpponentPressure': \"Darkrai's Bad Dreams ability can put opponents to sleep.\", 'Uncertainty': \"Darkrai's remaining moves and team composition are unknown.\", 'WinPlan': \"Utilize Gholdengo's Body Press and Cinderace's speed to defeat Darkrai.\"}",
+                    "opponent_action": "darkrai (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gholdengo's Body Press is super-effective against Darkrai.\", 'TypeMatchup': 'Dark-type moves are super-effective against Gholdengo, but Fighting-type moves are super-effective against Darkrai.', 'SpeedControl': 'Gholdengo is slower than Darkrai, but has used Roar to force an opponent switch.', 'TeamAdvantage': 'Cinderace is a strong remaining Pokémon with a super-effective move against Darkrai.', 'BoostsAndStatus': 'Gholdengo has used Iron Defense to boost its Defense.', 'HazardsAndField': 'Spikes are on the field, damaging Gholdengo each turn.', 'SwitchingCost': \"Multiple switches have been made, increasing the risk of opponent's speed control.\", 'OpponentPressure': \"Darkrai has used Spikes, which deals damage and potentially lowers opponent's Defense.\", 'Uncertainty': \"Darkrai's Spikes can potentially inflict significant damage and status effects.\", 'WinPlan': 'Gholdengo can potentially win with Body Press, while Cinderace can defeat Darkrai with its super-effective moves.'}",
+                    "opponent_action": "darkrai (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:46%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Water, Fighting-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:93],\nYour current pokemon:zamazenta,Type:Fighting,HP:30%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than tinglu).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Dark-type attack is ineffective (0.5x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:51,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (super-effective (2x damage) to tinglu)\nMove:crunch,Type:Dark,Power:51,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to tinglu)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(faster than tinglu). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than tinglu). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than tinglu). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than tinglu). Moves:[shadowball,Ghost,0.5x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground, Dark-type attack is super-effective (2x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Tinglu has predictable Earthquake, making it ideal for a super-effective Dark-type attack. The damage calculator offers a quick way to assess the damage potential.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ogerponwellspring,Type:Grass and Water,HP:28%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.) Flying-type attack is super-effective (2x damage) to ogerponwellspring. Steel, Ground-type attack is ineffective (0.5x damage) to ogerponwellspring. Water-type attack is highly ineffective (0.25x damage) to ogerponwellspring.\n\nYour current pokemon:zamazenta,Type:Fighting,HP:36%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than ogerponwellspring).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:72,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. \nMove:crunch,Type:Dark,Power:72,Acc:100%,Effect:May lower opponent's Defense. \nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than ogerponwellspring). Moves:[facade,Normal,1x damage],[earthquake,Ground,0.5x damage], Water-type attack is super-effective (2x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than ogerponwellspring). Moves:[flipturn,Water,0.25x damage],[acrobatics,Flying,2x damage], Grass-type attack is super-effective (2x damage) to alomomola. Water-type attack is ineffective (0.5x damage) to alomomola.\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than ogerponwellspring). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,1x damage], Water-type attack is super-effective (2x damage) to cinderace. Grass-type attack is ineffective (0.5x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than ogerponwellspring). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,0.5x damage],[focusblast,Fighting,1x damage], Grass-type attack is ineffective (0.5x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's next move is predictable given their current HP and the damage potential of Zamazenta's remaining moves. Additionally, the damage calculator offers a quick and efficient way to assess the effectiveness of potential attacks against the opponent's current Pokémon.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:46%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Water, Fighting-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:93],\nYour current pokemon:zamazenta,Type:Fighting,HP:42%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than tinglu).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Dark-type attack is ineffective (0.5x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:51,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (super-effective (2x damage) to tinglu)\nMove:crunch,Type:Dark,Power:51,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to tinglu)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(faster than tinglu). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than tinglu). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than tinglu). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than tinglu). Moves:[shadowball,Ghost,0.5x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground, Dark-type attack is super-effective (2x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Tinglu has predictable behavior, focusing on Earthquake. The damage calculator is sufficient to assess the potential damage from Body Press, considering the type advantage and Tinglu's predictable move selection.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:greattusk,Type:Ground and Fighting,HP:43%Attack:361,Defense:298,Special attack:127,Special defense:143,Speed:300,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Water, Flying-type attack is super-effective (2x damage) to greattusk. Dark-type attack is ineffective (0.5x damage) to greattusk.\ngreattusk used moves:[headlongrush,Ground,Power:157],\nYour current pokemon:zamazenta,Type:Fighting,HP:48%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than greattusk).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:49,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. \nMove:crunch,Type:Dark,Power:49,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to greattusk)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than greattusk). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than greattusk). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,2x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than greattusk). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than greattusk). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,1x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Great Tusk has predictable moves and the damage calculator provides a quick way to maximize damage. Additionally, our Zamazenta has a significant type advantage against Great Tusk.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 18": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:greattusk,Type:Ground and Fighting,HP:4%Attack:361,Defense:200(-1 stage boosted),Special attack:127,Special defense:96(-1 stage boosted),Speed:300,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Water, Flying-type attack is super-effective (2x damage) to greattusk. Dark-type attack is ineffective (0.5x damage) to greattusk.\ngreattusk used moves:[headlongrush,Ground,Power:157],\nYour current pokemon:zamazenta,Type:Fighting,HP:25%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than greattusk).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Your zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:49,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. \nMove:crunch,Type:Dark,Power:49,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to greattusk)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(slower than greattusk). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Fighting-type attack is ineffective (0.5x damage) to gliscor. Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than greattusk). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,2x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than greattusk). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(slower than greattusk). Moves:[shadowball,Ghost,1x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,1x damage], Ground-type attack is super-effective (2x damage) to gholdengo. Fighting-type attack is zero effect (0x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Great Tusk is likely to prioritize using Headlong Rush given its recent speed decrease. The damage calculator offers a quick way to assess the effectiveness of our moves against its current defense.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 19": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:tinglu,Type:Dark and Ground,HP:46%Attack:256,Defense:287,Special attack:131,Special defense:284,Speed:126,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.) Water, Fighting-type attack is super-effective (2x damage) to tinglu. Ghost, Dark-type attack is ineffective (0.5x damage) to tinglu.\ntinglu used moves:[earthquake,Ground,Power:93],\nYour current pokemon:zamazenta,Type:Fighting,HP:31%Attack:276,Defense:488(1 stage boosted),Special attack:176,Special defense:266,Speed:389(faster than tinglu).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Dark-type attack is ineffective (0.5x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:bodypress,Type:Fighting,Power:51,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (super-effective (2x damage) to tinglu)\nMove:crunch,Type:Dark,Power:51,Acc:100%,Effect:May lower opponent's Defense. (ineffective (0.5x damage) to tinglu)\nMove:roar,Type:Normal,Status-move,Power:0,Acc:100%,Effect:In battles, the opponent switches. In the wild, the Pokémon runs. \nYou have 4 pokemons:\nPokemon:gliscor,Type:Ground and Flying,HP:100%,Attack:226,Defense:286,Special attack:113,Special defense:270,Speed:232(faster than tinglu). Moves:[facade,Normal,1x damage],[earthquake,Ground,1x damage], Ground-type attack is zero effect (0x damage) to gliscor.\nPokemon:alomomola,Type:Water,HP:100%,Attack:186,Defense:284,Special attack:116,Special defense:128,Speed:121(slower than tinglu). Moves:[flipturn,Water,2x damage],[acrobatics,Flying,1x damage],\nPokemon:cinderace,Type:Fire,HP:100%,Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370(faster than tinglu). Moves:[pyroball,Fire,1x damage],[suckerpunch,Dark,0.5x damage], Ground-type attack is super-effective (2x damage) to cinderace.\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:227,Special attack:365,Special defense:218,Speed:293(faster than tinglu). Moves:[shadowball,Ghost,0.5x damage],[makeitrain,Steel,1x damage],[focusblast,Fighting,2x damage], Ground, Dark-type attack is super-effective (2x damage) to gholdengo.\n",
+            "Candidates": [
+                {
+                    "player_action": "bodypress (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ting-Lu has low Sp. Atk due to Vessel of Ruin, making it vulnerable to super-effective Dark-type attacks. The damage calculator offers a quick way to assess the potential damage output of Body Press, considering the current Defense boost of Zamazenta.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Bodypress",
+                "score": -1,
+                "label_scores": {}
+            }
+        }
+    }
+}

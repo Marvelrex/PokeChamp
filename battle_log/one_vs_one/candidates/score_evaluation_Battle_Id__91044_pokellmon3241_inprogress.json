@@ -1,0 +1,649 @@
+{
+    "Battle Id: 91044": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:100%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground, Dark-type attack is super-effective (2x damage) to ironcrown. Steel, Normal, Dragon, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\n\nYour current pokemon:primarina,Type:Water and Fairy,HP:100%Attack:137,Defense:184,Special attack:338,Special defense:268,Speed:201(slower than ironcrown).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Your primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:120,Acc:100%,Effect:Hits all adjacent Pokémon. \nMove:moonblast,Type:Fairy,Power:127,Acc:100%,Effect:May lower opponent's Special Attack. (ineffective (0.5x damage) to ironcrown)\nMove:psychicnoise,Type:Psychic,Power:100,Acc:100%,Effect:Deals damage and prevents target from healing. (highly ineffective (0.25x damage) to ironcrown)\nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage],\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than ironcrown). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,0.5x damage], Steel-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than ironcrown). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,1x damage],[knockoff,Dark,2x damage], Steel-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than ironcrown). Moves:[earthpower,Ground,2x damage],[uturn,Bug,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Crown has predictable behavior with predictable moves. The damage calculator provides a faster and more efficient approach to maximizing damage in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Surf",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:73%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground, Dark-type attack is super-effective (2x damage) to ironcrown. Steel, Normal, Dragon, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nironcrown used moves:[futuresight,Psychic,Power:154],\nYour current pokemon:primarina,Type:Water and Fairy,HP:100%Attack:137,Defense:184,Special attack:338,Special defense:268,Speed:201(slower than ironcrown).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Your primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:120,Acc:100%,Effect:Hits all adjacent Pokémon. \nMove:moonblast,Type:Fairy,Power:127,Acc:100%,Effect:May lower opponent's Special Attack. (ineffective (0.5x damage) to ironcrown)\nMove:psychicnoise,Type:Psychic,Power:100,Acc:100%,Effect:Deals damage and prevents target from healing. (highly ineffective (0.25x damage) to ironcrown)\nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage],\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than ironcrown). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,0.5x damage], Steel-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than ironcrown). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,1x damage],[knockoff,Dark,2x damage], Steel-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than ironcrown). Moves:[earthpower,Ground,2x damage],[uturn,Bug,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "calmmind (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Crown is likely to switch out after its Future Sight, making long-term strategy less relevant. The damage calculator offers a quicker and more efficient way to identify the most damaging move considering the current type matchup and move pool.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Calmmind",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:73%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground, Dark-type attack is super-effective (2x damage) to ironcrown. Steel, Normal, Dragon, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nironcrown used moves:[futuresight,Psychic,Power:102],\nYour current pokemon:primarina,Type:Water and Fairy,HP:100%Attack:137,Defense:184,Special attack:507(1 stage boosted),Special defense:402(1 stage boosted),Speed:201(slower than ironcrown).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Your primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:120,Acc:100%,Effect:Hits all adjacent Pokémon. \nMove:moonblast,Type:Fairy,Power:127,Acc:100%,Effect:May lower opponent's Special Attack. (ineffective (0.5x damage) to ironcrown)\nMove:psychicnoise,Type:Psychic,Power:100,Acc:100%,Effect:Deals damage and prevents target from healing. (highly ineffective (0.25x damage) to ironcrown)\nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage],\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than ironcrown). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,0.5x damage], Steel-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than ironcrown). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,1x damage],[knockoff,Dark,2x damage], Steel-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than ironcrown). Moves:[earthpower,Ground,2x damage],[uturn,Bug,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Crown is likely to prioritize boosting its speed with Future Sight, making accurate predictions of its future moves difficult. Given the abundance of options available, a more efficient approach is needed. Therefore, the damage calculator offers a more practical way to assess the immediate damage potential of our moves.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Surf",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:29%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground, Dark-type attack is super-effective (2x damage) to ironcrown. Steel, Normal, Dragon, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nironcrown used moves:[futuresight,Psychic,Power:102],[focusblast,Fighting,Power:102],\nYour current pokemon:primarina,Type:Water and Fairy,HP:55%Attack:137,Defense:184,Special attack:507(1 stage boosted),Special defense:402(1 stage boosted),Speed:201(slower than ironcrown).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Fighting-type attack is ineffective (0.5x damage) to primarina.\nYour primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:120,Acc:100%,Effect:Hits all adjacent Pokémon. \nMove:moonblast,Type:Fairy,Power:127,Acc:100%,Effect:May lower opponent's Special Attack. (ineffective (0.5x damage) to ironcrown)\nMove:psychicnoise,Type:Psychic,Power:100,Acc:100%,Effect:Deals damage and prevents target from healing. (highly ineffective (0.25x damage) to ironcrown)\nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage], Fighting-type attack is zero effect (0x damage) to dragapult.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than ironcrown). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,0.5x damage], Fighting-type attack is extremely-effective (4x damage) to kingambit. Steel-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than ironcrown). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,1x damage],[knockoff,Dark,2x damage], Fighting-type attack is super-effective (2x damage) to samurotthisui. Steel-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than ironcrown). Moves:[earthpower,Ground,2x damage],[uturn,Bug,1x damage], Fighting-type attack is ineffective (0.5x damage) to landorustherian.\n",
+            "Candidates": [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Future Sight has already boosted their attack, making damage prediction crucial. The damage calculator's quick analysis will provide the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Surf",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Dark, Dragon, Fairy-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Water-type attack is ineffective (0.5x damage) to dragapult. Normal, Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:primarina,Type:Water and Fairy,HP:55%Attack:92(-1 stage boosted),Defense:184,Special attack:507(1 stage boosted),Special defense:402(1 stage boosted),Speed:201(slower than dragapult).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Electric-type attack is super-effective (2x damage) to primarina. Bug, Fire-type attack is ineffective (0.5x damage) to primarina. Dragon-type attack is zero effect (0x damage) to primarina.\nYour primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:163,Acc:100%,Effect:Hits all adjacent Pokémon. (ineffective (0.5x damage) to dragapult)\nMove:moonblast,Type:Fairy,Power:172,Acc:100%,Effect:May lower opponent's Special Attack. (super-effective (2x damage) to dragapult)\nMove:psychicnoise,Type:Psychic,Power:136,Acc:100%,Effect:Deals damage and prevents target from healing. \nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than dragapult). Moves:[dragondarts,Dragon,2x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,0x damage],[terablast,Normal,0x damage], Ghost, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Fire-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than dragapult). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,1x damage], Fire-type attack is super-effective (2x damage) to kingambit. Ghost, Dragon-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than dragapult). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,2x damage], Bug, Electric-type attack is super-effective (2x damage) to samurotthisui. Fire, Ghost-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(slower than dragapult). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,0.5x damage],[focusblast,Fighting,0x damage], Fire, Ghost-type attack is super-effective (2x damage) to ironcrown. Dragon-type attack is ineffective (0.5x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than dragapult). Moves:[earthpower,Ground,1x damage],[uturn,Bug,0.5x damage], Bug-type attack is ineffective (0.5x damage) to landorustherian. Electric-type attack is zero effect (0x damage) to landorustherian.\n",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragapult has predictable moves and we have a clear type advantage with Moonblast. The damage calculator is sufficient for this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Dark, Dragon, Fairy-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Water-type attack is ineffective (0.5x damage) to dragapult. Normal, Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:primarina,Type:Water and Fairy,HP:55%Attack:92(-1 stage boosted),Defense:184,Special attack:507(1 stage boosted),Special defense:402(1 stage boosted),Speed:201(slower than dragapult).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Electric-type attack is super-effective (2x damage) to primarina. Bug, Fire-type attack is ineffective (0.5x damage) to primarina. Dragon-type attack is zero effect (0x damage) to primarina.\nYour primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:163,Acc:100%,Effect:Hits all adjacent Pokémon. (ineffective (0.5x damage) to dragapult)\nMove:moonblast,Type:Fairy,Power:172,Acc:100%,Effect:May lower opponent's Special Attack. (super-effective (2x damage) to dragapult)\nMove:psychicnoise,Type:Psychic,Power:136,Acc:100%,Effect:Deals damage and prevents target from healing. \nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than dragapult). Moves:[dragondarts,Dragon,2x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,0x damage],[terablast,Normal,0x damage], Ghost, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Fire-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than dragapult). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,1x damage], Fire-type attack is super-effective (2x damage) to kingambit. Ghost, Dragon-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than dragapult). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,2x damage], Bug, Electric-type attack is super-effective (2x damage) to samurotthisui. Fire, Ghost-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(slower than dragapult). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,0.5x damage],[focusblast,Fighting,0x damage], Fire, Ghost-type attack is super-effective (2x damage) to ironcrown. Dragon-type attack is ineffective (0.5x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than dragapult). Moves:[earthpower,Ground,1x damage],[uturn,Bug,0.5x damage], Bug-type attack is ineffective (0.5x damage) to landorustherian. Electric-type attack is zero effect (0x damage) to landorustherian.\n",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragapult is likely to prioritize maximizing its damage output, making its future moves predictable. The damage calculator is more suitable for this situation as it offers a quick and reliable way to evaluate the effectiveness of potential moves against Dragapult's current health and type matchup.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:kingambit,Type:Dark and Steel,HP:36%Attack:405,Defense:276,Special attack:140,Special defense:207,Speed:136, Fighting-type attack is extremely-effective (4x damage) to kingambit. Ground-type attack is super-effective (2x damage) to kingambit. Steel, Normal, Dark, Dragon-type attack is ineffective (0.5x damage) to kingambit. Psychic-type attack is zero effect (0x damage) to kingambit.\n\nYour current pokemon:primarina,Type:Water and Fairy,HP:36%Attack:92(-1 stage boosted),Defense:184,Special attack:507(1 stage boosted),Special defense:402(1 stage boosted),Speed:201(faster than kingambit).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Dark-type attack is ineffective (0.5x damage) to primarina.\nYour primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:147,Acc:100%,Effect:Hits all adjacent Pokémon. \nMove:moonblast,Type:Fairy,Power:155,Acc:100%,Effect:May lower opponent's Special Attack. \nMove:psychicnoise,Type:Psychic,Power:122,Acc:100%,Effect:Deals damage and prevents target from healing. (zero effect (0x damage) to kingambit)\nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than kingambit). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage], Dark-type attack is super-effective (2x damage) to dragapult.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(faster than kingambit). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,0.5x damage], Steel, Dark-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(faster than kingambit). Moves:[ceaselessedge,Dark,0.5x damage],[razorshell,Water,1x damage],[knockoff,Dark,0.5x damage], Steel, Dark-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than kingambit). Moves:[futuresight,Psychic,0x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,4x damage], Dark-type attack is super-effective (2x damage) to ironcrown. Steel-type attack is ineffective (0.5x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(faster than kingambit). Moves:[earthpower,Ground,2x damage],[uturn,Bug,1x damage],\n",
+            "Candidates": [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "The battle state suggests a clear opportunity to inflict maximum damage. The opponent's Kingambit is vulnerable to Fighting-type attacks, which are super effective against it. The damage calculator provides a quick and reliable way to compare the potential damage output of different moves against Kingambit's defenses.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Surf",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:primarina,Type:Water and Fairy,HP:100%Attack:165,Defense:184,Special attack:386,Special defense:268,Speed:200,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.) Electric-type attack is super-effective (2x damage) to primarina. Dark, Bug, Water, Fighting-type attack is ineffective (0.5x damage) to primarina. Dragon-type attack is zero effect (0x damage) to primarina.\nprimarina's all the possible attacks:[hydropump,water,Power:110],[energyball,grass,Power:90],[moonblast,fairy,Power:95],[psychic,psychic,Power:90],[sparklingaria,water,Power:90],[sludgebomb,poison,Power:90],\nYour current pokemon:primarina,Type:Water and Fairy,HP:36%Attack:92(-1 stage boosted),Defense:184,Special attack:507(1 stage boosted),Special defense:402(1 stage boosted),Speed:201(faster than primarina).Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.) Grass, Poison-type attack is super-effective (2x damage) to primarina. Water-type attack is ineffective (0.5x damage) to primarina.\nYour primarina has 4 moves:\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nMove:surf,Type:Water,Power:114,Acc:100%,Effect:Hits all adjacent Pokémon. (ineffective (0.5x damage) to primarina)\nMove:moonblast,Type:Fairy,Power:120,Acc:100%,Effect:May lower opponent's Special Attack. \nMove:psychicnoise,Type:Psychic,Power:95,Acc:100%,Effect:Deals damage and prevents target from healing. \nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than primarina). Moves:[dragondarts,Dragon,0x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,1x damage],[terablast,Normal,1x damage], Fairy-type attack is super-effective (2x damage) to dragapult. Grass, Water, Poison-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than primarina). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,1x damage], Grass-type attack is ineffective (0.5x damage) to kingambit. Psychic, Poison-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(faster than primarina). Moves:[ceaselessedge,Dark,0.5x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,0.5x damage], Grass, Fairy-type attack is super-effective (2x damage) to samurotthisui. Water-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than primarina). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,2x damage],[focusblast,Fighting,0.5x damage], Grass, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown. Poison-type attack is zero effect (0x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(faster than primarina). Moves:[earthpower,Ground,1x damage],[uturn,Bug,0.5x damage], Water-type attack is super-effective (2x damage) to landorustherian. Poison-type attack is ineffective (0.5x damage) to landorustherian.\n",
+            "Candidates": [
+                {
+                    "player_action": "calmmind (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Landorus-Therian's Moonblast is super-effective against Samurotthisui.\", 'TypeMatchup': 'Samurotthisui is weak to Ground-type attacks.', 'SpeedControl': 'Samurotthisui is faster than Landorus-Therian.', 'TeamAdvantage': 'Landorus-Therian is the only remaining Pokémon with a super-effective move.', 'BoostsAndStatus': 'Landorus-Therian has a Moonblast boost.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Samurotthisui can potentially heal itself.', 'Uncertainty': 'Samurotthisui has a Moonblast boost remaining.', 'WinPlan': 'Landorus-Therian can potentially knock out Samurotthisui with Moonblast.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "landorustherian (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Landorus-Therian's Moonblast is super-effective against Samurotthisui.\", 'TypeMatchup': 'Samurotthisui is weak to Ground-type attacks.', 'SpeedControl': 'Samurotthisui outspeeds Landorus-Therian.', 'TeamAdvantage': 'Player has strong remaining Pokémon.', 'BoostsAndStatus': 'Landorus-Therian has Moonblast boost.', 'HazardsAndField': 'n/a', 'SwitchingCost': \"High switching cost due to opponent's speed.\", 'OpponentPressure': \"Samurotthisui's Moonblast can deal significant damage.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Landorus-Therian's Moonblast to defeat Samurotthisui and exploit opponent's speed.\"}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Landorustherian's Moonblast is super-effective against Samurotthisui.\", 'TypeMatchup': 'Samurotthisui is vulnerable to Ground-type attacks.', 'SpeedControl': 'Landorustherian outspeeds Samurotthisui.', 'TeamAdvantage': 'Landorustherian is the only remaining Pokémon with a super-effective move.', 'BoostsAndStatus': 'Landorustherian has a Moonblast boost.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Low', 'Uncertainty': 'Low', 'WinPlan': 'Landorustherian can potentially win with Moonblast.'}",
+                    "opponent_action": "samurotthisui (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Calmmind",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:primarina,Type:Water and Fairy,HP:100%Attack:165,Defense:184,Special attack:386,Special defense:268,Speed:200,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.) Electric-type attack is super-effective (2x damage) to primarina. Dark, Bug, Water, Fighting-type attack is ineffective (0.5x damage) to primarina. Dragon-type attack is zero effect (0x damage) to primarina.\nprimarina used moves:[moonblast,Fairy,Power:68],primarina's all the possible attacks:[hydropump,water,Power:110],[energyball,grass,Power:90],[moonblast,fairy,Power:95],[psychic,psychic,Power:90],[sparklingaria,water,Power:90],[sludgebomb,poison,Power:90],\nYou have 5 pokemons:\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than primarina). Moves:[dragondarts,Dragon,0x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,1x damage],[terablast,Normal,1x damage], Fairy-type attack is super-effective (2x damage) to dragapult. Grass, Water, Poison-type attack is ineffective (0.5x damage) to dragapult.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than primarina). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,1x damage], Grass-type attack is ineffective (0.5x damage) to kingambit. Psychic, Poison-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(faster than primarina). Moves:[ceaselessedge,Dark,0.5x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,0.5x damage], Grass, Fairy-type attack is super-effective (2x damage) to samurotthisui. Water-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than primarina). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,2x damage],[focusblast,Fighting,0.5x damage], Grass, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown. Poison-type attack is zero effect (0x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(faster than primarina). Moves:[earthpower,Ground,1x damage],[uturn,Bug,0.5x damage], Water-type attack is super-effective (2x damage) to landorustherian. Poison-type attack is ineffective (0.5x damage) to landorustherian.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragapult (pokemon object) [Active: False, Status: None]",
+                    "score": 88,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Samurotthisui.\", 'TypeMatchup': 'Samurotthisui is vulnerable to Water-type attacks.', 'SpeedControl': 'Primarina outspeeds Samurotthisui.', 'TeamAdvantage': 'Landorus-Therian is strong against Samurotthisui.', 'BoostsAndStatus': 'Primarina has Calm Mind boost.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High, due to potential speed difference between Landorus-Therian and Samurotthisui.', 'OpponentPressure': 'Samurotthisui has Psychic moves that can potentially damage Landorus-Therian.', 'Uncertainty': \"Samurotthisui's remaining moves are unclear.\", 'WinPlan': 'Primarina can potentially win with well-timed Moonblasts.'}",
+                    "opponent_action": "psychicnoise (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 18,
+                        "SpeedControl": 18,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "landorustherian (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Samurotthisui.\", 'TypeMatchup': 'Samurotthisui is weak to Bug-type moves, which are super effective against it.', 'SpeedControl': 'Primarina outspeeds Samurotthisui, ensuring it can act before it.', 'TeamAdvantage': 'Landorus-Therian is strong against Samurotthisui due to its Ground-type resistance.', 'BoostsAndStatus': 'Primarina has Calm Mind boost, increasing its Special Attack and Speed.', 'HazardsAndField': 'Samurotthisui has Poisoned Landorus-Therian with Psychicnoise.', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': 'Samurotthisui can potentially use Psychic moves, which are super effective against Landorus-Therian.', 'Uncertainty': \"The opponent's remaining team strength is unknown.\", 'WinPlan': 'Primarina can continue using Moonblast to defeat Samurotthisui and potentially win the battle.'}",
+                    "opponent_action": "psychicnoise (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: dragapult",
+                "score": 88,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 18,
+                    "SpeedControl": 18,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:primarina,Type:Water and Fairy,HP:29%Attack:165,Defense:184,Special attack:386,Special defense:268,Speed:200,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.) Electric-type attack is super-effective (2x damage) to primarina. Dark, Bug, Water, Fighting-type attack is ineffective (0.5x damage) to primarina.\nprimarina used moves:[moonblast,Fairy,Power:196],primarina's all the possible attacks:[hydropump,water,Power:110],[energyball,grass,Power:90],[moonblast,fairy,Power:95],[psychic,psychic,Power:90],[sparklingaria,water,Power:90],[sludgebomb,poison,Power:90],\nYour current pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than primarina).Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.) Fairy-type attack is super-effective (2x damage) to dragapult. Grass, Water, Poison-type attack is ineffective (0.5x damage) to dragapult.\nYour dragapult has 0 moves:\nYou have 4 pokemons:\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than primarina). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,1x damage], Grass-type attack is ineffective (0.5x damage) to kingambit. Psychic, Poison-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(faster than primarina). Moves:[ceaselessedge,Dark,0.5x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,0.5x damage], Grass, Fairy-type attack is super-effective (2x damage) to samurotthisui. Water-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than primarina). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,2x damage],[focusblast,Fighting,0.5x damage], Grass, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown. Poison-type attack is zero effect (0x damage) to ironcrown.\nPokemon:landorustherian,Type:Ground and Flying,HP:100%,Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(faster than primarina). Moves:[earthpower,Ground,1x damage],[uturn,Bug,0.5x damage], Water-type attack is super-effective (2x damage) to landorustherian. Poison-type attack is ineffective (0.5x damage) to landorustherian.\n",
+            "Candidates": [
+                {
+                    "player_action": "landorustherian (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Kingambit's Dark-type attacks are super-effective against Ironcrown.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Ironcrown.', 'SpeedControl': 'Kingambit is slower than Ironcrown, but Quark-Drive boosts its Speed.', 'TeamAdvantage': \"Kingambit's remaining team is stronger than Ironcrown's remaining team.\", 'BoostsAndStatus': 'Kingambit has a Calm Mind boost, which boosts its Special Attack and Speed.', 'HazardsAndField': \"Ironcrown's Future Sight can potentially inflict damage on Kingambit.\", 'SwitchingCost': \"Frequent switching can reduce Kingambit's effectiveness.\", 'OpponentPressure': \"Ironcrown's Moonblast can potentially deal significant damage to Kingambit.\", 'Uncertainty': 'The outcome of the battle is uncertain due to Future Sight.', 'WinPlan': 'Kingambit can potentially outspeed Ironcrown and win with its Dark-type attacks.'}",
+                    "opponent_action": "ironcrown (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "kingambit (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Kingambit's Dark-type moves are super-effective against Ironcrown.\", 'TypeMatchup': \"Kingambit is resistant to Ironcrown's Steel-type attacks.\", 'SpeedControl': 'Kingambit is slower than Ironcrown, but Quark-Drive boosts its Speed.', 'TeamAdvantage': \"Kingambit's remaining team is stronger than Ironcrown's remaining team.\", 'BoostsAndStatus': 'Kingambit has a Calm Mind boost, boosting its Special Attack and Speed.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Kingambit is slower than Ironcrown, potentially leading to double speed for Ironcrown.', 'OpponentPressure': \"Ironcrown has Future Sight, potentially predicting Kingambit's moves.\", 'Uncertainty': 'n/a', 'WinPlan': 'Kingambit can outspeed Ironcrown and potentially knock it out with a super-effective Dark-type move.'}",
+                    "opponent_action": "ironcrown (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: landorustherian",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 20,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:primarina,Type:Water and Fairy,HP:9%Attack:111(-1 stage boosted),Defense:184,Special attack:386,Special defense:268,Speed:200,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.) Electric-type attack is super-effective (2x damage) to primarina. Dark, Bug, Water, Fighting-type attack is ineffective (0.5x damage) to primarina. Dragon-type attack is zero effect (0x damage) to primarina.\nprimarina used moves:[moonblast,Fairy,Power:187],primarina's all the possible attacks:[hydropump,water,Power:110],[energyball,grass,Power:90],[moonblast,fairy,Power:95],[psychic,psychic,Power:90],[sparklingaria,water,Power:90],[sludgebomb,poison,Power:90],\nYour current pokemon:landorustherian,Type:Ground and Flying,HP:51%Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(faster than primarina).Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Water-type attack is super-effective (2x damage) to landorustherian. Poison-type attack is ineffective (0.5x damage) to landorustherian.\nYour landorustherian has 4 moves:\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:earthpower,Type:Ground,Power:83,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:uturn,Type:Bug,Power:111,Acc:100%,Effect:User switches out immediately after attacking. (ineffective (0.5x damage) to primarina)\nMove:grassknot,Type:Grass,Power:0,Acc:100%,Effect:The heavier the opponent, the stronger the attack. \nYou have 4 pokemons:\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than primarina). Moves:[kowtowcleave,Dark,0.5x damage],[suckerpunch,Dark,0.5x damage],[ironhead,Steel,1x damage], Grass-type attack is ineffective (0.5x damage) to kingambit. Psychic, Poison-type attack is zero effect (0x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(faster than primarina). Moves:[ceaselessedge,Dark,0.5x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,0.5x damage], Grass, Fairy-type attack is super-effective (2x damage) to samurotthisui. Water-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than primarina). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,2x damage],[focusblast,Fighting,0.5x damage], Grass, Fairy-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown. Poison-type attack is zero effect (0x damage) to ironcrown.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than primarina). Moves:[dragondarts,Dragon,0x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,1x damage],[terablast,Normal,1x damage], Fairy-type attack is super-effective (2x damage) to dragapult. Grass, Water, Poison-type attack is ineffective (0.5x damage) to dragapult.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Primarina is likely to continue using Moonblast, which deals significant damage to Landorus-Therian. The damage calculator provides a quick and reliable way to evaluate the effectiveness of potential moves against Primarina's current HP and type matchup.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Dark, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Water-type attack is ineffective (0.5x damage) to dragapult. Normal, Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult used moves:[uturn,Bug,Power:59],dragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:landorustherian,Type:Ground and Flying,HP:51%Attack:293,Defense:306,Special attack:246,Special defense:196,Speed:219(slower than dragapult).Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.) Bug-type attack is ineffective (0.5x damage) to landorustherian. Electric-type attack is zero effect (0x damage) to landorustherian.\nYour landorustherian has 4 moves:\nMove:stealthrock,Type:Rock,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:earthpower,Type:Ground,Power:118,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:uturn,Type:Bug,Power:110,Acc:100%,Effect:User switches out immediately after attacking. (ineffective (0.5x damage) to dragapult)\nMove:grassknot,Type:Grass,Power:0,Acc:100%,Effect:The heavier the opponent, the stronger the attack. \nYou have 4 pokemons:\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than dragapult). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,1x damage], Fire-type attack is super-effective (2x damage) to kingambit. Ghost, Dragon-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than dragapult). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,2x damage], Bug, Electric-type attack is super-effective (2x damage) to samurotthisui. Fire, Ghost-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(slower than dragapult). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,0.5x damage],[focusblast,Fighting,0x damage], Fire, Ghost-type attack is super-effective (2x damage) to ironcrown. Dragon-type attack is ineffective (0.5x damage) to ironcrown.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than dragapult). Moves:[dragondarts,Dragon,2x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,0x damage],[terablast,Normal,0x damage], Ghost, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Fire-type attack is ineffective (0.5x damage) to dragapult.\n",
+            "Candidates": [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Samurotthisui's Stealthrock is effective against Kingambit, and Earth Power is super-effective.\", 'TypeMatchup': \"Samurotthisui is resistant to Kingambit's Dark-type attacks.\", 'SpeedControl': 'Samurotthisui outspeeds Kingambit.', 'TeamAdvantage': 'Samurotthisui is the only remaining Pokémon with significant offensive power.', 'BoostsAndStatus': 'Samurotthisui has boosted Speed.', 'HazardsAndField': 'n/a', 'SwitchingCost': \"Samurotthisui's switching cost is manageable.\", 'OpponentPressure': 'Kingambit has used Dracometeor, but Samurotthisui is resistant.', 'Uncertainty': 'n/a', 'WinPlan': 'Samurotthisui can outspeed and defeat Kingambit with Earth Power.'}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "kingambit (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Samurotthisui's Stealthrock is effective against Kingambit, and Earth Power is super-effective.\", 'TypeMatchup': \"Samurotthisui is resistant to Kingambit's Dark-type attacks.\", 'SpeedControl': 'Samurotthisui outspeeds Kingambit.', 'TeamAdvantage': 'Samurotthisui is the only remaining Pokémon with moves that are effective against Kingambit.', 'BoostsAndStatus': 'Samurotthisui has a boost in SpA and SpD.', 'HazardsAndField': 'n/a', 'SwitchingCost': \"Samurotthisui's switching cost is mitigated by Heavy-Duty Boots.\", 'OpponentPressure': 'Kingambit has a powerful Dracometeor attack.', 'Uncertainty': 'n/a', 'WinPlan': 'Samurotthisui can potentially win with a well-timed Stealthrock or Earth Power.'}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Samurotthisui's Stealthrock is super-effective against Kingambit, and Earth Power is super-effective as well.\", 'TypeMatchup': \"Samurotthisui is resistant to Kingambit's Dark-type attacks.\", 'SpeedControl': 'Samurotthisui outspeeds Kingambit.', 'TeamAdvantage': \"Samurotthisui's remaining team is stronger than Kingambit's remaining team.\", 'BoostsAndStatus': 'Samurotthisui has a boost in SpA and SpD from Calm Mind.', 'HazardsAndField': \"Kingambit's Dracometeor can potentially deal significant damage.\", 'SwitchingCost': \"Samurotthisui's switching cost is high due to potential damage from Stealthrock.\", 'OpponentPressure': \"Kingambit's remaining moves are effective against Samurotthisui.\", 'Uncertainty': \"Kingambit's remaining moves could potentially deal significant damage.\", 'WinPlan': \"Samurotthisui can win by exploiting Kingambit's Dark-type vulnerability with Earth Power and Stealthrock.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "stealthrock (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Samurotthisui's Stealthrock is effective against Kingambit as it deals damage to opponents switching in.\", 'TypeMatchup': \"Samurotthisui's Water-type moves are super-effective against Kingambit.\", 'SpeedControl': 'Samurotthisui outspeeds Kingambit.', 'TeamAdvantage': \"Samurotthisui's remaining team is stronger than Kingambit's remaining team.\", 'BoostsAndStatus': 'Samurotthisui has a boost in SpA and SpD.', 'HazardsAndField': \"Kingambit's Dracometeor is ineffective against Samurotthisui.\", 'SwitchingCost': \"Samurotthisui's switching cost is manageable.\", 'OpponentPressure': \"Kingambit's remaining moves are not very effective against Samurotthisui.\", 'Uncertainty': 'n/a', 'WinPlan': \"Samurotthisui can win by exploiting Kingambit's weaknesses and utilizing its boosts.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthpower",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:59%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Dark, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Water-type attack is ineffective (0.5x damage) to dragapult. Normal, Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult used moves:[uturn,Bug,Power:59],[dragondarts,Dragon,Power:42],dragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYou have 4 pokemons:\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than dragapult). Moves:[kowtowcleave,Dark,2x damage],[suckerpunch,Dark,2x damage],[ironhead,Steel,1x damage], Fire-type attack is super-effective (2x damage) to kingambit. Ghost, Dragon-type attack is ineffective (0.5x damage) to kingambit.\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than dragapult). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,2x damage], Bug, Electric-type attack is super-effective (2x damage) to samurotthisui. Fire, Ghost-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(slower than dragapult). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,0.5x damage],[focusblast,Fighting,0x damage], Fire, Ghost-type attack is super-effective (2x damage) to ironcrown. Dragon-type attack is ineffective (0.5x damage) to ironcrown.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than dragapult). Moves:[dragondarts,Dragon,2x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,0x damage],[terablast,Normal,0x damage], Ghost, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Fire-type attack is ineffective (0.5x damage) to dragapult.\n",
+            "Candidates": [
+                {
+                    "player_action": "kingambit (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Dragon-type moves are super-effective against Kingambit.\", 'TypeMatchup': 'Kingambit is weak to Fighting-type moves, which are extremely-effective against it.', 'SpeedControl': 'Dragapult outspeeds Kingambit, ensuring it can move before it in every turn.', 'TeamAdvantage': 'Dragapult has strong offensive capabilities, while Kingambit has low Attack and Special Attack.', 'BoostsAndStatus': 'Dragapult has not used any boosting moves, but Kingambit is unlikely to use any offensive boosts.', 'HazardsAndField': 'Neither team has set any field hazards.', 'SwitchingCost': 'Frequent switching can be costly, as it can reset boosts and weaken Pokémon.', 'OpponentPressure': \"Kingambit's Dark-type moves are super-effective against Dragapult, putting pressure on it.\", 'Uncertainty': 'The outcome of the battle is still uncertain, as the players still have Pokémon left in their teams.', 'WinPlan': \"Dragapult should prioritize using Fighting-type moves to exploit Kingambit's weakness.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 40,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 10,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Dragon-type moves are super-effective against Kingambit.\", 'TypeMatchup': 'Kingambit is weak to Fighting-type attacks, which are extremely effective against it.', 'SpeedControl': 'Dragapult outspeeds Kingambit, ensuring it can move before it in the next turn.', 'TeamAdvantage': 'Dragapult has a strong Attack stat, while Kingambit has a low Defense stat.', 'BoostsAndStatus': 'Dragapult has not used any boosting moves yet.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Frequent switching can reset boosts and weaken the team.', 'OpponentPressure': 'Kingambit has used Moonblast, which can potentially damage Dragapult.', 'Uncertainty': 'The outcome of future battles is uncertain, as the teams have not fully revealed their moves.', 'WinPlan': \"Dragapult should prioritize using Fighting-type moves to exploit Kingambit's weakness.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 40,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: kingambit",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 40,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 30,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": 10,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:dragapult,Type:Dragon and Ghost,HP:59%Attack:248,Defense:186,Special attack:299,Special defense:187,Speed:421,Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.) Dark, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Water-type attack is ineffective (0.5x damage) to dragapult. Normal, Fighting-type attack is zero effect (0x damage) to dragapult.\ndragapult used moves:[uturn,Bug,Power:43],[dragondarts,Dragon,Power:31],dragapult's all the possible attacks:[shadowball,ghost,Power:80],[thunderbolt,electric,Power:90],[uturn,bug,Power:70],[dracometeor,dragon,Power:130],[fireblast,fire,Power:110],\nYour current pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:206,Speed:148(slower than dragapult).Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Fire-type attack is super-effective (2x damage) to kingambit. Ghost, Dragon-type attack is ineffective (0.5x damage) to kingambit.\nYour kingambit has 4 moves:\nMove:swordsdance,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Attack. \nMove:kowtowcleave,Type:Dark,Power:185,Acc:100%,Effect:Always hits. (super-effective (2x damage) to dragapult)\nMove:suckerpunch,Type:Dark,Power:152,Acc:100%,Effect:User attacks first, but only works if opponent is readying an attack. (super-effective (2x damage) to dragapult)\nMove:ironhead,Type:Steel,Power:174,Acc:100%,Effect:May cause flinching. \nYou have 3 pokemons:\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than dragapult). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,0.5x damage],[knockoff,Dark,2x damage], Bug, Electric-type attack is super-effective (2x damage) to samurotthisui. Fire, Ghost-type attack is ineffective (0.5x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(slower than dragapult). Moves:[futuresight,Psychic,1x damage],[tachyoncutter,Steel,1x damage],[voltswitch,Electric,0.5x damage],[focusblast,Fighting,0x damage], Fire, Ghost-type attack is super-effective (2x damage) to ironcrown. Dragon-type attack is ineffective (0.5x damage) to ironcrown.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than dragapult). Moves:[dragondarts,Dragon,2x damage],[uturn,Bug,0.5x damage],[quickattack,Normal,0x damage],[terablast,Normal,0x damage], Ghost, Dragon-type attack is super-effective (2x damage) to dragapult. Bug, Electric, Fire-type attack is ineffective (0.5x damage) to dragapult.\n",
+            "Candidates": [
+                {
+                    "player_action": "kowtowcleave (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Dragon-type attack is super-effective against Kingambit, making damage predictability high. Additionally, Dragapult's predictable U-turn suggests a straightforward damage-dealing opportunity. Therefore, the damage calculator is more suitable for finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Kowtowcleave",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:29%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Dark-type attack is super-effective (2x damage) to ironcrown. Steel, Normal, Dragon-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nironcrown used moves:[futuresight,Psychic,Power:200],[focusblast,Fighting,Power:200],\nYou have 3 pokemons:\nPokemon:samurotthisui,Type:Water and Dark,HP:100%,Attack:315,Defense:196,Special attack:212,Special defense:167,Speed:295(slower than ironcrown). Moves:[ceaselessedge,Dark,2x damage],[razorshell,Water,1x damage],[knockoff,Dark,2x damage], Fighting-type attack is super-effective (2x damage) to samurotthisui. Steel-type attack is ineffective (0.5x damage) to samurotthisui. Psychic-type attack is zero effect (0x damage) to samurotthisui.\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage], Fighting-type attack is zero effect (0x damage) to dragapult.\n",
+            "Candidates": [
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Samurotthisui's Razor Shell is super-effective against Dragapult.\", 'TypeMatchup': \"Samurotthisui is weak to Bug-type moves, but Dragapult's moves are ineffective against Samurotthisui.\", 'SpeedControl': 'Samurotthisui is slower than Dragapult, but has the option to switch out.', 'TeamAdvantage': 'Samurotthisui can potentially win with its strong Water/Dark-type moves.', 'BoostsAndStatus': 'Samurotthisui can potentially boost its Attack with Swords Dance.', 'HazardsAndField': 'Spikes are on the field, which can damage Dragapult.', 'SwitchingCost': 'Frequent switching can lead to lost turns and opportunities.', 'OpponentPressure': 'Dragapult has high Attack and Special Attack, posing a threat.', 'Uncertainty': 'Uncertain if Samurotthisui can outspeed Dragapult or if it can set up a boost before Dragapult deals significant damage.', 'WinPlan': 'Samurotthisui needs to set up Swords Dance and outspeed Dragapult to win.'}",
+                    "opponent_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -5,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: samurotthisui",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -5,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:29%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Steel, Normal, Dragon-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nironcrown used moves:[futuresight,Psychic,Power:246],[focusblast,Fighting,Power:246],\nYou have 2 pokemons:\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nPokemon:dragapult,Type:Dragon and Ghost,HP:100%,Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown). Moves:[dragondarts,Dragon,0.5x damage],[uturn,Bug,1x damage],[quickattack,Normal,0.5x damage],[terablast,Normal,0.5x damage], Fighting-type attack is zero effect (0x damage) to dragapult.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Dragon-type moves are effective against Landorustherian.\", 'TypeMatchup': 'Dragapult is resistant to Ground-type attacks, which are super-effective against Iron Crown.', 'SpeedControl': 'Dragapult outspeeds Landorustherian, preventing it from using Futuresight.', 'TeamAdvantage': 'Dragapult remains, while Landorustherian is fainted and Iron Crown is vulnerable to Ground-type attacks.', 'BoostsAndStatus': 'Dragapult has no significant boosts or status effects.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - switching out would allow Landorustherian to use Futuresight.', 'OpponentPressure': \"Landorustherian's Futuresight could potentially deal significant damage to Dragapult.\", 'Uncertainty': \"Uncertain if Dragapult can survive Landorustherian's Futuresight.\", 'WinPlan': 'Outspeed Landorustherian and prioritize damaging it with Dragon-type moves before it can use Futuresight.'}",
+                    "opponent_action": "futuresight (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: dragapult",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:ironcrown,Type:Steel and Psychic,HP:29%Attack:162,Defense:236,Special attack:343,Special defense:253,Speed:324,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Steel, Normal, Dragon-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\nironcrown used moves:[futuresight,Psychic,Power:220],[focusblast,Fighting,Power:220],\nYour current pokemon:dragapult,Type:Dragon and Ghost,HP:100%Attack:339,Defense:186,Special attack:212,Special defense:187,Speed:421(faster than ironcrown).Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.) Fighting-type attack is zero effect (0x damage) to dragapult.\nYour dragapult has 4 moves:\nMove:dragondarts,Type:Dragon,Power:72,Acc:100%,Effect:User attacks twice. (ineffective (0.5x damage) to ironcrown)\nMove:uturn,Type:Bug,Power:101,Acc:100%,Effect:User switches out immediately after attacking. \nMove:quickattack,Type:Normal,Power:57,Acc:100%,Effect:User attacks first. (ineffective (0.5x damage) to ironcrown)\nMove:terablast,Type:Normal,Power:67,Acc:100%,Effect:Changes type when the user has Terastallized. (ineffective (0.5x damage) to ironcrown)\nYou have 1 pokemons:\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%,Attack:152,Defense:236,Special attack:343,Special defense:253,Speed:324(faster than ironcrown). Moves:[futuresight,Psychic,0.25x damage],[tachyoncutter,Steel,0.5x damage],[voltswitch,Electric,1x damage],[focusblast,Fighting,1x damage], Steel-type attack is ineffective (0.5x damage) to ironcrown. Psychic-type attack is highly ineffective (0.25x damage) to ironcrown.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragondarts (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Crown's Quick Attack is super effective against Landorustherian, while Dragondarts is ineffective.\", 'TypeMatchup': 'Ground-type attacks are super effective against Iron Crown, but Iron Crown is resistant to Rock and Flying-type attacks.', 'SpeedControl': 'Iron Crown outspeeds Landorustherian.', 'TeamAdvantage': 'Iron Crown is the only remaining Pokémon, while Landorustherian is the only remaining opponent Pokémon.', 'BoostsAndStatus': 'Iron Crown has no positive boosts or status effects.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Landorustherian can potentially use Focus Blast again, which is super effective against Iron Crown.', 'Uncertainty': 'n/a', 'WinPlan': 'Iron Crown needs to prioritize maximizing its damage output before Landorustherian can potentially use Focus Blast again.'}",
+                    "opponent_action": "focusblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "ironcrown (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Crown's Quick Attack is super effective against Landorustherian.\", 'TypeMatchup': 'Ground-type attacks are super effective against Iron Crown.', 'SpeedControl': 'Iron Crown outspeeds Landorustherian.', 'TeamAdvantage': 'Iron Crown is the only remaining Pokémon.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Landorustherian has a powerful Focus Blast.', 'Uncertainty': 'n/a', 'WinPlan': 'Iron Crown can win with Quick Attack or Terablast.'}",
+                    "opponent_action": "focusblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "quickattack (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Crown's Quick Attack is super effective against Landorustherian, while Dragondarts is ineffective.\", 'TypeMatchup': 'Ground-type attacks are super effective against Iron Crown, but Bug/Flying-type attacks are ineffective against Landorustherian.', 'SpeedControl': 'Iron Crown outspeeds Landorustherian.', 'TeamAdvantage': \"Iron Crown's remaining team strength is weaker than Landorustherian's.\", 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - frequent switching will waste turns and reduce team effectiveness.', 'OpponentPressure': \"Landorustherian's Focus Blast can potentially deal significant damage to Iron Crown.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Iron Crown's speed advantage and super-effective moves to defeat Landorustherian before it can unleash powerful attacks.\"}",
+                    "opponent_action": "landorustherian (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragondarts",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        }
+    }
+}

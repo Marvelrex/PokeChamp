@@ -1,0 +1,692 @@
+{
+    "Battle Id: 91060": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kingambit,Type:Dark and Steel,HP:100%Attack:405,Defense:276,Special attack:140,Special defense:207,Speed:136, Fighting-type attack is extremely-effective (4x damage) to kingambit. Fire, Ground-type attack is super-effective (2x damage) to kingambit. Rock, Steel, Dragon, Ghost, Dark-type attack is ineffective (0.5x damage) to kingambit. Poison, Psychic-type attack is zero effect (0x damage) to kingambit.\n\nYour current pokemon:hydreigon,Type:Dark and Dragon,HP:100%Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(faster than kingambit).Ability:Levitate(By floating in the air, the Pokémon receives full immunity to all Ground-type moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Dark-type attack is ineffective (0.5x damage) to hydreigon.\nYour hydreigon has 4 moves:\nMove:dracometeor,Type:Dragon,Power:219,Acc:90%,Effect:Sharply lowers user's Special Attack. (ineffective (0.5x damage) to kingambit)\nMove:darkpulse,Type:Dark,Power:135,Acc:100%,Effect:May cause flinching. (ineffective (0.5x damage) to kingambit)\nMove:flamethrower,Type:Fire,Power:152,Acc:100%,Effect:May burn opponent. (super-effective (2x damage) to kingambit)\nMove:uturn,Type:Bug,Power:56,Acc:100%,Effect:User switches out immediately after attacking. \nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(faster than kingambit). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,0.5x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\nPokemon:manaphy,Type:Water,HP:100%,Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(faster than kingambit). Moves:[surf,Water,1x damage],[storedpower,Psychic,0x damage], Steel-type attack is ineffective (0.5x damage) to manaphy.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(faster than kingambit). Moves:[sludgebomb,Poison,0x damage],[meteorbeam,Rock,0.5x damage],[earthpower,Ground,2x damage],[dazzlinggleam,Fairy,1x damage], Steel-type attack is super-effective (2x damage) to glimmora.\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than kingambit). Moves:[bodypress,Fighting,4x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,0.5x damage], Dark-type attack is ineffective (0.5x damage) to zamazenta.\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than kingambit). Moves:[moonblast,Fairy,1x damage],[psychicnoise,Psychic,0x damage], Steel-type attack is super-effective (2x damage) to ribombee. Dark-type attack is ineffective (0.5x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "flamethrower (Move object)",
+                    "score": -1,
+                    "rationale": "The immediate damage potential is crucial. While minimax can model future scenarios, the opponent's move is predictable in this turn. The damage calculator offers a faster and more direct approach to maximizing damage.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Flamethrower",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:kingambit,Type:Dark and Steel,HP:31%Attack:810(2 stage boosted),Defense:276,Special attack:140,Special defense:207,Speed:136, Fighting-type attack is extremely-effective (4x damage) to kingambit. Fire, Ground-type attack is super-effective (2x damage) to kingambit. Rock, Steel, Ghost-type attack is ineffective (0.5x damage) to kingambit. Poison, Psychic-type attack is zero effect (0x damage) to kingambit.\n\nYour current pokemon:hydreigon,Type:Dark and Dragon,HP:100%Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(faster than kingambit).Ability:Levitate(By floating in the air, the Pokémon receives full immunity to all Ground-type moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Dark-type attack is ineffective (0.5x damage) to hydreigon.\nYour hydreigon has 1 moves:\nMove:flamethrower,Type:Fire,Power:152,Acc:100%,Effect:May burn opponent. (super-effective (2x damage) to kingambit)\nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(faster than kingambit). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,0.5x damage], Dark-type attack is super-effective (2x damage) to gholdengo. Steel-type attack is ineffective (0.5x damage) to gholdengo.\nPokemon:manaphy,Type:Water,HP:100%,Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(faster than kingambit). Moves:[surf,Water,1x damage],[storedpower,Psychic,0x damage], Steel-type attack is ineffective (0.5x damage) to manaphy.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(faster than kingambit). Moves:[sludgebomb,Poison,0x damage],[meteorbeam,Rock,0.5x damage],[earthpower,Ground,2x damage],[dazzlinggleam,Fairy,1x damage], Steel-type attack is super-effective (2x damage) to glimmora.\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than kingambit). Moves:[bodypress,Fighting,4x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,0.5x damage], Dark-type attack is ineffective (0.5x damage) to zamazenta.\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than kingambit). Moves:[moonblast,Fairy,1x damage],[psychicnoise,Psychic,0x damage], Steel-type attack is super-effective (2x damage) to ribombee. Dark-type attack is ineffective (0.5x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "flamethrower (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Kingambit is boosted and has high attack, but Hydreigon can outspeed it. The damage calculator is sufficient for this situation as it quickly identifies the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Flamethrower",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:163,Defense:218,Special attack:410,Special defense:215,Speed:249,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Fairy, Ground-type attack is super-effective (2x damage) to ragingbolt. Fire, Steel, Water-type attack is ineffective (0.5x damage) to ragingbolt.\n\nYour current pokemon:hydreigon,Type:Dark and Dragon,HP:100%Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(faster than ragingbolt).Ability:Levitate(By floating in the air, the Pokémon receives full immunity to all Ground-type moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Dragon-type attack is super-effective (2x damage) to hydreigon. Electric-type attack is ineffective (0.5x damage) to hydreigon.\nYour hydreigon has 1 moves:\nMove:flamethrower,Type:Fire,Power:146,Acc:100%,Effect:May burn opponent. (ineffective (0.5x damage) to ragingbolt)\nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(slower than ragingbolt). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,1x damage], Dragon-type attack is ineffective (0.5x damage) to gholdengo.\nPokemon:manaphy,Type:Water,HP:100%,Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(faster than ragingbolt). Moves:[surf,Water,0.5x damage],[storedpower,Psychic,1x damage], Electric-type attack is super-effective (2x damage) to manaphy.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(faster than ragingbolt). Moves:[sludgebomb,Poison,1x damage],[meteorbeam,Rock,1x damage],[earthpower,Ground,2x damage],[dazzlinggleam,Fairy,2x damage],\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ragingbolt). Moves:[bodypress,Fighting,1x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,1x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ragingbolt). Moves:[moonblast,Fairy,2x damage],[psychicnoise,Psychic,1x damage], Dragon-type attack is zero effect (0x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "manaphy (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Manaphy's Flamethrower is super-effective against Kingambit.\", 'TypeMatchup': 'Manaphy is weak to Electric-type moves, but Kingambit is already fainted.', 'SpeedControl': 'Manaphy outspeeds Kingambit.', 'TeamAdvantage': 'Strong remaining team with powerful Pokémon like Gholdengo and Zamzenta.', 'BoostsAndStatus': 'Manaphy has a potential boost from Hydration, while Kingambit had previously boosted its Attack.', 'HazardsAndField': 'Stickyweb could potentially trap the opponent.', 'SwitchingCost': 'Excessive switching could lead to losing the speed advantage.', 'OpponentPressure': \"Raging Bolt's Protosynthesis could potentially heal the opponent's Pokémon.\", 'Uncertainty': 'Uncertain if the opponent will switch or use a strong move.', 'WinPlan': \"Utilize Manaphy's Flamethrower to defeat remaining Pokémon and win the battle.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: manaphy",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 30,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -5,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:163,Defense:218,Special attack:410,Special defense:215,Speed:249,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Fairy, Ground, Dragon-type attack is super-effective (2x damage) to ragingbolt. Fire, Steel, Water-type attack is ineffective (0.5x damage) to ragingbolt.\nragingbolt used moves:[dragonpulse,Dragon,Power:148],\nYour current pokemon:manaphy,Type:Water,HP:50%Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(faster than ragingbolt).Ability:Hydration(Cures the Pokémon's status conditions in rain.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.) Electric-type attack is super-effective (2x damage) to manaphy.\nYour manaphy has 4 moves:\nMove:surf,Type:Water,Power:134,Acc:100%,Effect:Hits all adjacent Pokémon. (ineffective (0.5x damage) to ragingbolt)\nMove:storedpower,Type:Psychic,Power:30,Acc:100%,Effect:Power increases when user's stats have been raised. \nMove:acidarmor,Type:Poison,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nMove:tailglow,Type:Bug,Status-move,Power:0,Acc:100%,Effect:Drastically raises user's Special Attack. \nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(slower than ragingbolt). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,1x damage], Dragon-type attack is ineffective (0.5x damage) to gholdengo.\nPokemon:hydreigon,Type:Dark and Dragon,HP:100%,Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(faster than ragingbolt). Moves:[dracometeor,Dragon,2x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage],[uturn,Bug,1x damage], Dragon-type attack is super-effective (2x damage) to hydreigon. Electric-type attack is ineffective (0.5x damage) to hydreigon.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(faster than ragingbolt). Moves:[sludgebomb,Poison,1x damage],[meteorbeam,Rock,1x damage],[earthpower,Ground,2x damage],[dazzlinggleam,Fairy,2x damage],\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ragingbolt). Moves:[bodypress,Fighting,1x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,1x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ragingbolt). Moves:[moonblast,Fairy,2x damage],[psychicnoise,Psychic,1x damage], Dragon-type attack is zero effect (0x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "hydreigon (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Stored Power is ineffective against Kingambit, but Flamethrower is super-effective.', 'TypeMatchup': 'Hydreigon is resistant to Dragon-type attacks, while Kingambit is vulnerable to Fighting-type attacks.', 'SpeedControl': 'Hydreigon outspeeds Kingambit, preventing it from using Dragon Pulse twice.', 'TeamAdvantage': \"Hydreigon's Dragon-type attack is super-effective against Kingambit, while Kingambit's Dark-type attack is ineffective against Hydreigon.\", 'BoostsAndStatus': 'Hydreigon has not used any boosting moves, while Kingambit has boosted its Attack.', 'HazardsAndField': 'Stickyweb is not currently in play.', 'SwitchingCost': 'Hydreigon is faster than Kingambit, but switching would give Kingambit the speed advantage.', 'OpponentPressure': \"Kingambit's remaining team strength is low, but it still has several strong Pokémon.\", 'Uncertainty': 'The outcome of the battle is still uncertain, as the players have not fully revealed their hand.', 'WinPlan': \"Hydreigon can potentially win by exploiting Kingambit's Dark-type vulnerability with its Dragon-type attacks.\"}",
+                    "opponent_action": "dragonpulse (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "storedpower (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Stored Power is ineffective against Kingambit, but Flamethrower is super effective.', 'TypeMatchup': 'Hydreigon is resistant to Dragon-type attacks, which are super effective against Kingambit.', 'SpeedControl': 'Hydreigon outspeeds Kingambit, ensuring it can use moves before it.', 'TeamAdvantage': 'Strong remaining Pokémon like Gholdengo and Zamzenta can handle Kingambit.', 'BoostsAndStatus': 'Hydreigon has a boost in Special Attack from Tail Glow.', 'HazardsAndField': 'Spikes are active, dealing damage over time.', 'SwitchingCost': 'Frequent switching can be costly, especially if opponents have speed advantages.', 'OpponentPressure': \"Kingambit's Dragon-type attacks are super effective against Hydreigon, posing a threat.\", 'Uncertainty': 'Kingambit has Protosynthesis, which can restore its HP, making it difficult to finish it off.', 'WinPlan': 'Continue using Flamethrower to weaken Kingambit, then switch to a stronger Pokémon like Gholdengo or Zamzenta to finish it off.'}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: hydreigon",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:163,Defense:218,Special attack:410,Special defense:215,Speed:249,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.) Fairy, Ground, Dragon-type attack is super-effective (2x damage) to ragingbolt. Fire, Steel, Water-type attack is ineffective (0.5x damage) to ragingbolt.\nragingbolt used moves:[dragonpulse,Dragon,Power:161],[thunderclap,Electric,Power:132],\nYour current pokemon:hydreigon,Type:Dark and Dragon,HP:100%Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(faster than ragingbolt).Ability:Levitate(By floating in the air, the Pokémon receives full immunity to all Ground-type moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Dragon-type attack is super-effective (2x damage) to hydreigon. Electric-type attack is ineffective (0.5x damage) to hydreigon.\nYour hydreigon has 4 moves:\nMove:dracometeor,Type:Dragon,Power:211,Acc:90%,Effect:Sharply lowers user's Special Attack. (super-effective (2x damage) to ragingbolt)\nMove:darkpulse,Type:Dark,Power:130,Acc:100%,Effect:May cause flinching. \nMove:flamethrower,Type:Fire,Power:146,Acc:100%,Effect:May burn opponent. (ineffective (0.5x damage) to ragingbolt)\nMove:uturn,Type:Bug,Power:71,Acc:100%,Effect:User switches out immediately after attacking. \nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(slower than ragingbolt). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,1x damage], Dragon-type attack is ineffective (0.5x damage) to gholdengo.\nPokemon:manaphy,Type:Water,HP:50%,Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(faster than ragingbolt). Moves:[surf,Water,0.5x damage],[storedpower,Psychic,1x damage], Electric-type attack is super-effective (2x damage) to manaphy.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(faster than ragingbolt). Moves:[sludgebomb,Poison,1x damage],[meteorbeam,Rock,1x damage],[earthpower,Ground,2x damage],[dazzlinggleam,Fairy,2x damage],\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ragingbolt). Moves:[bodypress,Fighting,1x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,1x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ragingbolt). Moves:[moonblast,Fairy,2x damage],[psychicnoise,Psychic,1x damage], Dragon-type attack is zero effect (0x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "dracometeor (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Raging Bolt is likely to prioritize Dragon Pulse given its high power and type advantage. However, Hydreigon can outspeed Raging Bolt and potentially knock it out with a super-effective Flamethrower. The damage calculator provides a more efficient way to assess the potential damage output of my next move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dracometeor",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ironmoth,Type:Fire and Poison,HP:100%Attack:158,Defense:187,Special attack:349,Special defense:256,Speed:350,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground-type attack is extremely-effective (4x damage) to ironmoth. Water, Rock, Psychic-type attack is super-effective (2x damage) to ironmoth. Steel, Poison, Fighting-type attack is ineffective (0.5x damage) to ironmoth. Fairy-type attack is highly ineffective (0.25x damage) to ironmoth.\n\nYour current pokemon:hydreigon,Type:Dark and Dragon,HP:100%Attack:221,Defense:216,Special attack:174(-2 stage boosted),Special defense:217,Speed:324(slower than ironmoth).Ability:Levitate(By floating in the air, the Pokémon receives full immunity to all Ground-type moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Fire-type attack is ineffective (0.5x damage) to hydreigon.\nYour hydreigon has 1 moves:\nMove:dracometeor,Type:Dragon,Power:89,Acc:90%,Effect:Sharply lowers user's Special Attack. \nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(slower than ironmoth). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,1x damage], Fire-type attack is super-effective (2x damage) to gholdengo. Poison-type attack is zero effect (0x damage) to gholdengo.\nPokemon:manaphy,Type:Water,HP:50%,Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(slower than ironmoth). Moves:[surf,Water,2x damage],[storedpower,Psychic,2x damage], Fire-type attack is ineffective (0.5x damage) to manaphy.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironmoth). Moves:[sludgebomb,Poison,0.5x damage],[meteorbeam,Rock,2x damage],[earthpower,Ground,4x damage],[dazzlinggleam,Fairy,0.25x damage], Fire-type attack is ineffective (0.5x damage) to glimmora. Poison-type attack is highly ineffective (0.25x damage) to glimmora.\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ironmoth). Moves:[bodypress,Fighting,0.5x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,2x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ironmoth). Moves:[moonblast,Fairy,0.25x damage],[psychicnoise,Psychic,2x damage], Fire, Poison-type attack is super-effective (2x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "dracometeor (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Hydreigon's Draco Meteor is super-effective against Raging Bolt.\", 'TypeMatchup': \"Hydreigon's Dragon-type moves are super-effective against Raging Bolt's Electric and Dragon-type moves.\", 'SpeedControl': 'Hydreigon outspeeds Raging Bolt.', 'TeamAdvantage': \"Hydreigon's remaining team has better speed and type coverage than Raging Bolt's remaining team.\", 'BoostsAndStatus': 'Hydreigon has a Dragon Dance boost, while Raging Bolt has Protosynthesis.', 'HazardsAndField': 'Raging Bolt has Spikes in play.', 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Raging Bolt's remaining team has a strong Electric-type attacker.\", 'Uncertainty': \"Hydreigon's remaining team has varying speeds, making future predictions difficult.\", 'WinPlan': 'Hydreigon can potentially win with well-timed Dragon Dances and effective moves.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "ribombee (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Hydreigon's Draco Meteor is super-effective against Raging Bolt.\", 'TypeMatchup': \"Hydreigon's Dragon-type moves are super-effective against Raging Bolt's Dragon/Electric type.\", 'SpeedControl': 'Hydreigon outspeeds Raging Bolt.', 'TeamAdvantage': \"Hydreigon's remaining team has better speed and type coverage than Raging Bolt's remaining team.\", 'BoostsAndStatus': 'Hydreigon has a Dragon Dance boost, while Raging Bolt has Protosynthesis.', 'HazardsAndField': 'Raging Bolt has Spikes and Fierydance on the field.', 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Raging Bolt's remaining team has low offensive power.\", 'Uncertainty': \"Hydreigon's remaining team has varying speeds, making prediction difficult.\", 'WinPlan': 'Hydreigon can potentially win with well-timed Dragon Dances and effective moves.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Hydreigon's Draco Meteor is super-effective against Raging Bolt.\", 'TypeMatchup': \"Hydreigon's Dragon-type moves are super-effective against Raging Bolt's Dragon/Electric type.\", 'SpeedControl': 'Hydreigon outspeeds Raging Bolt.', 'TeamAdvantage': 'Hydreigon is still alive, while Raging Bolt is fainted.', 'BoostsAndStatus': 'Hydreigon has a Dragon Dance boost, while Raging Bolt has a Protosynthesis boost.', 'HazardsAndField': 'Toxic Spikes are on the field, which can damage Raging Bolt.', 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Raging Bolt's remaining team is strong.\", 'Uncertainty': 'The opponent may have other moves or Pokémon in their arsenal.', 'WinPlan': 'Hydreigon can potentially win with its Dragon-type moves.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dracometeor",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ironmoth,Type:Fire and Poison,HP:66%Attack:158,Defense:187,Special attack:349,Special defense:256,Speed:350,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground-type attack is extremely-effective (4x damage) to ironmoth. Water, Rock, Psychic-type attack is super-effective (2x damage) to ironmoth. Steel, Poison, Fighting-type attack is ineffective (0.5x damage) to ironmoth. Fairy-type attack is highly ineffective (0.25x damage) to ironmoth.\nironmoth used moves:[sludgewave,Poison,Power:153],\nYour current pokemon:hydreigon,Type:Dark and Dragon,HP:30%Status:poisoned,Attack:221,Defense:216,Special attack:115(-4 stage boosted),Special defense:217,Speed:324(slower than ironmoth).Ability:Levitate(By floating in the air, the Pokémon receives full immunity to all Ground-type moves.),Item:Choice Scarf(Raises Speed, but only one move can be used.) Fire-type attack is ineffective (0.5x damage) to hydreigon.\nYour hydreigon has 1 moves:\nMove:dracometeor,Type:Dragon,Power:58,Acc:90%,Effect:Sharply lowers user's Special Attack. \nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(slower than ironmoth). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,1x damage], Fire-type attack is super-effective (2x damage) to gholdengo. Poison-type attack is zero effect (0x damage) to gholdengo.\nPokemon:manaphy,Type:Water,HP:50%,Attack:184,Defense:236,Special attack:319,Special defense:236,Speed:281(slower than ironmoth). Moves:[surf,Water,2x damage],[storedpower,Psychic,2x damage], Fire-type attack is ineffective (0.5x damage) to manaphy.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironmoth). Moves:[sludgebomb,Poison,0.5x damage],[meteorbeam,Rock,2x damage],[earthpower,Ground,4x damage],[dazzlinggleam,Fairy,0.25x damage], Fire-type attack is ineffective (0.5x damage) to glimmora. Poison-type attack is highly ineffective (0.25x damage) to glimmora.\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ironmoth). Moves:[bodypress,Fighting,0.5x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,2x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ironmoth). Moves:[moonblast,Fairy,0.25x damage],[psychicnoise,Psychic,2x damage], Fire, Poison-type attack is super-effective (2x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "manaphy (pokemon object) [Active: True, Status: None]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Manaphy's Draco Meteor is super-effective against Raging Bolt.\", 'TypeMatchup': 'Manaphy is weak to Electric-type moves, but Raging Bolt is weak to Dragon-type moves.', 'SpeedControl': 'Manaphy outspeeds Raging Bolt.', 'TeamAdvantage': \"Manaphy's remaining team has better overall stats than Raging Bolt's remaining team.\", 'BoostsAndStatus': 'Manaphy has a Hydration boost, while Raging Bolt has a Protosynthesis boost.', 'HazardsAndField': 'Raging Bolt has access to Sludge Wave, which can poison Manaphy.', 'SwitchingCost': 'Frequent switching can reset boosts and weaken the team.', 'OpponentPressure': \"Raging Bolt's Fierydance can damage Manaphy.\", 'Uncertainty': \"Manaphy's remaining team is less experienced than Raging Bolt's remaining team.\", 'WinPlan': \"Manaphy can win by exploiting Raging Bolt's weaknesses and utilizing its better stats.\"}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "dracometeor (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Manaphy's Draco Meteor is super-effective against Raging Bolt.\", 'TypeMatchup': 'Manaphy is weak to Electric-type moves, but Raging Bolt is weak to Dragon-type moves.', 'SpeedControl': 'Manaphy outspeeds Raging Bolt.', 'TeamAdvantage': \"Manaphy's remaining team is stronger than Raging Bolt's remaining team.\", 'BoostsAndStatus': 'Manaphy has a boost on Special Attack, while Raging Bolt has a boost on Attack.', 'HazardsAndField': 'Raging Bolt has Poisoned Manaphy.', 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Raging Bolt's remaining moves are all super-effective against Manaphy.\", 'Uncertainty': 'The outcome of future turns is uncertain due to potential switches and moves.', 'WinPlan': \"Manaphy can win by exploiting Raging Bolt's weaknesses and utilizing its boosts.\"}",
+                    "opponent_action": "fierydance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ribombee (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Draco Meteor is super-effective against Raging Bolt.\", 'TypeMatchup': 'Primarina is strong against Raging Bolt due to its Electric and Dragon-type weakness.', 'SpeedControl': 'Primarina outspeeds Raging Bolt.', 'TeamAdvantage': \"Primarina's remaining team has better speed and better type coverage than Raging Bolt's remaining team.\", 'BoostsAndStatus': \"Primarina's Hydration ability can remove status conditions, while Raging Bolt's Protosynthesis boosts its most proficient stat.\", 'HazardsAndField': \"Raging Bolt's Sludge Wave can poison Primarina.\", 'SwitchingCost': 'Primarina has switched out multiple times, increasing the risk of future switches.', 'OpponentPressure': \"Raging Bolt's remaining team has a strong offensive presence.\", 'Uncertainty': \"Primarina's remaining team is vulnerable to Electric-type attacks.\", 'WinPlan': 'Primarina can win with strong Dragon-type attacks from Manaphy and Draco Meteor from Primarina.'}",
+                    "opponent_action": "fierydance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: manaphy",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ironmoth,Type:Fire and Poison,HP:66%Attack:158,Defense:187,Special attack:349,Special defense:256,Speed:350,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground-type attack is extremely-effective (4x damage) to ironmoth. Rock, Psychic-type attack is super-effective (2x damage) to ironmoth. Fire, Steel, Poison, Fighting-type attack is ineffective (0.5x damage) to ironmoth. Fairy, Bug-type attack is highly ineffective (0.25x damage) to ironmoth.\nironmoth used moves:[sludgewave,Poison,Power:140],\nYou have 5 pokemons:\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%,Attack:112,Defense:230,Special attack:352,Special defense:218,Speed:247(slower than ironmoth). Moves:[makeitrain,Steel,0.5x damage],[hex,Ghost,1x damage], Fire-type attack is super-effective (2x damage) to gholdengo. Poison-type attack is zero effect (0x damage) to gholdengo.\nPokemon:hydreigon,Type:Dark and Dragon,HP:30%,Status:poisoned, Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(slower than ironmoth). Moves:[dracometeor,Dragon,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage],[uturn,Bug,0.25x damage], Fire-type attack is ineffective (0.5x damage) to hydreigon.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironmoth). Moves:[sludgebomb,Poison,0.5x damage],[meteorbeam,Rock,2x damage],[earthpower,Ground,4x damage],[dazzlinggleam,Fairy,0.25x damage], Fire-type attack is ineffective (0.5x damage) to glimmora. Poison-type attack is highly ineffective (0.25x damage) to glimmora.\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ironmoth). Moves:[bodypress,Fighting,0.5x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,2x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ironmoth). Moves:[moonblast,Fairy,0.25x damage],[psychicnoise,Psychic,2x damage], Fire, Poison-type attack is super-effective (2x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Body Press is super effective against Kingambit.\", 'TypeMatchup': \"Primarina's Fighting-type moves are super effective against Kingambit's Dark/Steel-type.\", 'SpeedControl': 'Primarina outspeeds Kingambit.', 'TeamAdvantage': \"Primarina's remaining team is faster and stronger than Kingambit's remaining team.\", 'BoostsAndStatus': 'Primarina has a boost from Swords Dance.', 'HazardsAndField': 'Kingambit has Poisoned Primarina.', 'SwitchingCost': 'Primarina has already switched once.', 'OpponentPressure': \"Kingambit's Sludge Wave could potentially poison Primarina again.\", 'Uncertainty': \"Kingambit's remaining moves could be more effective than Sludge Wave.\", 'WinPlan': 'Primarina can potentially knock out Kingambit with Body Press.'}",
+                    "opponent_action": "sludgewave (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Primarina lacks effective moves against Kingambit.', 'TypeMatchup': \"Primarina's Fighting-type moves are super-effective against Kingambit.\", 'SpeedControl': 'Primarina outspeeds Kingambit due to Quark-Drive.', 'TeamAdvantage': \"Primarina's remaining team has strong matchups against Kingambit.\", 'BoostsAndStatus': 'Primarina has no significant boosts or status effects.', 'HazardsAndField': \"Primarina's team has no field or hazard effects.\", 'SwitchingCost': \"Primarina's switching cost is low due to its high speed.\", 'OpponentPressure': \"Kingambit's Sludge Wave can potentially poison Primarina.\", 'Uncertainty': \"Kingambit's remaining moves are unpredictable.\", 'WinPlan': 'Primarina needs to utilize its speed advantage and strong type matchups to knock out Kingambit before it can pose a significant threat.'}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gholdengo",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ironmoth,Type:Fire and Poison,HP:66%Attack:158,Defense:187,Special attack:524(1 stage boosted),Special defense:256,Speed:350,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground-type attack is extremely-effective (4x damage) to ironmoth. Rock, Psychic-type attack is super-effective (2x damage) to ironmoth. Fire, Steel, Poison, Fighting-type attack is ineffective (0.5x damage) to ironmoth. Fairy, Bug-type attack is highly ineffective (0.25x damage) to ironmoth.\nironmoth used moves:[sludgewave,Poison,Power:228],[fierydance,Fire,Power:192],\nYou have 4 pokemons:\nPokemon:hydreigon,Type:Dark and Dragon,HP:30%,Status:poisoned, Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(slower than ironmoth). Moves:[dracometeor,Dragon,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage],[uturn,Bug,0.25x damage], Fire-type attack is ineffective (0.5x damage) to hydreigon.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironmoth). Moves:[sludgebomb,Poison,0.5x damage],[meteorbeam,Rock,2x damage],[earthpower,Ground,4x damage],[dazzlinggleam,Fairy,0.25x damage], Fire-type attack is ineffective (0.5x damage) to glimmora. Poison-type attack is highly ineffective (0.25x damage) to glimmora.\nPokemon:zamazenta,Type:Fighting,HP:100%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ironmoth). Moves:[bodypress,Fighting,0.5x damage],[ironhead,Steel,0.5x damage],[stoneedge,Rock,2x damage],\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ironmoth). Moves:[moonblast,Fairy,0.25x damage],[psychicnoise,Psychic,2x damage], Fire, Poison-type attack is super-effective (2x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "zamazenta (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Draco Meteor is super effective against Raging Bolt.\", 'TypeMatchup': 'Primarina is strong against Raging Bolt due to Dragon-type effectiveness.', 'SpeedControl': 'Primarina outspeeds Raging Bolt thanks to Quark-Drive.', 'TeamAdvantage': \"Primarina's remaining team has strong offensive capabilities.\", 'BoostsAndStatus': 'Primarina has a Dragon-type boost and Raging Bolt is poisoned.', 'HazardsAndField': \"Primarina's team has access to Spikes, which can damage opponents.\", 'SwitchingCost': 'Primarina has switched once, which is manageable.', 'OpponentPressure': 'Raging Bolt has used Sludge Wave, potentially weakening the team.', 'Uncertainty': 'The outcome of future turns is uncertain due to potential switches and moves.', 'WinPlan': \"Primarina can prioritize knocking out Raging Bolt with Draco Meteor while utilizing its team's strengths.\"}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: zamazenta",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:ironmoth,Type:Fire and Poison,HP:66%Attack:158,Defense:187,Special attack:524(1 stage boosted),Special defense:256,Speed:350,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Ground-type attack is extremely-effective (4x damage) to ironmoth. Rock, Psychic-type attack is super-effective (2x damage) to ironmoth. Fire, Steel, Poison, Fighting-type attack is ineffective (0.5x damage) to ironmoth. Fairy, Bug-type attack is highly ineffective (0.25x damage) to ironmoth.\nironmoth used moves:[sludgewave,Poison,Power:187],[fierydance,Fire,Power:157],\nYour current pokemon:zamazenta,Type:Fighting,HP:100%Attack:291,Defense:494(1 stage boosted),Special attack:176,Special defense:266,Speed:394(faster than ironmoth).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Mirror Herb(Copies an opponent's stat increases when consumed.)Your zamazenta has 4 moves:\nMove:bodypress,Type:Fighting,Power:83,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (ineffective (0.5x damage) to ironmoth)\nMove:ironhead,Type:Steel,Power:83,Acc:100%,Effect:May cause flinching. (ineffective (0.5x damage) to ironmoth)\nMove:stoneedge,Type:Rock,Power:104,Acc:80%,Effect:High critical hit ratio. (super-effective (2x damage) to ironmoth)\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nYou have 3 pokemons:\nPokemon:hydreigon,Type:Dark and Dragon,HP:30%,Status:poisoned, Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(slower than ironmoth). Moves:[dracometeor,Dragon,1x damage],[darkpulse,Dark,1x damage],[flamethrower,Fire,0.5x damage],[uturn,Bug,0.25x damage], Fire-type attack is ineffective (0.5x damage) to hydreigon.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironmoth). Moves:[sludgebomb,Poison,0.5x damage],[meteorbeam,Rock,2x damage],[earthpower,Ground,4x damage],[dazzlinggleam,Fairy,0.25x damage], Fire-type attack is ineffective (0.5x damage) to glimmora. Poison-type attack is highly ineffective (0.25x damage) to glimmora.\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(faster than ironmoth). Moves:[moonblast,Fairy,0.25x damage],[psychicnoise,Psychic,2x damage], Fire, Poison-type attack is super-effective (2x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "stoneedge (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Moth is likely to prioritize boosting its Speed or Special Attack with its remaining moves. The damage calculator can quickly assess the effectiveness of potential moves against the current Iron Moth's stats, while the minimax tree would be more appropriate for complex situations with multiple future possibilities.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Stoneedge",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Fairy, Steel, Psychic, Poison-type attack is super-effective (2x damage) to ironvaliant. Rock, Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant. Dragon-type attack is zero effect (0x damage) to ironvaliant.\n\nYour current pokemon:zamazenta,Type:Fighting,HP:17%Attack:291,Defense:494(1 stage boosted),Special attack:176,Special defense:266,Speed:394(faster than ironvaliant).Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Mirror Herb(Copies an opponent's stat increases when consumed.) Fairy-type attack is super-effective (2x damage) to zamazenta.\nYour zamazenta has 4 moves:\nMove:bodypress,Type:Fighting,Power:72,Acc:100%,Effect:The higher the user's Defense, the stronger the attack. (ineffective (0.5x damage) to ironvaliant)\nMove:ironhead,Type:Steel,Power:72,Acc:100%,Effect:May cause flinching. (super-effective (2x damage) to ironvaliant)\nMove:stoneedge,Type:Rock,Power:90,Acc:80%,Effect:High critical hit ratio. (ineffective (0.5x damage) to ironvaliant)\nMove:irondefense,Type:Steel,Status-move,Power:0,Acc:100%,Effect:Sharply raises user's Defense. \nYou have 3 pokemons:\nPokemon:hydreigon,Type:Dark and Dragon,HP:30%,Status:poisoned, Attack:221,Defense:216,Special attack:349,Special defense:217,Speed:324(slower than ironvaliant). Moves:[dracometeor,Dragon,0x damage],[darkpulse,Dark,0.25x damage],[flamethrower,Fire,1x damage],[uturn,Bug,0.25x damage], Fairy-type attack is extremely-effective (4x damage) to hydreigon. Fighting-type attack is super-effective (2x damage) to hydreigon.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironvaliant). Moves:[sludgebomb,Poison,2x damage],[meteorbeam,Rock,0.5x damage],[earthpower,Ground,1x damage],[dazzlinggleam,Fairy,2x damage], Fairy-type attack is ineffective (0.5x damage) to glimmora.\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(slower than ironvaliant). Moves:[moonblast,Fairy,2x damage],[psychicnoise,Psychic,2x damage], Fighting-type attack is highly ineffective (0.25x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "hydreigon (pokemon object) [Active: True, Status: PSN]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Hydreigon's Bodypress is extremely effective against Kingambit.\", 'TypeMatchup': \"Hydreigon's Fairy-type resistance is advantageous against Kingambit's Dark/Steel-type.\", 'SpeedControl': 'Hydreigon outspeeds Kingambit thanks to Quark-Drive.', 'TeamAdvantage': \"Hydreigon's remaining team has strong offensive options.\", 'BoostsAndStatus': 'Hydreigon has a Dragon boost and Kingambit is poisoned.', 'HazardsAndField': 'Stickyweb from previous turns can damage Kingambit.', 'SwitchingCost': 'Multiple switches have been made, potentially weakening team composition.', 'OpponentPressure': \"Kingambit's Moonblast is super effective against Hydreigon.\", 'Uncertainty': \"Kingambit's remaining moves and potential for future boosts are unknown.\", 'WinPlan': \"Utilize Hydreigon's Bodypress to KO Kingambit and secure victory.\"}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ironhead (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Hydreigon's Dragon-type moves are effective against Kingambit.\", 'TypeMatchup': \"Hydreigon's Fairy-type attack is extremely effective against Kingambit.\", 'SpeedControl': 'Hydreigon outspeeds Kingambit due to Quark-Drive.', 'TeamAdvantage': \"Hydreigon's remaining team has strong offensive capabilities.\", 'BoostsAndStatus': 'Hydreigon has Dragon Dance boost, while Kingambit is poisoned.', 'HazardsAndField': \"Kingambit's Moonblast can poison Hydreigon.\", 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Kingambit's remaining team is strong.\", 'Uncertainty': \"Kingambit's ability can activate Quark Drive, potentially boosting its speed further.\", 'WinPlan': \"Hydreigon can exploit Kingambit's weaknesses and potentially win with Dragon-type moves.\"}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: hydreigon",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Fairy, Steel, Psychic, Poison-type attack is super-effective (2x damage) to ironvaliant. Rock, Fighting-type attack is ineffective (0.5x damage) to ironvaliant.\nironvaliant used moves:[shadowball,Ghost,Power:125],\nYou have 3 pokemons:\nPokemon:zamazenta,Type:Fighting,HP:17%,Attack:291,Defense:329,Special attack:176,Special defense:266,Speed:394(faster than ironvaliant). Moves:[bodypress,Fighting,0.5x damage],[ironhead,Steel,2x damage],[stoneedge,Rock,0.5x damage], Fairy-type attack is super-effective (2x damage) to zamazenta.\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironvaliant). Moves:[sludgebomb,Poison,2x damage],[meteorbeam,Rock,0.5x damage],[earthpower,Ground,1x damage],[dazzlinggleam,Fairy,2x damage], Fairy-type attack is ineffective (0.5x damage) to glimmora.\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(slower than ironvaliant). Moves:[moonblast,Fairy,2x damage],[psychicnoise,Psychic,2x damage], Fighting-type attack is highly ineffective (0.25x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "zamazenta (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Ragingbolt.\", 'TypeMatchup': \"Primarina's Fairy-type moves are super effective against Ragingbolt's Dragon/Electric type.\", 'SpeedControl': 'Primarina outspeeds Ragingbolt.', 'TeamAdvantage': 'Primarina is faster than Ragingbolt and has a type advantage.', 'BoostsAndStatus': 'Primarina has a speed boost from Quark-Drive.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Primarina has already switched once.', 'OpponentPressure': 'Ragingbolt has a powerful Dragon-type move in Dragon Pulse.', 'Uncertainty': 'n/a', 'WinPlan': 'Primarina can outspeed and defeat Ragingbolt with Moonblast.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ribombee (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Ragingbolt.\", 'TypeMatchup': \"Primarina's Fairy-type moves are super effective against Ragingbolt's Dragon/Electric type.\", 'SpeedControl': 'Primarina outspeeds Ragingbolt due to Quark-Drive.', 'TeamAdvantage': 'Primarina is faster than Ragingbolt and has reliable STAB moves.', 'BoostsAndStatus': 'Primarina has a defensive boost from its Ability.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Primarina has already switched once, incurring a penalty.', 'OpponentPressure': 'Ragingbolt has used up its powerful moves.', 'Uncertainty': \"Primarina's Moonblast might not always OHKO Ragingbolt.\", 'WinPlan': 'Primarina can potentially win with Moonblast.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: zamazenta",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Fairy, Psychic, Poison-type attack is super-effective (2x damage) to ironvaliant. Rock-type attack is ineffective (0.5x damage) to ironvaliant.\nironvaliant used moves:[shadowball,Ghost,Power:102],\nYou have 2 pokemons:\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironvaliant). Moves:[sludgebomb,Poison,2x damage],[meteorbeam,Rock,0.5x damage],[earthpower,Ground,1x damage],[dazzlinggleam,Fairy,2x damage], Fairy-type attack is ineffective (0.5x damage) to glimmora.\nPokemon:ribombee,Type:Bug and Fairy,HP:100%,Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(slower than ironvaliant). Moves:[moonblast,Fairy,2x damage],[psychicnoise,Psychic,2x damage], Fighting-type attack is highly ineffective (0.25x damage) to ribombee.\n",
+            "Candidates": [
+                {
+                    "player_action": "ribombee (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is effective against Kingambit.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Kingambit, while Steel-type attacks are super-effective against Primarina.', 'SpeedControl': 'Primarina outspeeds Kingambit thanks to Quark-Drive.', 'TeamAdvantage': 'Primarina is well-positioned, while Kingambit is fainted.', 'BoostsAndStatus': 'Primarina has a boost in SpA from Fiery Dance.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Primarina has already switched once, incurring a minor penalty.', 'OpponentPressure': \"Kingambit's remaining team is strong.\", 'Uncertainty': \"Primarina's Moonblast might not OHKO Kingambit.\", 'WinPlan': 'Primarina should use Moonblast to finish Kingambit and then prioritize switching out of any potential threats.'}",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 5,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ribombee",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 5,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Fairy, Psychic, Poison-type attack is super-effective (2x damage) to ironvaliant. Rock-type attack is ineffective (0.5x damage) to ironvaliant.\nironvaliant used moves:[shadowball,Ghost,Power:154],\nYour current pokemon:ribombee,Type:Bug and Fairy,HP:100%Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(slower than ironvaliant).Ability:Shield Dust(Protective dust shields the Pokémon from the additional effects of moves.),Item:Focus Sash(An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.) Fighting-type attack is highly ineffective (0.25x damage) to ribombee.\nYour ribombee has 4 moves:\nMove:stickyweb,Type:Bug,Status-move,Power:0,Acc:100%,Effect:Lowers opponent's Speed when switching into battle. \nMove:moonblast,Type:Fairy,Power:166,Acc:100%,Effect:May lower opponent's Special Attack. (super-effective (2x damage) to ironvaliant)\nMove:stunspore,Type:Grass,Status-move,Power:0,Acc:75%,Effect:Paralyzes opponent. \nMove:psychicnoise,Type:Psychic,Power:131,Acc:100%,Effect:Deals damage and prevents target from healing. (super-effective (2x damage) to ironvaliant)\nYou have 1 pokemons:\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironvaliant). Moves:[sludgebomb,Poison,2x damage],[meteorbeam,Rock,0.5x damage],[earthpower,Ground,1x damage],[dazzlinggleam,Fairy,2x damage], Fairy-type attack is ineffective (0.5x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's predictable Shadow Ball and potential to utilize Quark-Drive makes the minimax tree less efficient. The damage calculator offers a faster and more reliable approach to finding the optimal damaging move considering the current type matchup and Pokémon stats.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironvaliant,Type:Ghost,HP:35%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Poison-type attack is ineffective (0.5x damage) to ironvaliant.\nironvaliant used moves:[shadowball,Ghost,Power:154],[moonblast,Fairy,Power:183],\nYour current pokemon:ribombee,Type:Bug and Fairy,HP:25%Attack:103,Defense:190,Special attack:275,Special defense:176,Speed:358(slower than ironvaliant).Ability:Shield Dust(Protective dust shields the Pokémon from the additional effects of moves.),Item:Focus Sash(An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.)Your ribombee has 4 moves:\nMove:stickyweb,Type:Bug,Status-move,Power:0,Acc:100%,Effect:Lowers opponent's Speed when switching into battle. \nMove:moonblast,Type:Fairy,Power:166,Acc:100%,Effect:May lower opponent's Special Attack. \nMove:stunspore,Type:Grass,Status-move,Power:0,Acc:75%,Effect:Paralyzes opponent. \nMove:psychicnoise,Type:Psychic,Power:131,Acc:100%,Effect:Deals damage and prevents target from healing. \nYou have 1 pokemons:\nPokemon:glimmora,Type:Rock and Poison,HP:100%,Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironvaliant). Moves:[sludgebomb,Poison,0.5x damage],[meteorbeam,Rock,1x damage],[earthpower,Ground,1x damage],[dazzlinggleam,Fairy,1x damage], Fairy-type attack is ineffective (0.5x damage) to glimmora.\n",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's predictable Shadow Ball and Moonblast suggest the damage calculator can likely find the optimal damaging move. Additionally, Ribombee's Moonblast offers a chance to weaken Iron Valiant further.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:ironvaliant,Type:Ghost,HP:35%Attack:266,Defense:216,Special attack:339,Special defense:157,Speed:364,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.) Poison-type attack is ineffective (0.5x damage) to ironvaliant.\nironvaliant used moves:[shadowball,Ghost,Power:137],[moonblast,Fairy,Power:163],\nYour current pokemon:glimmora,Type:Rock and Poison,HP:100%Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ironvaliant).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.),Item:Power Herb(A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.) Fairy-type attack is ineffective (0.5x damage) to glimmora.\nYour glimmora has 4 moves:\nMove:sludgebomb,Type:Poison,Power:224,Acc:100%,Effect:May poison opponent. (ineffective (0.5x damage) to ironvaliant)\nMove:meteorbeam,Type:Rock,Power:299,Acc:90%,Effect:User gathers space power and boosts its Sp. Atk stat, then attacks the target on the next turn. \nMove:earthpower,Type:Ground,Power:224,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:dazzlinggleam,Type:Fairy,Power:199,Acc:100%,Effect:Hits all adjacent opponents. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "sludgebomb (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Shadow Ball is predictable and the damage calculator offers a quick way to evaluate potential moves, while the minimax tree might be unnecessary for such a straightforward situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Sludgebomb",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.)\nYour current pokemon:glimmora,Type:Rock and Poison,HP:67%Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ogerponcornerstone).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.),Item:Power Herb(A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.)Your glimmora has 4 moves:\nMove:sludgebomb,Type:Poison,Power:154,Acc:100%,Effect:May poison opponent. \nMove:meteorbeam,Type:Rock,Power:205,Acc:90%,Effect:User gathers space power and boosts its Sp. Atk stat, then attacks the target on the next turn. \nMove:earthpower,Type:Ground,Power:154,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:dazzlinggleam,Type:Fairy,Power:137,Acc:100%,Effect:Hits all adjacent opponents. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "sludgebomb (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Glimmora's Meteorbeam is super-effective against Ironmoth.\", 'TypeMatchup': 'Ironmoth is vulnerable to Ground-type attacks, which are extremely-effective.', 'SpeedControl': \"Glimmora is slower than Ironmoth, but Quark Drive boosts Ironmoth's speed.\", 'TeamAdvantage': 'Glimmora is the only remaining Pokémon with significant offensive power.', 'BoostsAndStatus': 'Glimmora has a Power Herb, boosting its Sp. Atk stat.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Excessive switching could disadvantage Glimmora due to Speed Control.', 'OpponentPressure': \"Ironmoth's remaining moves are effective against Glimmora.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Glimmora's Meteorbeam to knock out Ironmoth.\"}",
+                    "opponent_action": "ironmoth (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 40,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "meteorbeam (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Glimmora's Meteorbeam is super-effective against Ironmoth.\", 'TypeMatchup': 'Ironmoth is weak to Ground-type attacks, which are extremely-effective against it.', 'SpeedControl': \"Glimmora is slower than Ironmoth, but Quark Drive boosts Ironmoth's speed.\", 'TeamAdvantage': 'Glimmora is the only remaining Pokémon with moves that are effective against Ironmoth.', 'BoostsAndStatus': 'Glimmora has access to Power Herb, which allows it to use Meteorbeam immediately.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Ironmoth has used up its moves that could potentially damage Glimmora.', 'Uncertainty': 'n/a', 'WinPlan': 'Use Earthpower to knock out Ironmoth.'}",
+                    "opponent_action": "ironmoth (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 0,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Sludgebomb",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 40,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": 0,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 18": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.)\nYour current pokemon:glimmora,Type:Rock and Poison,HP:73%Attack:103,Defense:220,Special attack:391,Special defense:198,Speed:271(slower than ogerponcornerstone).Ability:Toxic Debris(Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.),Item:Power Herb(A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.)Your glimmora has 4 moves:\nMove:sludgebomb,Type:Poison,Power:154,Acc:100%,Effect:May poison opponent. \nMove:meteorbeam,Type:Rock,Power:205,Acc:90%,Effect:User gathers space power and boosts its Sp. Atk stat, then attacks the target on the next turn. \nMove:earthpower,Type:Ground,Power:154,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:dazzlinggleam,Type:Fairy,Power:137,Acc:100%,Effect:Hits all adjacent opponents. \nYou have 0 pokemons:\n",
+            "Candidates": [
+                {
+                    "player_action": "sludgebomb (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Ogerpon has predictable moves and our Glimmora has a clear type advantage with Sludge Bomb. Therefore, the damage calculator offers a more efficient solution for finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Sludgebomb",
+                "score": -1,
+                "label_scores": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,609 @@
+{
+    "Battle Id: 9482": {
+        "Turn 1": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:100%Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:None Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ndarkrai vs. gliscor:\ndarkrai outspeeds gliscor\ndarkrai's moves:\ndarkpulse: 3 turns to KO opponent's pokemon\nicebeam: 1 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\ndarkrai's moves if opponent's gliscor uses 'terastallize':\ndarkpulse: 5 turns to KO opponent's pokemon\nicebeam: 4 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  3.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\ndarkrai's moves if it uses 'terastallize' and opponent's gliscor uses 'terastallize':\ndarkpulse: 4 turns to KO opponent's pokemon\nicebeam: 4 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  3.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\ndarkrai's moves if it uses 'terastallize' and opponent's gliscor does NOT use 'terastallize':\ndarkpulse: 4 turns to KO opponent's pokemon\nicebeam: 1 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\nOpponent moves: gliscor\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO your pokemon\nearthquake: 282 turns to KO your pokemon\nknockoff: 11 turns to KO your pokemon\ntoxic: Badly poisons opponent.  inf turns to KO your pokemon\n\nRequires switch:\ngreattusk vs. gliscor:\ngreattusk outspeeds gliscor\ngreattusk's moves:\nheadlongrush: 352 turns to KO opponent's pokemon\nicespinner: 2 turns to KO opponent's pokemon\nrapidspin: 7 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if opponent's gliscor uses 'terastallize':\nheadlongrush: 2 turns to KO opponent's pokemon\nicespinner: 3 turns to KO opponent's pokemon\nrapidspin: 7 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if it uses 'terastallize' and opponent's gliscor uses 'terastallize':\nheadlongrush: 2 turns to KO opponent's pokemon\nicespinner: 3 turns to KO opponent's pokemon\nrapidspin: 7 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if it uses 'terastallize' and opponent's gliscor does NOT use 'terastallize':\nheadlongrush: 352 turns to KO opponent's pokemon\nicespinner: 2 turns to KO opponent's pokemon\nrapidspin: 7 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: gliscor\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO your pokemon\nearthquake: 5 turns to KO your pokemon\nknockoff: 18 turns to KO your pokemon\ntoxic: Badly poisons opponent.  inf turns to KO your pokemon\n\nCurrent pokemon:\nogerponwellspring vs. gliscor:\nogerponwellspring outspeeds gliscor\nogerponwellspring's moves:\nivycudgel: 3 turns to KO opponent's pokemon\npowerwhip: 3 turns to KO opponent's pokemon\nknockoff: 6 turns to KO opponent's pokemon\nuturn: 11 turns to KO opponent's pokemon\nogerponwellspring's moves if opponent's gliscor uses 'terastallize':\nivycudgel: 3 turns to KO opponent's pokemon\npowerwhip: 3 turns to KO opponent's pokemon\nknockoff: 6 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nogerponwellspring's moves if it uses 'terastallize' and opponent's gliscor uses 'terastallize':\nivycudgel: 2 turns to KO opponent's pokemon\npowerwhip: 2 turns to KO opponent's pokemon\nknockoff: 6 turns to KO opponent's pokemon\nuturn: 5 turns to KO opponent's pokemon\nogerponwellspring's moves if it uses 'terastallize' and opponent's gliscor does NOT use 'terastallize':\nivycudgel: 4 turns to KO opponent's pokemon\npowerwhip: 4 turns to KO opponent's pokemon\nknockoff: 6 turns to KO opponent's pokemon\nuturn: 11 turns to KO opponent's pokemon\nOpponent moves: gliscor\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO your pokemon\nearthquake: 6 turns to KO your pokemon\nknockoff: 6 turns to KO your pokemon\ntoxic: Badly poisons opponent.  inf turns to KO your pokemon\n\nRequires switch:\ngholdengo vs. gliscor:\ngholdengo outspeeds gliscor\ngholdengo's moves:\nshadowball: 3 turns to KO opponent's pokemon\ndazzlinggleam: 4 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  3.0 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if opponent's gliscor uses 'terastallize':\nshadowball: 2 turns to KO opponent's pokemon\ndazzlinggleam: 8 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if it uses 'terastallize' and opponent's gliscor uses 'terastallize':\nshadowball: 4 turns to KO opponent's pokemon\ndazzlinggleam: 3 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  3.0 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if it uses 'terastallize' and opponent's gliscor does NOT use 'terastallize':\nshadowball: 4 turns to KO opponent's pokemon\ndazzlinggleam: 3 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  3.0 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: gliscor\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO your pokemon\nearthquake: 3 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\ntoxic: Badly poisons opponent.  inf turns to KO your pokemon\n\nRequires switch:\ndragonite vs. gliscor:\ndragonite outspeeds gliscor\ndragonite's moves:\nextremespeed: 4 turns to KO opponent's pokemon\nearthquake: 352 turns to KO opponent's pokemon\ndragontail: 4 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if opponent's gliscor uses 'terastallize':\nextremespeed: 4 turns to KO opponent's pokemon\nearthquake: 352 turns to KO opponent's pokemon\ndragontail: 2 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if it uses 'terastallize' and opponent's gliscor uses 'terastallize':\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\ndragontail: 6 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if it uses 'terastallize' and opponent's gliscor does NOT use 'terastallize':\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 352 turns to KO opponent's pokemon\ndragontail: 6 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: gliscor\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO your pokemon\nearthquake: 324 turns to KO your pokemon\nknockoff: 7 turns to KO your pokemon\ntoxic: Badly poisons opponent.  inf turns to KO your pokemon\n\nRequires switch:\ntinglu vs. gliscor:\ngliscor outspeeds tinglu\ntinglu's moves:\nearthquake: 352 turns to KO opponent's pokemon\nruination: 71 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if opponent's gliscor uses 'terastallize':\nearthquake: 4 turns to KO opponent's pokemon\nruination: 176 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's gliscor uses 'terastallize':\nearthquake: 3 turns to KO opponent's pokemon\nruination: 118 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's gliscor does NOT use 'terastallize':\nearthquake: 352 turns to KO opponent's pokemon\nruination: 118 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: gliscor\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO your pokemon\nearthquake: 6 turns to KO your pokemon\nknockoff: 24 turns to KO your pokemon\ntoxic: Badly poisons opponent.  inf turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ogerponwellspring,Type:Grass and Water,HP:100%Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmask",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Ogerpon Wellspring has a clear advantage over Gliscor due to its Grass typing, which is super effective against Gliscor's Ground type. Additionally, Ogerpon outspeeds Gliscor, allowing it to potentially knock it out with a powerful move like Power Whip or Ivy Cudgel. The situation does not require modeling future moves from the opponent since the outcome is straightforward and can be calculated quickly. Therefore, using the damage calculator will yield optimal results efficiently.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:100%Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? False\nRequires switch:\ndarkrai vs. cinderace:\ndarkrai outspeeds cinderace\ndarkrai's moves:\ndarkpulse: 2 turns to KO opponent's pokemon\nicebeam: 4 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 3 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 7 turns to KO your pokemon\n\nRequires switch:\ngreattusk vs. cinderace:\ncinderace outspeeds greattusk\ngreattusk's moves:\nheadlongrush: 1 turns to KO opponent's pokemon\nicespinner: 5 turns to KO opponent's pokemon\nrapidspin: 4 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 12 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 12 turns to KO your pokemon\n\nRequires switch:\ngholdengo vs. cinderace:\ncinderace outspeeds gholdengo\ngholdengo's moves:\nshadowball: 1 turns to KO opponent's pokemon\ndazzlinggleam: 5 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 2 turns to KO your pokemon\nuturn: 16 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 3 turns to KO your pokemon\n\nRequires switch:\ndragonite vs. cinderace:\ncinderace outspeeds dragonite\ndragonite's moves:\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 301 turns to KO opponent's pokemon\ndragontail: 2 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 5 turns to KO your pokemon\nuturn: 9 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. cinderace:\ncinderace outspeeds tinglu\ntinglu's moves:\nearthquake: 1 turns to KO opponent's pokemon\nruination: 61 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 5 turns to KO your pokemon\nuturn: 5 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 16 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: True, Status: None]",
+                    "score": 50,
+                    "rationale": "{'EffectiveMoves': 'Gholdengo can KO Cinderace with Shadow Ball.', 'TypeMatchup': \"Cinderace has a type advantage with Fire against Gholdengo's Steel.\", 'SpeedControl': 'Cinderace outspeeds Gholdengo, putting pressure on it.', 'TeamAdvantage': 'Gholdengo is the only Pokémon left with full HP, but the opponent has a healthy Cinderace.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Switching would forfeit a turn and Gholdengo is currently in a good position.', 'OpponentPressure': 'Cinderace can deal significant damage to Gholdengo quickly.', 'Uncertainty': 'n/a', 'WinPlan': 'Focus on using Shadow Ball to take down Cinderace.'}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -15,
+                        "TeamAdvantage": -5,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": 0,
+                        "WinPlan": 5
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gholdengo",
+                "score": 50,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -15,
+                    "TeamAdvantage": -5,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": 0,
+                    "WinPlan": 5
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:100%Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nRequires switch:\ndarkrai vs. cinderace:\ndarkrai outspeeds cinderace\ndarkrai's moves:\ndarkpulse: 3 turns to KO opponent's pokemon\nicebeam: 2 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 2 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 7 turns to KO your pokemon\n\nRequires switch:\ngreattusk vs. cinderace:\ncinderace outspeeds greattusk\ngreattusk's moves:\nheadlongrush: 2 turns to KO opponent's pokemon\nicespinner: 2 turns to KO opponent's pokemon\nrapidspin: 4 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 3 turns to KO your pokemon\nuturn: 12 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 12 turns to KO your pokemon\n\nRequires switch:\ndragonite vs. cinderace:\ncinderace outspeeds dragonite\ndragonite's moves:\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 301 turns to KO opponent's pokemon\ndragontail: 1 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 9 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. cinderace:\ncinderace outspeeds tinglu\ntinglu's moves:\nearthquake: 2 turns to KO opponent's pokemon\nruination: 151 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 5 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 16 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "darkrai (pokemon object) [Active: True, Status: None]",
+                    "score": 50,
+                    "rationale": "{'EffectiveMoves': 'Darkrai can use Ice Beam to KO Cinderace in 2 turns.', 'TypeMatchup': \"Darkrai's Dark type is neutral against Cinderace's Fire type.\", 'SpeedControl': 'Darkrai outspeeds Cinderace, allowing it to attack first.', 'TeamAdvantage': 'You have 5 Pokémon remaining while the opponent has 1.', 'BoostsAndStatus': 'Darkrai has no boosts but can inflict a burn with Will-O-Wisp.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Switching would forfeit a turn and allow Cinderace to attack first.', 'OpponentPressure': 'Cinderace can deal significant damage with Pyro Ball.', 'Uncertainty': \"Cinderace's Tera type adds unpredictability to its moves.\", 'WinPlan': 'Focus on using Ice Beam to take out Cinderace quickly.'}",
+                    "opponent_action": "pyroball (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 0,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -5,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 5
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: darkrai",
+                "score": 50,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 0,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": -5,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 5
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:100%Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nCurrent pokemon:\ndarkrai vs. cinderace:\ndarkrai outspeeds cinderace\ndarkrai's moves:\ndarkpulse: 3 turns to KO opponent's pokemon\nicebeam: 2 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\ndarkrai's moves if it uses 'terastallize'darkpulse: 3 turns to KO opponent's pokemon\nicebeam: 2 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 2 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 7 turns to KO your pokemon\n\nRequires switch:\ngreattusk vs. cinderace:\ncinderace outspeeds greattusk\ngreattusk's moves:\nheadlongrush: 2 turns to KO opponent's pokemon\nicespinner: 2 turns to KO opponent's pokemon\nrapidspin: 4 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if it uses 'terastallize'headlongrush: 1 turns to KO opponent's pokemon\nicespinner: 2 turns to KO opponent's pokemon\nrapidspin: 4 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 3 turns to KO your pokemon\nuturn: 12 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 12 turns to KO your pokemon\n\nRequires switch:\ndragonite vs. cinderace:\ncinderace outspeeds dragonite\ndragonite's moves:\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 301 turns to KO opponent's pokemon\ndragontail: 1 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if it uses 'terastallize'extremespeed: 2 turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\ndragontail: 3 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 9 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. cinderace:\ncinderace outspeeds tinglu\ntinglu's moves:\nearthquake: 2 turns to KO opponent's pokemon\nruination: 151 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize'earthquake: 2 turns to KO opponent's pokemon\nruination: 101 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 5 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 16 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "darkpulse (Move object)",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Tinglu can use Earthquake to potentially knock out Cinderace quickly.', 'TypeMatchup': 'Cinderace has a type advantage over Tinglu with its Fire-type moves.', 'SpeedControl': 'Cinderace outspeeds Tinglu, allowing it to attack first.', 'TeamAdvantage': 'You have two fainted Pokémon, while the opponent has all their Pokémon remaining.', 'BoostsAndStatus': 'No boosts or status effects are currently in play.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Switching would allow Cinderace to attack first, likely resulting in a KO.', 'OpponentPressure': 'Cinderace can deal significant damage to Tinglu with Pyro Ball.', 'Uncertainty': 'n/a', 'WinPlan': 'Focus on using Earthquake to take out Cinderace before it can attack.'}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "greattusk (pokemon object) [Active: False, Status: None]",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Tinglu can use Earthquake to potentially knock out Cinderace quickly.', 'TypeMatchup': \"Cinderace has a type advantage with Fire against Tinglu's Grass typing.\", 'SpeedControl': 'Cinderace outspeeds Tinglu, allowing it to attack first.', 'TeamAdvantage': 'The opponent has one remaining Pokémon, while you have three, giving you a numerical advantage.', 'BoostsAndStatus': \"Tinglu has no boosts, but its ability lowers opponent's Special Attack.\", 'HazardsAndField': 'There are no hazards currently affecting the battlefield.', 'SwitchingCost': 'Switching would allow Cinderace to attack first, risking a KO.', 'OpponentPressure': 'Cinderace poses a significant threat with its powerful moves.', 'Uncertainty': 'Cinderace could terastallize, changing the dynamics of the battle.', 'WinPlan': 'The plan is to use Earthquake to take down Cinderace quickly.'}",
+                    "opponent_action": "pyroball (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -5,
+                        "WinPlan": 5
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Tinglu can use Earthquake to potentially knock out Cinderace.', 'TypeMatchup': \"Cinderace is a Fire-type, which is not weak to Tinglu's Dark-type moves.\", 'SpeedControl': 'Cinderace outspeeds Tinglu, allowing it to attack first.', 'TeamAdvantage': 'You have two fainted Pokémon, while the opponent has one fainted Pokémon.', 'BoostsAndStatus': 'Tinglu has no boosts, and Cinderace is at full health.', 'HazardsAndField': 'There are no traps set on the field.', 'SwitchingCost': 'Switching would allow Cinderace to attack first, which is risky.', 'OpponentPressure': 'Cinderace can KO Tinglu in 3 turns with Pyro Ball.', 'Uncertainty': 'The opponent could potentially terastallize, changing the dynamics.', 'WinPlan': 'The best plan is to use Earthquake to try to defeat Cinderace.'}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -5,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": 5
+                    }
+                },
+                {
+                    "player_action": "icebeam (Move object)",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Tinglu can use Earthquake to potentially knock out Cinderace quickly.', 'TypeMatchup': \"Cinderace has a type advantage with Fire against Tinglu's Grass-type moves.\", 'SpeedControl': 'Cinderace outspeeds Tinglu, which is a significant disadvantage.', 'TeamAdvantage': 'The opponent has a full HP Cinderace while Tinglu is at 55% HP.', 'BoostsAndStatus': 'Tinglu has no boosts and is not affected by any status conditions.', 'HazardsAndField': 'There are no hazards set on the field, which is neutral.', 'SwitchingCost': 'Switching would forfeit a move and allow Cinderace to attack first.', 'OpponentPressure': 'Cinderace can deal significant damage to Tinglu with Pyro Ball.', 'Uncertainty': 'Cinderace could potentially terastallize, making it harder to predict.', 'WinPlan': 'The best plan is to use Earthquake to try to knock out Cinderace.'}",
+                    "opponent_action": "pyroball (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Darkpulse",
+                "score": 0,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:48%Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nCurrent pokemon:\ndarkrai vs. cinderace:\ndarkrai outspeeds cinderace\ndarkrai's moves:\ndarkpulse: 2 turns to KO opponent's pokemon\nicebeam: 1 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\ndarkrai's moves if it uses 'terastallize'darkpulse: 2 turns to KO opponent's pokemon\nicebeam: 1 turns to KO opponent's pokemon\nnastyplot: Sharply raises user's Special Attack.  2.0 turns to KO opponent's pokemon\nwillowisp: Burns opponent.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 2 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 7 turns to KO your pokemon\n\nRequires switch:\ngreattusk vs. cinderace:\ncinderace outspeeds greattusk\ngreattusk's moves:\nheadlongrush: 1 turns to KO opponent's pokemon\nicespinner: 1 turns to KO opponent's pokemon\nrapidspin: 2 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if it uses 'terastallize'headlongrush: 1 turns to KO opponent's pokemon\nicespinner: 1 turns to KO opponent's pokemon\nrapidspin: 2 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 3 turns to KO your pokemon\nuturn: 12 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 12 turns to KO your pokemon\n\nRequires switch:\ndragonite vs. cinderace:\ncinderace outspeeds dragonite\ndragonite's moves:\nextremespeed: 1 turns to KO opponent's pokemon\nearthquake: 145 turns to KO opponent's pokemon\ndragontail: 1 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if it uses 'terastallize'extremespeed: 1 turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\ndragontail: 2 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 9 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. cinderace:\ncinderace outspeeds tinglu\ntinglu's moves:\nearthquake: 1 turns to KO opponent's pokemon\nruination: 73 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize'earthquake: 1 turns to KO opponent's pokemon\nruination: 49 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: cinderace\npyroball: 4 turns to KO your pokemon\nuturn: 5 turns to KO your pokemon\ncourtchange: Swaps the effects on either side of the field.  inf turns to KO your pokemon\nsuckerpunch: 16 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:darkrai,Type:Dark,HP:100%Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "darkpulse (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Darkrai outspeeds Cinderace and can knock it out with Ice Beam in one turn. This presents a clear type advantage with a high-power move available, making the damage calculator method more efficient to determine the best move. The opponent's next move is somewhat predictable as they might use Pyro Ball, but since Darkrai is at full health, it can withstand it. Therefore, I will use the damage calculator to maximize my chances of victory quickly.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Darkpulse",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:100%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ngreattusk vs. zamazenta:\nzamazenta outspeeds greattusk\ngreattusk's moves:\nheadlongrush: 3 turns to KO opponent's pokemon\nicespinner: 7 turns to KO opponent's pokemon\nrapidspin: 10 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\ncrunch: 13 turns to KO your pokemon\nbodypress: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\n\nRequires switch:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 6 turns to KO opponent's pokemon\nearthquake: 388 turns to KO opponent's pokemon\ndragontail: 6 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\ncrunch: 5 turns to KO your pokemon\nbodypress: 7 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. zamazenta:\nzamazenta outspeeds tinglu\ntinglu's moves:\nearthquake: 5 turns to KO opponent's pokemon\nruination: 194 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\ncrunch: 17 turns to KO your pokemon\nbodypress: 4 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "greattusk (pokemon object) [Active: True, Status: None]",
+                    "score": 1,
+                    "rationale": "{'EffectiveMoves': \"Great Tusk's moves are ineffective against Zamazenta, as it has high defense.\", 'TypeMatchup': \"Zamazenta's Fighting type is strong against Great Tusk's Fighting type.\", 'SpeedControl': 'Zamazenta outspeeds Great Tusk, allowing it to attack first.', 'TeamAdvantage': 'You have only one Pokémon left against an opponent with a full team.', 'BoostsAndStatus': 'No boosts or status effects are currently in play.', 'HazardsAndField': 'No hazards are set on the field, but opponent has a defensive boost.', 'SwitchingCost': 'Switching to another Pokémon is not an option as they are all fainted.', 'OpponentPressure': 'Zamazenta can boost its defense further, increasing pressure.', 'Uncertainty': 'The outcome is highly uncertain due to the current disadvantage.', 'WinPlan': 'The only plan is to attack, but it is unlikely to succeed.'}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -20,
+                        "WinPlan": -20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: greattusk",
+                "score": 1,
+                "label_scores": {
+                    "EffectiveMoves": -20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -20,
+                    "WinPlan": -20
+                }
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:100%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ngreattusk vs. zamazenta:\nzamazenta outspeeds greattusk\ngreattusk's moves:\nheadlongrush: 3 turns to KO opponent's pokemon\nicespinner: 7 turns to KO opponent's pokemon\nrapidspin: 10 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if opponent's zamazenta uses 'terastallize':\nheadlongrush: 3 turns to KO opponent's pokemon\nicespinner: 4 turns to KO opponent's pokemon\nrapidspin: 10 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if it uses 'terastallize' and opponent's zamazenta uses 'terastallize':\nheadlongrush: 3 turns to KO opponent's pokemon\nicespinner: 4 turns to KO opponent's pokemon\nrapidspin: 10 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ngreattusk's moves if it uses 'terastallize' and opponent's zamazenta does NOT use 'terastallize':\nheadlongrush: 3 turns to KO opponent's pokemon\nicespinner: 7 turns to KO opponent's pokemon\nrapidspin: 10 turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 5 turns to KO your pokemon\ncrunch: 13 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\n\nRequires switch:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 6 turns to KO opponent's pokemon\nearthquake: 388 turns to KO opponent's pokemon\ndragontail: 6 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if opponent's zamazenta uses 'terastallize':\nextremespeed: 6 turns to KO opponent's pokemon\nearthquake: 388 turns to KO opponent's pokemon\ndragontail: 3 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if it uses 'terastallize' and opponent's zamazenta uses 'terastallize':\nextremespeed: 4 turns to KO opponent's pokemon\nearthquake: 5 turns to KO opponent's pokemon\ndragontail: 9 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\ndragonite's moves if it uses 'terastallize' and opponent's zamazenta does NOT use 'terastallize':\nextremespeed: 4 turns to KO opponent's pokemon\nearthquake: 5 turns to KO opponent's pokemon\ndragontail: 9 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 7 turns to KO your pokemon\ncrunch: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. zamazenta:\nzamazenta outspeeds tinglu\ntinglu's moves:\nearthquake: 5 turns to KO opponent's pokemon\nruination: 194 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if opponent's zamazenta uses 'terastallize':\nearthquake: 5 turns to KO opponent's pokemon\nruination: 194 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's zamazenta uses 'terastallize':\nearthquake: 4 turns to KO opponent's pokemon\nruination: 130 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's zamazenta does NOT use 'terastallize':\nearthquake: 8 turns to KO opponent's pokemon\nruination: 388 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 4 turns to KO your pokemon\ncrunch: 17 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:greattusk,Type:Ground and Fighting,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "headlongrush (Move object)",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Dragonite has access to Extremespeed, which can deal damage effectively to Zamazenta.', 'TypeMatchup': \"Dragonite's Dragon typing is neutral against Zamazenta's Fighting type.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, which is a disadvantage.', 'TeamAdvantage': 'You have only one Pokémon left while the opponent has Zamazenta, which is at full health.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Zamazenta can deal significant damage to Dragonite with Body Press.', 'Uncertainty': 'n/a', 'WinPlan': 'The only chance is to use Extremespeed to deal damage before being knocked out.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 0,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 0,
+                        "WinPlan": 0
+                    }
+                },
+                {
+                    "player_action": "dragonite (pokemon object) [Active: True, Status: None]",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Dragonite has access to Extremespeed, which is effective against Zamazenta.', 'TypeMatchup': \"Zamazenta is resistant to Dragon-type moves, making Dragonite's attacks less effective.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, giving it the advantage in terms of speed.', 'TeamAdvantage': 'You have only one Pokémon left, while the opponent has Zamazenta, which is at full health.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Zamazenta can deal significant damage to Dragonite with Body Press.', 'Uncertainty': 'n/a', 'WinPlan': 'The only plan is to use Extremespeed to try and deal damage before being knocked out.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 0,
+                        "WinPlan": 0
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Headlongrush",
+                "score": 0,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 0,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -20,
+                    "Uncertainty": 0,
+                    "WinPlan": 0
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Ground and Fighting,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:75%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 5 turns to KO opponent's pokemon\nearthquake: 291 turns to KO opponent's pokemon\ndragontail: 5 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 7 turns to KO your pokemon\ncrunch: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. zamazenta:\nzamazenta outspeeds tinglu\ntinglu's moves:\nearthquake: 4 turns to KO opponent's pokemon\nruination: 146 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 4 turns to KO your pokemon\ncrunch: 17 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Tinglu can use Earthquake effectively against Zamazenta.', 'TypeMatchup': 'Zamazenta has a type advantage against Tinglu due to its Fighting type.', 'SpeedControl': 'Zamazenta outspeeds Tinglu, putting pressure on it.', 'TeamAdvantage': 'You have only Tinglu left against Zamazenta, while the opponent has a full health Zamazenta.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Switching would result in losing a turn and potentially facing more damage.', 'OpponentPressure': 'Zamazenta can deal significant damage to Tinglu with Body Press.', 'Uncertainty': 'n/a', 'WinPlan': 'You need to rely on Earthquake to try to knock out Zamazenta quickly.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 0
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 0,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 0
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:81%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 5 turns to KO opponent's pokemon\nearthquake: 315 turns to KO opponent's pokemon\ndragontail: 5 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 7 turns to KO your pokemon\ncrunch: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\nCurrent pokemon:\ntinglu vs. zamazenta:\nzamazenta outspeeds tinglu\ntinglu's moves:\nearthquake: 4 turns to KO opponent's pokemon\nruination: 158 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 4 turns to KO your pokemon\ncrunch: 17 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's moves can deal damage but are not very effective against Zamazenta.\", 'TypeMatchup': \"Zamazenta is a Fighting type, which is strong against Dragonite's Flying type.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, allowing it to attack first.', 'TeamAdvantage': 'You have only one Pokémon left, while the opponent has one Pokémon remaining, but it is at a higher health.', 'BoostsAndStatus': 'No boosts or negative status effects are currently affecting either side.', 'HazardsAndField': 'No hazards are present on the field.', 'SwitchingCost': 'Switching would allow Zamazenta to attack first, potentially leading to a KO.', 'OpponentPressure': 'Zamazenta can KO Dragonite with its next attack.', 'Uncertainty': \"The outcome is uncertain due to the opponent's remaining health advantage.\", 'WinPlan': 'The only chance is to attack with Dragonite and hope for a critical hit.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": -10
+                    }
+                },
+                {
+                    "player_action": "dragonite (pokemon object) [Active: True, Status: None]",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's moves can deal damage to Zamazenta but are not particularly effective.\", 'TypeMatchup': 'Zamazenta has a type advantage over Dragonite with its Fighting-type moves.', 'SpeedControl': 'Zamazenta outspeeds Dragonite, allowing it to hit first.', 'TeamAdvantage': 'You have only two Pokémon remaining against an opponent with one strong Pokémon.', 'BoostsAndStatus': 'No boosts are present for either side.', 'HazardsAndField': 'No hazards are currently affecting the field.', 'SwitchingCost': 'Switching would result in losing the current turn and potentially taking damage.', 'OpponentPressure': 'Zamazenta can deal significant damage to Dragonite with Body Press.', 'Uncertainty': \"The outcome is uncertain due to the opponent's strong position.\", 'WinPlan': 'The only plan is to try to damage Zamazenta with Dragonite.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -5,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": -10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": -5
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 0,
+                "label_scores": {
+                    "EffectiveMoves": -10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": -10
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:38%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:69%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 5 turns to KO opponent's pokemon\nearthquake: 268 turns to KO opponent's pokemon\ndragontail: 4 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 7 turns to KO your pokemon\ncrunch: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\nCurrent pokemon:\ntinglu vs. zamazenta:\nzamazenta outspeeds tinglu\ntinglu's moves:\nearthquake: 4 turns to KO opponent's pokemon\nruination: 134 turns to KO opponent's pokemon\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 2 turns to KO your pokemon\ncrunch: 7 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:38%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's moves can deal damage but are not very effective against Zamazenta.\", 'TypeMatchup': \"Zamazenta is a Fighting type which is strong against Dragonite's Flying type.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, allowing it to hit first.', 'TeamAdvantage': 'You have only one Pokémon left, while the opponent has a healthy Zamazenta.', 'BoostsAndStatus': 'No boosts or status effects are currently in play.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Switching would forfeit a turn and allow Zamazenta to attack.', 'OpponentPressure': 'Zamazenta can potentially knock out Dragonite in two turns.', 'Uncertainty': 'The outcome is uncertain as you have limited options left.', 'WinPlan': 'The only plan is to attack Zamazenta with Dragonite.'}",
+                    "opponent_action": "bodypress (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": -15,
+                        "SpeedControl": -15,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": -5
+                    }
+                },
+                {
+                    "player_action": "dragonite (pokemon object) [Active: True, Status: None]",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': 'Dragonite has moves that can deal damage to Zamazenta.', 'TypeMatchup': \"Zamazenta is a Fighting type, which is weak to Flying moves, but Dragonite's Flying type moves are not super effective against it.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, which is a significant disadvantage.', 'TeamAdvantage': 'The opponent has a healthy Zamazenta while I have only Dragonite left, which is not favorable.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Zamazenta can potentially knock out Dragonite quickly with Body Press.', 'Uncertainty': 'n/a', 'WinPlan': 'The only plan is to attack with Dragonite and hope for a favorable outcome.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 5,
+                        "TypeMatchup": -5,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 0,
+                        "WinPlan": -5
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 0,
+                "label_scores": {
+                    "EffectiveMoves": -10,
+                    "TypeMatchup": -15,
+                    "SpeedControl": -15,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -5,
+                    "WinPlan": -5
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:75%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 5 turns to KO opponent's pokemon\nearthquake: 291 turns to KO opponent's pokemon\ndragontail: 5 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 7 turns to KO your pokemon\ncrunch: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\n\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:100%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "extremespeed (Move object)",
+                    "score": 0,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's Extremespeed is effective against Zamazenta, but it will take multiple turns to KO.\", 'TypeMatchup': 'Zamazenta has a type advantage as it is Fighting-type, which is strong against Dragon-type.', 'SpeedControl': 'Zamazenta outspeeds Dragonite, allowing it to attack first.', 'TeamAdvantage': 'The opponent has a healthy Zamazenta, while all of my other Pokémon are fainted.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Zamazenta can deal significant damage with Body Press, putting pressure on Dragonite.', 'Uncertainty': 'n/a', 'WinPlan': \"The only win plan is to use Extremespeed to chip away at Zamazenta's health.\"}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 5,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -15,
+                        "Uncertainty": 0,
+                        "WinPlan": 5
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Extremespeed",
+                "score": 0,
+                "label_scores": {
+                    "EffectiveMoves": 5,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -15,
+                    "Uncertainty": 0,
+                    "WinPlan": 5
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:90%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:48%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 187 turns to KO opponent's pokemon\ndragontail: 3 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 6 turns to KO your pokemon\ncrunch: 5 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\n\n\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:90%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "extremespeed (Move object)",
+                    "score": -1,
+                    "rationale": "In this situation, Dragonite has a significant speed advantage and is capable of using Extreme Speed, which can take down Zamazenta in 3 turns. The opponent's Zamazenta has a high Defense and can deal substantial damage with Body Press, but its health is already at 48%, making it vulnerable. The opponent's moves are somewhat predictable, as they would likely continue attacking with Body Press or attempt to boost with Iron Defense. Given the straightforward nature of the current state and the clear path to victory through damaging moves, the damage calculator is the more efficient choice.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Extremespeed",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:68%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:38%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 3 turns to KO opponent's pokemon\nearthquake: 148 turns to KO opponent's pokemon\ndragontail: 3 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 5 turns to KO your pokemon\ncrunch: 4 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\n\n\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:68%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "extremespeed (Move object)",
+                    "score": 15,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's Extreme Speed is effective against Zamazenta.\", 'TypeMatchup': \"Zamazenta is a Fighting type, which is neutral against Dragonite's Dragon type.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, which is a disadvantage.', 'TeamAdvantage': 'Both teams have lost two Pokémon, but Zamazenta is at a higher HP.', 'BoostsAndStatus': 'No boosts or negative status effects are currently in play.', 'HazardsAndField': 'No hazards are affecting the field.', 'SwitchingCost': 'Switching would forfeit the turn and allow Zamazenta to attack first.', 'OpponentPressure': 'Zamazenta can deal significant damage to Dragonite with Body Press.', 'Uncertainty': 'The outcome is uncertain as both Pokémon are at risk.', 'WinPlan': 'The plan is to use Extreme Speed to try to knock out Zamazenta.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 0,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": -5,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 5
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Extremespeed",
+                "score": 15,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 0,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": -5,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 5
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:49%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:31%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 2 turns to KO opponent's pokemon\nearthquake: 121 turns to KO opponent's pokemon\ndragontail: 2 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 4 turns to KO your pokemon\ncrunch: 3 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\n\n\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:49%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "extremespeed (Move object)",
+                    "score": -1,
+                    "rationale": "In this situation, Dragonite is at 49% HP and can outspeed Zamazenta, allowing it to deal damage effectively. Zamazenta's Body Press is a significant threat, but it is predictable, and with only a few turns left before it can knock out Dragonite, a direct damage calculation is most beneficial to assess if Extreme Speed can finish it off quickly. Furthermore, the opponent's potential for Iron Defense may complicate matters, but the immediate need to deal damage takes priority. Thus, using the damage calculator will help find the optimal move quickly.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Extremespeed",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Pokemon:darkrai,Type:Dark,HP:0%Status:fainted,Ability:Bad Dreams(Damages opposing Pokémon that are asleep.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:greattusk,Type:Steel,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? True\nPokemon:ogerponwellspring,Type:Grass and Water,HP:0%Status:fainted,Ability:Water Absorb(If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.),Item:wellspringmaskTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:dragonite,Type:Dragon and Flying,HP:29%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:NORMAL (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:WATER (pokemon type) object Is terastallized? False\nPokemon:cinderace,Type:Fire,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:FIRE (pokemon type) object Is terastallized? True\nPokemon:zamazenta,Type:Fighting,HP:22%Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragonite vs. zamazenta:\nzamazenta outspeeds dragonite\ndragonite's moves:\nextremespeed: 2 turns to KO opponent's pokemon\nearthquake: 86 turns to KO opponent's pokemon\ndragontail: 2 turns to KO opponent's pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO opponent's pokemon\nOpponent moves: zamazenta\nbodypress: 2 turns to KO your pokemon\ncrunch: 2 turns to KO your pokemon\nirondefense: Sharply raises user's Defense.  inf turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\n\n\nYour current pokemon:dragonite,Type:Dragon and Flying,HP:29%Ability:Multiscale(Reduces the amount of damage the Pokémon takes while its HP is full.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "extremespeed (Move object)",
+                    "score": 10,
+                    "rationale": "{'EffectiveMoves': \"Dragonite's Extreme Speed can KO Zamazenta in one hit.\", 'TypeMatchup': \"Zamazenta's Fighting type is strong against Dragonite's Normal type moves.\", 'SpeedControl': 'Zamazenta outspeeds Dragonite, which is a significant disadvantage.', 'TeamAdvantage': 'You have only one Pokémon left, while the opponent has one Pokémon with a decent amount of HP.', 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Zamazenta can hit Dragonite hard with Body Press, putting pressure on your remaining Pokémon.', 'Uncertainty': 'n/a', 'WinPlan': 'The only win plan is to use Extreme Speed to try to take out Zamazenta.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -20,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Extremespeed",
+                "score": 10,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -20,
+                    "Uncertainty": 0,
+                    "WinPlan": 10
+                }
+            }
+        }
+    }
+}

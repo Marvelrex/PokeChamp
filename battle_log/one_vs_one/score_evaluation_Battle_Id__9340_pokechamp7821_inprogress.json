@@ -1,0 +1,260 @@
+{
+    "Battle Id: 9340": {
+        "Turn 1": [
+            [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Iron Crown outspeeds Primarina and can deal significant damage with moves like Futuresight and Tachyon Cutter. The presence of a clear type advantage (Steel vs. Fairy) also favors Iron Crown, allowing for a quick KO. Given that the opponent is unlikely to switch and Iron Crown can potentially knock out Primarina in the next turn, using the damage calculator to find the optimal move would be efficient. Therefore, the damage calculator is the best choice for this situation.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Futuresight",
+                "score": -1
+            }
+        ],
+        "Turn 2": [
+            [
+                {
+                    "player_action": "tachyoncutter (Move object)",
+                    "score": -1,
+                    "rationale": "In this situation, Iron Crown has a type advantage over Dragapult due to its Steel typing, which resists Dragon-type moves. Additionally, Iron Crown has a solid health pool and can utilize its move options effectively. However, Dragapult outspeeds Iron Crown, making it necessary to predict its next move carefully. Given the clear type advantage and the ability to calculate immediate damage output, using the damage calculator is more beneficial here.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Tachyoncutter terastallize",
+                "score": -1
+            }
+        ],
+        "Turn 3": [
+            [
+                {
+                    "player_action": "focusblast (Move object)",
+                    "score": -1,
+                    "rationale": "In this situation, Iron Crown is at full health and has a type advantage over Primarina. The available moves indicate that Iron Crown can use powerful attacks against Primarina, which is currently at 100% HP. The opponent's next move is somewhat predictable as Primarina may attempt to deal damage or set up. Given the clear type advantage and the potential to knock out the opponent quickly, the damage calculator method is more suitable for this scenario.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Focusblast",
+                "score": -1
+            }
+        ],
+        "Turn 4": [
+            [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Iron Crown has a clear advantage with its type matchup against Primarina, as it can use Focus Blast effectively. The opponent's Primarina is at 27% HP, making it vulnerable to a well-placed attack. Given that Iron Crown outspeeds Primarina, I can confidently use a damaging move to secure a knockout. Therefore, using the damage calculator to find the optimal move is appropriate here, as it allows for a quick decision in this straightforward scenario.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Futuresight",
+                "score": -1
+            }
+        ],
+        "Turn 5": [
+            [
+                {
+                    "player_action": "landorustherian (pokemon object) [Active: True, Status: None]",
+                    "score": 65,
+                    "rationale": "Landorus-Therian outspeeds Kingambit and can use Earth Power effectively, which is a strong move against it. The opponent has two Pokémon remaining, but they are both strong. Landorus-Therian's Intimidate ability lowers Kingambit's Attack, giving a slight advantage. The opponent's Primarina is at low health, but Dragapult can still pose a threat. However, the opponent has more Pokémon left, which decreases the chances of winning. Overall, the situation is somewhat favorable but still precarious, leading to a score of 65.",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: None]"
+                },
+                {
+                    "player_action": "dragapult (pokemon object) [Active: False, Status: None]",
+                    "score": 35,
+                    "rationale": "Landorus-Therian has a good HP percentage and outspeeds Kingambit, allowing it to potentially use Earth Power effectively. However, the opponent has three Pokémon remaining, including a boosted Kingambit, which poses a significant threat. The lack of entry hazards on the opponent's side and the effectiveness of their moves against Landorus-Therian also negatively impact the score. Overall, the player is at a disadvantage due to the opponent's remaining Pokémon and potential threats.",
+                    "opponent_action": "moonblast (Move object)"
+                }
+            ],
+            {
+                "best_action": "Switch: landorustherian",
+                "score": 65
+            }
+        ],
+        "Turn 6": [
+            [
+                {
+                    "player_action": "earthpower (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Landorus is at full health and outspeeds Primarina, which has low HP (27%). Using Earth Power will likely KO Primarina immediately, giving me a significant advantage. The opponent's choice of move is somewhat predictable since Primarina is likely to use Moonblast to retaliate, but it won't survive the hit. Thus, a straightforward damage calculation to confirm the KO is sufficient and efficient in this situation.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Earthpower",
+                "score": -1
+            }
+        ],
+        "Turn 7": [
+            [
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: False, Status: None]",
+                    "score": 55,
+                    "rationale": "Iron Crown has fainted, leaving me with Landorus and Samurotthisui against Primarina and Kingambit. Landorus outspeeds both opponents and can use Earth Power effectively against Kingambit. Samurotthisui also outspeeds Primarina and can use Ceaseless Edge, which is effective against it. However, Kingambit has a strong move set against both of my Pokémon, and I have lost my Dragapult, which was a strong attacker. The opponent has two Pokémon remaining, while I only have two as well, but my Pokémon are at a disadvantage against Kingambit. Therefore, I will adjust the score based on these factors, but I still have some strong moves available to me. The overall situation is precarious, but not hopeless. Thus, I will score it at 55 points.",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: None]"
+                },
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "score": 45,
+                    "rationale": "Landorus outspeeds both Primarina and Kingambit, allowing it to use Earth Power effectively against either. Samurott also outspeeds Primarina and can use Ceaseless Edge, which is effective. However, Kingambit poses a significant threat with its strong moves and higher HP. The opponent has two Pokémon left, while I have two as well, but Landorus is at low health. The opponent's Primarina has a strong move in Moonblast that can easily take down my Pokémon. Overall, my chances are diminished due to the opponent's remaining Pokémon and their potential moves.",
+                    "opponent_action": "kingambit (pokemon object) [Active: True, Status: None]"
+                }
+            ],
+            {
+                "best_action": "Switch: samurotthisui",
+                "score": 55
+            }
+        ],
+        "Turn 8": [
+            [
+                {
+                    "player_action": "ceaselessedge (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, my Samurott-Hisui outspeeds both opposing Pokémon (Primarina and Kingambit) and has strong attacking moves that can potentially knock them out in one turn. Given the clear type advantage against Primarina with Water-type moves and the ability to deal significant damage, using the damage calculator will allow me to quickly determine the optimal move to secure a KO. The opponent's moves are predictable, as they are likely to attack back without switching, making this scenario suitable for a quick damage assessment rather than a complex strategy analysis.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Ceaselessedge",
+                "score": -1
+            }
+        ],
+        "Turn 9": [
+            [
+                {
+                    "player_action": "ceaselessedge (Move object)",
+                    "score": -1,
+                    "rationale": "In this situation, I have Samurott with 100% HP and the ability to outspeed Primarina. I can choose moves that will likely KO the opponent quickly, especially since I can use Ceaseless Edge or Razor Shell, both of which are effective against Primarina. Given the clear advantage in type matchups and the high probability of a KO, the damage calculator will allow me to quickly assess the best move to use. Therefore, a straightforward approach is more beneficial here.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Ceaselessedge",
+                "score": -1
+            }
+        ],
+        "Turn 10": [
+            [
+                {
+                    "player_action": "ceaselessedge (Move object)",
+                    "score": -1,
+                    "rationale": "In this battle state, I have Samurott against Primarina. Samurott can outspeed and potentially KO Primarina with either Ceaseless Edge or Razor Shell. The opponent is likely to use a powerful move like Focus Blast, which can KO Samurott in 2 turns. Given the clear advantage of dealing damage and the ability to predict the opponent's move, using the damage calculator is more beneficial for optimizing my damage output against Primarina.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Ceaselessedge",
+                "score": -1
+            }
+        ],
+        "Turn 11": [
+            [
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: None]",
+                    "score": 70,
+                    "rationale": "Dragapult outspeeds all opposing Pokémon and has strong moves available, such as Dragondarts and U-turn, which can effectively deal damage. The opponent has only three Pokémon remaining, while the player has two, giving a slight advantage. However, the opponent's Primarina can use powerful moves like Moonblast, which is a threat to Dragapult. The player has set Spikes, which can damage the opponent's Pokémon upon switching in, providing an edge. The player has no status effects and is not hindered by entry hazards, which is favorable. Overall, the situation is moderately favorable for the player, but the opponent still has a strong presence with Primarina and Kingambit.",
+                    "opponent_action": "ironcrown (pokemon object) [Active: True, Status: None]"
+                }
+            ],
+            {
+                "best_action": "Switch: dragapult",
+                "score": 70
+            }
+        ],
+        "Turn 12": [
+            [
+                {
+                    "player_action": "dragondarts (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Dragapult outspeeds Primarina and has moves that can deal significant damage. Given that Dragapult can effectively KO Primarina with Dragondarts in 1 turn, the situation is straightforward. There are no complex predictions needed, and the opponent's next move is somewhat predictable as they will likely try to attack. Therefore, using the damage calculator will provide the quickest route to determining the optimal move.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Dragondarts",
+                "score": -1
+            }
+        ],
+        "Turn 13": [
+            [
+                {
+                    "player_action": "primarina (pokemon object) [Active: False, Status: None]",
+                    "score": 15,
+                    "rationale": "The player has one Pokémon left (Landorus) with 9% HP, while the opponent has three Pokémon remaining (Kingambit, Iron Crown, and Primarina). Landorus outspeeds Primarina, but is at a significant HP disadvantage and is vulnerable to Iron Crown's moves. The opponent's Kingambit has a boosted attack due to Supreme Overlord, making it a significant threat. The player has set Spikes, which can damage incoming Pokémon, but the player is at a severe disadvantage with only one Pokémon left. The effectiveness of Landorus's moves against the opponent's Pokémon is limited, and the opponent's moves are highly effective against Landorus. Overall, the player is in a precarious position with low HP and fewer Pokémon remaining, leading to a low score.",
+                    "opponent_action": "suckerpunch (Move object)"
+                },
+                {
+                    "player_action": "landorustherian (pokemon object) [Active: True, Status: None]",
+                    "score": 15,
+                    "rationale": "The player has 1 Pokémon remaining (Landorus) with low HP (9%), while the opponent has 3 Pokémon remaining (Kingambit, Iron Crown, and Primarina), which are all in better condition. Landorus's Intimidate ability lowers Kingambit's attack, but it is still at risk from Iron Crown's faster moves. The opponent has entry hazards (Spikes) that will damage the player's Pokémon upon switching. Landorus can use Earth Power effectively against Kingambit, but it is unlikely to survive subsequent attacks. The player has no boosted status effects and is at a significant disadvantage due to the number of remaining Pokémon on the opponent's team. Overall, the player's chances of winning are very low due to the current state of the battle.",
+                    "opponent_action": "suckerpunch (Move object)"
+                }
+            ],
+            {
+                "best_action": "Switch: primarina",
+                "score": 15
+            }
+        ],
+        "Turn 14": [
+            [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "In this battle state, Primarina has a clear type advantage over Kingambit, and its moves can easily knock it out in one turn. The opponent's Kingambit is at low health (11%), making it vulnerable to Primarina's powerful moves like Moonblast or Surf. Given these factors, the damage calculator is optimal here as it can quickly determine the best move to use against Kingambit without the need for complex predictions.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Surf",
+                "score": -1
+            }
+        ],
+        "Turn 15": [
+            [
+                {
+                    "player_action": "calmmind (Move object)",
+                    "score": -1,
+                    "rationale": "In the current battle state, Primarina has a significant health advantage and outspeeds Kingambit, allowing it to potentially KO with Surf or Moonblast. The opponent's Kingambit has low health remaining and is vulnerable due to the presence of Spikes, which makes it less likely to switch. Given the clear type advantage and the ability to predict a straightforward KO move, using a damage calculator is the most efficient choice for this situation.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Calmmind",
+                "score": -1
+            }
+        ],
+        "Turn 16": [
+            [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "In this situation, Primarina has a clear advantage against both the opposing Primarina and Iron Crown. Using Surf will guarantee a KO against the opposing Primarina, who is currently at 58% HP. The damage calculator is optimal here as it allows me to quickly determine the best move to use without needing to model complex future scenarios. Since the opponent's next move is predictable and I can secure a knockout, the damage calculator is the best choice.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Surf",
+                "score": -1
+            }
+        ],
+        "Turn 17": [
+            [
+                {
+                    "player_action": "surf (Move object)",
+                    "score": -1,
+                    "rationale": "In the current situation, Primarina is at 32% HP and faces an opposing Iron Crown that outspeeds it. Using a damaging move like Surf or Moonblast can potentially KO Iron Crown, but there's uncertainty due to the opponent's ability to switch and their likely Volt Switch. Since the opponent's next move is predictable (Volt Switch), the damage calculator can be used to quickly assess the best move for Primarina to maximize damage and potentially secure a KO before being knocked out.",
+                    "opponent_action": "None"
+                }
+            ],
+            {
+                "best_action": "Move: Surf",
+                "score": -1
+            }
+        ]
+    }
+}

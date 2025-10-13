@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen9ou-981</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen9ou-981<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">pokechamp25609</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">pokellmon5609</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen9ou-981|init|battle
+|title|pokellmon5609 vs. pokechamp25609
+|j|☆pokellmon5609
+|j|☆pokechamp25609
+|gametype|singles
+|player|p1|pokellmon5609|1|
+|player|p2|pokechamp25609|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Enamorus, F|
+|poke|p2|Gholdengo|
+|poke|p2|Ting-Lu|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Garganacl, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|378/378
+|-ability|p1a: Corviknight|Pressure
+|turn|1
+|move|p2a: Gholdengo|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|move|p1a: Corviknight|Body Press|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|-heal|p1a: Corviknight|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|move|p2a: Gholdengo|Focus Blast|p1a: Corviknight
+|-damage|p1a: Corviknight|51/100
+|move|p1a: Corviknight|Body Press|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|-heal|p1a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|move|p2a: Gholdengo|Focus Blast|p1a: Corviknight
+|-damage|p1a: Corviknight|25/100
+|move|p1a: Corviknight|Body Press|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|-heal|p1a: Corviknight|31/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|move|p2a: Gholdengo|Focus Blast|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|upkeep
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|5
+|move|p1a: Glimmora|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|160/378
+|move|p2a: Gholdengo|Hex|p1a: Glimmora
+|-damage|p1a: Glimmora|64/100
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: Gholdengo
+|drag|p2a: Ogerpon|Ogerpon, F|301/301
+|upkeep
+|turn|6
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Glimmora
+|-damage|p1a: Glimmora|7/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: pokechamp25609|move: Toxic Spikes
+|move|p1a: Glimmora|Earth Power|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|246/301
+|upkeep
+|turn|7
+|move|p2a: Ogerpon|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: pokechamp25609|move: Toxic Spikes
+|faint|p1a: Glimmora
+|upkeep
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|8
+|move|p1a: Iron Valiant|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|74/301
+|-unboost|p2a: Ogerpon|spa|1
+|-ability|p2a: Ogerpon|Defiant|boost
+|-boost|p2a: Ogerpon|atk|2
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|9
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|51/100
+|-enditem|p1a: Kingambit|Air Balloon
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|upkeep
+|switch|p2a: Deoxys|Deoxys-Speed|241/241
+|-ability|p2a: Deoxys|Pressure
+|turn|10
+|move|p2a: Deoxys|Superpower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Deoxys|atk|1
+|-unboost|p2a: Deoxys|def|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|upkeep
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|11
+|move|p1a: Enamorus|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|18/241
+|move|p2a: Deoxys|Ice Beam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|35/100
+|upkeep
+|turn|12
+|move|p1a: Enamorus|Moonblast|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|upkeep
+|switch|p2a: Ting-Lu|Ting-Lu|514/514
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|13
+|switch|p2a: Gliscor|Gliscor, M|352/352
+|move|p1a: Enamorus|Moonblast|p2a: Gliscor
+|-damage|p2a: Gliscor|195/352
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|switch|p2a: Garganacl|Garganacl, M|404/404
+|move|p1a: Enamorus|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|221/404
+|-heal|p2a: Garganacl|246/404|[from] item: Leftovers
+|upkeep
+|turn|15
+|move|p1a: Enamorus|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|81/404
+|-unboost|p2a: Garganacl|spa|1
+|move|p2a: Garganacl|Salt Cure|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-heal|p2a: Garganacl|106/404|[from] item: Leftovers
+|upkeep
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|16
+|switch|p2a: Gliscor|Gliscor, M|195/352 tox
+|move|p1a: Dragapult|Sucker Punch||[still]
+|-fail|p1a: Dragapult
+|-heal|p2a: Gliscor|239/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|move|p1a: Dragapult|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|172/352 tox
+|move|p2a: Gliscor|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|53/100
+|-heal|p2a: Gliscor|216/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|move|p1a: Dragapult|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|156/352 tox
+|move|p2a: Gliscor|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|6/100
+|-heal|p2a: Gliscor|200/352 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|move|p1a: Dragapult|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|135/352 tox
+|move|p2a: Gliscor|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

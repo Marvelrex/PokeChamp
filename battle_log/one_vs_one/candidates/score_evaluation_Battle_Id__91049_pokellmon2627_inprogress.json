@@ -1,0 +1,671 @@
+{
+    "Battle Id: 91049": {
+        "Turn 1": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:100%Attack:226,Defense:295,Special attack:113,Special defense:267,Speed:226, Bug, Poison-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\n\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than gliscor).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Ground-type attack is super-effective (2x damage) to ragingbolt. Flying-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:107,Acc:100%,Effect:Strikes before a target's move. (zero effect (0x damage) to gliscor)\nMove:terablast,Type:Normal,Power:123,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:131,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 5 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than gliscor). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,0.5x damage],[knockoff,Dark,1x damage], Flying-type attack is super-effective (2x damage) to rillaboom. Ground-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than gliscor). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than gliscor). Moves:[shadowball,Ghost,1x damage],[moonblast,Fairy,1x damage], Flying-type attack is super-effective (2x damage) to ironvaliant.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gliscor). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,0.5x damage], Ground-type attack is extremely-effective (4x damage) to ironmoth.\nPokemon:kingambit,Type:Dark and Steel,HP:100%,Attack:369,Defense:277,Special attack:140,Special defense:206,Speed:218(slower than gliscor). Moves:[kowtowcleave,Dark,1x damage],[suckerpunch,Dark,1x damage],[ironhead,Steel,1x damage], Ground-type attack is super-effective (2x damage) to kingambit. Flying-type attack is ineffective (0.5x damage) to kingambit.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragonpulse (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironvaliant's Thunderclap is ineffective against Gliscor, but Dragonpulse is super-effective.\", 'TypeMatchup': \"Ironvaliant is super-effective against Gliscor, while Gliscor is immune to Raging Bolt's Dragonpulse.\", 'SpeedControl': 'Ironvaliant outspeeds Gliscor.', 'TeamAdvantage': 'Ironvaliant has better Special Attack and Special Defense than Gliscor.', 'BoostsAndStatus': 'Ironvaliant has Protosynthesis and Calmmind boosts Special Attack and Special Defense.', 'HazardsAndField': 'Stickyweb could trap Gliscor, but Spikes or Toxic Spikes are not currently in play.', 'SwitchingCost': 'Switching out would give Gliscor a free turn.', 'OpponentPressure': \"Gliscor's Protect negates most damage, but its Ground-type immunity makes it resistant to many of Ironvaliant's moves.\", 'Uncertainty': \"Gliscor's Protect makes it difficult to assess its true damage potential.\", 'WinPlan': 'Knock out Gliscor before it can use Protect again.'}",
+                    "opponent_action": "protect (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ironvaliant (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Valiant's Thunderclap is ineffective against Gliscor, but Dragonpulse is super-effective.\", 'TypeMatchup': 'Iron Valiant is super-effective against Gliscor, but Gliscor is resistant to Electric-type attacks.', 'SpeedControl': 'Iron Valiant outspeeds Gliscor.', 'TeamAdvantage': 'Iron Valiant has strong Special Attack and Team has strong Attack.', 'BoostsAndStatus': 'Iron Valiant has Protosynthesis and Calmmind boosts Special Attack and Special Defense.', 'HazardsAndField': 'Spikes are on the field.', 'SwitchingCost': 'Switching out would give the opponent a free turn.', 'OpponentPressure': 'Gliscor is unlikely to switch out due to speed difference.', 'Uncertainty': \"Gliscor's Protect makes it difficult to predict its moves.\", 'WinPlan': 'Knock out Gliscor with Dragonpulse before it can do significant damage.'}",
+                    "opponent_action": "protect (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "thunderclap (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Valiant's Thunderclap is ineffective against Gliscor, but Dragonpulse is super-effective.\", 'TypeMatchup': \"Iron Valiant is super-effective against Gliscor, while Gliscor is immune to Raging Bolt's Dragonpulse.\", 'SpeedControl': 'Iron Valiant outspeeds Gliscor.', 'TeamAdvantage': \"Iron Valiant's remaining team is stronger than Gliscor's remaining team.\", 'BoostsAndStatus': 'Iron Valiant has Calmmind boost, while Gliscor has Protect.', 'HazardsAndField': 'Spikes are on the field, which can damage Gliscor.', 'SwitchingCost': 'Switching out now would allow Gliscor to move twice.', 'OpponentPressure': \"Gliscor's remaining moves are effective against Iron Valiant.\", 'Uncertainty': 'Gliscor could potentially boost its stats or use a move that affects the battle outcome.', 'WinPlan': 'Continue using Dragonpulse until Gliscor is knocked out.'}",
+                    "opponent_action": "protect (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -5,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragonpulse",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": -10,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:cinderace,Type:Fire,HP:13%Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370,Ability:Libero(Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle.) Grass, Bug, Fairy, Fire-type attack is ineffective (0.5x damage) to cinderace.\ncinderace's all the possible attacks:[suckerpunch,dark,Power:70],[highjumpkick,fighting,Power:130],[pyroball,fire,Power:120],[gunkshot,poison,Power:120],[zenheadbutt,psychic,Power:80],[uturn,bug,Power:70],\nYou have 5 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than cinderace). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,0.5x damage],[knockoff,Dark,1x damage], Bug, Poison, Fire-type attack is super-effective (2x damage) to rillaboom.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(slower than cinderace). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Fighting, Bug-type attack is super-effective (2x damage) to ogerponcornerstone.\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than cinderace). Moves:[shadowball,Ghost,1x damage],[moonblast,Fairy,0.5x damage], Poison, Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(slower than cinderace). Moves:[fierydance,Fire,0.5x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to ironmoth. Fighting, Poison, Fire-type attack is ineffective (0.5x damage) to ironmoth. Bug-type attack is highly ineffective (0.25x damage) to ironmoth.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than cinderace). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Fire-type attack is ineffective (0.5x damage) to ragingbolt.\n",
+            "Candidates": [
+                {
+                    "player_action": "ragingbolt (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Valiant's Shadowball is super-effective against Gliscor.\", 'TypeMatchup': \"Iron Valiant is weak to Gliscor's Ground-type attacks.\", 'SpeedControl': 'Iron Valiant outspeeds Gliscor.', 'TeamAdvantage': 'Rillaboom can potentially switch in and OHKO Gliscor with Fire-type attacks.', 'BoostsAndStatus': 'Iron Valiant has Protosynthesis, which boosts its Sp. Atk.', 'HazardsAndField': 'Stickyweb is on the field, potentially slowing down Gliscor.', 'SwitchingCost': 'Iron Valiant has already switched once, incurring a penalty.', 'OpponentPressure': 'Gliscor has not used any significant moves yet.', 'Uncertainty': 'Uncertain if Gliscor will use a strong move or if other Pokémon will switch in.', 'WinPlan': \"Utilize Iron Valiant's Shadowball to OHKO Gliscor or switch to Rillaboom for a potential Fire-type OHKO.\"}",
+                    "opponent_action": "pyroball (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 0,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ironvaliant (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironvaliant's Shadowball is super-effective against Gliscor.\", 'TypeMatchup': \"Ironvaliant is weak to Gliscor's Ground-type attacks, but resistant to its Bug-type attacks.\", 'SpeedControl': 'Ironvaliant outspeeds Gliscor.', 'TeamAdvantage': 'Rillaboom could potentially be used to switch into Gliscor and avoid Ground-type attacks.', 'BoostsAndStatus': 'Ironvaliant has a significant Attack boost from Quark Drive.', 'HazardsAndField': 'Stickyweb could potentially trap Gliscor.', 'SwitchingCost': \"Switching out would reset Ironvaliant's Attack boost.\", 'OpponentPressure': 'Gliscor has a powerful Ground-type attack that can potentially knock out Ironvaliant.', 'Uncertainty': 'The outcome of the battle depends on subsequent turns and potential switches.', 'WinPlan': \"Utilize Ironvaliant's Shadowball to weaken Gliscor, then switch to Rillaboom to avoid Ground-type attacks and potentially defeat Gliscor.\"}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ragingbolt",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": -15,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 0,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Opponent has 6 pokemons left.\nOpposing pokemon:cinderace,Type:Fire,HP:13%Attack:331,Defense:186,Special attack:149,Special defense:187,Speed:370,Ability:Libero(Changes the Pokémon's type to the type of the move it's about to use. This works only once each time the Pokémon enters battle.) Grass, Bug, Fairy, Fire-type attack is ineffective (0.5x damage) to cinderace.\ncinderace used moves:[pyroball,Fire,Power:260],cinderace's all the possible attacks:[suckerpunch,dark,Power:70],[highjumpkick,fighting,Power:130],[pyroball,fire,Power:120],[gunkshot,poison,Power:120],[zenheadbutt,psychic,Power:80],[uturn,bug,Power:70],\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than cinderace).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Fire-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:153,Acc:100%,Effect:Strikes before a target's move. \nMove:terablast,Type:Normal,Power:175,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:186,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 4 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than cinderace). Moves:[woodhammer,Grass,0.5x damage],[grassyglide,Grass,0.5x damage],[uturn,Bug,0.5x damage],[knockoff,Dark,1x damage], Bug, Poison, Fire-type attack is super-effective (2x damage) to rillaboom.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(slower than cinderace). Moves:[ivycudgel,Grass,0.5x damage],[powerwhip,Grass,0.5x damage], Fighting, Bug-type attack is super-effective (2x damage) to ogerponcornerstone.\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(slower than cinderace). Moves:[shadowball,Ghost,1x damage],[moonblast,Fairy,0.5x damage], Poison, Psychic-type attack is super-effective (2x damage) to ironvaliant. Fighting-type attack is ineffective (0.5x damage) to ironvaliant. Bug, Dark-type attack is highly ineffective (0.25x damage) to ironvaliant.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(slower than cinderace). Moves:[fierydance,Fire,0.5x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to ironmoth. Fighting, Poison, Fire-type attack is ineffective (0.5x damage) to ironmoth. Bug-type attack is highly ineffective (0.25x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "thunderclap (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Cinderace is likely to stick to its Fire-type moves due to its Libero ability. The damage calculator is more suitable for finding the optimal damaging move in this case.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Thunderclap",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:100%Attack:226,Defense:295,Special attack:113,Special defense:267,Speed:226, Bug, Poison-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\n\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than gliscor).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Ground-type attack is super-effective (2x damage) to ragingbolt. Flying-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:107,Acc:100%,Effect:Strikes before a target's move. (zero effect (0x damage) to gliscor)\nMove:terablast,Type:Normal,Power:123,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:131,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 4 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than gliscor). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,0.5x damage],[knockoff,Dark,1x damage], Flying-type attack is super-effective (2x damage) to rillaboom. Ground-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than gliscor). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than gliscor). Moves:[shadowball,Ghost,1x damage],[moonblast,Fairy,1x damage], Flying-type attack is super-effective (2x damage) to ironvaliant.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gliscor). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,0.5x damage], Ground-type attack is extremely-effective (4x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragonpulse (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Dragon Pulse is super effective against Cinderace.\", 'TypeMatchup': 'Cinderace is weak to Psychic-type moves, which are super effective against Ironmoth.', 'SpeedControl': 'Ironmoth outspeeds Cinderace.', 'TeamAdvantage': 'Ironmoth is strong against remaining opponents.', 'BoostsAndStatus': 'Ironmoth has a boost on Special Attack and Special Defense from Calm Mind.', 'HazardsAndField': 'Cinderace has Protect, but no other significant hazards.', 'SwitchingCost': 'Frequent switching could be costly against faster opponents.', 'OpponentPressure': \"Cinderace's remaining moves are not particularly strong.\", 'Uncertainty': 'Uncertain if Cinderace will use Protect again or switch out.', 'WinPlan': \"Utilize Ironmoth's Dragon Pulse to knock out Cinderace and gain the speed advantage.\"}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "ironmoth (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Dragon Pulse is super effective against Cinderace.\", 'TypeMatchup': 'Cinderace is weak to Psychic-type moves, which are strong against Ironmoth.', 'SpeedControl': 'Ironmoth outspeeds Cinderace.', 'TeamAdvantage': \"Ironmoth's remaining team has better types and stats than Cinderace's remaining team.\", 'BoostsAndStatus': 'Ironmoth has Calmmind, which boosts its Special Attack and Special Defense.', 'HazardsAndField': 'Cinderace has Protect, which can block physical attacks.', 'SwitchingCost': \"Frequent switching can be costly due to Cinderace's speed.\", 'OpponentPressure': \"Cinderace's remaining team is strong and can put pressure on Ironmoth's team.\", 'Uncertainty': 'The outcome of the battle is still uncertain.', 'WinPlan': \"Ironmoth can win by exploiting Cinderace's weaknesses and utilizing its boosts.\"}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragonpulse",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:59%Status:toxic,Attack:452(2 stage boosted),Defense:295,Special attack:113,Special defense:267,Speed:226, Bug, Poison-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\n\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than gliscor).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Ground-type attack is super-effective (2x damage) to ragingbolt. Flying-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:107,Acc:100%,Effect:Strikes before a target's move. (zero effect (0x damage) to gliscor)\nMove:terablast,Type:Normal,Power:123,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:131,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 4 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than gliscor). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,0.5x damage],[knockoff,Dark,1x damage], Flying-type attack is super-effective (2x damage) to rillaboom. Ground-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than gliscor). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%,Attack:238,Defense:216,Special attack:339,Special defense:157,Speed:364(faster than gliscor). Moves:[shadowball,Ghost,1x damage],[moonblast,Fairy,1x damage], Flying-type attack is super-effective (2x damage) to ironvaliant.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gliscor). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,0.5x damage], Ground-type attack is extremely-effective (4x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "ironvaliant (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironvaliant's Dragon Pulse is effective against Cinderace.\", 'TypeMatchup': 'Cinderace is weak to Poison and Psychic-type attacks, while Ironvaliant is resistant to Fire and Fighting-type attacks.', 'SpeedControl': 'Ironvaliant outspeeds Cinderace.', 'TeamAdvantage': \"Ironvaliant's remaining team has better overall stats than Cinderace's remaining team.\", 'BoostsAndStatus': 'Cinderace has boosted its Attack, while Ironvaliant has not boosted any stats.', 'HazardsAndField': 'Cinderace has access to Spikes, which can damage Ironvaliant every time it switches in.', 'SwitchingCost': 'Frequent switching can be costly, as it can allow Cinderace to gain the speed advantage.', 'OpponentPressure': \"Cinderace's remaining team has a strong offensive presence.\", 'Uncertainty': 'The outcome of the battle is still uncertain, as the players have strong teams.', 'WinPlan': \"Ironvaliant can win by exploiting Cinderace's weaknesses and utilizing its speed advantage.\"}",
+                    "opponent_action": "knockoff (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "dragonpulse (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Valiant's Dragon Pulse is super effective against Cinderace.\", 'TypeMatchup': 'Cinderace is weak to Fairy and Fighting-type moves.', 'SpeedControl': 'Iron Valiant outspeeds Cinderace.', 'TeamAdvantage': 'Iron Valiant is better positioned than remaining opponent Pokemon.', 'BoostsAndStatus': 'Cinderace is poisoned and has used Swords Dance.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Cinderace can still use powerful moves.', 'Uncertainty': 'Cinderace has not used all of its moves.', 'WinPlan': 'Iron Valiant can potentially win with Dragon Pulse.'}",
+                    "opponent_action": "knockoff (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "terablast (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Iron Valiant's Dragon Pulse is effective against Cinderace.\", 'TypeMatchup': \"Cinderace's Fire-type moves are ineffective against Iron Valiant.\", 'SpeedControl': 'Iron Valiant outspeeds Cinderace.', 'TeamAdvantage': 'Iron Valiant has better Special Attack and Special Defense than Cinderace.', 'BoostsAndStatus': 'Cinderace has used Swords Dance, boosting its Attack.', 'HazardsAndField': 'Cinderace has Toxic on the field.', 'SwitchingCost': 'Excessive switching could be costly.', 'OpponentPressure': \"Cinderace's remaining team is strong.\", 'Uncertainty': 'Uncertain if Iron Valiant can survive another round.', 'WinPlan': 'Outspeed Cinderace and utilize Dragon Pulse to defeat it.'}",
+                    "opponent_action": "knockoff (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ironvaliant",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:72%Status:toxic,Attack:452(2 stage boosted),Defense:295,Special attack:113,Special defense:267,Speed:226, Bug, Poison-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\ngliscor used moves:[earthquake,Ground,Power:190],\nYou have 4 pokemons:\nPokemon:rillaboom,Type:Grass,HP:100%,Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than gliscor). Moves:[woodhammer,Grass,1x damage],[grassyglide,Grass,1x damage],[uturn,Bug,0.5x damage],[knockoff,Dark,1x damage], Flying-type attack is super-effective (2x damage) to rillaboom. Ground-type attack is ineffective (0.5x damage) to rillaboom.\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than gliscor). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than gliscor). Moves:[thunderclap,Electric,0x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Ground-type attack is super-effective (2x damage) to ragingbolt. Flying-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gliscor). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,0.5x damage], Ground-type attack is extremely-effective (4x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Grass-type moves are super-effective against Cinderace.\", 'TypeMatchup': \"Rillaboom is resistant to Cinderace's Fire-type moves.\", 'SpeedControl': 'Rillaboom is slower than Cinderace, but has access to U-turn for speed control.', 'TeamAdvantage': 'Strong remaining Pokémon like Ogerpon Cornerstone and Uraging Bolt offer type coverage and power.', 'BoostsAndStatus': 'Uraging Bolt has Dragon Pulse for potential damage boosts.', 'HazardsAndField': 'Cinderace has used Swords Dance, boosting its Attack.', 'SwitchingCost': 'Frequent switching can disadvantage Rillaboom in speed and damage output.', 'OpponentPressure': \"Cinderace's remaining team is strong and could put pressure on Rillaboom.\", 'Uncertainty': 'Uncertain if Rillaboom can outspeed Cinderace and secure wins.', 'WinPlan': 'Utilize speed control, effective moves, and strong remaining Pokémon to outmaneuver and damage Cinderace.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 25,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -15,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: rillaboom",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 25,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": -15,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Opponent has 5 pokemons left.\nOpposing pokemon:gliscor,Type:Ground and Flying,HP:44%Status:toxic,Attack:452(2 stage boosted),Defense:295,Special attack:113,Special defense:267,Speed:226, Bug, Poison-type attack is ineffective (0.5x damage) to gliscor. Electric-type attack is zero effect (0x damage) to gliscor.\ngliscor used moves:[earthquake,Ground,Power:118],[facade,Normal,Power:83],\nYour current pokemon:rillaboom,Type:Grass,HP:100%Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than gliscor).Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.) Flying-type attack is super-effective (2x damage) to rillaboom. Ground-type attack is ineffective (0.5x damage) to rillaboom.\nYour rillaboom has 4 moves:\nMove:woodhammer,Type:Grass,Power:156,Acc:100%,Effect:User receives recoil damage. \nMove:grassyglide,Type:Grass,Power:71,Acc:100%,Effect:High priority during Grassy Terrain. \nMove:uturn,Type:Bug,Power:91,Acc:100%,Effect:User switches out immediately after attacking. (ineffective (0.5x damage) to gliscor)\nMove:knockoff,Type:Dark,Power:84,Acc:100%,Effect:Removes opponent's held item for the rest of the battle. \nYou have 3 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than gliscor). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage], Normal-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than gliscor). Moves:[thunderclap,Electric,0x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Ground-type attack is super-effective (2x damage) to ragingbolt. Flying-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gliscor). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,0.5x damage], Ground-type attack is extremely-effective (4x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "woodhammer (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gliscor is likely to prioritize Earthquake or Facade, considering its previous moves. The damage calculator provides a quick way to assess the effectiveness of Rillaboom's moves against Gliscor's current stats and potential future boosts. Additionally, the damage calculator is suitable for this situation as it offers a clear comparison of move power against the opponent's remaining Pokémon.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Woodhammer",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:hoopaunbound,Type:Psychic and Dark,HP:100%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176,Ability:Magician(The Pokémon steals the held item from any target it hits with a move.) Psychic-type attack is zero effect (0x damage) to hoopaunbound.\n\nYour current pokemon:rillaboom,Type:Grass,HP:91%Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(faster than hoopaunbound).Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Your rillaboom has 1 moves:\nMove:woodhammer,Type:Grass,Power:212,Acc:100%,Effect:User receives recoil damage. \nYou have 3 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than hoopaunbound). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than hoopaunbound). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage],\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than hoopaunbound). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,0x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "woodhammer (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is super-effective against Gliscor.\", 'TypeMatchup': 'Ground-type attacks are super-effective against Raging Bolt.', 'SpeedControl': 'Rillaboom outspeeds Gliscor.', 'TeamAdvantage': 'Ogerponcornerstone is faster than Gliscor and can potentially use Wood Hammer again.', 'BoostsAndStatus': 'Gliscor is poisoned, but has already used Swords Dance.', 'HazardsAndField': 'Grassy Terrain heals Rillaboom.', 'SwitchingCost': 'Switching out would give Gliscor a free turn.', 'OpponentPressure': 'Gliscor has a strong Ground-type attack.', 'Uncertainty': 'Gliscor could use Psychicnoise again.', 'WinPlan': 'Rillaboom can potentially win with another Wood Hammer.'}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "ogerponcornerstone (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is super-effective against Gliscor.\", 'TypeMatchup': 'Gliscor is vulnerable to Ground-type attacks and ineffective against Grass-type attacks.', 'SpeedControl': 'Ogerponcornerstone outspeeds Gliscor.', 'TeamAdvantage': 'Rillaboom is a strong remaining Pokémon.', 'BoostsAndStatus': 'Gliscor is poisoned, but Ogerponcornerstone has Sturdy.', 'HazardsAndField': \"Gliscor's Earthquake can cause recoil damage.\", 'SwitchingCost': 'Excessive switching could give Gliscor opportunities to attack.', 'OpponentPressure': 'Gliscor can use Psychicnoise to damage Ogerponcornerstone.', 'Uncertainty': 'Gliscor has two remaining Pokémon, while the player has one.', 'WinPlan': \"Utilize Rillaboom's Ground-type attacks to defeat Gliscor and win the battle.\"}",
+                    "opponent_action": "gliscor (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Woodhammer",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Opponent has 4 pokemons left.\nOpposing pokemon:zamazenta,Type:Fighting,HP:51%Attack:276,Defense:432(1 stage boosted),Special attack:176,Special defense:266,Speed:389,Ability:Dauntless Shield(Boosts the Pokémon's Defense stat the first time the Pokémon enters a battle.) Psychic-type attack is super-effective (2x damage) to zamazenta.\nzamazenta's all the possible attacks:[wildcharge,electric,Power:90],[closecombat,fighting,Power:120],[crunch,dark,Power:80],[psychicfangs,psychic,Power:85],\nYour current pokemon:rillaboom,Type:Grass,HP:77%Attack:383,Defense:217,Special attack:140,Special defense:176,Speed:269(slower than zamazenta).Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.) Electric-type attack is ineffective (0.5x damage) to rillaboom.\nYour rillaboom has 1 moves:\nMove:woodhammer,Type:Grass,Power:160,Acc:100%,Effect:User receives recoil damage. \nYou have 3 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(slower than zamazenta). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage], Fighting-type attack is super-effective (2x damage) to ogerponcornerstone. Electric-type attack is ineffective (0.5x damage) to ogerponcornerstone.\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than zamazenta). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Electric-type attack is highly ineffective (0.25x damage) to ragingbolt.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(slower than zamazenta). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,2x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to ironmoth. Fighting-type attack is ineffective (0.5x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "woodhammer (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Zamazenta has a high Defense stat, making it difficult to knock out directly. The damage calculator offers a quick way to assess the potential damage of my moves, while the minimax tree would require more complex modeling of the opponent's behavior. Given the clear type advantage and high-power move available, the damage calculator seems more appropriate for this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Woodhammer",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Opponent has 3 pokemons left.\nOpposing pokemon:hoopaunbound,Type:Psychic and Dark,HP:100%Attack:356,Defense:217,Special attack:418,Special defense:296,Speed:176,Ability:Magician(The Pokémon steals the held item from any target it hits with a move.) Psychic-type attack is zero effect (0x damage) to hoopaunbound.\n\nYou have 3 pokemons:\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%,Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than hoopaunbound). Moves:[ivycudgel,Grass,1x damage],[powerwhip,Grass,1x damage],\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than hoopaunbound). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage],\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than hoopaunbound). Moves:[fierydance,Fire,1x damage],[psychic,Psychic,0x damage],[sludgewave,Poison,1x damage], Psychic-type attack is super-effective (2x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "ogerponcornerstone (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerponcornerstone's Grass-type moves are super-effective against Primarina.\", 'TypeMatchup': 'Primarina is weak to Psychic-type moves, which are super-effective against Ogerponcornerstone.', 'SpeedControl': 'Ogerponcornerstone is slower than Primarina, but Quark Drive boosts its Speed.', 'TeamAdvantage': 'Rillaboom is still alive and can potentially finish the job.', 'BoostsAndStatus': \"Quark Drive is active, boosting Ogerponcornerstone's Speed and Attack.\", 'HazardsAndField': \"Primarina's Poison Heal restores its HP, but Grassy Terrain benefits Ogerponcornerstone.\", 'SwitchingCost': 'Switching out would forfeit the turn and Primarina would move again.', 'OpponentPressure': 'Primarina has a powerful move (Close Combat) that can potentially knock out Ogerponcornerstone.', 'Uncertainty': 'Unclear if Primarina will use Close Combat or another move.', 'WinPlan': 'Continue using Grass-type moves and utilize Quark Drive to outspeed and damage Primarina.'}",
+                    "opponent_action": "zamazenta (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ogerponcornerstone",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -20,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:100%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire-type attack is super-effective (2x damage) to gholdengo. Dragon, Grass, Psychic-type attack is ineffective (0.5x damage) to gholdengo. Normal, Poison-type attack is zero effect (0x damage) to gholdengo.\n\nYour current pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Attack:339,Defense:204,Special attack:140,Special defense:229,Speed:350(faster than gholdengo).Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemask Steel-type attack is super-effective (2x damage) to ogerponcornerstone.\nYour ogerponcornerstone has 4 moves:\nMove:spikes,Type:Ground,Status-move,Power:0,Acc:100%,Effect:Damages opponents switching into battle. \nMove:ivycudgel,Type:Grass,Power:150,Acc:100%,Effect:High critical hit ratio. Type changes based on form. (ineffective (0.5x damage) to gholdengo)\nMove:powerwhip,Type:Grass,Power:180,Acc:85%(ineffective (0.5x damage) to gholdengo)\nMove:taunt,Type:Dark,Status-move,Power:0,Acc:100%,Effect:Opponent can only use moves that attack. \nYou have 2 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than gholdengo). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,0x damage],[dragonpulse,Dragon,0.5x damage], Steel-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gholdengo). Moves:[fierydance,Fire,2x damage],[psychic,Psychic,0.5x damage],[sludgewave,Poison,0x damage], Steel-type attack is ineffective (0.5x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "powerwhip (Move object)",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Powerwhip is super-effective against Cinderace.\", 'TypeMatchup': \"Cinderace's Fire-type attacks are ineffective against Ironmoth.\", 'SpeedControl': 'Ironmoth outspeeds Cinderace.', 'TeamAdvantage': \"Ironmoth's Poison typing provides a type advantage over Cinderace.\", 'BoostsAndStatus': \"Ironmoth's Quark Drive boosts its Speed.\", 'HazardsAndField': 'Spikes on the field damage opponents switching in.', 'SwitchingCost': 'Frequent switching could lead to passive damage from Spikes.', 'OpponentPressure': \"Cinderace's remaining team strength is low.\", 'Uncertainty': \"Cinderace's remaining moves could pose a threat.\", 'WinPlan': 'Utilize Powerwhip repeatedly to defeat Cinderace.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Powerwhip is super-effective against Cinderace.\", 'TypeMatchup': \"Cinderace's Fire-type attacks are ineffective against Ironmoth.\", 'SpeedControl': 'Ironmoth outspeeds Cinderace.', 'TeamAdvantage': 'Ironmoth has better Special Attack than Cinderace.', 'BoostsAndStatus': \"Ironmoth's Quark Drive boosts its Speed.\", 'HazardsAndField': 'Spikes can damage opponents switching in.', 'SwitchingCost': 'Frequent switching can lead to damage from Spikes.', 'OpponentPressure': 'Cinderace can use powerful moves like Pyroball.', 'Uncertainty': \"Cinderace's remaining moves are less effective against Ironmoth.\", 'WinPlan': 'Utilize Powerwhip to defeat Cinderace and potentially win the battle.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ironmoth (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Powerwhip is ineffective against Cinderace, but its Psychic move is super-effective.\", 'TypeMatchup': \"Cinderace's Fire-type attacks are ineffective against Ironmoth.\", 'SpeedControl': 'Ironmoth is slower than Cinderace, but Quark Drive boosts its Speed.', 'TeamAdvantage': \"Ironmoth's Poison typing provides a type advantage over Cinderace.\", 'BoostsAndStatus': 'Ironmoth has a significant Attack boost from Quark Drive.', 'HazardsAndField': 'Spikes are currently on the field, which will damage Cinderace when it switches in.', 'SwitchingCost': 'Ironmoth is likely to be switched out again due to its vulnerability to Psychic-type attacks.', 'OpponentPressure': 'Cinderace can potentially use powerful moves like Pyroball or Power Whip.', 'Uncertainty': 'The outcome of the battle is still uncertain, as the players have strong Pokémon remaining.', 'WinPlan': 'Ironmoth needs to capitalize on its Speed boost and prioritize attacking Cinderace to secure victory.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Powerwhip",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:53%Attack:140,Defense:226,Special attack:245(-1 stage boosted),Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire-type attack is super-effective (2x damage) to gholdengo. Dragon, Psychic-type attack is ineffective (0.5x damage) to gholdengo. Normal, Poison-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[makeitrain,Steel,Power:128],\nYou have 2 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than gholdengo). Moves:[thunderclap,Electric,1x damage],[terablast,Normal,0x damage],[dragonpulse,Dragon,0.5x damage], Steel-type attack is ineffective (0.5x damage) to ragingbolt.\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gholdengo). Moves:[fierydance,Fire,2x damage],[psychic,Psychic,0.5x damage],[sludgewave,Poison,0x damage], Steel-type attack is ineffective (0.5x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "ragingbolt (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Psychic-type attack is super-effective against Cinderace.\", 'TypeMatchup': \"Cinderace's Fire-type attacks are ineffective against Ironmoth.\", 'SpeedControl': 'Ironmoth is slower than Cinderace, but Quark-Drive boosts its Speed.', 'TeamAdvantage': 'Ironmoth is the only remaining Pokémon with a strong Special Attack.', 'BoostsAndStatus': 'Ironmoth has a potential boost from Booster Energy.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Cinderace can potentially use powerful moves like Pyroball.', 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Ironmoth's strong Special Attack and potential boost to defeat Cinderace.\"}",
+                    "opponent_action": "nastyplot (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 20,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "ironmoth (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's Psychic-type attack is super-effective to Cinderace.\", 'TypeMatchup': \"Cinderace's Fire-type attack is ineffective to Ironmoth.\", 'SpeedControl': 'Ironmoth is slower than Cinderace.', 'TeamAdvantage': 'Ironmoth is stronger than Ragingbolt.', 'BoostsAndStatus': 'Ironmoth has no positive boosts or status effects.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Cinderace can potentially use powerful moves like Pyroball.', 'Uncertainty': 'n/a', 'WinPlan': 'Ironmoth can win with its super-effective Psychic-type attack.'}",
+                    "opponent_action": "cinderace (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 10,
+                        "Uncertainty": 0,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ragingbolt",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 20,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 0,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:53%Attack:140,Defense:226,Special attack:182(-2 stage boosted),Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire-type attack is super-effective (2x damage) to gholdengo. Dragon, Psychic-type attack is ineffective (0.5x damage) to gholdengo. Normal, Poison-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[makeitrain,Steel,Power:102],\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than gholdengo).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Steel-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:131,Acc:100%,Effect:Strikes before a target's move. \nMove:terablast,Type:Normal,Power:150,Acc:100%,Effect:Changes type when the user has Terastallized. (zero effect (0x damage) to gholdengo)\nMove:dragonpulse,Type:Dragon,Power:159,Acc:100%(ineffective (0.5x damage) to gholdengo)\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 1 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gholdengo). Moves:[fierydance,Fire,2x damage],[psychic,Psychic,0.5x damage],[sludgewave,Poison,0x damage], Steel-type attack is ineffective (0.5x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "thunderclap (Move object)",
+                    "score": -1,
+                    "rationale": "The immediate damage potential is crucial. Gholdengo's predictable Make It Rain is likely to be its next move. The damage calculator offers a quick and reliable way to assess the effectiveness of our moves against Gholdengo's current HP and type.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Thunderclap",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:alomomola,Type:Water,HP:100%Attack:186,Defense:284,Special attack:116,Special defense:127,Speed:149, Electric-type attack is super-effective (2x damage) to alomomola. Fire-type attack is ineffective (0.5x damage) to alomomola.\n\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than alomomola).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Water-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:226,Acc:100%,Effect:Strikes before a target's move. (super-effective (2x damage) to alomomola)\nMove:terablast,Type:Normal,Power:258,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:274,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 1 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than alomomola). Moves:[fierydance,Fire,0.5x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,1x damage], Water-type attack is super-effective (2x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragonpulse (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Alomomola is likely to prioritize maximizing its Water-type damage output, making accurate damage prediction crucial. Given the availability of a high-power Electric-type move in Thunderclap, the damage calculator seems more appropriate for finding the optimal move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragonpulse",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Opponent has 2 pokemons left.\nOpposing pokemon:gholdengo,Type:Steel and Ghost,HP:25%Attack:140,Defense:226,Special attack:365,Special defense:219,Speed:293,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.) Fire-type attack is super-effective (2x damage) to gholdengo. Dragon, Psychic-type attack is ineffective (0.5x damage) to gholdengo. Normal, Poison-type attack is zero effect (0x damage) to gholdengo.\ngholdengo used moves:[makeitrain,Steel,Power:204],\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(slower than gholdengo).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Steel-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:131,Acc:100%,Effect:Strikes before a target's move. \nMove:terablast,Type:Normal,Power:150,Acc:100%,Effect:Changes type when the user has Terastallized. (zero effect (0x damage) to gholdengo)\nMove:dragonpulse,Type:Dragon,Power:159,Acc:100%(ineffective (0.5x damage) to gholdengo)\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 1 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than gholdengo). Moves:[fierydance,Fire,2x damage],[psychic,Psychic,0.5x damage],[sludgewave,Poison,0x damage], Steel-type attack is ineffective (0.5x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "thunderclap (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Gholdengo is likely to prioritize making it rain again, which would deal significant damage to Raging Bolt. The damage calculator provides a quick way to assess the effectiveness of different moves against Gholdengo's current stats and the potential damage reduction from Make It Rain.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Thunderclap",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 16": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:alomomola,Type:Water,HP:100%Attack:186,Defense:284,Special attack:116,Special defense:127,Speed:149, Electric-type attack is super-effective (2x damage) to alomomola. Fire-type attack is ineffective (0.5x damage) to alomomola.\n\nYour current pokemon:ragingbolt,Type:Electric and Dragon,HP:100%Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than alomomola).Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.), Water-type attack is ineffective (0.5x damage) to ragingbolt.\nYour ragingbolt has 4 moves:\nMove:thunderclap,Type:Electric,Power:226,Acc:100%,Effect:Strikes before a target's move. (super-effective (2x damage) to alomomola)\nMove:terablast,Type:Normal,Power:258,Acc:100%,Effect:Changes type when the user has Terastallized. \nMove:dragonpulse,Type:Dragon,Power:274,Acc:100%\nMove:calmmind,Type:Psychic,Status-move,Power:0,Acc:100%,Effect:Raises user's Special Attack and Special Defense. \nYou have 1 pokemons:\nPokemon:ironmoth,Type:Fire and Poison,HP:100%,Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than alomomola). Moves:[fierydance,Fire,0.5x damage],[psychic,Psychic,1x damage],[sludgewave,Poison,1x damage], Water-type attack is super-effective (2x damage) to ironmoth.\n",
+            "Candidates": [
+                {
+                    "player_action": "dragonpulse (Move object)",
+                    "score": -1,
+                    "rationale": "The immediate damage potential is crucial. The opponent's Alomomola is vulnerable to Electric-type attacks, making Thunderclap a likely knockout. The damage calculator provides a quick and reliable estimate of the damage output, which aligns with the need for immediate damage.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Dragonpulse",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 17": {
+            "Current Game State": "Opponent has 1 pokemons left.\nOpposing pokemon:alomomola,Type:Water,HP:36%Attack:186,Defense:284,Special attack:116,Special defense:127,Speed:149, Electric-type attack is super-effective (2x damage) to alomomola. Fire-type attack is ineffective (0.5x damage) to alomomola.\nalomomola used moves:[acrobatics,Flying,Power:79],\nYour current pokemon:ironmoth,Type:Fire and Poison,HP:73%Attack:130,Defense:187,Special attack:349,Special defense:256,Speed:350(faster than alomomola).Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.), Water-type attack is super-effective (2x damage) to ironmoth.\nYour ironmoth has 4 moves:\nMove:fierydance,Type:Fire,Power:220,Acc:100%,Effect:May raise user's Special Attack. (ineffective (0.5x damage) to alomomola)\nMove:psychic,Type:Psychic,Power:247,Acc:100%,Effect:May lower opponent's Special Defense. \nMove:sludgewave,Type:Poison,Power:261,Acc:100%,Effect:May poison opponent. \nMove:substitute,Type:Normal,Status-move,Power:0,Acc:100%,Effect:Uses HP to creates a decoy that takes hits. \nYou have 1 pokemons:\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%,Attack:153,Defense:218,Special attack:410,Special defense:215,Speed:249(faster than alomomola). Moves:[thunderclap,Electric,2x damage],[terablast,Normal,1x damage],[dragonpulse,Dragon,1x damage], Water, Flying-type attack is ineffective (0.5x damage) to ragingbolt.\n",
+            "Candidates": [
+                {
+                    "player_action": "psychic (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Alomomola is likely to use Acrobatics again, making Dragon Pulse a potentially ineffective option. The damage calculator is better suited for finding the optimal damaging move in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Psychic",
+                "score": -1,
+                "label_scores": {}
+            }
+        }
+    }
+}

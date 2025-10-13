@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen9ou-1018</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen9ou-1018<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">pokechamp2427</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">pokellmon427</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen9ou-1018|init|battle
+|title|pokechamp2427 vs. pokellmon427
+|j|☆pokechamp2427
+|j|☆pokellmon427
+|gametype|singles
+|player|p1|pokechamp2427|2|
+|player|p2|pokellmon427|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Zamazenta-*|
+|poke|p1|Weavile, M|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Skarmory, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Zamazenta-*|
+|poke|p2|Weavile, M|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|start
+|switch|p1a: Zamazenta|Zamazenta|325/325
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|move|p1a: Zamazenta|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|271/325|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Brave Bird|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|53/325
+|-damage|p2a: Skarmory|43/100|[from] Recoil
+|upkeep
+|turn|2
+|move|p1a: Zamazenta|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|7/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|0 fnt|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p1a: Zamazenta
+|move|p2a: Skarmory|Brave Bird|p1: Zamazenta|[notarget]
+|-fail|p2a: Skarmory
+|upkeep
+|switch|p1a: Weavile|Weavile, M|281/281
+|turn|3
+|move|p1a: Weavile|Triple Axel|p2a: Skarmory
+|-damage|p2a: Skarmory|1/100
+|-damage|p1a: Weavile|235/281|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Weavile|189/281|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p2a: Skarmory
+|-hitcount|p2: Skarmory|2
+|upkeep
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|move|p1a: Weavile|Low Kick|p2a: Zamazenta
+|-damage|p2a: Zamazenta|74/100
+|move|p2a: Zamazenta|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Weavile
+|upkeep
+|switch|p1a: Kyurem|Kyurem|391/391
+|-ability|p1a: Kyurem|Pressure
+|turn|5
+|-terastallize|p1a: Kyurem|Fairy
+|move|p2a: Zamazenta|Close Combat|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|278/391
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Kyurem|Ice Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|upkeep
+|switch|p2a: Weavile|Weavile, M|100/100
+|turn|6
+|switch|p1a: Ting-Lu|Ting-Lu|514/514
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Weavile|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|451/514
+|-enditem|p1a: Ting-Lu|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|upkeep
+|turn|7
+|move|p2a: Weavile|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|409/514
+|move|p1a: Ting-Lu|Earthquake|p2a: Weavile
+|-damage|p2a: Weavile|41/100
+|upkeep
+|turn|8
+|move|p2a: Weavile|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|360/514
+|move|p1a: Ting-Lu|Earthquake|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|upkeep
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|9
+|move|p2a: Kyurem|Ice Beam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|166/514
+|move|p1a: Ting-Lu|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|64/100
+|upkeep
+|turn|10
+|switch|p1a: Kyurem|Kyurem, tera:Fairy|278/391
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Kyurem|Ice Beam|p1a: Kyurem
+|-damage|p1a: Kyurem|115/391
+|upkeep
+|turn|11
+|move|p1a: Kyurem|Scale Shot|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|45/100
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|28/100
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|8/100
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-hitcount|p2: Kyurem|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|upkeep
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|12
+|move|p1a: Kyurem|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|move|p2a: Slowking|Future Sight|p1a: Kyurem
+|-start|p2a: Slowking|move: Future Sight
+|upkeep
+|turn|13
+|move|p1a: Kyurem|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|upkeep
+|turn|14
+|move|p1a: Kyurem|Scale Shot|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|28/100
+|-damage|p2a: Slowking|18/100
+|-damage|p2a: Slowking|7/100
+|-hitcount|p2a: Slowking|3
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|-end|p1a: Kyurem|move: Future Sight
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|upkeep
+|switch|p1a: Ting-Lu|Ting-Lu|166/514
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|15
+|move|p1a: Ting-Lu|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|upkeep
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|16
+|move|p1a: Ting-Lu|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|78/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|57/514
+|upkeep
+|turn|17
+|move|p1a: Ting-Lu|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|56/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|upkeep
+|switch|p1a: Skarmory|Skarmory, M|333/333
+|turn|18
+|move|p1a: Skarmory|Brave Bird|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|29/100
+|-damage|p1a: Skarmory|288/333|[from] Recoil
+|move|p2a: Ting-Lu|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|upkeep
+|turn|19
+|move|p1a: Skarmory|Brave Bird|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|9/100
+|-damage|p1a: Skarmory|253/333|[from] Recoil
+|move|p2a: Ting-Lu|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|upkeep
+|turn|20
+|move|p1a: Skarmory|Brave Bird|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-damage|p1a: Skarmory|239/333|[from] Recoil
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

@@ -1,0 +1,529 @@
+{
+    "Battle Id: 9557": {
+        "Turn 1": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:None Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:None Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:100%Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:None Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 161 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 5 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\ndragapult's moves if opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 321 turns to KO opponent's pokemon\nterablast: 321 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ndragondarts: 2 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 321 turns to KO opponent's pokemon\nterablast: 321 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ndragondarts: 161 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 5 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\nOpponent moves: primarina\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\nflipturn: 10 turns to KO your pokemon\nsurf: 4 turns to KO your pokemon\n\nRequires switch:\nprimarina vs. primarina:\nprimarina outspeeds primarina\nprimarina's moves:\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nprimarina's moves if opponent's primarina uses 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nprimarina's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 3 turns to KO opponent's pokemon\nmoonblast: 6 turns to KO opponent's pokemon\npsychicnoise: 7 turns to KO opponent's pokemon\nprimarina's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 6 turns to KO opponent's pokemon\nmoonblast: 3 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 5 turns to KO your pokemon\nflipturn: 10 turns to KO your pokemon\nsurf: 5 turns to KO your pokemon\n\nCurrent pokemon:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 7 turns to KO opponent's pokemon\nironcrown's moves if opponent's primarina uses 'terastallize':\nfuturesight: 7 turns to KO opponent's pokemon\ntachyoncutter: 4 turns to KO opponent's pokemon\nvoltswitch: 5 turns to KO opponent's pokemon\nfocusblast: 4 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nfuturesight: 5 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 5 turns to KO opponent's pokemon\nfocusblast: 2 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nfuturesight: 3 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 7 turns to KO opponent's pokemon\nOpponent moves: primarina\nmoonblast: 7 turns to KO your pokemon\npsychicnoise: 22 turns to KO your pokemon\nflipturn: 7 turns to KO your pokemon\nsurf: 4 turns to KO your pokemon\n\nRequires switch:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 5 turns to KO opponent's pokemon\nrazorshell: 5 turns to KO opponent's pokemon\nknockoff: 5 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if opponent's primarina uses 'terastallize':\nceaselessedge: 5 turns to KO opponent's pokemon\nrazorshell: 5 turns to KO opponent's pokemon\nknockoff: 5 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nceaselessedge: 2 turns to KO opponent's pokemon\nrazorshell: 4 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nceaselessedge: 8 turns to KO opponent's pokemon\nrazorshell: 7 turns to KO opponent's pokemon\nknockoff: 7 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\nflipturn: 11 turns to KO your pokemon\nsurf: 4 turns to KO your pokemon\n\nRequires switch:\nkingambit vs. primarina:\nprimarina outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 4 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nkingambit's moves if opponent's primarina uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 4 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nOpponent moves: primarina\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 405 turns to KO your pokemon\nflipturn: 9 turns to KO your pokemon\nsurf: 3 turns to KO your pokemon\n\nRequires switch:\nlandorustherian vs. primarina:\nlandorustherian outspeeds primarina\nlandorustherian's moves:\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 4 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\ngrassknot: 4 turns to KO opponent's pokemon\nlandorustherian's moves if opponent's primarina uses 'terastallize':\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 321 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\ngrassknot: 8 turns to KO opponent's pokemon\nlandorustherian's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 5 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\ngrassknot: 4 turns to KO opponent's pokemon\nlandorustherian's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 5 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\ngrassknot: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\nflipturn: 4 turns to KO your pokemon\nsurf: 2 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ironcrown,Type:Steel and Psychic,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Primarina has predictable moves and the current Iron Crown can potentially KO it with strong moves. Therefore, the damage calculator offers a quicker and more efficient approach to find the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:100%Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 161 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 5 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\ndragapult's moves if opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 321 turns to KO opponent's pokemon\nterablast: 321 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ndragondarts: 2 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 321 turns to KO opponent's pokemon\nterablast: 321 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ndragondarts: 161 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 5 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 4 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\nflipturn: 10 turns to KO your pokemon\n\nRequires switch:\nprimarina vs. primarina:\nprimarina outspeeds primarina\nprimarina's moves:\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nprimarina's moves if opponent's primarina uses 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nprimarina's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 3 turns to KO opponent's pokemon\nmoonblast: 6 turns to KO opponent's pokemon\npsychicnoise: 7 turns to KO opponent's pokemon\nprimarina's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 6 turns to KO opponent's pokemon\nmoonblast: 3 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 5 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 5 turns to KO your pokemon\nflipturn: 10 turns to KO your pokemon\n\nCurrent pokemon:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 7 turns to KO opponent's pokemon\nironcrown's moves if opponent's primarina uses 'terastallize':\nfuturesight: 7 turns to KO opponent's pokemon\ntachyoncutter: 4 turns to KO opponent's pokemon\nvoltswitch: 5 turns to KO opponent's pokemon\nfocusblast: 4 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nfuturesight: 5 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 5 turns to KO opponent's pokemon\nfocusblast: 2 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nfuturesight: 3 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 7 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\nmoonblast: 5 turns to KO your pokemon\npsychicnoise: 15 turns to KO your pokemon\nflipturn: 5 turns to KO your pokemon\n\nRequires switch:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 5 turns to KO opponent's pokemon\nrazorshell: 5 turns to KO opponent's pokemon\nknockoff: 5 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if opponent's primarina uses 'terastallize':\nceaselessedge: 5 turns to KO opponent's pokemon\nrazorshell: 5 turns to KO opponent's pokemon\nknockoff: 5 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nceaselessedge: 2 turns to KO opponent's pokemon\nrazorshell: 4 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nceaselessedge: 8 turns to KO opponent's pokemon\nrazorshell: 7 turns to KO opponent's pokemon\nknockoff: 7 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 4 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\nflipturn: 11 turns to KO your pokemon\n\nRequires switch:\nkingambit vs. primarina:\nprimarina outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 4 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nkingambit's moves if opponent's primarina uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 4 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 405 turns to KO your pokemon\nflipturn: 9 turns to KO your pokemon\n\nRequires switch:\nlandorustherian vs. primarina:\nlandorustherian outspeeds primarina\nlandorustherian's moves:\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 4 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\ngrassknot: 4 turns to KO opponent's pokemon\nlandorustherian's moves if opponent's primarina uses 'terastallize':\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 321 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\ngrassknot: 8 turns to KO opponent's pokemon\nlandorustherian's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 5 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\ngrassknot: 4 turns to KO opponent's pokemon\nlandorustherian's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nearthpower: 5 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\ngrassknot: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 2 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\nflipturn: 4 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Primarina is likely to use Surf or Moonblast, which can potentially KO Iron Crown. The damage calculator provides a quick and reliable way to compare the potential damage of my available moves against Primarina's defenses, allowing me to prioritize moves that can maximize damage output.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 161 turns to KO opponent's pokemon\nuturn: 6 turns to KO opponent's pokemon\nquickattack: 5 turns to KO opponent's pokemon\nterablast: 7 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nRequires switch:\nprimarina vs. primarina:\nprimarina outspeeds primarina\nprimarina's moves:\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 6 turns to KO opponent's pokemon\nmoonblast: 3 turns to KO opponent's pokemon\npsychicnoise: 6 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\n\nRequires switch:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 3 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 11 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\nRequires switch:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 5 turns to KO opponent's pokemon\nrazorshell: 5 turns to KO opponent's pokemon\nknockoff: 5 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\n\nRequires switch:\nkingambit vs. primarina:\nprimarina outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 405 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: False, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Quick Attack is effective against Primarina.\", 'TypeMatchup': \"Dragapult's Dragon/Ghost type is resistant to Primarina's Water/Fairy type.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': 'Dragapult is the only remaining Pokémon with a chance to win.', 'BoostsAndStatus': 'Dragapult has the potential to boost its Attack stat.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Primarina's Moonblast is very effective.\", 'Uncertainty': \"Primarina's PsychicNoise could potentially deal significant damage.\", 'WinPlan': 'Dragapult can outspeed Primarina and potentially win with Quick Attack.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "primarina (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is effective against Dragapult.\", 'TypeMatchup': \"Primarina's Water/Fairy type is resistant to Dragapult's Dragon/Ghost type.\", 'SpeedControl': 'Primarina outspeeds Dragapult.', 'TeamAdvantage': 'Primarina is the only remaining Pokémon on the field.', 'BoostsAndStatus': 'Primarina has Calm Mind boosting its Special Attack and Special Defense.', 'HazardsAndField': 'n/a', 'SwitchingCost': \"High - frequent switching will drain Primarina's PP.\", 'OpponentPressure': 'Dragapult has powerful moves like Dragon Darts and U-Turn.', 'Uncertainty': \"Primarina's Moonblast is less effective against Dragapult than its other moves.\", 'WinPlan': 'Primarina can outspeed Dragapult and use Moonblast to defeat it.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: samurotthisui",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -20,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:69%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 111 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nquickattack: 4 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\ndragapult's moves if opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nquickattack: 222 turns to KO opponent's pokemon\nterablast: 222 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ndragondarts: 2 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nquickattack: 222 turns to KO opponent's pokemon\nterablast: 222 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ndragondarts: 111 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nquickattack: 4 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nRequires switch:\nprimarina vs. primarina:\nprimarina outspeeds primarina\nprimarina's moves:\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nprimarina's moves if opponent's primarina uses 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nprimarina's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 3 turns to KO opponent's pokemon\nmoonblast: 6 turns to KO opponent's pokemon\npsychicnoise: 7 turns to KO opponent's pokemon\nprimarina's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 6 turns to KO opponent's pokemon\nmoonblast: 3 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\n\nRequires switch:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 8 turns to KO opponent's pokemon\nironcrown's moves if opponent's primarina uses 'terastallize':\nfuturesight: 7 turns to KO opponent's pokemon\ntachyoncutter: 4 turns to KO opponent's pokemon\nvoltswitch: 5 turns to KO opponent's pokemon\nfocusblast: 4 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nfuturesight: 5 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 5 turns to KO opponent's pokemon\nfocusblast: 2 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nfuturesight: 3 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 8 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\nCurrent pokemon:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 4 turns to KO opponent's pokemon\nrazorshell: 3 turns to KO opponent's pokemon\nknockoff: 4 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if opponent's primarina uses 'terastallize':\nceaselessedge: 4 turns to KO opponent's pokemon\nrazorshell: 3 turns to KO opponent's pokemon\nknockoff: 4 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nceaselessedge: 2 turns to KO opponent's pokemon\nrazorshell: 3 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nsamurotthisui's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nceaselessedge: 6 turns to KO opponent's pokemon\nrazorshell: 5 turns to KO opponent's pokemon\nknockoff: 5 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\n\nRequires switch:\nkingambit vs. primarina:\nprimarina outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 1 turns to KO opponent's pokemon\nkingambit's moves if opponent's primarina uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 2 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 2 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 405 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "kingambit (pokemon object) [Active: False, Status: FNT]",
+                    "score": 90,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Dragon Darts is effective against Primarina.\", 'TypeMatchup': \"Dragapult's Steel typing is resistant to Primarina's Moonblast.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': 'Dragapult has better remaining team strength than Primarina.', 'BoostsAndStatus': 'Dragapult has the potential to boost its moves with Terastallize.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': \"Primarina's Moonblast is effective against Dragapult.\", 'Uncertainty': 'Primarina can use Calm Mind to boost its stats.', 'WinPlan': 'Dragapult can outspeed and defeat Primarina with Dragon Darts.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "razorshell (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is effective against Dragapult.\", 'TypeMatchup': \"Dragapult's Dragon/Ghost type is weak to Primarina's Water/Fairy type.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': 'Primarina is the only remaining Pokémon on the field.', 'BoostsAndStatus': \"Primarina's Calm Mind boosts its Special Attack and Special Defense.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Primarina's Moonblast is very effective.\", 'Uncertainty': 'n/a', 'WinPlan': \"Dragapult can win with Quick Attack or Dragon Darts if Primarina doesn't use Terastallize.\"}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": 20,
+                        "Uncertainty": 0,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "primarina (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Dragapult.\", 'TypeMatchup': \"Dragapult is weak to Primarina's Water-type moves.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': 'Primarina is the only remaining Pokémon on the field.', 'BoostsAndStatus': 'Primarina has Calm Mind boosting its Sp.A and Sp.D.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Low', 'Uncertainty': 'High', 'WinPlan': 'Dragapult can potentially win with a well-timed Terastallize and a strong move.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -20,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: kingambit",
+                "score": 90,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:69%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 111 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nquickattack: 4 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nRequires switch:\nprimarina vs. primarina:\nprimarina outspeeds primarina\nprimarina's moves:\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\n\nRequires switch:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 8 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\nRequires switch:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 4 turns to KO opponent's pokemon\nrazorshell: 3 turns to KO opponent's pokemon\nknockoff: 4 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "dragapult (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is effective against Dragapult.\", 'TypeMatchup': \"Primarina's Water/Fairy type is resistant to Dragapult's Dragon/Ghost type.\", 'SpeedControl': 'Primarina outspeeds Dragapult.', 'TeamAdvantage': \"Primarina's remaining team has stronger offensive options.\", 'BoostsAndStatus': 'Primarina has not used any boosting moves.', 'HazardsAndField': 'Primarina has Heavy-Duty Boots, negating field hazards.', 'SwitchingCost': 'Frequent switching will disadvantage Primarina in speed.', 'OpponentPressure': \"Dragapult's Future Sight can potentially deal significant damage.\", 'Uncertainty': \"Uncertain if Primarina can outspeed Dragapult's Future Sight.\", 'WinPlan': 'Primarina can win with Moonblast or Calmmind.'}",
+                    "opponent_action": "calmmind (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "primarina (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Surf and Moonblast are effective against Dragapult.\", 'TypeMatchup': \"Primarina's Water/Fairy type is resistant to Dragapult's Dragon/Ghost type.\", 'SpeedControl': 'Primarina outspeeds Dragapult.', 'TeamAdvantage': \"Primarina's remaining team has better offensive power than Dragapult's.\", 'BoostsAndStatus': 'Primarina has not used any boosting moves.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - Frequent switching will reset boosts and weaken the team.', 'OpponentPressure': \"Primarina's Moonblast can potentially KO Dragapult.\", 'Uncertainty': \"Primarina's PsychicNoise is less effective against Dragapult.\", 'WinPlan': \"Primarina can win with well-timed Moonblasts or by exploiting Dragapult's potential switching costs.\"}",
+                    "opponent_action": "calmmind (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 15,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: dragapult",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:100%Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:69%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 111 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nquickattack: 4 turns to KO opponent's pokemon\nterablast: 5 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nRequires switch:\nprimarina vs. primarina:\nprimarina outspeeds primarina\nprimarina's moves:\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nsurf: 4 turns to KO opponent's pokemon\nmoonblast: 2 turns to KO opponent's pokemon\npsychicnoise: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 3 turns to KO your pokemon\npsychicnoise: 4 turns to KO your pokemon\n\nRequires switch:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 8 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\nRequires switch:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 4 turns to KO opponent's pokemon\nrazorshell: 3 turns to KO opponent's pokemon\nknockoff: 4 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\n\n\nYour current pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)",
+            "Candidates": [
+                {
+                    "player_action": "primarina (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Dragapult.\", 'TypeMatchup': \"Primarina's Fairy type is resistant to Dragapult's Dragon/Ghost types.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': 'Primarina is the only remaining Pokémon on the field.', 'BoostsAndStatus': \"Primarina's Calm Mind boosts its Special Attack and Special Defense.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Primarina's Moonblast is very effective.\", 'Uncertainty': \"Primarina's Moonblast could potentially KO Dragapult.\", 'WinPlan': 'Primarina can win the battle with its strong Moonblast move.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Dragapult.\", 'TypeMatchup': \"Primarina's Water/Fairy type is resistant to Dragapult's Dragon/Ghost type.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': 'Primarina has a strong remaining team with powerful moves.', 'BoostsAndStatus': 'Primarina has Calm Mind boosting its Special Attack and Special Defense.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High, considering multiple switches have been made.', 'OpponentPressure': \"Primarina's Moonblast is very effective and could potentially KO Dragapult.\", 'Uncertainty': \"Primarina's remaining team is strong, but Dragapult's speed makes it difficult to predict the outcome.\", 'WinPlan': 'Primarina can potentially win with strong moves and type advantages.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: primarina",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 10,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": 20,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:0%Status:fainted,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:100%Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:50%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nRequires switch:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 2 turns to KO opponent's pokemon\nfocusblast: 6 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\nRequires switch:\nsamurotthisui vs. primarina:\nsamurotthisui outspeeds primarina\nsamurotthisui's moves:\nceaselessedge: 3 turns to KO opponent's pokemon\nrazorshell: 3 turns to KO opponent's pokemon\nknockoff: 3 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 322 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "samurotthisui (pokemon object) [Active: False, Status: FNT]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is less effective against Dragapult due to type resistance.\", 'TypeMatchup': \"Primarina's Water/Fairy type is resistant to Dragapult's Dragon/Ghost type.\", 'SpeedControl': 'Dragapult outspeeds Primarina, ensuring priority for future moves.', 'TeamAdvantage': 'Player has strong remaining Pokémon like Iron Crown and Samurotthisui.', 'BoostsAndStatus': \"Primarina's Calm Mind boosts its Special Attack and Defense.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Frequent switching could lead to loss of momentum.', 'OpponentPressure': \"Primarina's Moonblast is strong, but Dragapult's remaining team is weaker.\", 'Uncertainty': \"Primarina's Calm Mind boost could be ineffective against strong moves.\", 'WinPlan': 'Dragapult can potentially win with future moves or strong attacks from remaining Pokémon.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 80
+                    }
+                },
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is less effective against Dragapult due to Dragon/Ghost type immunity.\", 'TypeMatchup': \"Primarina's Water/Fairy type is resistant to Dragapult's Dragon/Ghost type moves.\", 'SpeedControl': 'Dragapult outspeeds Primarina, ensuring priority for future moves.', 'TeamAdvantage': 'Player has strong remaining Pokémon like Iron Crown and Samurotthisui.', 'BoostsAndStatus': \"Primarina's Calm Mind boost will increase its Special Attack and Defense.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Excessive switching could lead to losing the type advantage and weakening the team.', 'OpponentPressure': \"Primarina's Moonblast is strong, but Dragapult's Dragon/Ghost type immunity reduces its effectiveness.\", 'Uncertainty': \"Primarina's PsychicNoise could potentially deal significant damage.\", 'WinPlan': 'Outspeed Primarina and utilize strong moves like Future Sight or T-Tackle to defeat it.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": -10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: samurotthisui",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": -10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 80
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:0%Status:fainted,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:0%Status:fainted,Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:50%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nRequires switch:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 2 turns to KO opponent's pokemon\nfocusblast: 6 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "ironcrown (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Crown's Future Sight is effective against Primarina.\", 'TypeMatchup': \"Iron Crown's Steel type is resistant to Primarina's Water type.\", 'SpeedControl': 'Iron Crown outspeeds Primarina.', 'TeamAdvantage': 'Iron Crown remains as the only viable Pokémon on the field.', 'BoostsAndStatus': 'Iron Crown has Future Sight charge and Assault Vest boosts Sp. Def.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High cost of switching due to Future Sight.', 'OpponentPressure': \"Primarina's Moonblast is strong and can potentially OHKO remaining Pokémon.\", 'Uncertainty': \"Primarina's Calm Mind boosts Sp. Atk and Sp. Def, making it more dangerous.\", 'WinPlan': 'Iron Crown needs to utilize Future Sight effectively to secure victory.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Iron Crown's Future Sight is effective against Primarina.\", 'TypeMatchup': \"Iron Crown's Steel type is resistant to Primarina's Moonblast.\", 'SpeedControl': 'Iron Crown outspeeds Primarina.', 'TeamAdvantage': 'Iron Crown remains as the only viable Pokémon on the field.', 'BoostsAndStatus': \"Iron Crown's Quark Drive boosts its Speed.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Primarina's Moonblast is very effective against Dragapult.\", 'Uncertainty': \"Primarina's Calm Mind boosts its stats, making future attacks less effective.\", 'WinPlan': 'Iron Crown needs to land a critical hit with Future Sight to win.'}",
+                    "opponent_action": "moonblast (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -20,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ironcrown",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": -20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:0%Status:fainted,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:0%Status:fainted,Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:50%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\ndragapult's moves if opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 161 turns to KO opponent's pokemon\nterablast: 161 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 161 turns to KO opponent's pokemon\nterablast: 161 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nCurrent pokemon:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 2 turns to KO opponent's pokemon\nfocusblast: 6 turns to KO opponent's pokemon\nironcrown's moves if opponent's primarina uses 'terastallize':\nfuturesight: 5 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 3 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nfuturesight: 4 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 2 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 2 turns to KO opponent's pokemon\nfocusblast: 6 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 4 turns to KO your pokemon\npsychicnoise: 11 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ironcrown,Type:Steel and Psychic,HP:69%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": -1,
+                    "rationale": "The immediate threat is Primarina's Moonblast, which can potentially KO Iron Crown. The damage calculator provides a quick assessment of move power, while the minimax tree would require deeper analysis of potential future moves and their consequences. Given the urgent need for damage, the damage calculator offers a more practical and efficient solution in this turn.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:0%Status:fainted,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:24%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:0%Status:fainted,Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:50%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nRequires switch:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\ndragapult's moves if opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 161 turns to KO opponent's pokemon\nterablast: 161 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 161 turns to KO opponent's pokemon\nterablast: 161 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\nCurrent pokemon:\nironcrown vs. primarina:\nironcrown outspeeds primarina\nironcrown's moves:\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 2 turns to KO opponent's pokemon\nfocusblast: 6 turns to KO opponent's pokemon\nironcrown's moves if opponent's primarina uses 'terastallize':\nfuturesight: 5 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 3 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\nfuturesight: 4 turns to KO opponent's pokemon\ntachyoncutter: 3 turns to KO opponent's pokemon\nvoltswitch: 3 turns to KO opponent's pokemon\nfocusblast: 2 turns to KO opponent's pokemon\nironcrown's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\nfuturesight: 2 turns to KO opponent's pokemon\ntachyoncutter: 2 turns to KO opponent's pokemon\nvoltswitch: 2 turns to KO opponent's pokemon\nfocusblast: 6 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 2 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 5 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ironcrown,Type:Steel and Psychic,HP:24%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)",
+            "Candidates": [
+                {
+                    "player_action": "futuresight (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Dragapult.\", 'TypeMatchup': \"Primarina's Steel typing makes it resistant to Dragapult's Dragon/Ghost moves.\", 'SpeedControl': 'Dragapult outspeeds Primarina.', 'TeamAdvantage': \"Primarina is the only remaining Pokémon on the opponent's team.\", 'BoostsAndStatus': \"Primarina's Torrent ability boosts its Water-type moves when its HP is low.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Primarina's Moonblast is very effective against Dragapult.\", 'Uncertainty': \"Primarina's remaining HP is low.\", 'WinPlan': \"Dragapult needs to find a way to defeat Primarina before it's too late.\"}",
+                    "opponent_action": "surf (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "dragapult (pokemon object) [Active: True, Status: FNT]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Primarina's Moonblast is super effective against Dragapult.\", 'TypeMatchup': \"Primarina is weak to Dragon-type moves, but Dragapult's moves are ineffective against Primarina.\", 'SpeedControl': 'Dragapult outspeeds Primarina, but Primarina is faster than Dragapult after using Calm Mind.', 'TeamAdvantage': 'Player has strong remaining Pokémon like Iron Crown and Samurott.', 'BoostsAndStatus': 'Primarina has used Calm Mind, boosting its SpA and SpD.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'Frequent switching can be costly.', 'OpponentPressure': \"Primarina's Moonblast can put significant pressure on Dragapult.\", 'Uncertainty': \"Primarina's Moonblast is highly effective, but there is some uncertainty due to Dragapult's ability.\", 'WinPlan': 'Outspeed Primarina and use strong moves like Future Sight or Steel-type moves to defeat Primarina.'}",
+                    "opponent_action": "surf (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 15,
+                        "Uncertainty": 5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Futuresight",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 10,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": 20,
+                    "Uncertainty": -10,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:0%Status:fainted,Ability:Torrent(Powers up Water-type moves when the Pokémon's HP is low.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:ironcrown,Type:Steel and Psychic,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Assault Vest(Raises Special Defense but prevents the use of status moves.)Tera type:STEEL (pokemon type) object Is terastallized? False\nPokemon:samurotthisui,Type:Water and Dark,HP:0%Status:fainted,Ability:Sharpness(Powers up slicing moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GHOST (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:landorustherian,Type:Ground and Flying,HP:0%Status:fainted,Ability:Intimidate(When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.),Item:Rocky Helmet(If the holder of this item takes damage, the attacker will also be damaged upon contact.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:primarina,Type:Water and Fairy,HP:50%Ability:None,Item:unknown_itemTera type:STEEL (pokemon type) object Is terastallized? False\nCurrent pokemon:\ndragapult vs. primarina:\ndragapult outspeeds primarina\ndragapult's moves:\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\ndragapult's moves if opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 161 turns to KO opponent's pokemon\nterablast: 161 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina uses 'terastallize':\ndragondarts: 1 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 161 turns to KO opponent's pokemon\nterablast: 161 turns to KO opponent's pokemon\ndragapult's moves if it uses 'terastallize' and opponent's primarina does NOT use 'terastallize':\ndragondarts: 81 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nquickattack: 3 turns to KO opponent's pokemon\nterablast: 4 turns to KO opponent's pokemon\nOpponent moves: primarina\nsurf: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\nmoonblast: 2 turns to KO your pokemon\npsychicnoise: 3 turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:dragapult,Type:Dragon and Ghost,HP:100%Ability:Clear Body(Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats.),Item:Choice Band(Raises Attack, but only one move can be used.)",
+            "Candidates": [
+                {
+                    "player_action": "uturn (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Terablast is effective against Primarina\", 'TypeMatchup': \"Dragapult's Dragon/Ghost typing is resistant to Primarina's Water/Fairy moves\", 'SpeedControl': 'Dragapult outspeeds Primarina', 'TeamAdvantage': 'Dragapult is the only remaining Pokémon with a chance to win', 'BoostsAndStatus': \"Primarina's Torrent ability boosts its Water-type moves when its HP is low\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': \"Primarina's Moonblast can deal significant damage\", 'Uncertainty': \"Primarina's remaining moves are still effective\", 'WinPlan': 'Dragapult can potentially win with Terablast'}",
+                    "opponent_action": "surf (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 10
+                    }
+                },
+                {
+                    "player_action": "terablast (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Dragapult's Terablast is effective against Primarina\", 'TypeMatchup': \"Dragapult's Dragon/Ghost type is resistant to Primarina's Water/Fairy type\", 'SpeedControl': 'Dragapult outspeeds Primarina', 'TeamAdvantage': 'Dragapult is the only remaining Pokémon', 'BoostsAndStatus': 'Dragapult has Clear Body and is holding a Choice Band', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High', 'OpponentPressure': 'Primarina has Moonblast', 'Uncertainty': \"Primarina's Moonblast is super effective against Dragapult\", 'WinPlan': 'Dragapult can win with Terablast'}",
+                    "opponent_action": "surf (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": -20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Uturn",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 10
+                }
+            }
+        }
+    }
+}

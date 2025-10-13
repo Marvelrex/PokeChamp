@@ -536,9 +536,29 @@ class LocalSim():
     
     def get_player_prompt(self, return_actions=False, return_choices=False):
         if return_actions:
-            system_prompt, state_prompt, state_action_prompt, action_prompt_switch, action_prompt_move = self.prompt_translate(self, self.battle, return_actions=return_actions) # add lower case
+            # system_prompt, state_prompt, state_action_prompt, action_prompt_switch, action_prompt_move = self.prompt_translate(self, self.battle, return_actions=return_actions) # add lower case
+            prompt_parts = self.prompt_translate(self, self.battle, return_actions=return_actions)
+            if len(prompt_parts) == 5:
+                system_prompt, state_prompt, state_action_prompt, action_prompt_switch, action_prompt_move = prompt_parts
+            elif len(prompt_parts) == 3:
+                system_prompt, state_prompt, state_action_prompt = prompt_parts
+                action_prompt_switch = ""
+                action_prompt_move = ""
+
+            else:
+                raise ValueError(f"Unexpected prompt_translate return length ({len(prompt_parts)}) for return_actions=True")
         elif return_choices:
-            system_prompt, state_prompt, state_action_prompt, action_choice_switch, action_choice_move = self.prompt_translate(self, self.battle, return_choices=return_choices) # add lower case
+            # system_prompt, state_prompt, state_action_prompt, action_choice_switch, action_choice_move = self.prompt_translate(self, self.battle, return_choices=return_choices) # add lower case
+            prompt_parts = self.prompt_translate(self, self.battle, return_choices=return_choices)
+            if len(prompt_parts) == 5:
+                system_prompt, state_prompt, state_action_prompt, action_choice_switch, action_choice_move = prompt_parts
+            elif len(prompt_parts) == 3:
+                system_prompt, state_prompt, state_action_prompt = prompt_parts
+                action_choice_switch = ""
+                action_choice_move = ""
+
+            else:
+                raise ValueError(f"Unexpected prompt_translate return length ({len(prompt_parts)}) for return_choices=True")
         else:
             system_prompt, state_prompt, state_action_prompt = self.prompt_translate(self, self.battle) # add lower case
 

@@ -1,0 +1,797 @@
+{
+    "Battle Id: 9551": {
+        "Turn 1": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:None Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:None Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:None Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. ironvaliant:\nironvaliant outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if opponent's ironvaliant uses 'terastallize':\nfocusblast: 289000 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 1 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngholdengo's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 5 turns to KO your pokemon\nclosecombat: 316 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 289 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if opponent's ironvaliant uses 'terastallize':\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 145 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 97 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\ntinglu's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nruination: 289000 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. ironvaliant:\ndeoxysspeed outspeeds ironvaliant\ndeoxysspeed's moves:\nknockoff: 23 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 1 turns to KO opponent's pokemon\nsuperpower: 6 turns to KO opponent's pokemon\ndeoxysspeed's moves if opponent's ironvaliant uses 'terastallize':\nknockoff: 3 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 2 turns to KO opponent's pokemon\nsuperpower: 6 turns to KO opponent's pokemon\ndeoxysspeed's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nknockoff: 3 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 2 turns to KO opponent's pokemon\nsuperpower: 6 turns to KO opponent's pokemon\ndeoxysspeed's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nknockoff: 23 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 1 turns to KO opponent's pokemon\nsuperpower: 6 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\nknockoff: 5 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngarganacl's moves if opponent's ironvaliant uses 'terastallize':\nsaltcure: 5 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngarganacl's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nsaltcure: 8 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\ngarganacl's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nsaltcure: 15 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 18 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nCurrent pokemon:\nogerpon vs. ironvaliant:\nironvaliant outspeeds ogerpon\nogerpon's moves:\nknockoff: 14 turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\nuturn: 13 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nogerpon's moves if opponent's ironvaliant uses 'terastallize':\nknockoff: 4 turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nogerpon's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nknockoff: 4 turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nogerpon's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nknockoff: 14 turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\nuturn: 13 turns to KO opponent's pokemon\nencore: Forces opponent to keep using its last move for 3 turns.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 10 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\ngliscor vs. ironvaliant:\nironvaliant outspeeds gliscor\ngliscor's moves:\nuturn: 19 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\ngliscor's moves if opponent's ironvaliant uses 'terastallize':\nuturn: 10 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 289 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\ngliscor's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nuturn: 5 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 4 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\ngliscor's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nuturn: 19 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 4 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 4 turns to KO your pokemon\nclosecombat: 6 turns to KO your pokemon\nknockoff: 8 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ogerpon,Type:Grass,HP:100%Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "knockoff (Move object)",
+                    "score": 88,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is strong against Iron Valiant, while Toxic can badly poison it.\", 'TypeMatchup': 'Ground-Flying vs. Fairy is advantageous for Gliscor.', 'SpeedControl': 'Gliscor outspeeds Iron Valiant, allowing for timely moves.', 'TeamAdvantage': \"Gliscor's Poison Heal and Toxic Orb provide defensive support, while Iron Valiant lacks reliable healing.\", 'BoostsAndStatus': \"Gliscor's Poison Heal and potential Earthquake boost are significant advantages.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Moderate - multiple strong moves from both sides.', 'OpponentPressure': \"Iron Valiant's Close Combat and Moonblast can be dangerous.\", 'Uncertainty': \"Gliscor's Earthquake is less effective against Iron Valiant when it uses Terastallize.\", 'WinPlan': \"Utilize Gliscor's speed and strong moves to outmaneuver and damage Iron Valiant before it can fully utilize Terastallize.\"}",
+                    "opponent_action": "closecombat (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 18,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 12,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -7,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is strong against Iron Valiant, and Poison Heal can heal any poison damage.\", 'TypeMatchup': \"Gliscor's Ground/Flying typing is weak against Iron Valiant's Fairy/Fighting typing, but Iron Valiant's moves are not super effective against Gliscor.\", 'SpeedControl': 'Gliscor outspeeds Iron Valiant, which will allow it to use moves before Iron Valiant.', 'TeamAdvantage': 'Gliscor is the only remaining Pokémon, while Iron Valiant has two remaining Pokémon.', 'BoostsAndStatus': 'Gliscor has Poison Heal, which can heal poison damage.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Iron Valiant has moves that can potentially poison Gliscor.', 'Uncertainty': \"Gliscor's chances of winning depend on its ability to avoid or mitigate the poison damage from Iron Valiant.\", 'WinPlan': 'Gliscor needs to use Earthquake to defeat Iron Valiant before it is knocked out by its remaining moves.'}",
+                    "opponent_action": "closecombat (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -5,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 5,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's Earthquake is strong against Iron Valiant, while Knockoff can potentially cripple the opponent.\", 'TypeMatchup': \"Ground is strong against Fairy, but Iron Valiant's Steel typing makes it resistant to Ground attacks.\", 'SpeedControl': 'Gliscor outspeeds Iron Valiant, allowing for timely attacks and defensive positioning.', 'TeamAdvantage': \"Gliscor's Poison Heal and Toxic Orb can potentially heal and damage the opponent.\", 'BoostsAndStatus': \"Gliscor's Poison Heal is valuable against poison damage, while Iron Valiant's Calm Mind boosts its Special Attack.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Iron Valiant's Close Combat and Knockoff can put significant damage on Gliscor.\", 'Uncertainty': 'The outcome of the battle is uncertain, as both teams have strong and weak points.', 'WinPlan': 'Gliscor needs to utilize its speed advantage, strong Ground attacks, and Poison Heal to outlast and defeat Iron Valiant.'}",
+                    "opponent_action": "closecombat (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Knockoff",
+                "score": 88,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 18,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 12,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -7,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:89%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nRequires switch:\ngholdengo vs. ironvaliant:\nironvaliant outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 5 turns to KO your pokemon\nclosecombat: 316 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  5.0 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 258 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. ironvaliant:\ndeoxysspeed outspeeds ironvaliant\ndeoxysspeed's moves:\nknockoff: 20 turns to KO opponent's pokemon\nicebeam: 2 turns to KO opponent's pokemon\npsychoboost: 1 turns to KO opponent's pokemon\nsuperpower: 6 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\nknockoff: 5 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 9 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 18 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. ironvaliant:\nironvaliant outspeeds gliscor\ngliscor's moves:\nuturn: 17 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 4 turns to KO your pokemon\nclosecombat: 6 turns to KO your pokemon\nknockoff: 8 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: False, Status: None]",
+                    "score": 88,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Psychoboost and Icebeam are strong against Iron Valiant.\", 'TypeMatchup': 'Deoxysspeed is resistant to Moonblast, and Iron Valiant is weak to Ice-type moves.', 'SpeedControl': 'Deoxysspeed outspeeds Iron Valiant.', 'TeamAdvantage': 'Strong remaining team with potential for further boosts.', 'BoostsAndStatus': 'Deoxysspeed has Pressure, which puts Iron Valiant under PP pressure.', 'HazardsAndField': 'n/a', 'SwitchingCost': \"High potential for switching due to opponent's speed.\", 'OpponentPressure': 'Iron Valiant has Quark-Drive, which boosts its most proficient stat.', 'Uncertainty': \"Moonblast is a powerful move, but Deoxysspeed's speed gives it an edge.\", 'WinPlan': \"Utilize Deoxysspeed's speed and boosts to secure a win before Iron Valiant can unleash its full potential.\"}",
+                    "opponent_action": "calmmind (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 18,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "deoxysspeed (pokemon object) [Active: True, Status: None]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Icebeam and Psychoboost are effective against Iron Valiant.\", 'TypeMatchup': \"Deoxysspeed is resistant to Iron Valiant's Moonblast.\", 'SpeedControl': 'Deoxysspeed outspeeds Iron Valiant.', 'TeamAdvantage': 'Garganacl and Gliscor could potentially switch in and threaten Iron Valiant.', 'BoostsAndStatus': \"Deoxysspeed's Pressure could reduce Iron Valiant's move effectiveness.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Iron Valiant's Quark-Drive boosts its speed and effectiveness.\", 'Uncertainty': \"Iron Valiant's Close Combat could potentially KO Deoxysspeed.\", 'WinPlan': 'Deoxysspeed can potentially win with Icebeam or Psychoboost.'}",
+                    "opponent_action": "calmmind (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 88,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 18,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:11%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nRequires switch:\ngholdengo vs. ironvaliant:\nironvaliant outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 1 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 5 turns to KO your pokemon\nclosecombat: 316 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  5.0 turns to KO your pokemon\n\nCurrent pokemon:\ntinglu vs. ironvaliant:\nironvaliant outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nruination: 32 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 21 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. ironvaliant:\ndeoxysspeed outspeeds ironvaliant\ndeoxysspeed's moves:\nknockoff: 3 turns to KO opponent's pokemon\nicebeam: 1 turns to KO opponent's pokemon\npsychoboost: 1 turns to KO opponent's pokemon\nsuperpower: 1 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\nknockoff: 5 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. ironvaliant:\nironvaliant outspeeds garganacl\ngarganacl's moves:\nsaltcure: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 18 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. ironvaliant:\nironvaliant outspeeds gliscor\ngliscor's moves:\nuturn: 2 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 4 turns to KO your pokemon\nclosecombat: 6 turns to KO your pokemon\nknockoff: 8 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:100%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Moonblast is quite powerful and could potentially KO Ting-Lu. However, we also have a significant speed advantage with our current Pokémon. Given the clear type matchup and predictable opponent behavior, the damage calculator seems more efficient for finding the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:42%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. glimmora:\nglimmora outspeeds gholdengo\ngholdengo's moves:\nfocusblast: 3 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 2 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: glimmora\nstealthrock: Damages opponents switching into battle.  inf turns to KO your pokemon\nmortalspin: 316 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\npowergem: 5 turns to KO your pokemon\n\nCurrent pokemon:\ntinglu vs. glimmora:\nglimmora outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nruination: 62 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: glimmora\nstealthrock: Damages opponents switching into battle.  inf turns to KO your pokemon\nmortalspin: 21 turns to KO your pokemon\nearthpower: 4 turns to KO your pokemon\npowergem: 5 turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. glimmora:\ndeoxysspeed outspeeds glimmora\ndeoxysspeed's moves:\nknockoff: 6 turns to KO opponent's pokemon\nicebeam: 3 turns to KO opponent's pokemon\npsychoboost: 1 turns to KO opponent's pokemon\nsuperpower: 4 turns to KO opponent's pokemon\nOpponent moves: glimmora\nstealthrock: Damages opponents switching into battle.  inf turns to KO your pokemon\nmortalspin: 19 turns to KO your pokemon\nearthpower: 2 turns to KO your pokemon\npowergem: 3 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. glimmora:\nglimmora outspeeds garganacl\ngarganacl's moves:\nsaltcure: 6 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: glimmora\nstealthrock: Damages opponents switching into battle.  inf turns to KO your pokemon\nmortalspin: 82 turns to KO your pokemon\nearthpower: 3 turns to KO your pokemon\npowergem: 5 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. glimmora:\nglimmora outspeeds gliscor\ngliscor's moves:\nuturn: 10 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 1 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: glimmora\nstealthrock: Damages opponents switching into battle.  inf turns to KO your pokemon\nmortalspin: 33 turns to KO your pokemon\nearthpower: 353 turns to KO your pokemon\npowergem: 4 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:42%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Glimmora has a powerful stealth rock move that can potentially KO Ting-Lu. The damage calculator provides a quick and reliable way to assess the potential damage output of my moves, allowing me to prioritize moves that can potentially outspeed and defeat Glimmora before it can unleash its deadly attack.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:100%Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. corviknight:\ngholdengo outspeeds corviknight\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 24 turns to KO your pokemon\nbodypress: 316 turns to KO your pokemon\n\nCurrent pokemon:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\nbodypress: 3 turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. corviknight:\ndeoxysspeed outspeeds corviknight\ndeoxysspeed's moves:\nknockoff: 12 turns to KO opponent's pokemon\nicebeam: 4 turns to KO opponent's pokemon\npsychoboost: 4 turns to KO opponent's pokemon\nsuperpower: 7 turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 5 turns to KO your pokemon\nbodypress: 5 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 21 turns to KO your pokemon\nbodypress: 4 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. corviknight:\ngliscor outspeeds corviknight\ngliscor's moves:\nuturn: 40 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 17 turns to KO your pokemon\nbodypress: 16 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "gliscor (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Earthquake is effective against Corviknight.\", 'TypeMatchup': \"Deoxysspeed is resistant to Corviknight's Earth Power.\", 'SpeedControl': 'Deoxysspeed outspeeds Corviknight.', 'TeamAdvantage': 'Deoxysspeed can switch into other Pokémon without taking damage from Stealth Rock.', 'BoostsAndStatus': \"Deoxysspeed's Pressure will force Corviknight to use more PP for its moves.\", 'HazardsAndField': \"Corviknight's Stealth Rock will damage Deoxysspeed if it switches out.\", 'SwitchingCost': 'Deoxysspeed has a low Switching Cost.', 'OpponentPressure': \"Corviknight's Pressure will force Deoxysspeed to use more PP for its moves.\", 'Uncertainty': \"Corviknight's Mortal Spin has a high PP cost and could potentially KO Deoxysspeed.\", 'WinPlan': 'Deoxysspeed can win with Earthquake or by forcing Corviknight to use up its PP.'}",
+                    "opponent_action": "bodypress (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 5,
+                        "BoostsAndStatus": -5,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "deoxysspeed (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Earthquake is effective against Corviknight.\", 'TypeMatchup': \"Deoxysspeed's Psychic-type is resistant to Corviknight's Steel-type.\", 'SpeedControl': 'Deoxysspeed outspeeds Corviknight.', 'TeamAdvantage': \"Deoxysspeed's remaining team has better speed and offensive power than Corviknight's team.\", 'BoostsAndStatus': \"Deoxysspeed's Pressure ability puts Corviknight under pressure.\", 'HazardsAndField': \"Corviknight's Stealth Rock hazard can damage Deoxysspeed's team.\", 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Corviknight's Pressure ability can increase the PP cost of Deoxysspeed's moves.\", 'Uncertainty': \"Corviknight's Mortal Spin can potentially KO Deoxysspeed.\", 'WinPlan': 'Deoxysspeed can win with well-timed Earthquake attacks.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Earthquake is super effective against Corviknight.\", 'TypeMatchup': \"Deoxysspeed's Psychic-type resistance is advantageous against Corviknight's Steel-type moves.\", 'SpeedControl': 'Deoxysspeed outspeeds Corviknight.', 'TeamAdvantage': 'Strong remaining team with potential for further boosts.', 'BoostsAndStatus': \"Deoxysspeed's Pressure ability can put additional pressure on Corviknight.\", 'HazardsAndField': 'Stealth Rock is a potential threat on the field.', 'SwitchingCost': 'Frequent switching can be costly.', 'OpponentPressure': \"Corviknight's Pressure can increase the PP cost of Deoxysspeed's moves.\", 'Uncertainty': \"Corviknight's Mortal Spin could potentially KO Deoxysspeed.\", 'WinPlan': 'Deoxysspeed can potentially win with well-timed Earthquake attacks.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 30,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 30
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gliscor",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 5,
+                    "BoostsAndStatus": -5,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": 5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:90%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. corviknight:\ngholdengo outspeeds corviknight\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 316 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 24 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 3 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\n\nRequires switch:\ndeoxysspeed vs. corviknight:\ndeoxysspeed outspeeds corviknight\ndeoxysspeed's moves:\nknockoff: 12 turns to KO opponent's pokemon\nicebeam: 4 turns to KO opponent's pokemon\npsychoboost: 4 turns to KO opponent's pokemon\nsuperpower: 7 turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 5 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 5 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 4 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 21 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. corviknight:\ngliscor outspeeds corviknight\ngliscor's moves:\nuturn: 40 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nbodypress: 14 turns to KO your pokemon\nroost: User recovers half of its max HP and loses the Flying type temporarily.  inf turns to KO your pokemon\ndefog: Lowers opponent's Evasiveness and clears fog.  inf turns to KO your pokemon\nuturn: 16 turns to KO your pokemon\n\n\nYour current pokemon:gliscor,Type:Ground and Flying,HP:90%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "deoxysspeed (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Earthquake is super effective against Corviknight.\", 'TypeMatchup': 'n/a', 'SpeedControl': 'Deoxysspeed outspeeds Corviknight.', 'TeamAdvantage': 'Corviknight is the only remaining opponent.', 'BoostsAndStatus': 'Deoxysspeed has Pressure, which puts Corviknight under pressure.', 'HazardsAndField': 'Stealth Rock is set around the field.', 'SwitchingCost': 'n/a', 'OpponentPressure': 'n/a', 'Uncertainty': \"Corviknight's Earth Power is very effective against Deoxysspeed.\", 'WinPlan': 'Deoxysspeed can potentially win with Earthquake.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 0,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": 0,
+                        "Uncertainty": -20,
+                        "WinPlan": 30
+                    }
+                },
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Deoxysspeed's Earthquake is very effective against Corviknight.\", 'TypeMatchup': \"Deoxysspeed's Psychic-type is resistant to Corviknight's Steel-type.\", 'SpeedControl': 'Deoxysspeed outspeeds Corviknight.', 'TeamAdvantage': \"Deoxysspeed's remaining team has a type advantage over Corviknight.\", 'BoostsAndStatus': \"Deoxysspeed's Pressure ability increases opponents' PP expenditure.\", 'HazardsAndField': \"Corviknight's Stealth Rock is a potential threat.\", 'SwitchingCost': 'Multiple switches have been made, increasing the cost of future switches.', 'OpponentPressure': \"Corviknight's Pressure ability increases opponents' PP expenditure.\", 'Uncertainty': \"Corviknight's Mortal Spin is a very strong move.\", 'WinPlan': 'Deoxysspeed can win with Earthquake or Psychoboost.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: deoxysspeed",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 20,
+                    "TypeMatchup": 0,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": 0,
+                    "Uncertainty": -20,
+                    "WinPlan": 30
+                }
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:90%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. corviknight:\ngholdengo outspeeds corviknight\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  317.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 8 turns to KO your pokemon\n\nRequires switch:\ngholdengo vs. kingambit:\ngholdengo outspeeds kingambit\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 6 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  inf turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 202 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  inf turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 11 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 9 turns to KO your pokemon\nironhead: 7 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 17 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 5 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  inf turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. corviknight:\ngliscor outspeeds corviknight\ngliscor's moves:\nuturn: 40 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 9 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  8.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 6 turns to KO your pokemon\n\nRequires switch:\ngliscor vs. kingambit:\ngliscor outspeeds kingambit\ngliscor's moves:\nuturn: 8 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  inf turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "gliscor (pokemon object) [Active: True, Status: TOX]",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's U-turn and Earthquake are effective against both Corviknight and Kingambit.\", 'TypeMatchup': 'Gliscor is resistant to Moonblast and unaffected by Swords Dance.', 'SpeedControl': 'Gliscor outspeeds both Corviknight and Kingambit.', 'TeamAdvantage': \"Gliscor's Poison Heal and Toxic Orb can potentially heal and damage opponents.\", 'BoostsAndStatus': \"Gliscor's Poison Heal negates the effects of Toxic Spikes and potentially restores HP.\", 'HazardsAndField': 'Toxic Spikes are set around the field, potentially damaging opponents.', 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Kingambit's Pressure could force opponents to use more PP.\", 'Uncertainty': 'The outcome of the battle is still uncertain.', 'WinPlan': 'Gliscor can potentially outspeed and defeat both remaining opponents.'}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Gliscor's U-turn and Earthquake are effective against Corviknight and Kingambit.\", 'TypeMatchup': 'Gliscor is resistant to Moonblast and has a type advantage over Kingambit.', 'SpeedControl': 'Gliscor outspeeds both Corviknight and Kingambit.', 'TeamAdvantage': \"Gliscor's Poison Heal ability can potentially heal its Poison status.\", 'BoostsAndStatus': \"Gliscor's Poison Heal and Kingambit's Swords Dance boost their stats.\", 'HazardsAndField': \"Corviknight's Spikes can damage incoming Pokémon.\", 'SwitchingCost': 'Multiple Pokémon have been switched already, potentially increasing the cost of future switches.', 'OpponentPressure': \"Corviknight's Pressure ability can put pressure on Gliscor.\", 'Uncertainty': 'The outcome of the battle is still uncertain.', 'WinPlan': 'Gliscor can potentially win with well-timed moves and effective stat boosts.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gliscor",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:90%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. corviknight:\ngholdengo outspeeds corviknight\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  317.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 8 turns to KO your pokemon\n\nRequires switch:\ngholdengo vs. kingambit:\ngholdengo outspeeds kingambit\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 6 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 5 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 202 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 11 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 9 turns to KO your pokemon\nironhead: 7 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 17 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 5 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. corviknight:\ngliscor outspeeds corviknight\ngliscor's moves:\nuturn: 40 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 9 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  8.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 6 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. kingambit:\ngliscor outspeeds kingambit\ngliscor's moves:\nuturn: 8 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\n\nYour current pokemon:gliscor,Type:Ground and Flying,HP:90%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super effective against Corviknight, while Corviknight's Earth Power is effective against Tinglu.\", 'TypeMatchup': \"Corviknight's Steel type provides it with resistance to Tinglu's Ground-type moves, but Tinglu's Dark type gives it an advantage against Corviknight.\", 'SpeedControl': 'Tinglu outspeeds Corviknight, but Corviknight outspeeds Tinglu.', 'TeamAdvantage': \"Tinglu's remaining team is stronger than Corviknight's remaining team.\", 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of opposing Pokémon, while Corviknight's Pressure increases the PP cost of opposing Pokémon's moves.\", 'HazardsAndField': \"Corviknight's Stealth Rock can damage opponents switching in, but Tinglu's Heavy-Duty Boots protect it from this hazard.\", 'SwitchingCost': 'Tinglu has switched once, while Corviknight has switched twice.', 'OpponentPressure': 'Corviknight can potentially pressure Tinglu with its high-powered moves.', 'Uncertainty': \"Corviknight's Mortal Spin has a high chance of KOing Tinglu.\", 'WinPlan': 'Tinglu needs to utilize its speed advantage and powerful Earthquake to secure victory.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super effective against Corviknight, while Focus Blast can potentially KO Kingambit.\", 'TypeMatchup': 'Corviknight is weak to Fairy-type moves, but Kingambit is resistant to Ground-type moves.', 'SpeedControl': 'Tinglu outspeeds both Corviknight and Kingambit, ensuring priority moves.', 'TeamAdvantage': \"Garganacl can potentially heal itself and protect others, while Gliscor's Toxic can poison opponents.\", 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of opponents, while Focus Blast can potentially boost its Attack.\", 'HazardsAndField': 'Stealth Rock can damage opponents switching in, but Spikes are not currently in play.', 'SwitchingCost': 'Multiple Pokémon have high switching costs, potentially leading to excessive switching.', 'OpponentPressure': \"Kingambit's Swords Dance can potentially boost its Attack significantly.\", 'Uncertainty': \"Corviknight's Mortal Spin has a high chance of KOing Tinglu.\", 'WinPlan': 'Focus on using Earthquake and other strong moves to exploit opponent weaknesses and utilize team support.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -5,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 15,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is effective against Corviknight and Kingambit.\", 'TypeMatchup': 'Corviknight is weak to Fairy-type moves, which are strong against it.', 'SpeedControl': 'Tinglu is slower than Corviknight but faster than Kingambit.', 'TeamAdvantage': 'Garganacl is a good matchup for Kingambit, while Gliscor can poison Corviknight.', 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of opponents, while Corviknight's Swords Dance boosts its Attack.\", 'HazardsAndField': 'Stealth Rock is active, damaging switching Pokémon.', 'SwitchingCost': 'Multiple Pokémon have high switching costs, potentially leading to excessive switching.', 'OpponentPressure': \"Corviknight's Swords Dance can significantly boost its Attack, making it more dangerous.\", 'Uncertainty': \"Kingambit's Mortal Spin has a high chance of KOing Tinglu.\", 'WinPlan': 'Target Corviknight with Earthquake or Garganacl with Saltcure to remove it from the field.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -5,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 15,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 10,
+                    "Uncertainty": -20,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:100%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. corviknight:\ngholdengo outspeeds corviknight\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  317.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 8 turns to KO your pokemon\n\nRequires switch:\ngholdengo vs. kingambit:\ngholdengo outspeeds kingambit\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 6 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 202 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 11 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 9 turns to KO your pokemon\nironhead: 7 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 17 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. corviknight:\ngliscor outspeeds corviknight\ngliscor's moves:\nuturn: 40 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 9 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  8.0 turns to KO your pokemon\nkowtowcleave: 8 turns to KO your pokemon\nironhead: 6 turns to KO your pokemon\n\nCurrent pokemon:\ngliscor vs. kingambit:\ngliscor outspeeds kingambit\ngliscor's moves:\nuturn: 8 turns to KO opponent's pokemon\ntoxic: Badly poisons opponent.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\n\nYour current pokemon:gliscor,Type:Ground and Flying,HP:100%Status:toxic,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Saltcure is effective against Corviknight, while Kingambit's Swords Dance boosts its Attack.\", 'TypeMatchup': 'Corviknight is weak to Fairy-type moves, while Kingambit is resistant to Rock-type moves.', 'SpeedControl': 'Garganacl outspeeds both Corviknight and Kingambit.', 'TeamAdvantage': \"Garganacl's Purifying Salt protects it from status conditions, while Corviknight's Pressure can drain opponents' PP.\", 'BoostsAndStatus': \"Garganacl's Protect can protect it from future threats, while Kingambit's Swords Dance boosts its Attack.\", 'HazardsAndField': \"Corviknight's Stealth Rock can damage opponents switching in, while Kingambit's Air Balloon allows it to float and avoid ground-type attacks.\", 'SwitchingCost': 'Multiple switches have been made, potentially weakening the team.', 'OpponentPressure': \"Kingambit's Swords Dance can significantly boost its Attack, posing a threat to the team.\", 'Uncertainty': 'The outcome of the battle is still uncertain, as several Pokémon have powerful moves.', 'WinPlan': 'Target Corviknight with Saltcure and prioritize switching out Pokémon that are vulnerable to Swords Dance.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 15,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Saltcure is effective against Corviknight, and Swords Dance boosts Kingambit's Attack.\", 'TypeMatchup': 'Corviknight is weak to Fairy-type moves, while Kingambit is strong against Rock-type moves.', 'SpeedControl': 'Garganacl outspeeds both Corviknight and Kingambit.', 'TeamAdvantage': \"Garganacl's Purifying Salt protects it from status conditions, while Kingambit has no reliable way to heal.\", 'BoostsAndStatus': \"Garganacl's Saltcure can poison Corviknight, while Kingambit's Swords Dance boosts its Attack.\", 'HazardsAndField': 'Stealth Rock can damage opponents switching in.', 'SwitchingCost': 'Multiple Pokémon have abilities or moves that trigger upon switching, potentially causing damage or status effects.', 'OpponentPressure': \"Kingambit's Swords Dance can significantly boost its Attack, but it also leaves it vulnerable to status conditions.\", 'Uncertainty': 'The outcome of the battle depends on the actions of both players and the random effects of moves.', 'WinPlan': 'Target Corviknight with Saltcure, then switch out to Garganacl and use Swords Dance to defeat Kingambit.'}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 15,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:100%Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nRequires switch:\ngholdengo vs. corviknight:\ngholdengo outspeeds corviknight\ngholdengo's moves:\nfocusblast: 4 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 3 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  317.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 8 turns to KO your pokemon\n\nRequires switch:\ngholdengo vs. kingambit:\ngholdengo outspeeds kingambit\ngholdengo's moves:\nfocusblast: 1 turns to KO opponent's pokemon\nthunderwave: Paralyzes opponent.  inf turns to KO opponent's pokemon\nhex: 6 turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 202 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 11 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 9 turns to KO your pokemon\nironhead: 7 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 17 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "gholdengo (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"gholdengo's Focus Blast is effective against Corviknight.\", 'TypeMatchup': 'n/a', 'SpeedControl': 'gholdengo outspeeds Corviknight', 'TeamAdvantage': \"gholdengo is resistant to Corviknight's Earth Power.\", 'BoostsAndStatus': 'n/a', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Corviknight can potentially pressure Holdengo with Swords Dance.', 'Uncertainty': \"Corviknight's Swords Dance could potentially boost its Attack significantly.\", 'WinPlan': 'gholdengo can potentially win with Focus Blast or Thunder Wave.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 0,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 0,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -20,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: gholdengo",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 0,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 0,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": 0,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -20,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 202 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 11 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 9 turns to KO your pokemon\nironhead: 7 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 17 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "garganacl (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is effective against Corviknight.\", 'TypeMatchup': 'Corviknight is vulnerable to Ground-type moves.', 'SpeedControl': 'Tinglu is slower than Corviknight, but can potentially outspeed with Swords Dance.', 'TeamAdvantage': \"Tinglu's remaining team has potential to deal significant damage.\", 'BoostsAndStatus': \"Tinglu's Swords Dance boost will increase its Attack significantly.\", 'HazardsAndField': \"Corviknight's Spikes are a potential threat.\", 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switching costs.', 'OpponentPressure': \"Corviknight's Swords Dance boosts will increase its damage output.\", 'Uncertainty': \"Corviknight's Moonblast could potentially deal significant damage.\", 'WinPlan': \"Tinglu can potentially win with a well-timed Earthquake or by exploiting Corviknight's potential Spikes vulnerability.\"}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -5,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 15,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Earthquake is super effective against Corviknight.\", 'TypeMatchup': 'Corviknight is vulnerable to Dark-type moves.', 'SpeedControl': 'Tinglu outspeeds Corviknight.', 'TeamAdvantage': \"Tinglu's remaining team has strong matchups against Corviknight.\", 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of opponents.\", 'HazardsAndField': 'Corviknight has Spikes set, which can damage Tinglu when switching in.', 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switches.', 'OpponentPressure': \"Corviknight's Swords Dance boosts its Attack, making its moves more potent.\", 'Uncertainty': \"Corviknight's Moonblast could potentially KO Tinglu.\", 'WinPlan': 'Tinglu needs to utilize its speed advantage and powerful moves to defeat Corviknight and progress in the battle.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 20,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 15,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: garganacl",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -5,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": 15,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 12": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:Air Balloon(When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.)Tera type:None Is terastallized? False\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 202 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 11 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  4.0 turns to KO your pokemon\nkowtowcleave: 9 turns to KO your pokemon\nironhead: 7 turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 17 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:100%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": 85,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Saltcure is effective against Corviknight, but Earthquake is ineffective.\", 'TypeMatchup': \"Corviknight is resistant to Tinglu's Earthquake, but vulnerable to Saltcure.\", 'SpeedControl': 'Tinglu is slower than Corviknight, but can potentially outspeed with Swords Dance.', 'TeamAdvantage': \"Tinglu's remaining team has better coverage than Corviknight's.\", 'BoostsAndStatus': \"Tinglu's Swords Dance boost will significantly increase its Attack.\", 'HazardsAndField': \"Corviknight's Stealth Rock is a potential threat, but Tinglu's Heavy-Duty Boots mitigate this.\", 'SwitchingCost': 'Multiple switches have been made, increasing the risk of future switches.', 'OpponentPressure': \"Corviknight's Pressure will slightly increase the PP cost of Tinglu's moves.\", 'Uncertainty': \"Corviknight's Swords Dance could potentially lead to a knockout, but its accuracy is uncertain.\", 'WinPlan': 'Tinglu can potentially win with a well-timed Swords Dance and effective Saltcure.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 20,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Saltcure is effective against Corviknight, but Earthquake is ineffective. Kingambit's Swords Dance boosts its Attack.\", 'TypeMatchup': 'Corviknight is weak to Ground-type moves, while Kingambit is resistant to Dark-type moves.', 'SpeedControl': 'Tinglu is slower than Corviknight, but faster than Kingambit.', 'TeamAdvantage': 'Garganacl is a strong remaining Pokémon.', 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of opponents, while Kingambit's Swords Dance boosts its Attack.\", 'HazardsAndField': 'Stealth Rock is set around the field.', 'SwitchingCost': 'Tinglu has been switched out once already.', 'OpponentPressure': \"Corviknight's Pressure will force opponents to use more PP.\", 'Uncertainty': \"Kingambit's Mortal Spin could potentially KO Tinglu.\", 'WinPlan': \"Tinglu needs to utilize its remaining moves effectively and capitalize on Kingambit's potential status boost while avoiding its powerful attacks.\"}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Saltcure",
+                "score": 85,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 20,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 13": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:38%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Fire,HP:57%Ability:None,Tera type:FIRE (pokemon type) object Is terastallized? True\nRequires switch:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 116 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 5 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 5 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:38%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "tinglu (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Salt Cure is effective against Corviknight, but Earthquake is ineffective against Kingambit.\", 'TypeMatchup': 'Corviknight is weak to Ground-type moves, while Kingambit is resistant to Dark-type moves.', 'SpeedControl': 'Tinglu is slower than Corviknight, but faster than Kingambit.', 'TeamAdvantage': 'Garganacl is a strong candidate to switch in due to its ability and potential to recover HP.', 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of opponents, while Garganacl's Purifying Salt halves damage from Ghost-type moves.\", 'HazardsAndField': 'Stealth Rock is a potential threat, but Heavy-Duty Boots mitigate its effects.', 'SwitchingCost': 'Frequent switching can be costly, but is necessary to avoid being swept by Corviknight.', 'OpponentPressure': \"Kingambit's Sucker Punch can be devastating if it connects.\", 'Uncertainty': \"Corviknight's Mortal Spin is a potential game-changer.\", 'WinPlan': 'Focus on using Salt Cure to weaken Corviknight and switch to Garganacl to take advantage of its abilities and potential to recover HP.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -5,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Tinglu's Salt Cure is effective against Corviknight, but Earthquake is ineffective against Kingambit.\", 'TypeMatchup': \"Corviknight is resistant to Tinglu's Earthquke, but Tinglu is resistant to Kingambit's Sucker Punch.\", 'SpeedControl': 'Tinglu outspeeds Corviknight, but Kingambit outspeeds Tinglu.', 'TeamAdvantage': 'Kingambit is the only remaining opponent Pokémon.', 'BoostsAndStatus': \"Tinglu's Vessel of Ruin lowers Sp. Atk of all opponents except itself.\", 'HazardsAndField': 'Stealth Rock is set around the field.', 'SwitchingCost': 'Tinglu has already switched once.', 'OpponentPressure': 'Kingambit can potentially put pressure on Tinglu with Sucker Punch.', 'Uncertainty': \"Kingambit's Mortal Spin is a potential threat.\", 'WinPlan': 'Tinglu needs to find an opportunity to defeat Kingambit before it can use Mortal Spin.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 5,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: tinglu",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -5,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 14": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:38%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Fire,HP:45%Ability:None,Tera type:FIRE (pokemon type) object Is terastallized? True\nCurrent pokemon:\ntinglu vs. corviknight:\ncorviknight outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 400 turns to KO opponent's pokemon\nruination: 80 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 8 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 7 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nCurrent pokemon:\ntinglu vs. kingambit:\nkingambit outspeeds tinglu\ntinglu's moves:\nwhirlwind: In battles, the opponent switches. In the wild, the Pokémon runs.  inf turns to KO opponent's pokemon\nearthquake: 2 turns to KO opponent's pokemon\nruination: 91 turns to KO opponent's pokemon\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 3 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 5 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\nRequires switch:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 4 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\n\nYour current pokemon:tinglu,Type:Dark and Ground,HP:29%Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)",
+            "Candidates": [
+                {
+                    "player_action": "earthquake (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is effective against Kingambit's Earth Power.\", 'TypeMatchup': \"Kingambit's Fire type is resistant to Garganacl's Salt Cure, but Garganacl's Pure Salt halves the damage taken from Kingambit's Fire-type moves.\", 'SpeedControl': 'Kingambit outspeeds Garganacl, but Garganacl can potentially switch out with Whirlwind.', 'TeamAdvantage': \"Garganacl's remaining team has potential to deal significant damage to Kingambit.\", 'BoostsAndStatus': \"Kingambit's Swords Dance boosts its Attack, but Garganacl's Pure Salt protects it from status conditions and halves the damage taken from Kingambit's Fire-type moves.\", 'HazardsAndField': \"Kingambit's Mortal Spin can potentially KO Garganacl or other Pokémon that switch in.\", 'SwitchingCost': 'Frequent switching can lead to PP depletion and weaken the team.', 'OpponentPressure': \"Kingambit's Pressure can put additional strain on Garganacl's PP.\", 'Uncertainty': \"The outcome of the battle is uncertain, as it depends on the effectiveness of Garganacl's moves and Kingambit's ability to capitalize on its speed advantage.\", 'WinPlan': \"Garganacl needs to prioritize using Salt Cure effectively and utilize its team's strengths to outmaneuver Kingambit and secure victory.\"}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": -10,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": 10,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "garganacl (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is effective against Kingambit, which is under pressure from Pressure.\", 'TypeMatchup': 'Kingambit is vulnerable to Rock-type moves, which are not resisted by Garganacl.', 'SpeedControl': 'Kingambit outspeeds Garganacl, but Garganacl can use Stealth Rock to damage Kingambit when it switches out.', 'TeamAdvantage': \"Garganacl's Purifying Salt protects it from Ghost-type moves, which are common on Kingambit's team.\", 'BoostsAndStatus': 'Kingambit has Swords Dance boosting its Attack, while Garganacl has the passive ability Poison Heal restoring its HP.', 'HazardsAndField': \"Kingambit's team has set up Spikes, which can damage Garganacl when it switches in.\", 'SwitchingCost': 'Garganacl has used Stealth Rock, which will incur a cost if used again.', 'OpponentPressure': \"Kingambit's Pressure will force opponents to use more PP for their moves.\", 'Uncertainty': 'Kingambit has Mortal Spin, which could potentially KO Garganacl.', 'WinPlan': 'Garganacl can use Salt Cure to heal itself and potentially outlast Kingambit.'}",
+                    "opponent_action": "glimmora (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": -10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Earthquake",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": -10,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": -10,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": 10,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 15": {
+            "Current Game State": "Pokemon:gholdengo,Type:Steel and Ghost,HP:0%Status:fainted,Ability:Good as Gold(A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:tinglu,Type:Dark and Ground,HP:0%Status:fainted,Ability:Vessel of Ruin(The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:POISON (pokemon type) object Is terastallized? False\nPokemon:deoxysspeed,Type:Psychic,HP:0%Status:fainted,Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:PSYCHIC (pokemon type) object Is terastallized? False\nPokemon:garganacl,Type:Rock,HP:38%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ogerpon,Type:Grass,HP:0%Status:fainted,Ability:Defiant(If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.),Item:Heavy-Duty Boots(Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock.)Tera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:gliscor,Type:Ground and Flying,HP:0%Status:fainted,Ability:Poison Heal(If poisoned, the Pokémon has its HP restored instead of taking damage.),Item:Toxic Orb(It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle.)Tera type:WATER (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:glimmora,Type:Rock and Poison,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nPokemon:corviknight,Type:Flying and Steel,HP:100%Ability:Pressure(Puts other Pokémon under pressure, causing them to expend more PP to use their moves.),Item:unknown_itemTera type:None Is terastallized? False\nPokemon:kingambit,Type:Fire,HP:32%Ability:None,Tera type:FIRE (pokemon type) object Is terastallized? True\nCurrent pokemon:\ngarganacl vs. corviknight:\ncorviknight outspeeds garganacl\ngarganacl's moves:\nsaltcure: 10 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: corviknight\nsuckerpunch: 5 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 4 turns to KO your pokemon\nironhead: 4 turns to KO your pokemon\n\nCurrent pokemon:\ngarganacl vs. kingambit:\nkingambit outspeeds garganacl\ngarganacl's moves:\nsaltcure: 3 turns to KO opponent's pokemon\nprotect: Protects the user, but may fail if used consecutively.  inf turns to KO opponent's pokemon\nstealthrock: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nrecover: User recovers half its max HP.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\n\nYour current pokemon:garganacl,Type:Rock,HP:38%Ability:Purifying Salt(The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.),Item:Leftovers(An item to be held by a Pokémon. The holder's HP is gradually restored during battle.)",
+            "Candidates": [
+                {
+                    "player_action": "saltcure (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Garganacl's Salt Cure is effective against Corviknight's Earth Power.\", 'TypeMatchup': 'Corviknight is weak to Rock-type moves, which benefits Garganacl.', 'SpeedControl': 'Corviknight outspeeds Garganacl, but Garganacl can potentially outspeed Corviknight with Swords Dance.', 'TeamAdvantage': 'Garganacl has good defensive options and can restore HP with Leftovers.', 'BoostsAndStatus': 'Garganacl can potentially boost its Attack with Swords Dance and has Purifying Salt to protect itself from status conditions.', 'HazardsAndField': 'Corviknight can set up Stealth Rock, which can damage Garganacl when it switches in.', 'SwitchingCost': 'Switching out Pokémon will cause Corviknight to use Stealth Rock, potentially dealing damage.', 'OpponentPressure': 'Corviknight can put pressure on Garganacl by forcing it to use more PP for its moves.', 'Uncertainty': \"Corviknight's Mortal Spin has a long cooldown and could potentially KO Garganacl.\", 'WinPlan': \"Garganacl can win by exploiting Corviknight's weaknesses and utilizing its defensive capabilities.\"}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": -10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": -5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": 10,
+                        "Uncertainty": -10,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Saltcure",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": -10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": -5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": 10,
+                    "Uncertainty": -10,
+                    "WinPlan": 20
+                }
+            }
+        }
+    }
+}

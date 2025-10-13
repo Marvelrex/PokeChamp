@@ -857,24 +857,73 @@ class Pokemon:
         """
         return self._status
     
+    def _get_species_sets_data(self) -> Optional[Dict[str, Any]]:
+        """
+        Attempt to resolve statistical set data for this species, accounting for
+        forme aliases (e.g., Ogerpon-Tera variants).
+        """
+        sets = self._sets
+        alias_map = {
+            # Ogerpon formes + terastal versions
+            "ogerponteal": "ogerpon",
+            "ogerpontealtera": "ogerpon",
+            "ogerponhearthflame": "ogerpon",
+            "ogerponhearthflametera": "ogerpon",
+            "ogerponwellspringtera": "ogerponwellspring",
+            "ogerponcornerstonetera": "ogerponcornerstone",
+        }
+
+        def enqueue_candidate(raw_name: Optional[str], queue: List[str], seen: set[str]):
+            if not raw_name:
+                return
+            key = to_id_str(raw_name)
+            if key and key not in seen:
+                queue.append(key)
+                seen.add(key)
+            alias = alias_map.get(key)
+            if alias:
+                alias_key = to_id_str(alias)
+                if alias_key and alias_key not in seen:
+                    queue.append(alias_key)
+                    seen.add(alias_key)
+            if key.endswith("tera"):
+                trimmed = key.replace("tera", "")
+                if trimmed and trimmed not in seen:
+                    queue.append(trimmed)
+                    seen.add(trimmed)
+
+        candidates: List[str] = []
+        seen: set[str] = set()
+        enqueue_candidate(self.species, candidates, seen)
+        enqueue_candidate(self.base_species, candidates, seen)
+        enqueue_candidate(self._species, candidates, seen)
+
+        for candidate in candidates:
+            if candidate in sets:
+                return sets[candidate]
+        return None
+    
     def calc_indiv_stat(self):
         
         return
     
     def guess_tera(self, guess_type='most_likely'):
-        sets = self._sets
-        if self.species.lower() not in sets:
+        # sets = self._sets
+        species_sets = self._get_species_sets_data()
+        if not species_sets or 'tera' not in species_sets:
             return ''
 
         if guess_type == 'most_likely':
             # most likely based on stats
-            set = sets[self.species.lower()]['tera'][0]
-            tera = set['name']
+            # set = sets[self.species.lower()]['tera'][0]
+            set_info = species_sets['tera'][0]
+            tera = set_info['name']
         
         else:
             # statistically weighted choice (copy paste lol)
             def get_weighted_choice(category, id, size=1):
-                category_dict = sets[self.species.lower()][category]
+                # category_dict = sets[self.species.lower()][category]
+                category_dict = species_sets[category]
                 p = np.array([float(category_dict[i]['percentage'])/100. for i in range(len(category_dict))])
                 p = p / p.sum()
                 if size > len(category_dict):
@@ -895,16 +944,22 @@ class Pokemon:
         
     def guess_stats(self, guess_type='most_likely'):
         stat_types = ['hp', 'atk', 'def', 'spa', 'spd', 'spe']
-        sets = self._sets
+        # sets = self._sets
+        species_sets = self._get_species_sets_data()
+        if not species_sets or 'spreads' not in species_sets:
+            default_spread = {stat: 0 for stat in stat_types}
+            return default_spread, 'Serious'
         if guess_type == 'most_likely':
             # most likely based on statistics
-            set = sets[self.species.lower()]['spreads'][0]
-            spread = set['stats']
-            nature = set['nature']
+            # set = sets[self.species.lower()]['spreads'][0]
+            set_info = species_sets['spreads'][0]
+            spread = set_info['stats']
+            nature = set_info['nature']
         else:
             # statistically weighted choice
             def get_weighted_choice(category, id, size=1):
-                category_dict = sets[self.species.lower()][category]
+                # category_dict = sets[self.species.lower()][category]
+                category_dict = species_sets[category]
                 p = np.array([float(category_dict[i]['percentage'])/100. for i in range(len(category_dict))])
                 p = p / p.sum()
                 if size > len(category_dict):

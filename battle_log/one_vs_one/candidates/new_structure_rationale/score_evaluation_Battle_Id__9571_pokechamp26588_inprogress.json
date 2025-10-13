@@ -1,0 +1,493 @@
+{
+    "Battle Id: 9571": {
+        "Turn 1": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Booster Energy(An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.)Tera type:None Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:None Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:None Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:None Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:None Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Booster Energy(An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.)Tera type:None Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:None Is terastallized? False\nRequires switch:\nironmoth vs. ironvaliant:\nironvaliant outspeeds ironmoth\nironmoth's moves:\nfierydance: 2 turns to KO opponent's pokemon\npsychic: 1 turns to KO opponent's pokemon\nsludgewave: 1 turns to KO opponent's pokemon\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\nironmoth's moves if opponent's ironvaliant uses 'terastallize':\nfierydance: 3 turns to KO opponent's pokemon\npsychic: 1 turns to KO opponent's pokemon\nsludgewave: 3 turns to KO opponent's pokemon\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\nironmoth's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nfierydance: 2 turns to KO opponent's pokemon\npsychic: 2 turns to KO opponent's pokemon\nsludgewave: 4 turns to KO opponent's pokemon\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\nironmoth's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nfierydance: 2 turns to KO opponent's pokemon\npsychic: 1 turns to KO opponent's pokemon\nsludgewave: 1 turns to KO opponent's pokemon\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 9 turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\nknockoff: 5 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nkingambit vs. ironvaliant:\nironvaliant outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 6 turns to KO opponent's pokemon\nsuckerpunch: 7 turns to KO opponent's pokemon\nironhead: 1 turns to KO opponent's pokemon\nkingambit's moves if opponent's ironvaliant uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 4 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO opponent's pokemon\nkowtowcleave: 3 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 3 turns to KO opponent's pokemon\nkingambit's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 5 turns to KO opponent's pokemon\nsuckerpunch: 6 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 16 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nCurrent pokemon:\nironvaliant vs. ironvaliant:\nironvaliant outspeeds ironvaliant\nironvaliant's moves:\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nshadowball: 2 turns to KO opponent's pokemon\nmoonblast: 1 turns to KO opponent's pokemon\nironvaliant's moves if opponent's ironvaliant uses 'terastallize':\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nshadowball: 2 turns to KO opponent's pokemon\nmoonblast: 1 turns to KO opponent's pokemon\nironvaliant's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nshadowball: 2 turns to KO opponent's pokemon\nmoonblast: 1 turns to KO opponent's pokemon\nironvaliant's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nshadowball: 2 turns to KO opponent's pokemon\nmoonblast: 1 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 5 turns to KO your pokemon\nknockoff: 18 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nrillaboom vs. ironvaliant:\nironvaliant outspeeds rillaboom\nrillaboom's moves:\nwoodhammer: 1 turns to KO opponent's pokemon\ngrassyglide: 2 turns to KO opponent's pokemon\nuturn: 8 turns to KO opponent's pokemon\nknockoff: 8 turns to KO opponent's pokemon\nrillaboom's moves if opponent's ironvaliant uses 'terastallize':\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 4 turns to KO opponent's pokemon\nuturn: 1 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nrillaboom's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 3 turns to KO opponent's pokemon\nuturn: 1 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nrillaboom's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nwoodhammer: 1 turns to KO opponent's pokemon\ngrassyglide: 2 turns to KO opponent's pokemon\nuturn: 8 turns to KO opponent's pokemon\nknockoff: 8 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 2 turns to KO your pokemon\nclosecombat: 3 turns to KO your pokemon\nknockoff: 11 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. ironvaliant:\nironvaliant outspeeds ogerponcornerstone\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\npowerwhip: 2 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nogerponcornerstone's moves if opponent's ironvaliant uses 'terastallize':\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\npowerwhip: 2 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nogerponcornerstone's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\npowerwhip: 2 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nogerponcornerstone's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\npowerwhip: 3 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 2 turns to KO your pokemon\nknockoff: 6 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nragingbolt vs. ironvaliant:\nironvaliant outspeeds ragingbolt\nragingbolt's moves:\nthunderclap: 2 turns to KO opponent's pokemon\nterablast: 2 turns to KO opponent's pokemon\ndragonpulse: 289 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nragingbolt's moves if opponent's ironvaliant uses 'terastallize':\nthunderclap: 5 turns to KO opponent's pokemon\nterablast: 2 turns to KO opponent's pokemon\ndragonpulse: 1 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nragingbolt's moves if it uses 'terastallize' and opponent's ironvaliant uses 'terastallize':\nthunderclap: 2 turns to KO opponent's pokemon\nterablast: 2 turns to KO opponent's pokemon\ndragonpulse: 289 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nragingbolt's moves if it uses 'terastallize' and opponent's ironvaliant does NOT use 'terastallize':\nthunderclap: 2 turns to KO opponent's pokemon\nterablast: 2 turns to KO opponent's pokemon\ndragonpulse: 289 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO opponent's pokemon\nOpponent moves: ironvaliant\nmoonblast: 3 turns to KO your pokemon\nclosecombat: 4 turns to KO your pokemon\nknockoff: 7 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\n'terastallize' changes a Pokemon's defensive typing to solely their tera type, meaning their resistances and weaknesses can change. It also gives them a boost to moves of their new typing. You can only 'terastallize' one Pokemon per battle, and it will last on that Pokemon until they are KO'd or the battle ends. You can choose to 'terastallize' and use another move in the same turn.\n\nYour current pokemon:ironvaliant,Type:Fairy and Fighting,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),",
+            "Candidates": [
+                {
+                    "player_action": "moonblast (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's Iron Valiant has high Special Attack and is likely to prioritize Moonblast. The damage calculator is more efficient for finding the best damaging move considering the current type matchup and move pool.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Moonblast",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 2": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Item:Booster Energy(An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.)Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Booster Energy(An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nRequires switch:\nironmoth vs. ragingbolt:\nironmoth outspeeds ragingbolt\nironmoth's moves:\nfierydance: 5 turns to KO opponent's pokemon\npsychic: 4 turns to KO opponent's pokemon\nsludgewave: 2 turns to KO opponent's pokemon\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nkingambit vs. ragingbolt:\nragingbolt outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 4 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ndragonpulse: 5 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nrillaboom vs. ragingbolt:\nrillaboom outspeeds ragingbolt\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 5 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nknockoff: 3 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 8 turns to KO your pokemon\nthunderbolt: 7 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. ragingbolt:\nogerponcornerstone outspeeds ragingbolt\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 4 turns to KO opponent's pokemon\npowerwhip: 4 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 5 turns to KO your pokemon\nthunderbolt: 4 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\nRequires switch:\nragingbolt vs. ragingbolt:\nragingbolt outspeeds ragingbolt\nragingbolt's moves:\nthunderclap: 10 turns to KO opponent's pokemon\nterablast: 3 turns to KO opponent's pokemon\ndragonpulse: 1 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 11 turns to KO your pokemon\nthunderbolt: 9 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  inf turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "ironmoth (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ironmoth's SludgeWave is effective against Raging Bolt.\", 'TypeMatchup': \"Ironmoth is resistant to Raging Bolt's Thunderclap.\", 'SpeedControl': 'Ironmoth outspeeds Raging Bolt.', 'TeamAdvantage': \"Ironmoth's Booster Energy boosts its most proficient stat.\", 'BoostsAndStatus': \"Quark Drive boosts Ironmoth's most proficient stat.\", 'HazardsAndField': 'Spikes from Ogerpon Cornerstone could damage Raging Bolt.', 'SwitchingCost': \"Ironmoth is unlikely to be knocked out by Raging Bolt's moves.\", 'OpponentPressure': \"Raging Bolt's Thunderclap could potentially knock out Ironmoth.\", 'Uncertainty': \"Raging Bolt's Moonblast could potentially knock out Ironmoth.\", 'WinPlan': 'Ironmoth can potentially win with SludgeWave or substitute.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -10,
+                        "WinPlan": 10
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ironmoth",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -10,
+                    "WinPlan": 10
+                }
+            }
+        },
+        "Turn 3": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Booster Energy(An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nCurrent pokemon:\nironmoth vs. ragingbolt:\nironmoth outspeeds ragingbolt\nironmoth's moves:\nfierydance: 5 turns to KO opponent's pokemon\npsychic: 4 turns to KO opponent's pokemon\nsludgewave: 2 turns to KO opponent's pokemon\nsubstitute: Uses HP to creates a decoy that takes hits.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\nkingambit vs. ragingbolt:\nragingbolt outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 2 turns to KO opponent's pokemon\nsuckerpunch: 3 turns to KO opponent's pokemon\nironhead: 4 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ndragonpulse: 5 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\nrillaboom vs. ragingbolt:\nrillaboom outspeeds ragingbolt\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 5 turns to KO opponent's pokemon\nuturn: 3 turns to KO opponent's pokemon\nknockoff: 3 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 8 turns to KO your pokemon\nthunderbolt: 7 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  7.0 turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. ragingbolt:\nogerponcornerstone outspeeds ragingbolt\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 4 turns to KO opponent's pokemon\npowerwhip: 4 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 5 turns to KO your pokemon\nthunderbolt: 4 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  5.0 turns to KO your pokemon\n\nRequires switch:\nragingbolt vs. ragingbolt:\nragingbolt outspeeds ragingbolt\nragingbolt's moves:\nthunderclap: 10 turns to KO opponent's pokemon\nterablast: 3 turns to KO opponent's pokemon\ndragonpulse: 1 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 11 turns to KO your pokemon\nthunderbolt: 9 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  8.0 turns to KO your pokemon\n\n\nYour current pokemon:ironmoth,Type:Fire and Poison,HP:100%Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),",
+            "Candidates": [
+                {
+                    "player_action": "sludgewave (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's moves are predictable and the current Pokémon has a clear type advantage. Therefore, the damage calculator offers a quick and efficient way to identify the optimal damaging move.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Sludgewave",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 4": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:100%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Item:Booster Energy(An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.)Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:55%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nRequires switch:\nkingambit vs. ragingbolt:\nragingbolt outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 1 turns to KO opponent's pokemon\nsuckerpunch: 2 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\ndragonpulse: 5 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\nrillaboom vs. ragingbolt:\nrillaboom outspeeds ragingbolt\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 3 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 8 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\nthunderbolt: 7 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. ragingbolt:\nogerponcornerstone outspeeds ragingbolt\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\npowerwhip: 3 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 5 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\nthunderbolt: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\nragingbolt vs. ragingbolt:\nragingbolt outspeeds ragingbolt\nragingbolt's moves:\nthunderclap: 6 turns to KO opponent's pokemon\nterablast: 2 turns to KO opponent's pokemon\ndragonpulse: 1 turns to KO opponent's pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  2.0 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 11 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\nthunderbolt: 9 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "ragingbolt (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is effective against Raging Bolt.\", 'TypeMatchup': \"Rillaboom is resistant to Raging Bolt's Dragon Pulse.\", 'SpeedControl': 'Rillaboom outspeeds Raging Bolt.', 'TeamAdvantage': \"Raging Bolt's team is weakened after multiple KOs.\", 'BoostsAndStatus': 'Raging Bolt has Protosynthesis, but Rillaboom has no significant boosts.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches have been made.', 'OpponentPressure': 'Raging Bolt can still use Dragon Pulse and Moonblast.', 'Uncertainty': 'n/a', 'WinPlan': 'Rillaboom can potentially win with Wood Hammer or Grassy Glide.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -5,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is effective against Raging Bolt.\", 'TypeMatchup': \"Rillaboom is resistant to Raging Bolt's Dragon Pulse.\", 'SpeedControl': 'Rillaboom outspeeds Raging Bolt.', 'TeamAdvantage': \"Rillaboom's Grass typing provides a type advantage against Raging Bolt.\", 'BoostsAndStatus': 'Raging Bolt has Protosynthesis, which boosts its most proficient stat.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'n/a', 'OpponentPressure': 'Raging Bolt has Dragon Pulse, which can potentially KO Rillaboom.', 'Uncertainty': \"Raging Bolt's Moonblast is also effective against Rillaboom.\", 'WinPlan': 'Rillaboom can potentially win with Wood Hammer or Grassy Glide.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -5,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": 0,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ragingbolt",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": -5,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 5": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:55%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nRequires switch:\nkingambit vs. ragingbolt:\nragingbolt outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 1 turns to KO opponent's pokemon\nsuckerpunch: 1 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\ndragonpulse: 5 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\nrillaboom vs. ragingbolt:\nrillaboom outspeeds ragingbolt\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 3 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 8 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\nthunderbolt: 7 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. ragingbolt:\nogerponcornerstone outspeeds ragingbolt\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\npowerwhip: 3 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 5 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\nthunderbolt: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "kingambit (pokemon object) [Active: False, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is effective against Raging Bolt.\", 'TypeMatchup': \"Rillaboom is resistant to Raging Bolt's Thunderclap.\", 'SpeedControl': 'Rillaboom outspeeds Raging Bolt.', 'TeamAdvantage': 'Rillaboom is the only remaining Pokémon with a reliable KO move.', 'BoostsAndStatus': 'Rillaboom has the Choice Band boost.', 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple potential switches required.', 'OpponentPressure': \"Raging Bolt's Thunderclap is potent and can potentially KO Rillaboom.\", 'Uncertainty': 'Raging Bolt has multiple potential moves that can KO Rillaboom.', 'WinPlan': 'Rillaboom can potentially win with a well-timed Wood Hammer.'}",
+                    "opponent_action": "ironvaliant (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -20,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Wood Hammer is effective against Raging Bolt.\", 'TypeMatchup': \"Rillaboom is resistant to Raging Bolt's Thunderclap.\", 'SpeedControl': 'Rillaboom outspeeds Raging Bolt.', 'TeamAdvantage': \"Rillaboom's Grass-type resistance helps against Raging Bolt's Moonblast.\", 'BoostsAndStatus': \"Raging Bolt's Protosynthesis boosts its most proficient stat.\", 'HazardsAndField': \"Raging Bolt's presence creates harsh sunlight, boosting its Protosynthesis.\", 'SwitchingCost': 'Switching out Rillaboom would give up the speed advantage.', 'OpponentPressure': \"Raging Bolt's Thunderclap can potentially KO Rillaboom.\", 'Uncertainty': \"Raging Bolt's Moonblast is also a potential threat.\", 'WinPlan': 'Rillaboom can potentially win with Wood Hammer.'}",
+                    "opponent_action": "thunderclap (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: kingambit",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -20,
+                    "OpponentPressure": -15,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 6": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:55%Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nCurrent pokemon:\nkingambit vs. ragingbolt:\nragingbolt outspeeds kingambit\nkingambit's moves:\nswordsdance: Sharply raises user's Attack.  2.0 turns to KO opponent's pokemon\nkowtowcleave: 1 turns to KO opponent's pokemon\nsuckerpunch: 1 turns to KO opponent's pokemon\nironhead: 2 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 4 turns to KO your pokemon\ndragonpulse: 5 turns to KO your pokemon\nthunderbolt: 3 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\nRequires switch:\nrillaboom vs. ragingbolt:\nrillaboom outspeeds ragingbolt\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 3 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nknockoff: 2 turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 8 turns to KO your pokemon\ndragonpulse: 2 turns to KO your pokemon\nthunderbolt: 7 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  3.0 turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. ragingbolt:\nogerponcornerstone outspeeds ragingbolt\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 3 turns to KO opponent's pokemon\npowerwhip: 3 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: ragingbolt\nthunderclap: 5 turns to KO your pokemon\ndragonpulse: 3 turns to KO your pokemon\nthunderbolt: 4 turns to KO your pokemon\ncalmmind: Raises user's Special Attack and Special Defense.  4.0 turns to KO your pokemon\n\n\nYour current pokemon:kingambit,Type:Dark and Steel,HP:100%Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)",
+            "Candidates": [
+                {
+                    "player_action": "kowtowcleave (Move object)",
+                    "score": -1,
+                    "rationale": "The opponent's remaining Pokémon are all slow and the current Kingambit can outspeed them. The damage calculator is sufficient to assess the damage potential of Kingambit's moves against the opponent's remaining Pokémon. Additionally, the opponent's next move is predictable, making the damage calculator more reliable in this situation.",
+                    "opponent_action": "None",
+                    "label_scores": {}
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Kowtowcleave",
+                "score": -1,
+                "label_scores": {}
+            }
+        },
+        "Turn 7": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\nrillaboom vs. rillaboom:\nrillaboom outspeeds rillaboom\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 4 turns to KO opponent's pokemon\nuturn: 2 turns to KO opponent's pokemon\nknockoff: 3 turns to KO opponent's pokemon\nOpponent moves: rillaboom\ngrassyglide: 7 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\nknockoff: 5 turns to KO your pokemon\nwoodhammer: 4 turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. rillaboom:\nogerponcornerstone outspeeds rillaboom\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\npowerwhip: 2 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: rillaboom\ngrassyglide: 4 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\nwoodhammer: 3 turns to KO your pokemon\n\n",
+            "Candidates": [
+                {
+                    "player_action": "ogerponcornerstone (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerponcornerstone's Spikes and Grassy Glide are effective against Rillaboom.\", 'TypeMatchup': 'Grass vs. Grass is a neutral matchup.', 'SpeedControl': 'Ogerponcornerstone outspeeds Rillaboom.', 'TeamAdvantage': 'Rillaboom is the only remaining opponent.', 'BoostsAndStatus': 'Rillaboom has Protosynthesis, but Ogerponcornerstone has Sturdy.', 'HazardsAndField': 'Spikes are on the field.', 'SwitchingCost': 'High - Rillaboom outspeeds Ogerponcornerstone.', 'OpponentPressure': \"Rillaboom's Thunderclap can potentially KO Ogerponcornerstone.\", 'Uncertainty': \"Rillaboom's Dragon Pulse could potentially OHKO Ogerponcornerstone.\", 'WinPlan': 'Utilize Spikes and Grassy Glide to weaken Rillaboom before finishing it off with a strong move like Ivy Cudgel or Power Whip.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 0,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": -5,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ogerponcornerstone",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 0,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": -5,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -15,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 8": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:93%Ability:None,Item:unknown_itemTera type:GRASS (pokemon type) object Is terastallized? True\nRequires switch:\nrillaboom vs. rillaboom:\nrillaboom outspeeds rillaboom\nrillaboom's moves:\nwoodhammer: 2 turns to KO opponent's pokemon\ngrassyglide: 4 turns to KO opponent's pokemon\nuturn: 1 turns to KO opponent's pokemon\nknockoff: 3 turns to KO opponent's pokemon\nOpponent moves: rillaboom\nwoodhammer: 3 turns to KO your pokemon\ngrassyglide: 6 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\nknockoff: 5 turns to KO your pokemon\n\nCurrent pokemon:\nogerponcornerstone vs. rillaboom:\nogerponcornerstone outspeeds rillaboom\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 2 turns to KO opponent's pokemon\npowerwhip: 2 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: rillaboom\nwoodhammer: 2 turns to KO your pokemon\ngrassyglide: 3 turns to KO your pokemon\nuturn: 3 turns to KO your pokemon\nknockoff: 4 turns to KO your pokemon\n\n\nYour current pokemon:ogerponcornerstone,Type:Grass and Rock,HP:100%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemask",
+            "Candidates": [
+                {
+                    "player_action": "ivycudgel (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Spikes and Wood Hammer are effective against Raging Bolt.\", 'TypeMatchup': \"Rillaboom is resistant to Raging Bolt's Dragon-type moves.\", 'SpeedControl': 'Rillaboom outspeeds Raging Bolt.', 'TeamAdvantage': \"Rillaboom's Choice Band boosts its Attack stat.\", 'BoostsAndStatus': \"Raging Bolt's Protosynthesis boosts its stats, but Rillaboom's Quark Drive boosts its most proficient stat.\", 'HazardsAndField': \"Rillaboom's Spikes can damage Raging Bolt when it switches in.\", 'SwitchingCost': \"Rillaboom has to switch out to avoid Raging Bolt's Wood Hammer.\", 'OpponentPressure': \"Raging Bolt's Thunderbolt can potentially KO Rillaboom.\", 'Uncertainty': \"Raging Bolt's Protosynthesis makes it difficult to predict its stat boosts.\", 'WinPlan': 'Rillaboom can win with Spikes and Wood Hammer.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 15,
+                        "TypeMatchup": 10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Spikes can potentially KO opponents switching in.\", 'TypeMatchup': \"Rillaboom is resistant to Raging Bolt's Dragon-type moves.\", 'SpeedControl': 'Rillaboom outspeeds Raging Bolt.', 'TeamAdvantage': \"Rillaboom's Choice Band boosts its Attack stat.\", 'BoostsAndStatus': \"Raging Bolt's Protosynthesis boosts its most proficient stat.\", 'HazardsAndField': 'Grassy Terrain is beneficial to Rillaboom.', 'SwitchingCost': \"Excessive switching could be costly due to Raging Bolt's potential to outspeed.\", 'OpponentPressure': \"Raging Bolt's Wood Hammer can potentially KO Rillaboom.\", 'Uncertainty': \"Raging Bolt's Protosynthesis boost is uncertain.\", 'WinPlan': 'Utilize Spikes to disable opponents and maximize damage output from Wood Hammer.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                },
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Spikes can potentially KO opponents switching in.\", 'TypeMatchup': \"Rillaboom is resistant to Dragon-type moves, which are common on the opponent's team.\", 'SpeedControl': \"Rillaboom outspeeds the opponent's Raging Bolt.\", 'TeamAdvantage': \"Rillaboom's Choice Band boosts its Attack stat, while the opponent's team lacks reliable STAB moves.\", 'BoostsAndStatus': 'Rillaboom can potentially benefit from future Quark Drives from its Ability.', 'HazardsAndField': 'Grassy Terrain is advantageous for Rillaboom and harmful to the opponent.', 'SwitchingCost': \"Frequent switching can be costly due to Rillaboom's Spikes.\", 'OpponentPressure': \"The opponent's remaining team has strong offensive options.\", 'Uncertainty': \"The opponent's Raging Bolt could potentially use Thunderbolt, which would pose a threat to Rillaboom.\", 'WinPlan': 'Rillaboom can win through consistent Spikes damage and outspeeding the opponent.'}",
+                    "opponent_action": "ragingbolt (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 15,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 10,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -15,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Ivycudgel",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 15,
+                    "TypeMatchup": 10,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 15,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 10,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        },
+        "Turn 9": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:100%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:6%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nRequires switch:\nrillaboom vs. kingambit:\nrillaboom outspeeds kingambit\nrillaboom's moves:\nwoodhammer: 3 turns to KO opponent's pokemon\ngrassyglide: 6 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nknockoff: 7 turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 4 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  inf turns to KO your pokemon\nkowtowcleave: 3 turns to KO your pokemon\nironhead: 5 turns to KO your pokemon\n\nCurrent pokemon:\nogerponcornerstone vs. kingambit:\nogerponcornerstone outspeeds kingambit\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 6 turns to KO opponent's pokemon\npowerwhip: 5 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  inf turns to KO your pokemon\nkowtowcleave: 2 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\n\nYour current pokemon:ogerponcornerstone,Type:Grass and Rock,HP:6%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemask",
+            "Candidates": [
+                {
+                    "player_action": "rillaboom (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Kingambit's Thunderclap is ineffective against Grass-type Pokémon.\", 'TypeMatchup': 'Grass-type Pokémon are strong against Dragon-type Pokémon.', 'SpeedControl': 'Rillaboom outspeeds Kingambit.', 'TeamAdvantage': \"Rillaboom's Choice Band boosts its Attack stat.\", 'BoostsAndStatus': 'Rillaboom has Grassy Surge, which turns the ground into Grassy Terrain, boosting its damage output.', 'HazardsAndField': 'n/a', 'SwitchingCost': \"High - Rillaboom is likely to switch out again due to Kingambit's potential for strong moves.\", 'OpponentPressure': 'Kingambit can potentially use Suckerpunch, which could KO Rillaboom.', 'Uncertainty': \"Kingambit's Dragon Pulse could potentially OHKO Rillaboom.\", 'WinPlan': 'Rillaboom can potentially win with its strong Grass-type moves.'}",
+                    "opponent_action": "suckerpunch (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 5,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 10,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -5,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "spikes (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Rillaboom's Spikes can potentially KO opponents switching in.\", 'TypeMatchup': 'Grass-type moves are effective against Kingambit.', 'SpeedControl': 'Rillaboom outspeeds Kingambit.', 'TeamAdvantage': \"Rillaboom's Choice Band boosts its attack.\", 'BoostsAndStatus': 'Rillaboom has access to powerful moves like Wood Hammer.', 'HazardsAndField': 'Grassy Terrain is beneficial to Rillaboom.', 'SwitchingCost': 'Frequent switching can be costly.', 'OpponentPressure': \"Kingambit's Thunderclap can potentially KO Rillaboom.\", 'Uncertainty': \"Kingambit's Dragon Pulse is a super effective move.\", 'WinPlan': 'Rillaboom can potentially win with well-timed Spikes and powerful attacks.'}",
+                    "opponent_action": "suckerpunch (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -15,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: rillaboom",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 5,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 10,
+                    "TeamAdvantage": 10,
+                    "BoostsAndStatus": 10,
+                    "HazardsAndField": 0,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -5,
+                    "Uncertainty": -10,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 10": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:38%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:6%Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\nrillaboom vs. kingambit:\nrillaboom outspeeds kingambit\nrillaboom's moves:\nwoodhammer: 3 turns to KO opponent's pokemon\ngrassyglide: 6 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nknockoff: 7 turns to KO opponent's pokemon\nOpponent moves: kingambit\nkowtowcleave: 2 turns to KO your pokemon\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\nRequires switch:\nogerponcornerstone vs. kingambit:\nogerponcornerstone outspeeds kingambit\nogerponcornerstone's moves:\nspikes: Damages opponents switching into battle.  inf turns to KO opponent's pokemon\nivycudgel: 6 turns to KO opponent's pokemon\npowerwhip: 5 turns to KO opponent's pokemon\ntaunt: Opponent can only use moves that attack.  inf turns to KO opponent's pokemon\nOpponent moves: kingambit\nkowtowcleave: 2 turns to KO your pokemon\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nironhead: 2 turns to KO your pokemon\n\n\nYour current pokemon:rillaboom,Type:Grass,HP:38%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)",
+            "Candidates": [
+                {
+                    "player_action": "ogerponcornerstone (pokemon object) [Active: True, Status: None]",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerponcornerstone's Knockoff is effective against Kingambit.\", 'TypeMatchup': 'Kingambit is weak to Grass-type moves.', 'SpeedControl': 'Ogerponcornerstone outspeeds Kingambit.', 'TeamAdvantage': 'Ogerponcornerstone has a strong remaining team.', 'BoostsAndStatus': 'Kingambit has Swords Dance activated.', 'HazardsAndField': \"Kingambit's Swords Dance boosts its Attack, but Ogerponcornerstone's Spikes can damage opponents switching in.\", 'SwitchingCost': 'Frequent switching can be costly.', 'OpponentPressure': \"Kingambit's remaining moves are not very effective against Ogerponcornerstone.\", 'Uncertainty': \"Kingambit's Swords Dance could potentially be negated by a status condition.\", 'WinPlan': 'Ogerponcornerstone can potentially win with a well-timed Knockoff.'}",
+                    "opponent_action": "rillaboom (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -5,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "knockoff (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': \"Ogerponcornerstone's Knockoff is effective against Kingambit.\", 'TypeMatchup': 'Grass-type moves are not very effective against Dark-type Pokémon.', 'SpeedControl': 'Ogerponcornerstone outspeeds Kingambit.', 'TeamAdvantage': 'Kingambit is the only remaining opponent Pokémon.', 'BoostsAndStatus': 'Kingambit has Swords Dance activated.', 'HazardsAndField': 'Grassy Terrain is beneficial to Kingambit.', 'SwitchingCost': 'Excessive switching could lead to passive damage from Spikes.', 'OpponentPressure': \"Kingambit's Swords Dance boosts its Attack stat significantly.\", 'Uncertainty': \"Kingambit's remaining moves are not very effective against Ogerponcornerstone.\", 'WinPlan': 'Ogerponcornerstone can potentially win with a well-timed Knockoff.'}",
+                    "opponent_action": "rillaboom (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": -10,
+                        "SpeedControl": 15,
+                        "TeamAdvantage": 10,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": 20,
+                        "Uncertainty": -10,
+                        "WinPlan": 15
+                    }
+                },
+                {
+                    "player_action": "woodhammer (Move object)",
+                    "score": 70,
+                    "rationale": "{'EffectiveMoves': \"Ogerponcornerstone's Knockoff is effective against Kingambit.\", 'TypeMatchup': 'Grass vs. Dark is favorable for Grass.', 'SpeedControl': 'Ogerponcornerstone outspeeds Kingambit.', 'TeamAdvantage': 'Kingambit is the only remaining opponent.', 'BoostsAndStatus': \"Kingambit's Swordsdance boosts its Attack.\", 'HazardsAndField': 'n/a', 'SwitchingCost': 'High - multiple switches in a row.', 'OpponentPressure': \"Kingambit's Swordsdance poses a significant threat.\", 'Uncertainty': 'n/a', 'WinPlan': \"Utilize Ogerponcornerstone's speed and effective moves to defeat Kingambit before it can unleash a powerful attack.\"}",
+                    "opponent_action": "rillaboom (pokemon object) [Active: True, Status: FNT]",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": -10,
+                        "HazardsAndField": 0,
+                        "SwitchingCost": -15,
+                        "OpponentPressure": -15,
+                        "Uncertainty": 0,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Switch: ogerponcornerstone",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": -10,
+                    "SpeedControl": 15,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": -10,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -5,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 15
+                }
+            }
+        },
+        "Turn 11": {
+            "Current Game State": "Pokemon:ironmoth,Type:Fire and Poison,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GROUND (pokemon type) object Is terastallized? False\nPokemon:kingambit,Type:Dark and Steel,HP:0%Status:fainted,Ability:Supreme Overlord(When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated.),Item:Lum Berry(If held by a Pokémon, it recovers from any status problem.)Tera type:DARK (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Ghost,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:GHOST (pokemon type) object Is terastallized? True\nPokemon:rillaboom,Type:Grass,HP:38%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)Tera type:GRASS (pokemon type) object Is terastallized? False\nPokemon:ogerponcornerstone,Type:Grass and Rock,HP:0%Status:fainted,Ability:Sturdy(The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.),Item:cornerstonemaskTera type:ROCK (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ironvaliant,Type:Fairy and Fighting,HP:0%Status:fainted,Ability:Quark Drive(Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:ragingbolt,Type:Electric and Dragon,HP:0%Status:fainted,Ability:Protosynthesis(Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy.),Tera type:FAIRY (pokemon type) object Is terastallized? False\nPokemon:rillaboom,Type:Grass,HP:0%Status:fainted,Ability:None,Item:unknown_itemTera type:GRASS (pokemon type) object Is terastallized? True\nPokemon:kingambit,Type:Dark and Steel,HP:100%Ability:None,Item:unknown_itemTera type:None Is terastallized? False\nCurrent pokemon:\nrillaboom vs. kingambit:\nrillaboom outspeeds kingambit\nrillaboom's moves:\nwoodhammer: 3 turns to KO opponent's pokemon\ngrassyglide: 6 turns to KO opponent's pokemon\nuturn: 4 turns to KO opponent's pokemon\nknockoff: 7 turns to KO opponent's pokemon\nOpponent moves: kingambit\nkowtowcleave: 2 turns to KO your pokemon\nsuckerpunch: 2 turns to KO your pokemon\nswordsdance: Sharply raises user's Attack.  3.0 turns to KO your pokemon\nironhead: 3 turns to KO your pokemon\n\n\nYour current pokemon:rillaboom,Type:Grass,HP:38%Ability:Grassy Surge(Turns the ground into Grassy Terrain when the Pokémon enters a battle.),Item:Choice Band(Raises Attack, but only one move can be used.)",
+            "Candidates": [
+                {
+                    "player_action": "woodhammer (Move object)",
+                    "score": 80,
+                    "rationale": "{'EffectiveMoves': 'Wood Hammer is effective against Kingambit.', 'TypeMatchup': 'Grass-Dark type matchup is favorable for Grass-type.', 'SpeedControl': 'Grillaboom outspeeds Kingambit.', 'TeamAdvantage': 'Rillaboom is the only remaining Pokémon, while Kingambit has already lost two teammates.', 'BoostsAndStatus': 'Grillaboom has Swords Dance boost.', 'HazardsAndField': 'Grassy Terrain is beneficial to Rillaboom.', 'SwitchingCost': 'Excessive switching is likely.', 'OpponentPressure': 'Kingambit can potentially use Swords Dance again.', 'Uncertainty': \"Kingambit's remaining moves are potentially powerful.\", 'WinPlan': 'Rillaboom can potentially win with Wood Hammer.'}",
+                    "opponent_action": "swordsdance (Move object)",
+                    "label_scores": {
+                        "EffectiveMoves": 10,
+                        "TypeMatchup": 15,
+                        "SpeedControl": 20,
+                        "TeamAdvantage": 20,
+                        "BoostsAndStatus": 15,
+                        "HazardsAndField": 5,
+                        "SwitchingCost": -10,
+                        "OpponentPressure": -10,
+                        "Uncertainty": -5,
+                        "WinPlan": 20
+                    }
+                }
+            ],
+            "Best": {
+                "player_action": "Move: Woodhammer",
+                "score": 80,
+                "label_scores": {
+                    "EffectiveMoves": 10,
+                    "TypeMatchup": 15,
+                    "SpeedControl": 20,
+                    "TeamAdvantage": 20,
+                    "BoostsAndStatus": 15,
+                    "HazardsAndField": 5,
+                    "SwitchingCost": -10,
+                    "OpponentPressure": -10,
+                    "Uncertainty": -5,
+                    "WinPlan": 20
+                }
+            }
+        }
+    }
+}
